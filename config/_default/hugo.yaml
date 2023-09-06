@@ -27,10 +27,10 @@ permalinks:
   blog: "/blog/:year/:month/:title"
 
 taxonomies:
-  authors: "authors"
-  categories: "categories"
-  series: "series"
-  tags: "tags"
+  authors: authors
+  courses: courses
+  categories: categories
+  tags: tags
 
 seo:
   favicons:

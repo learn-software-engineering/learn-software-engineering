@@ -1,0 +1,4 @@
+main:
+  - name: Cursos
+    identifier: cursos
+    weight: 1

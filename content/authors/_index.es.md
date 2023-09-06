@@ -2,6 +2,7 @@
 title: Autores
 menu:
   main:
+    parent: blog
     params:
       icon:
         vendor: bs

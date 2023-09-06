@@ -1,5 +1,5 @@
 ---
-title: Julian Nonino
+title: Julián Nonino
 images:
   - /images/content/authors/jnonino.jpg
 socials:

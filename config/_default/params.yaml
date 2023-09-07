@@ -13,18 +13,6 @@ hb:
   debug: false
   js_bundle_name: ls
   logo: images/logo-square-2.png
-  # styles:
-  #   primary: '#ff4088'
-  header:
-    socials:
-      github: learn-software-engineering
-      # paypal: razonyang
-      # kofi: razonyang
-  footer:
-    socials:
-      github: learn-software-engineering
-      # paypal: razonyang
-      # kofi: razonyang
   blog:
     home:
       recent_posts: 12
@@ -33,7 +21,6 @@ hb:
         - software-engineering
         - programming
         - oop
-
       # taxonomies: true
     sidebar:
       taxonomies:

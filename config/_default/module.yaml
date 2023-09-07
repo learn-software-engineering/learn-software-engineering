@@ -15,3 +15,4 @@ imports:
   - path: github.com/hugomods/mermaid
   - path: github.com/hugomods/google-analytics
   - path: github.com/hugomods/seo/modules/favicons
+  - path: github.com/hugomods/hugopress

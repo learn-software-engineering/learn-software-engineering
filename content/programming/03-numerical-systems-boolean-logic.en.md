@@ -11,25 +11,30 @@ tags: ["intro", "programming", "decimal", "binary", "hexadecimal", "numerical-sy
 
 ## Binary numerical system
 
-The Binary system is a `base-2` numerical system that uses only two symbols: $0$ and $1$. It's the fundamental language of computers and is used to represent all types of data.
+The Binary system is a `base-2` numerical system that uses only two symbols: {{< katex formula="0" inline=true />}} and {{< katex formula="1" inline=true />}}. It's the fundamental language of computers and is used to represent all types of data.
 
-In the Binary system, each digit represents a power of $2$, with the rightmost digit representing $2^0$, the next representing $2^1$, and so on.
+In the Binary system, each digit represents a power of {{< katex formula="2" inline=true />}}, with the rightmost digit representing {{< katex formula="2^0" inline=true />}}, the next representing {{< katex formula="2^1" inline=true />}}, and so on.
 
-Binary number $1011$ can be represented in Decimal as:
+Binary number {{< katex formula="1011" inline=true />}} can be represented in Decimal as:
 
-$$ 1 \times 2^3 + 0 \times 2^2 + 1 \times 2^1 + 1 \times 2^0 = 8 + 0 + 2 + 1 = 11 $$
+```katex
+1 \times 2^3 + 0 \times 2^2 + 1 \times 2^1 + 1 \times 2^0 = 8 + 0 + 2 + 1 = 11
+```
+
 
 Binary is used in programming to understand how data is stored and manipulated at the hardware level. It’s essential for low-level programming like creating device drivers or embedded systems.
 
 ## Hexadecimal numerical system
 
-The Hexadecimal system is a `base-16` numerical system, using sixteen distinct symbols. The first ten are the same as the decimal system, and the next six are represented as $A$ for ten, $B$ for eleven, $C$ for twelve, $D$ for thirteen, $E$ for fourteen, and $F$ for fifteen.
+The Hexadecimal system is a `base-16` numerical system, using sixteen distinct symbols. The first ten are the same as the decimal system, and the next six are represented as {{< katex formula="A" inline=true />}} for ten, {{< katex formula="B" inline=true />}} for eleven, {{< katex formula="C" inline=true />}} for twelve, {{< katex formula="D" inline=true />}} for thirteen, {{< katex formula="E" inline=true />}} for fourteen, and {{< katex formula="F" inline=true />}} for fifteen.
 
-Like Binary, each digit in Hexadecimal represents a power, but this time of $16$.
+Like Binary, each digit in Hexadecimal represents a power, but this time of {{< katex formula="16" inline=true />}}.
 
-Hexadecimal number $2A3$ can be represented in Decimal as:
+Hexadecimal number {{< katex formula="2A3" inline=true />}} can be represented in Decimal as:
 
-$$ 2 \times 16^2 + 10 \times 16^1 + 3 \times 16^0 = 512 + 160 + 3 = 675 $$
+```katex
+2 \times 16^2 + 10 \times 16^1 + 3 \times 16^0 = 512 + 160 + 3 = 675
+```
 
 Hexadecimal is often used in programming for defining colors in web development, memory addresses, or displaying binary-coded values in a more human-readable form.
 

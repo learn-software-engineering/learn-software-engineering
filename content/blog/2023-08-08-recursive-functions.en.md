@@ -3,7 +3,7 @@ authors: ["jnonino"]
 title: "Recursive functions"
 description: "A recursive function is a function that calls itself in order to solve a problem. This self-referential nature can lead to elegant and concise solutions, but it also requires careful design to prevent infinite loops and stack overflows. In this article, we'll explore the concept of recursion, learn how to write recursive functions in Python, and discuss their pros and cons."
 date: 2023-08-08
-draft: true
+draft: false
 tags: ["recursion", "factorial", fibonacci", "python"]
 ---
 
@@ -11,11 +11,11 @@ A recursive function breaks down a problem into smaller, more manageable subprob
 
 The factorial function is a great example to demonstrate recursion. Let's break it down step by step.
 
-The factorial of a positive integer $n$ is the product of all positive integers less than or equal to $n$. For example:
+The factorial of a positive integer {{< katex formula="n" inline=true />}} is the product of all positive integers less than or equal to {{< katex formula="n" inline=true />}}. For example:
 
-- $5! = 5 * 4 * 3 * 2 * 1 = 120$
-- $4! = 4 * 3 * 2 * 1 = 24$
-- $3! = 3 * 2 * 1 = 6$
+- {{< katex formula="5! = 5 * 4 * 3 * 2 * 1 = 120" inline=true />}}
+- {{< katex formula="4! = 4 * 3 * 2 * 1 = 24" inline=true />}}
+- {{< katex formula="3! = 3 * 2 * 1 = 6" inline=true />}}
 
 Here's the Python code for calculating factorial using recursion:
 
@@ -26,28 +26,28 @@ def factorial(n):
     return n * factorial(n-1)
 {{</highlight >}}
 
-1. **Base Case**: The base case is the simplest, smallest instance of the problem that can be answered directly. For the factorial, when $n = 1$, the result is $1$.
+1. **Base Case**: The base case is the simplest, smallest instance of the problem that can be answered directly. For the factorial, when {{< katex formula="n = 1" inline=true />}}, the result is {{< katex formula="1" inline=true />}}.
 
-2. **Recursive Case**: If $n$ is greater than $1$, the function calls itself with $n-1$, and multiplies the result by $n$.
+2. **Recursive Case**: If {{< katex formula="n" inline=true />}} is greater than {{< katex formula="1" inline=true />}}, the function calls itself with {{< katex formula="n-1" inline=true />}}, and multiplies the result by {{< katex formula="n" inline=true />}}.
 
-Let's say you want to calculate the factorial of $5$, so you call `factorial(5)`.
+Let's say you want to calculate the factorial of {{< katex formula="5" inline=true />}}, so you call `factorial(5)`.
 
 Here's what happens:
 
-1. **Step 1**: Since $n = 5$ is not $1$, the function calls `factorial(4)`, then multiplies the result by $5$.
-2. **Step 2**: Now, within `factorial(4)`, $n = 4$, so the function calls `factorial(3)`, then multiplies the result by $4$.
-3. **Step 3**: Inside `factorial(3)`, $n = 3$, so it calls `factorial(2)`, then multiplies the result by $3$.
-4. **Step 4**: Within `factorial(2)`, $n = 2$, so it calls `factorial(1)`, then multiplies the result by $2$.
-5. **Step 5**: Finally, `factorial(1)` reaches the base case, where $n = 1$, so it returns $1$.
+1. **Step 1**: Since {{< katex formula="n = 5" inline=true />}} is not {{< katex formula="1" inline=true />}}, the function calls `factorial(4)`, then multiplies the result by {{< katex formula="5" inline=true />}}.
+2. **Step 2**: Now, within `factorial(4)`, {{< katex formula="n = 4" inline=true />}}, so the function calls `factorial(3)`, then multiplies the result by {{< katex formula="4" inline=true />}}.
+3. **Step 3**: Inside `factorial(3)`, {{< katex formula="n = 3" inline=true />}}, so it calls `factorial(2)`, then multiplies the result by {{< katex formula="3" inline=true />}}.
+4. **Step 4**: Within `factorial(2)`, {{< katex formula="n = 2" inline=true />}}, so it calls `factorial(1)`, then multiplies the result by {{< katex formula="2" inline=true />}}.
+5. **Step 5**: Finally, `factorial(1)` reaches the base case, where {{< katex formula="n = 1" inline=true />}}, so it returns {{< katex formula="1" inline=true />}}.
 
 Now the results unwind:
 
-- `factorial(2)` returns $2 * 1 = 2$
-- `factorial(3)` returns $3 * 2 = 6$
-- `factorial(4)` returns $4 * 6 = 24$
-- `factorial(5)` returns $5 * 24 = 120$
+- `factorial(2)` returns {{< katex formula="2 * 1 = 2" inline=true />}}
+- `factorial(3)` returns {{< katex formula="3 * 2 = 6" inline=true />}}
+- `factorial(4)` returns {{< katex formula="4 * 6 = 24" inline=true />}}
+- `factorial(5)` returns {{< katex formula="5 * 24 = 120" inline=true />}}
 
-The final result is $120$, which is the value of $5!$.
+The final result is {{< katex formula="120" inline=true />}}, which is the value of {{< katex formula="5!" inline=true />}}.
 
 Here's a visual representation of the call stack:
 
@@ -68,9 +68,9 @@ factorial(5)
 
 Tail recursion is a special form of recursion where the recursive call is the last operation in the function. This can be more efficient, as some compilers and interpreters can optimize it into a loop.
 
-The Fibonacci sequence is a series of numbers where each number is the sum of the two preceding ones. The sequence begins with $0$ and $1$, and every number thereafter is the sum of the two preceding numbers. The first few numbers in the sequence are: $$ 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ... $$
+The Fibonacci sequence is a series of numbers where each number is the sum of the two preceding ones. The sequence begins with {{< katex formula="0" inline=true />}} and {{< katex formula="1" inline=true />}}, and every number thereafter is the sum of the two preceding numbers. The first few numbers in the sequence are: {{< katex formula="0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ..." inline=true />}}
 
-Here's the Python code for calculating the $n^th$ Fibonacci number using tail recursion:
+Here's the Python code for calculating the {{< katex formula="n^th" inline=true />}} Fibonacci number using tail recursion:
 
 {{< highlight python >}}
 def fibonacci(n, a=0, b=1):
@@ -81,27 +81,27 @@ def fibonacci(n, a=0, b=1):
 
 The function takes three parameters:
 
-- $n$: The position of the desired number in the sequence.
-- $a$ and $b$: Two numbers that help in computing the sequence.
+- {{< katex formula="n" inline=true />}}: The position of the desired number in the sequence.
+- {{< katex formula="a" inline=true />}} and {{< katex formula="b" inline=true />}}: Two numbers that help in computing the sequence.
 
 Here's a breakdown of how the function works:
 
-1. **Base Case**: If $n$ is $0$, the function returns $a$. This is the value of the $n^th$ number in the sequence.
+1. **Base Case**: If {{< katex formula="n" inline=true />}} is {{< katex formula="0" inline=true />}}, the function returns {{< katex formula="a" inline=true />}}. This is the value of the {{< katex formula="n^th" inline=true />}} number in the sequence.
 
-2. **Recursive Case**: If $n$ is not $0$, the function calls itself with $n-1$, $b$, and $a+b$. These parameters shift the position in the sequence and set up the next numbers for addition.
+2. **Recursive Case**: If {{< katex formula="n" inline=true />}} is not {{< katex formula="0" inline=true />}}, the function calls itself with {{< katex formula="n-1" inline=true />}}, {{< katex formula="b" inline=true />}}, and {{< katex formula="a+b" inline=true />}}. These parameters shift the position in the sequence and set up the next numbers for addition.
 
-Suppose we want to find the $5^th$ number in the Fibonacci sequence by calling `fibonacci(5)`.
+Suppose we want to find the {{< katex formula="5^th" inline=true />}} number in the Fibonacci sequence by calling `fibonacci(5)`.
 
 Here's what happens:
 
-1. **Step 1**: Since $n = 5$, call `fibonacci(4, 1, 1)` (because $a = 0$, $b = 1$, $a + b = 1$).
-2. **Step 2**: Since $n = 4$, call `fibonacci(3, 1, 2)` (because $a = 1$, $b = 1$, $a + b = 2$).
-3. **Step 3**: Since $n = 3$, call `fibonacci(2, 2, 3)` (because $a = 1$, $b = 2$, $a + b = 3$).
-4. **Step 4**: Since $n = 2$, call `fibonacci(1, 3, 5)` (because $a = 2$, $b = 3$, $a + b = 5$).
-5. **Step 5**: Since $n = 1$, call `fibonacci(0, 5, 8)` (because $a = 3$, $b = 5$, $a + b = 8$).
-6. **Step 6**: Since $n = 0$, return $a$, which is $5$.
+1. **Step 1**: Since {{< katex formula="n = 5" inline=true />}}, call `fibonacci(4, 1, 1)` (because {{< katex formula="a = 0" inline=true />}}, {{< katex formula="b = 1" inline=true />}}, {{< katex formula="a + b = 1" inline=true />}}).
+2. **Step 2**: Since {{< katex formula="n = 4" inline=true />}}, call `fibonacci(3, 1, 2)` (because {{< katex formula="a = 1" inline=true />}}, {{< katex formula="b = 1" inline=true />}}, {{< katex formula="a + b = 2" inline=true />}}).
+3. **Step 3**: Since {{< katex formula="n = 3" inline=true />}}, call `fibonacci(2, 2, 3)` (because {{< katex formula="a = 1" inline=true />}}, {{< katex formula="b = 2" inline=true />}}, {{< katex formula="a + b = 3" inline=true />}}).
+4. **Step 4**: Since {{< katex formula="n = 2" inline=true />}}, call `fibonacci(1, 3, 5)` (because {{< katex formula="a = 2" inline=true />}}, {{< katex formula="b = 3" inline=true />}}, {{< katex formula="a + b = 5" inline=true />}}).
+5. **Step 5**: Since {{< katex formula="n = 1" inline=true />}}, call `fibonacci(0, 5, 8)` (because {{< katex formula="a = 3" inline=true />}}, {{< katex formula="b = 5" inline=true />}}, {{< katex formula="a + b = 8" inline=true />}}).
+6. **Step 6**: Since {{< katex formula="n = 0" inline=true />}}, return {{< katex formula="a" inline=true />}}, which is {{< katex formula="5" inline=true />}}.
 
-The result is $5$, which is the $5^th$ number in the Fibonacci sequence.
+The result is {{< katex formula="5" inline=true />}}, which is the {{< katex formula="5^th" inline=true />}} number in the Fibonacci sequence.
 
 Here's a visual representation of the call stack:
 

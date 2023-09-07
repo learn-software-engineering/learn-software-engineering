@@ -1,7 +1,7 @@
 ---
 type: docs
 authors: ["jnonino"]
-courses: ["Programming"]
+series: ["Programming"]
 nav_weight: 1
 title: "Introduction to Programming"
 description: "Programming is the process of creating instructions that a computer can understand and execute. It is the backbone of modern technology and is used in a wide range of fields, from finance and healthcare to gaming and entertainment. Whether you are building a website, an app, or a complex piece of software, programming is at the core of it all."

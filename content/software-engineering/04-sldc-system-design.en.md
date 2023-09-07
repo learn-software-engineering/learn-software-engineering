@@ -1,7 +1,7 @@
 ---
 type: docs
 authors: ["jnonino"]
-courses: ["Software Engineering"]
+series: ["Software Engineering"]
 nav_weight: 4
 title: "SDLC: The System Design phase"
 description: "System design is an essential part of the Software Development Life Cycle (SDLC). In many ways, this phase sets the stage for the eventual construction of the software system."

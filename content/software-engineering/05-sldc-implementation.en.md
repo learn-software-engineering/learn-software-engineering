@@ -1,7 +1,7 @@
 ---
 type: docs
 authors: ["jnonino"]
-courses: ["Software Engineering"]
+series: ["Software Engineering"]
 nav_weight: 5
 title: "SDLC: The Implementation phase"
 description: "The Software Development Life Cycle (SDLC) guides software engineers through the steps of creating quality software. In the implementation stage, abstract designs materialize into tangible lines of code, giving birth to the software's functional attributes."

@@ -1,7 +1,7 @@
 ---
 type: docs
 authors: ["jnonino"]
-courses: ["Object-Oriented Programming"]
+series: ["Object-Oriented Programming"]
 nav_weight: 6
 title: "Abstraction"
 date: 2023-04-12

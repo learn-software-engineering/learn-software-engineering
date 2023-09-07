@@ -3,8 +3,8 @@ type: docs
 title: Software Engineering
 menu:
   main:
-    parent: courses
-    weight: 101
+    parent: series
+    weight: 100
     params:
       description: Software Engineering course.
       icon:

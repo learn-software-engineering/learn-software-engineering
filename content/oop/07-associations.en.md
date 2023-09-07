@@ -1,7 +1,7 @@
 ---
 type: docs
 authors: ["jnonino"]
-courses: ["Object-Oriented Programming"]
+series: ["Object-Oriented Programming"]
 nav_weight: 7
 title: "Associations, aggregations, and compositions"
 date: 2023-04-14

@@ -3,8 +3,8 @@ type: docs
 title: Programación Orientada a Objetos
 menu:
   main:
-    parent: cursos
-    weight: 103
+    parent: series
+    weight: 102
     params:
       description: Aprende a programar con objetos y clases.
       icon:

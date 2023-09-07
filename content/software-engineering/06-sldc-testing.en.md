@@ -1,7 +1,7 @@
 ---
 type: docs
 authors: ["jnonino"]
-courses: ["Software Engineering"]
+series: ["Software Engineering"]
 nav_weight: 6
 title: "SDLC: The Testing phase"
 description: "In the rapidly-evolving domain of software development, delivering a product isn't the endpoint, it's a milestone. However, before that milestone can be reached, a rigorous evaluation must ensure the software is robust, user-friendly, and aligns with specified requirements. The torchbearer of this assessment? The testing stage of the Software Development Life Cycle (SDLC). Dive with me into this crucial phase and fathom its depth and expanse."

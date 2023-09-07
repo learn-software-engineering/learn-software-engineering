@@ -3,8 +3,8 @@ type: docs
 title: Programación
 menu:
   main:
-    parent: cursos
-    weight: 102
+    parent: series
+    weight: 101
     params:
       description: Aprende a programar.
       icon:

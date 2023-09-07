@@ -1,7 +1,7 @@
 ---
 type: docs
 authors: ["jnonino"]
-courses: ["Object-Oriented Programming"]
+series: ["Object-Oriented Programming"]
 nav_weight: 4
 title: "Inheritance"
 date: 2023-04-08

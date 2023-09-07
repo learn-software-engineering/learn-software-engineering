@@ -1,6 +1,6 @@
 main:
-  - name: Courses
-    identifier: courses
+  - name: Series
+    identifier: series
     weight: 1
     params:
       icon:

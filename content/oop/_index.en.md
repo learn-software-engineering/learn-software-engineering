@@ -3,8 +3,8 @@ type: docs
 title: Object-Oriented Programming
 menu:
   main:
-    parent: courses
-    weight: 103
+    parent: series
+    weight: 102
     params:
       description: Learn to program with objects and classes.
       icon:

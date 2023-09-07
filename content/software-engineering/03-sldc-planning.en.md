@@ -1,7 +1,7 @@
 ---
 type: docs
 authors: ["jnonino"]
-courses: ["Software Engineering"]
+series: ["Software Engineering"]
 nav_weight: 3
 title: "SDLC: The Planning phase"
 description: "Stepping into the vast world of software development, one quickly realizes that building successful software isn't just about writing code. It requires foresight, strategy, and, above all, meticulous planning. The planning phase of the SDLC serves as the foundation upon which all subsequent stages are built. Here, we'll unpack this critical phase, understanding its nuances and appreciating its central role in software engineering."

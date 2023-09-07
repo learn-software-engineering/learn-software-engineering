@@ -3,8 +3,8 @@ type: docs
 title: Ingeniería de Software
 menu:
   main:
-    parent: cursos
-    weight: 101
+    parent: series
+    weight: 100
     params:
       description: Curso de Ingeniería de Software.
       icon:

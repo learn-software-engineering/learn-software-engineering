@@ -1,21 +1,46 @@
+bootstrap:
+  config_toggle:
+    langs:
+      - yaml
+      - toml
+      - json
+
 hb:
   css_bundle_name: ls
   debug: false
   js_bundle_name: ls
   logo: images/logo-square-1.jpeg
-
+  # styles:
+  #   primary: '#ff4088'
+  header:
+    socials:
+      github: learn-software-engineering
+      # paypal: razonyang
+      # kofi: razonyang
+  footer:
+    socials:
+      github: learn-software-engineering
+      # paypal: razonyang
+      # kofi: razonyang
   blog:
-    archives:
-      paginate: 30
-    full_width: false
     home:
-      featured_posts: 5
+      recent_posts: 12
       main_sections:
-      - docs
-      - blog
-      taxonomies: true
-    paginate: 12
-    post_date_format: :date_short
-    post_thumbnail: true
-    post_thumbnail_default: images/thumbnail.png
-    post_thumbnail_placeholder: ""
+        - blog
+        - software-engineering
+        - programming
+        - oop
+
+      # taxonomies: true
+    sidebar:
+      taxonomies:
+        style: underline
+
+  # blog:
+    # archives:
+    #   paginate: 30
+    # paginate: 12
+    # post_date_format: :date_short
+    # post_thumbnail: true
+    # post_thumbnail_default: images/thumbnail.png
+    # post_thumbnail_placeholder: ""

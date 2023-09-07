@@ -1,7 +1,7 @@
 ---
 type: docs
 authors: ["jnonino"]
-courses: ["Software Engineering"]
+series: ["Software Engineering"]
 nav_weight: 7
 title: "SDLC: The Deployment phase"
 description: "The deployment stage involves releasing the software into production and making it available for end users."

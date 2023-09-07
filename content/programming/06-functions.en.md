@@ -1,7 +1,7 @@
 ---
 type: docs
 authors: ["jnonino"]
-courses: ["Programming"]
+series: ["Programming"]
 nav_weight: 6
 title: "Functions"
 description: "Functions are a fundamental concept in programming, allowing for code reusability and modular design. In this article, we'll explore what functions are, their various components, and how to use them, with examples in Python. These principles, however, are widely applicable across many programming languages."

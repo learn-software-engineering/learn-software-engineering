@@ -2,12 +2,16 @@
 type: docs
 authors: ["jnonino"]
 series: ["Software Engineering"]
-nav_weight: 4
-title: "SDLC: The System Design phase"
+nav_weight: 203
+title: "The System Design phase"
 description: "System design is an essential part of the Software Development Life Cycle (SDLC). In many ways, this phase sets the stage for the eventual construction of the software system."
 date: 2023-08-13
 draft: false
 tags: ["intro", "software-engineering", "sdlc", "design"]
+nav_icon:
+  vendor: simple-icons
+  name: uml
+  color: 'skyblue'
 ---
 
 It's the stage where we transition from understanding what the software should do (requirements) to how it will achieve this[^1]. It provides the architectural blueprints for the software, establishing the foundation upon which code is written, databases are structured, and systems communicate. It's a vital roadmap for developers, ensuring everyone understands and aligns on how the system will operate.

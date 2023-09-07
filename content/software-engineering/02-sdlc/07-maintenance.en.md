@@ -2,12 +2,16 @@
 type: docs
 authors: ["jnonino"]
 series: ["Software Engineering"]
-nav_weight: 8
-title: "SDLC: The Maintenance phase"
+nav_weight: 207
+title: "The Maintenance phase"
 description: "Once a software application is deployed and begins its life in the hands of users, its journey is far from over. The maintenance stage, often overlooked by novices, plays a pivotal role in the Software Development Life Cycle (SDLC)."
 date: 2023-08-16
 draft: false
 tags: ["intro", "software-engineering", "sdlc", "maintenance"]
+nav_icon:
+  vendor: bootstrap
+  name: tools
+  color: 'skyblue'
 ---
 
 This phase ensures that software remains robust, relevant, and valuable throughout its lifecycle[^1].

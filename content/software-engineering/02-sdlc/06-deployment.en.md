@@ -2,12 +2,16 @@
 type: docs
 authors: ["jnonino"]
 series: ["Software Engineering"]
-nav_weight: 7
-title: "SDLC: The Deployment phase"
+nav_weight: 206
+title: "The Deployment phase"
 description: "The deployment stage involves releasing the software into production and making it available for end users."
 date: 2023-08-16
 draft: false
 tags: ["intro", "software-engineering", "sdlc", "deployment"]
+nav_icon:
+  vendor: mdi
+  name: rocket-launch
+  color: 'skyblue'
 ---
 
 The main goals of the deployment stage are:

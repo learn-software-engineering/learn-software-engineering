@@ -2,12 +2,16 @@
 type: docs
 authors: ["jnonino"]
 series: ["Software Engineering"]
-nav_weight: 3
-title: "SDLC: The Planning phase"
+nav_weight: 202
+title: "The Planning phase"
 description: "Stepping into the vast world of software development, one quickly realizes that building successful software isn't just about writing code. It requires foresight, strategy, and, above all, meticulous planning. The planning phase of the SDLC serves as the foundation upon which all subsequent stages are built. Here, we'll unpack this critical phase, understanding its nuances and appreciating its central role in software engineering."
 date: 2023-08-12
 draft: false
 tags: ["intro", "software-engineering", "sdlc", "planning"]
+nav_icon:
+  vendor: bootstrap
+  name: binoculars
+  color: 'skyblue'
 ---
 
 At its core, planning in software development is about establishing a clear vision for the software project, determining what you want to achieve, and figuring out how best to achieve it[^1]. It's akin to mapping out a journey before embarking on it, ensuring you have all the necessary tools and knowledge to navigate through the challenges ahead.

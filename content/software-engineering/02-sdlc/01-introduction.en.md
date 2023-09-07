@@ -2,8 +2,8 @@
 type: docs
 authors: ["jnonino"]
 series: ["Software Engineering"]
-nav_weight: 2
-title: "Software Development Life Cycle (SDLC)"
+nav_weight: 201
+title: "Introduction"
 description: "In the realm of software and technology, a predictable and structured approach to software development is pivotal. The Software Development Life Cycle (SDLC) offers just that. As we delve into the SDLC, you'll understand its integral role in the world of software engineering and how it manifests in various development methodologies."
 date: 2023-08-11
 draft: false

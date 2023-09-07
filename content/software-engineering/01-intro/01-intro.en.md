@@ -2,12 +2,16 @@
 type: docs
 authors: ["jnonino"]
 series: ["Software Engineering"]
-nav_weight: 1
-title: "Introduction to Software Engineering"
+nav_weight: 100
+title: "Introduction"
 description: "In today's digital age, it's impossible to imagine a world without software. From the apps we use daily to sophisticated systems that run entire cities, software is an intricate part of our lives. If you're at the beginning of your journey into the world of software, this article will provide a foundational understanding of what software is, what software engineering entails, and the paramount significance of both in today's world."
 date: 2023-08-10
 draft: false
 tags: ["intro", "software-engineering"]
+nav_icon:
+  vendor: bootstrap
+  name: door-open
+  color: '#ff7143'
 ---
 
 ## What is Software?

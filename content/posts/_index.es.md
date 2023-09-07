@@ -9,6 +9,6 @@ menu:
     params:
       description: Lista de artículos.
       icon:
-        vendor: fas
+        vendor: font-awesome-solid
         name: blog
 ---

@@ -51,3 +51,10 @@ hb:
 seo:
   favicons:
     icon: images/logo-square-2.png
+    sizes:
+      - size: 16x16
+      - size: 32x32
+      - size: 150x150
+      - rel: apple-touch-icon
+        size: 180x180
+      - size: 192x192

@@ -2,3 +2,7 @@ main:
   - name: Cursos
     identifier: cursos
     weight: 1
+    params:
+      icon:
+        vendor: bootstrap
+        name: book

@@ -5,11 +5,14 @@ bootstrap:
       - toml
       - json
 
+mermaid:
+  js_url: https://cdn.jsdelivr.net/npm/mermaid@latest/dist/mermaid.esm.min.mjs
+
 hb:
   css_bundle_name: ls
   debug: false
   js_bundle_name: ls
-  logo: images/logo-square-1.jpeg
+  logo: images/logo-square-2.png
   # styles:
   #   primary: '#ff4088'
   header:
@@ -44,3 +47,7 @@ hb:
     # post_thumbnail: true
     # post_thumbnail_default: images/thumbnail.png
     # post_thumbnail_placeholder: ""
+
+seo:
+  favicons:
+    icon: images/logo-square-2.png

@@ -4,4 +4,9 @@ imports:
   - path: github.com/hbstack/header/modules/banner
   - path: github.com/hugomods/aos
   - path: github.com/hugomods/video-js
+  - path: github.com/hugomods/katex
+  - path: github.com/hugomods/mermaid
+  - path: github.com/hugomods/google-analytics
+  - path: github.com/hugomods/seo/modules/favicons
+
   # - path: github.com/hugomods/site/common

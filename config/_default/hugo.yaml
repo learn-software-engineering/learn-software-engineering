@@ -11,6 +11,10 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+    parser:
+      attribute:
+        block: true
+        title: true
   highlight:
     lineNos: true
     lineNumbersInTable: false
@@ -27,7 +31,3 @@ taxonomies:
   series: series
   categories: categories
   tags: tags
-
-seo:
-  favicons:
-    icon: images/logo-square-1.jpeg

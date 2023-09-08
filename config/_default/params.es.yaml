@@ -1,15 +1,19 @@
 hb:
   header:
     socials:
+      facebook: https://www.facebook.com/learn.software.eng
       github: learn-software-engineering
       gmail: mailto://learn.software.eng@gmail.com
+      instagram: https://www.instagram.com/learnsoftwareeng
       linkedin: https://linkedin.com/company/learn-software
       twitter: https://twitter.com/software45687
       youtube: https://www.youtube.com/@aprende-software
   footer:
     socials:
+      facebook: https://www.facebook.com/learn.software.eng
       github: learn-software-engineering
       gmail: mailto://learn.software.eng@gmail.com
+      instagram: https://www.instagram.com/learnsoftwareeng
       linkedin: https://linkedin.com/company/learn-software
       twitter: https://twitter.com/software45687
       youtube: https://www.youtube.com/@aprende-software

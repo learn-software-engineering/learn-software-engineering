@@ -1,0 +1,60 @@
+name: Deploy to Production Environment
+
+on:
+  # Can be triggered manually
+  workflow_dispatch:
+  # Runs everyday at 00:00 UTC
+  schedule:
+    - cron:  '0 0 * * *'
+
+env:
+  ENV: production
+  TARGET_REPO_NAME: learn-software-engineering.github.io
+
+jobs:
+  # cspell-md-files:
+  #   runs-on: ubuntu-latest
+  #   container: ghcr.io/cn-writing/cspell:6.12.0
+  #   steps:
+  #     - name: Checkout
+  #       uses: actions/checkout@v4
+  #     - name: CSpell
+  #       run: cspell --config .github/workflows/scripts/cSpell.json "**/*.md"
+  build:
+    runs-on: ubuntu-latest
+    container: ghcr.io/cn-writing/hugo
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - name: Install dependencies
+        run: npm install
+      - name: Build with Hugo
+        run: .github/workflows/scripts/build.sh
+      - name: Upload the built site
+        uses: actions/upload-artifact@v3
+        with:
+          name: "site-built-${{ env.TARGET_REPO_NAME }}"
+          path: public
+  publish:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Download the built site
+        uses: actions/download-artifact@v3
+        with:
+          name: "site-built-${{ env.TARGET_REPO_NAME }}"
+          path: public
+      - name: Publish site
+        uses: cpina/github-action-push-to-another-repository@v1.7.2
+        env:
+          SSH_DEPLOY_KEY: ${{ secrets.SSH_DEV_DEPLOY_KEY }}
+        with:
+          source-directory: ./public
+          destination-github-username: learn-software-engineering
+          destination-repository-name: ${{ env.TARGET_REPO_NAME }}
+          target-branch: main
+          target-directory: docs
+          commit-message: Publish revision ${{ github.sha }}
+          user-email: learn.software.eng@gmail.com

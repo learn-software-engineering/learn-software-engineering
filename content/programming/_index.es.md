@@ -8,9 +8,9 @@ menu:
     params:
       description: Aprende a programar.
       icon:
-        vendor: bs
+        vendor: bootstrap
         name: code-square
-        color: red
+        color: "#ffc107"
 ---
 
 Bienvenidos a nuestra serie integral sobre cómo comenzar tu viaje con la programación. Creada para aquellos nuevos en el mundo de la codificación, esta colección de artículos ofrece un enfoque paso a paso para comprender los fundamentos de la programación. Empezando desde lo básico, como entender variables, tipos de datos y estructuras de control, hasta explorar gradualmente temas más complejos como algoritmos, estructuras de datos y principios de diseño de software, esta serie está diseñada para ser tu guía en el emocionante mundo del código.

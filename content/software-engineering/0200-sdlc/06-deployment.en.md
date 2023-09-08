@@ -149,9 +149,9 @@ The deployment stage is complex but critical to delivering customer value reliab
 
 ## References
 
-[^1] Humble, Jez, and David Farley. Continuous delivery: reliable software releases through build, test, and deployment automation. Pearson Education, 2010.
-[^2] Siri, Liraz. Deploy to Production: A Practical Guide to Automation in Web Development. Leanpub, 2021.
-[^3] Kim, Gene, et al. The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations. IT Revolution Press, 2016.
-[^4] Humble, Jez. The Deployment Age. IT Revolution Press, 2021.
-[^5] Boersma, Erik. The Road to Production: Standard Practices for Simpler Software Delivery. O'Reilly Media, 2021.
-[^6] Forsgren, Nicole, et al. Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations. IT Revolution Press, 2018.
+[^1]: Humble, Jez, and David Farley. Continuous delivery: reliable software releases through build, test, and deployment automation. Pearson Education, 2010.
+[^2]: Siri, Liraz. Deploy to Production: A Practical Guide to Automation in Web Development. Leanpub, 2021.
+[^3]: Kim, Gene, et al. The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations. IT Revolution Press, 2016.
+[^4]: Humble, Jez. The Deployment Age. IT Revolution Press, 2021.
+[^5]: Boersma, Erik. The Road to Production: Standard Practices for Simpler Software Delivery. O'Reilly Media, 2021.
+[^6]: Forsgren, Nicole, et al. Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations. IT Revolution Press, 2018.

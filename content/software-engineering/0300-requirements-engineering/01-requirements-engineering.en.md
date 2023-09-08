@@ -265,13 +265,13 @@ Defining complete, correct requirements that accurately capture end user and bus
 
 ## References
 
-[^1] Sommerville, Ian, and Pete Sawyer. Requirements engineering: a good practice guide. John Wiley & Sons, Inc., 1997.
-[^2] Karl E. Wiegers, and Joy Beatty. Software requirements. Pearson Education, 2013.
-[^3] IEEE. IEEE Guide for Developing System Requirements Specifications. IEEE Std 1233, 1998 edition.
-[^4] A. M. Davis. Just enough requirements management: where software development meets marketing. Dorset House Publishing Co., Inc., 2005.
-[^5] Christel, Michael G., and Kyo C. Kang. Issues in requirements elicitation. Carnegie Mellon University, 1992.
-[^6] Nuseibeh, Bashar, and Steve Easterbrook. "Requirements engineering: a roadmap." Proceedings of the Conference on the Future of Software Engineering. 2000.
-[^7] Young, Ralph R. Effective requirements practices. Addison-Wesley Professional, 2001.
-[^8] Hull, Elizabeth, et al. Requirements engineering. Springer London, 2011.
-[^9] Laplante, Phillip A. Requirements engineering for software and systems. CRC Press, 2017.
-[^10] Wiegers, Karl, and Joy Beatty. Software Requirements, Third Edition. Microsoft Press, 2013.
+[^1]: Sommerville, Ian, and Pete Sawyer. Requirements engineering: a good practice guide. John Wiley & Sons, Inc., 1997.
+[^2]: Karl E. Wiegers, and Joy Beatty. Software requirements. Pearson Education, 2013.
+[^3]: IEEE. IEEE Guide for Developing System Requirements Specifications. IEEE Std 1233, 1998 edition.
+[^4]: A. M. Davis. Just enough requirements management: where software development meets marketing. Dorset House Publishing Co., Inc., 2005.
+[^5]: Christel, Michael G., and Kyo C. Kang. Issues in requirements elicitation. Carnegie Mellon University, 1992.
+[^6]: Nuseibeh, Bashar, and Steve Easterbrook. "Requirements engineering: a roadmap." Proceedings of the Conference on the Future of Software Engineering. 2000.
+[^7]: Young, Ralph R. Effective requirements practices. Addison-Wesley Professional, 2001.
+[^8]: Hull, Elizabeth, et al. Requirements engineering. Springer London, 2011.
+[^9]: Laplante, Phillip A. Requirements engineering for software and systems. CRC Press, 2017.
+[^10]: Wiegers, Karl, and Joy Beatty. Software Requirements, Third Edition. Microsoft Press, 2013.

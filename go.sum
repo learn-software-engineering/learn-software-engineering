@@ -7,6 +7,8 @@ github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000/go.mod h1:mF
 github.com/hbstack/base v0.2.1 h1:u3lkO9MhjA6HomkJ6hzt0R7sA0u330bo6lbxVrF1FiI=
 github.com/hbstack/base v0.2.1/go.mod h1:6SqazoH3UBSuwSHV1kyEDWcIJg+Cef++w8p45VSsSHQ=
 github.com/hbstack/blog v0.15.7 h1:B+uKSPfrJgBgXfqZNzCCV3OsCBOgdeeZ+DIuccLpnoc=
+github.com/hbstack/blog/modules/disqus v0.1.11 h1:zSnApkwgx2B4OIoB3zQ1dUDTeLjiDpyXCABgK5BcxJQ=
+github.com/hbstack/blog/modules/disqus v0.1.11/go.mod h1:3bx5bgH4pHr+b2TgW2nxEUejpvrr0ngpRro4OeMrmL4=
 github.com/hbstack/breadcrumb v0.2.0 h1:MFdVkfSMHkGaLGwp8lwcYYQuorpWzB6S/WOmblSlW9o=
 github.com/hbstack/breadcrumb v0.2.0/go.mod h1:/HsyKPMkXaairW/Ws6tGlc1Zf1DEmjp/v7d2QkY/UC4=
 github.com/hbstack/docs v0.6.3 h1:dq7gvD0lEETTSL88kdCGrRZ62Lx2MeRsPHxBKyKLGX8=

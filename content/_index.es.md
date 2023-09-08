@@ -7,7 +7,13 @@ layout: landing
 header:
   banner:
     alignment: center
-    img: /images/banners/home.png
+    # img: /images/banners/home2.png
+    title: |
+      Learn-Software.com
+      { .mb-5 data-aos="fade-up" data-aos-delay="500" }
+    description: |
+      Impulsa tu carrera
+      { .mb-5 data-aos="fade-up" data-aos-delay="1000" }
 
 # menu:
 #   main:

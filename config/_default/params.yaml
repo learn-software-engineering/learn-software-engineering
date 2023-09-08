@@ -45,3 +45,7 @@ seo:
       - rel: apple-touch-icon
         size: 180x180
       - size: 192x192
+
+aos:
+  css_url: https://unpkg.com/aos@next/dist/aos.css
+  js_url: https://unpkg.com/aos@next/dist/aos.js

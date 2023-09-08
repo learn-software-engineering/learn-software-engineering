@@ -7,8 +7,13 @@ layout: landing
 header:
   banner:
     alignment: center
-    img: /images/banners/home.png
-    title: " "
+    # img: /images/banners/home2.png
+    title: |
+      Learn-Software.com
+      { .mb-5 data-aos="fade-up" data-aos-delay="500" }
+    description: |
+      Jet-set your career
+      { .mb-5 data-aos="fade-up" data-aos-delay="1000" }
 
 # menu:
 #   main:

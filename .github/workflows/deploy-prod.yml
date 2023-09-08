@@ -49,7 +49,7 @@ jobs:
       - name: Publish site
         uses: cpina/github-action-push-to-another-repository@v1.7.2
         env:
-          SSH_DEPLOY_KEY: ${{ secrets.SSH_DEV_DEPLOY_KEY }}
+          SSH_DEPLOY_KEY: ${{ secrets.SSH_PROD_DEPLOY_KEY }}
         with:
           source-directory: ./public
           destination-github-username: learn-software-engineering

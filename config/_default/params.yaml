@@ -49,3 +49,42 @@ seo:
 aos:
   css_url: https://unpkg.com/aos@next/dist/aos.css
   js_url: https://unpkg.com/aos@next/dist/aos.js
+
+search:
+  stall_threshold: 300
+  # Indicates whether comparisons should be case sensitive.
+  case_sensitive: false
+  # Only the matches whose length exceeds this value will be returned. (For instance, if you want to ignore single character matches in the result, set it to 2).
+  min_match_char_length: 3
+  # Determines approximately where in the text is the pattern expected to be found.
+  location: 0
+  # At what point does the match algorithm give up. A threshold of 0.0 requires a perfect match (of both letters and location), a threshold of 1.0 would match anything.
+  threshold: 0.6
+  # Determines how close the match must be to the fuzzy location (specified by location). An exact letter match which is distance characters away from the fuzzy location would score as a complete mismatch. A distance of 0 requires the match be at the exact location specified. A distance of 1000 would require a perfect match to be within 800 characters of the location to be found using a threshold of 0.8.
+  distance: 100
+  # When true, search will ignore location and distance, so it won’t matter where in the string the pattern appears.
+  ignore_location: false
+  # Shortcuts to close the search modal. Empty array means disabled. See key values for keyboard events.
+  shortcut_close: ["Escape"]
+  # Shortcuts to open the search modal. Leave it empty to disable.
+  shortcut_search: ["Control", "k"]
+  # How many results per page, at least 20, for making sure the load more event will be able to trigger.
+  paginate: 20
+  # Denotes the max number of returned search results.
+  max_results: 1000
+  # When true, the engine will also search by content, you may need to tweak the distance parameter as well. Please note that, it may become a performance killer on a large site.
+  index_content: false
+  # When true, all pages except noindex pages will be indexed, include non-regular pages, such as home and taxonomy lists.
+  index_all_pages: true
+  # When true, expand the results meta by default.
+  expand_results_meta: false
+  # The container for the search modal. It should be a valid CSS selector. Leave it empty if you’re using single search page mode only.
+  modal_container: body
+  # The search modal toggle selector.
+  modal_toggle_selector: .search-modal-toggle
+  # Lazy loading the indices.
+  lazy_loading: true
+  # Whether to enable the taxonomies filter.
+  filter_taxonomies: true
+  # Whether to enable the years filter.
+  filter_years: true

@@ -2,7 +2,7 @@
 type: docs
 authors: ["jnonino"]
 series: ["Programming"]
-nav_weight: 4
+nav_weight: 201
 title: "Variables and Data Types"
 description: "Variables and data types are fundamental concepts in programming. They play an essential role in storing and managing data within a program. In this article, we'll explore what variables and data types are, using Python as an example, but the concepts are applicable across most programming languages."
 date: 2023-03-13

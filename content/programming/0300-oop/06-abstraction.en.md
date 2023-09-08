@@ -1,8 +1,8 @@
 ---
 type: docs
 authors: ["jnonino"]
-series: ["Object-Oriented Programming"]
-nav_weight: 6
+series: ["Programming"]
+nav_weight: 306
 title: "Abstraction"
 date: 2023-04-12
 tags: ["oop", "object-oriented", "abstractions", "interfaces"]

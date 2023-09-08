@@ -2,7 +2,7 @@
 type: docs
 authors: ["jnonino"]
 series: ["Programming"]
-nav_weight: 5
+nav_weight: 202
 title: "Control Flow"
 description: "Control flow refers to the order in which the statements, instructions, or function calls of an application are executed. Understanding control flow is crucial in programming, as it enables the creation of dynamic, responsive code. This article will cover the essential aspects of control flow, using Python for examples, but the principles apply to many programming languages."
 date: 2023-03-15

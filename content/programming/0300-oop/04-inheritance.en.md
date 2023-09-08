@@ -1,8 +1,8 @@
 ---
 type: docs
 authors: ["jnonino"]
-series: ["Object-Oriented Programming"]
-nav_weight: 4
+series: ["Programming"]
+nav_weight: 304
 title: "Inheritance"
 date: 2023-04-08
 tags: ["oop", "object-oriented", "inheritance"]

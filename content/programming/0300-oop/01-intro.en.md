@@ -1,8 +1,8 @@
 ---
 type: docs
 authors: ["jnonino"]
-series: ["Object-Oriented Programming"]
-nav_weight: 1
+series: ["Programming"]
+nav_weight: 301
 title: "Introduction"
 date: 2023-04-02
 tags: ["intro", "oop", "object-oriented", "oop-principles"]

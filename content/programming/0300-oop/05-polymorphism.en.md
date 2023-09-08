@@ -1,8 +1,8 @@
 ---
 type: docs
 authors: ["jnonino"]
-series: ["Object-Oriented Programming"]
-nav_weight: 5
+series: ["Programming"]
+nav_weight: 305
 title: "Polymorphism"
 date: 2023-04-10
 tags: ["oop", "object-oriented", "polymorphism"]

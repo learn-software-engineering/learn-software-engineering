@@ -1,8 +1,8 @@
 ---
 type: docs
 authors: ["jnonino"]
-series: ["Object-Oriented Programming"]
-nav_weight: 3
+series: ["Programming"]
+nav_weight: 303
 title: "Encapsulation"
 date: 2023-04-06
 tags: ["oop", "object-oriented", "encapsulation"]

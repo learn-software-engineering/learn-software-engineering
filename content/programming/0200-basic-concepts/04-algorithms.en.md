@@ -2,7 +2,7 @@
 type: docs
 authors: ["jnonino"]
 series: ["Programming"]
-nav_weight: 7
+nav_weight: 204
 title: "Algorithms"
 description: "Algorithms are a set of step-by-step procedures or rules performed in a specific order to achieve a particular goal or solve a specific problem. In programming, algorithms form the backbone of effective problem-solving and efficient code execution. In this article, we will explore different aspects of algorithms, using examples in Python, while keeping the explanations as generic as possible."
 date: 2023-03-19

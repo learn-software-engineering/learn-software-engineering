@@ -1,18 +1,36 @@
 imports:
+  # (https://hbstack.dev/en/modules/meta/#recommended-meta-module)
+  - path: github.com/hbstack/meta/recommended
+    # Includes
+    #   - Standard Meta (https://hbstack.dev/en/modules/meta/#standard-meta-module)
+    #     Includes:
+    #       - Blog Meta (https://hbstack.dev/en/modules/meta/#blog-meta-module)
+    #       - Content Meta (https://hbstack.dev/en/modules/meta/#content-meta-module)
+    #       - Header Meta (https://hbstack.dev/en/modules/meta/#header-meta-module)
+    #       - Footer Meta (https://hbstack.dev/en/modules/meta/#footer-meta-module)
+    #       - SEO Meta (https://hbstack.dev/en/modules/meta/#seo-meta-module)
+    #       - Gruvbox Highlighting Syntax
+    #   - Docs Meta (https://hbstack.dev/en/modules/meta/#docs-meta-module)
+    #   - Back to Top
+    #   - Bigger Picture
+    #   - Code Block Panel
+    #   - No Script
+    #   - Progress Bar
+    #   - PWA
+    #   - Scrollbar
+
+  # Icons
   - path: github.com/hugomods/icons
-  - path: github.com/hugomods/icons/vendors/bootstrap
   - path: github.com/hugomods/icons/vendors/feather
   - path: github.com/hugomods/icons/vendors/font-awesome
   - path: github.com/hugomods/icons/vendors/lucide
   - path: github.com/hugomods/icons/vendors/mdi
   - path: github.com/hugomods/icons/vendors/simple-icons
   - path: github.com/hugomods/icons/vendors/tabler
-  - path: github.com/hbstack/meta/recommended
+
+  # Other
   - path: github.com/hbstack/header/modules/banner
   - path: github.com/hugomods/aos
   - path: github.com/hugomods/video-js
-  - path: github.com/hugomods/katex
-  - path: github.com/hugomods/mermaid
   - path: github.com/hugomods/google-analytics
-  - path: github.com/hugomods/seo/modules/favicons
   - path: github.com/hugomods/hugopress

@@ -1,8 +1,8 @@
 ---
 type: docs
 authors: ["jnonino"]
-series: ["Object-Oriented Programming"]
-nav_weight: 8
+series: ["Programming"]
+nav_weight: 308
 title: "Advanced concepts"
 date: 2023-04-16
 tags: ["oop", "object-oriented", "multithreading", "generics", "templates", "reflections", "serialization"]

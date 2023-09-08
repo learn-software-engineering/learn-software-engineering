@@ -2,8 +2,8 @@
 type: docs
 authors: ["jnonino"]
 series: ["Programming"]
-nav_weight: 11
-title: "Design Patterns"
+nav_weight: 501
+title: "Introduction"
 description: "Design patterns are tried-and-true solutions to common problems that arise in software development. They represent best practices and are used to create organized, clean, and scalable code. This article covers various design patterns with examples in Python."
 date: 2023-03-27
 tags: ["intro", "programming", "design-patters", "singleton", "adapter", "observer"]

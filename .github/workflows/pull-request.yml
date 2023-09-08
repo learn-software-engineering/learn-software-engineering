@@ -16,7 +16,7 @@ jobs:
   #       run: cspell --config .github/workflows/scripts/cSpell.json "**/*.md"
   build:
     runs-on: ubuntu-latest
-    container: ghcr.io/cn-writing/hugo:0.115.4
+    container: ghcr.io/cn-writing/hugo
     env:
       ENV: development
     steps:

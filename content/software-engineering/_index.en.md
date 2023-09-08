@@ -10,7 +10,7 @@ menu:
       icon:
         vendor: bootstrap
         name: journal-code
-        color: "#65c6e0"
+        color: "green"
 ---
 
 Welcome to this exclusive series of articles that make up a comprehensive course on Software Engineering. From theoretical roots to contemporary practices, this collection has been meticulously crafted to provide readers with a deep and practical understanding of the various facets of Software Engineering.

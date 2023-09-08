@@ -13,7 +13,26 @@ header:
       { .mb-5 data-aos="fade-up" data-aos-delay="500" }
     description: |
       Impulsa tu carrera
-      { .mb-5 data-aos="fade-up" data-aos-delay="1000" }
+      { .mb-5 data-aos="fade-up" data-aos-delay="750" }
+
+      {{< html/div
+        data-aos="fade-up"
+        data-aos-delay="1000"
+        class="d-grid gap-3 d-sm-flex justify-content-sm-center flex-wrap" >}}
+
+        {{< bs/btn-link style=success size=lg class="py-3" url="/software-engineering" >}}
+          {{< icons/icon vendor=bootstrap name=journal-code className="me-1" >}} Ingeniería de Software
+        {{< /bs/btn-link >}}
+
+        {{< bs/btn-link style=warning size=lg class="py-3" url="/programming" >}}
+          {{< icons/icon vendor=bootstrap name=code-square className="me-1" >}} Programación
+        {{< /bs/btn-link >}}
+
+        {{< bs/btn-link style=light size=lg class="py-3" url="/posts" >}}
+          {{< icons/icon vendor=bootstrap name=newspaper className="me-1" >}} Blog
+        {{< /bs/btn-link >}}
+
+      {{< /html/div >}}
 
 # menu:
 #   main:

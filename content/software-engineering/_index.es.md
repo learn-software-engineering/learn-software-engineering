@@ -10,7 +10,7 @@ menu:
       icon:
         vendor: bootstrap
         name: journal-code
-        color: "#65c6e0"
+        color: "green"
 ---
 
 Bienvenidos a esta serie exclusiva de artículos que componen un completo curso sobre Ingeniería de Software. Desde las raíces teóricas hasta las prácticas contemporáneas, este conjunto de escritos ha sido diseñado meticulosamente para brindar a los lectores una comprensión profunda y práctica de los diversos aspectos de la Ingeniería de Software.

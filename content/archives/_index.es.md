@@ -7,6 +7,6 @@ menu:
       icon:
         vendor: bs
         name: archive
-        color: '384955'
+        color: 'skyblue'
       description: Archivo de artículos.
 ---

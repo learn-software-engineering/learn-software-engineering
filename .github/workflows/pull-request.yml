@@ -25,6 +25,6 @@ jobs:
         with:
           submodules: recursive
       - name: Install dependencies
-          run: npm install
+        run: npm install
       - name: Build with Hugo
         run: .github/workflows/scripts/build.sh

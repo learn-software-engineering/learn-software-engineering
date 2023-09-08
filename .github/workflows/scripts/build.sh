@@ -13,11 +13,14 @@ HUGO_ENVIRONMENT=$ENV
 HUGO_ENV=$ENV
 
 # Build site
-hugo --gc --minify --noBuildLock \
+hugo --gc --minify --noBuildLock --enableGitInfo \
   --printPathWarnings --printI18nWarnings \
   --printMemoryUsage --printUnusedTemplates \
   --templateMetrics --templateMetricsHints \
   --environment $ENV
+
+# Avoid GitHub Jekyll processing
+touch public/.nojekyll
 
 # Add CNAME config if it is production
 if [ $ENV == "production" ]; then

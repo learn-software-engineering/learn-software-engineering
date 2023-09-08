@@ -36,7 +36,7 @@ Each stage of the SDLC is pivotal in software development. Let's delve deeper in
 
 The SDLC is important because it offers:
 - **Systematic Approach**: The SDLC offers a consistent, methodical framework, championing top-tier software quality and minimal glitches[^6].
-- **Efficiency**: Embracing the SDLC promotes efficient software production. Its structured nature ensures a balance in all phases, minimizing costly mistakes[^7^].
+- **Efficiency**: Embracing the SDLC promotes efficient software production. Its structured nature ensures a balance in all phases, minimizing costly mistakes[^7].
 - **Client Satisfaction**: The SDLC's client-centric approach guarantees that the software aligns with user needs, boosting satisfaction[^8].
 - **Versatility in Implementation**: While the SDLC provides a core structure, its flexibility allows adaptation to various development methodologies, from the linear approach of Waterfall to the iterative cycles of Agile.
 

@@ -100,13 +100,13 @@ From the choice of a programming language to the intricate dance of CI/CD, the i
 
 ## References
 
-[^1^]: Sommerville, I., 2010. Software Engineering. 9th ed. Pearson.
-[^2^]: Pressman, R.S., 2010. Software Engineering: A Practitioner's Approach. 7th ed. McGraw-Hill.
-[^3^]: Sebesta, R.W., 2012. Concepts of Programming Languages. 10th ed. Addison-Wesley.
-[^4^]: McConnell, S., 2004. Code Complete: A Practical Handbook of Software Construction. 2nd ed. Microsoft Press.
-[^5^]: Chacon, S., & Straub, B., 2014. Pro Git. 2nd ed. Apress.
-[^6^]: Fowler, M., & Humble, J., 2010. Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation. Addison-Wesley.
-[^7^]: Cunningham, W., 1992. The WyCash Portfolio Management System. OOPSLA’92 Experience Report.
-[^8^]: Zelkowitz, M.V., 1978. Advances in Computers. 17th ed. Academic Press.
-[^9^]: McGraw, G., 2006. Software Security: Building Security In. Addison-Wesley.
-[^10^]: Myers, G.J., Sandler, C., & Badgett, T., 2011. The Art of Software Testing. 3rd ed. Wiley.
+[^1]: Sommerville, I., 2010. Software Engineering. 9th ed. Pearson.
+[^2]: Pressman, R.S., 2010. Software Engineering: A Practitioner's Approach. 7th ed. McGraw-Hill.
+[^3]: Sebesta, R.W., 2012. Concepts of Programming Languages. 10th ed. Addison-Wesley.
+[^4]: McConnell, S., 2004. Code Complete: A Practical Handbook of Software Construction. 2nd ed. Microsoft Press.
+[^5]: Chacon, S., & Straub, B., 2014. Pro Git. 2nd ed. Apress.
+[^6]: Fowler, M., & Humble, J., 2010. Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation. Addison-Wesley.
+[^7]: Cunningham, W., 1992. The WyCash Portfolio Management System. OOPSLA’92 Experience Report.
+[^8]: Zelkowitz, M.V., 1978. Advances in Computers. 17th ed. Academic Press.
+[^9]: McGraw, G., 2006. Software Security: Building Security In. Addison-Wesley.
+[^10]: Myers, G.J., Sandler, C., & Badgett, T., 2011. The Art of Software Testing. 3rd ed. Wiley.

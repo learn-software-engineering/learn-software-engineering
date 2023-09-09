@@ -9,6 +9,9 @@ mermaid:
   js_url: https://cdn.jsdelivr.net/npm/mermaid@latest/dist/mermaid.esm.min.mjs
 
 hb:
+  footer:
+    powered_by: true
+    site_title: Learn-Software.com
   css_bundle_name: ls
   debug: false
   js_bundle_name: ls
@@ -23,6 +26,9 @@ hb:
         - oop
       # taxonomies: true
     sidebar:
+      posts:
+        featured_count: 5
+        recent_count: 5
       taxonomies:
         style: underline
 
@@ -73,7 +79,7 @@ search:
   # Denotes the max number of returned search results.
   max_results: 1000
   # When true, the engine will also search by content, you may need to tweak the distance parameter as well. Please note that, it may become a performance killer on a large site.
-  index_content: false
+  index_content: true
   # When true, all pages except noindex pages will be indexed, include non-regular pages, such as home and taxonomy lists.
   index_all_pages: true
   # When true, expand the results meta by default.

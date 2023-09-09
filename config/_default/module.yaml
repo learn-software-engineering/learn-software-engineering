@@ -28,14 +28,28 @@ imports:
   - path: github.com/hugomods/icons/vendors/simple-icons
   - path: github.com/hugomods/icons/vendors/tabler
 
+  # Blog Sidebar Modules
+  - path: github.com/hbstack/blog/modules/sidebar/posts
+  - path: github.com/hbstack/blog/modules/sidebar/taxonomies
+
+  # Related posts
+  - path: github.com/hbstack/blog/modules/related-posts
+
+  # ToC Scrollspy Module
+  - path: github.com/hbstack/blog/modules/toc-scrollspy
+  - path: github.com/hbstack/docs/modules/toc-scrollspy
+
   # Animate on scroll
   - path: github.com/hugomods/aos
 
   # Disqus comments
   - path: github.com/hbstack/blog/modules/disqus
+  - path: github.com/hbstack/docs/modules/disqus
 
   # Other
   - path: github.com/hbstack/header/modules/banner
   - path: github.com/hugomods/video-js
   - path: github.com/hugomods/google-analytics
   - path: github.com/hugomods/hugopress
+  - path: github.com/hbstack/noscript
+  - path: github.com/hbstack/footer

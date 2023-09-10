@@ -10,10 +10,10 @@ header:
     # img: /images/banners/home2.png
     title: |
       Learn-Software.com
-      { .mb-5 data-aos="fade-up" data-aos-delay="500" }
+      { .mb-5 data-aos="fade-up" data-aos-delay="500" .home-title }
     description: |
       Impulsa tu carrera
-      { .mb-5 data-aos="fade-up" data-aos-delay="750" }
+      { .mb-5 data-aos="fade-up" data-aos-delay="750" .home-title }
 
       {{< html/div
         data-aos="fade-up"

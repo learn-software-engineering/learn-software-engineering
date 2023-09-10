@@ -6,6 +6,8 @@ nav_weight: 302
 title: "Classes and objects"
 date: 2023-04-04
 tags: ["oop", "object-oriented", "classes", "objects"]
+images:
+  - /images/banners/object-oriented-programming.png
 ---
 
 Building on our previous introduction to Object-Oriented Programming (OOP), this post will dive deeper into the core concepts of classes and objects. We'll explore their definitions, how to create and use them, and discuss constructors and destructors, with examples in Python.

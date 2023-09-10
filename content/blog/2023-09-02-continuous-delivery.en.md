@@ -17,15 +17,15 @@ According to Martin Fowler[^2], a project is truly embracing Continuous Delivery
 - The team values keeping the software deployment-ready over adding new features.
 - Any software version can be deployed to any environment on-demand.
 
-In many ways, Continuous Delivery is the next step from [Continuous Integration](/posts/random/03-continuous-integration/), seamlessly automating processes all the way to the software's end user.
+In many ways, Continuous Delivery is the next step from [Continuous Integration]({{< ref "/blog/2023-08-08-continuous-integration" >}}), seamlessly automating processes all the way to the software's end user.
 
-Much like in [Continuous Integration](/posts/random/03-continuous-integration/), the *pipeline* stands as the cornerstone of Continuous Delivery. However, it's not just about integrating code, testing it, and generating a deliverable artifact. With CD, this artifact progresses through a series of test phases in environments that increasingly resemble production settings. After passing through the [Continuous Integration](/posts/random/03-continuous-integration/) *pipeline*, what emerges is a potentially deployable artifact. CD then takes this artifact and puts it through the necessary tests, ensuring it's primed for a live deployment.
+Much like in [Continuous Integration]({{< ref "/blog/2023-08-08-continuous-integration" >}}), the *pipeline* stands as the cornerstone of Continuous Delivery. However, it's not just about integrating code, testing it, and generating a deliverable artifact. With CD, this artifact progresses through a series of test phases in environments that increasingly resemble production settings. After passing through the [Continuous Integration]({{< ref "/blog/2023-08-08-continuous-integration" >}}) *pipeline*, what emerges is a potentially deployable artifact. CD then takes this artifact and puts it through the necessary tests, ensuring it's primed for a live deployment.
 
 ---
 
 ## The delivery process
 
-The following figure illustrates the fundamental steps of a Continuous Delivery (CD) process. It's vital to note that an effective CD process presupposes a well-oiled [Continuous Integration (CI)](/posts/random/03-continuous-integration/) system as its foundation.
+The following figure illustrates the fundamental steps of a Continuous Delivery (CD) process. It's vital to note that an effective CD process presupposes a well-oiled [Continuous Integration (CI)]({{< ref "/blog/2023-08-08-continuous-integration" >}}) system as its foundation.
 
 ![Illustration of the CD process](/images/content/blog/cd_process.en.png)
 *Figure 1: CD process flowchart*
@@ -64,7 +64,7 @@ As mentioned earlier, CD's main objective is to ascertain the product's readines
 
 With the rise of Continuous Delivery (CD) practices, businesses are realizing numerous advantages:
 
-1. **Swift value delivery**: the adoption of CD practices facilitates a faster rollout of features and error rectifications to end users[^7]. This speed is attributed to the code becoming potentially deployable to users as it traverses through the [Continuous Integration (CI)](/posts/random/03-continuous-integration/) pipeline[^4].
+1. **Swift value delivery**: the adoption of CD practices facilitates a faster rollout of features and error rectifications to end users[^7]. This speed is attributed to the code becoming potentially deployable to users as it traverses through the [Continuous Integration (CI)]({{< ref "/blog/2023-08-08-continuous-integration" >}}) pipeline[^4].
 
 2. **Diminished delivery failures**: frequent releases lead to **fewer delivery risks** since each release embodies fewer changes. This, in turn, means there's a reduced margin for errors[^2]. Even if an error emerges, its origin is easier to trace and correct. Plus, reverting to a previous version in the face of complications becomes straightforward[^8]. A delightful byproduct of this streamlined process is the diminished stress levels amongst stakeholders[^7] [^5]. Furthermore, the consistency and quality in the delivery process cement trust between the development team and clients[^7].
 

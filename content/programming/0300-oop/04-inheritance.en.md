@@ -7,7 +7,7 @@ title: "Inheritance"
 date: 2023-04-08
 tags: ["oop", "object-oriented", "inheritance"]
 images:
-  - /images/banners/object-oriented-programming.png
+  - /images/banners/content/programming/0300-oop/object-oriented-programming.png
 ---
 
 Inheritance is another fundamental concept in Object-Oriented Programming (OOP), allowing for the creation of a new class based on an existing class. This concept helps in reusing code, creating relationships between classes, and building hierarchical structures. This article will explore inheritance in detail, focusing on examples in Python.

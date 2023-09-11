@@ -7,7 +7,7 @@ title: "Introduction"
 date: 2023-04-02
 tags: ["intro", "oop", "object-oriented", "oop-principles"]
 images:
-  - /images/banners/object-oriented-programming.png
+  - /images/banners/content/programming/0300-oop/object-oriented-programming.png
 ---
 
 Object-Oriented Programming (OOP) is a paradigm that helps organize code using real-world concepts, making it more readable, reusable, and maintainable. It's built around the idea that everything can be represented as objects.

@@ -5,6 +5,8 @@ description: "Here you can find information about Continuous Delivery, what is i
 date: 2023-09-02
 draft: false
 tags: ["cd", "continuous-delivery", "continuous-deployment"]
+images:
+  - /images/banners/content/blog/cd/continuous-delivery.png
 ---
 
 Continuous Delivery (CD) is deeply rooted in the first principle of the Agile Manifesto posted in 2001[^1]:

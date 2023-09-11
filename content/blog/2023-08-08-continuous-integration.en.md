@@ -5,6 +5,8 @@ description: "What is Continuous Integration? Which benefits it provides? In thi
 date: 2023-08-19
 draft: false
 tags: ["ci", "continuous-integration"]
+images:
+  - /images/banners/content/blog/ci/continuous-integration.png
 ---
 
 One of the most pivotal challenges in the realm of software development is effectively integrating changes [^1]. In a small-scale project steered by a single developer, this challenge might appear to be trivial. However, as the magnitude of the project escalates and more individuals join the development fold, the significance of seamless integration becomes paramount.

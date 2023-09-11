@@ -7,7 +7,7 @@ title: "Associations, aggregations, and compositions"
 date: 2023-04-14
 tags: ["oop", "object-oriented", "associations", "aggregation", "composition", "uml"]
 images:
-  - /images/banners/object-oriented-programming.png
+  - /images/banners/content/programming/0300-oop/object-oriented-programming.png
 ---
 
 Understanding relationships between classes is vital for designing robust and maintainable systems. This article, will explore three types of relationships: Associations, Aggregations, and Compositions. We'll look into their definitions, differences, and applications, providing examples in Python and using UML diagrams.

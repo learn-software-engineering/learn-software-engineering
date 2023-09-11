@@ -7,7 +7,7 @@ title: "Advanced concepts"
 date: 2023-04-16
 tags: ["oop", "object-oriented", "multithreading", "generics", "templates", "reflections", "serialization"]
 images:
-  - /images/banners/object-oriented-programming.png
+  - /images/banners/content/programming/0300-oop/object-oriented-programming.png
 ---
 
 Object-Oriented Programming (OOP) has many advanced concepts that take the programming paradigm to a higher level. These concepts enable developers to write code that is more efficient, flexible, and maintainable. In this article, we will delve into some of these advanced concepts, including multithreading, generics/templates, reflection, serialization and deserialization, and dependency injection. Though we'll provide Python examples where applicable, it's worth noting that some of these concepts might be more prevalent in other programming languages.

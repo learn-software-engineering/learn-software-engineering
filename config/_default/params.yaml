@@ -16,6 +16,19 @@ hb:
   debug: false
   js_bundle_name: ls
   logo: images/logo-square-2.png
+  docs:
+    giscus:
+      endpoint: https://giscus.app/
+      repo: learn-software-engineering/website-comments
+      repo_id: R_kgDOKQjung
+      category: General
+      category_id: DIC_kwDOKQjuns4CZJYI
+      mapping: pathname
+      strict_matching: true
+      theme: preferred_color_scheme
+      input_position: top
+      reactions: true
+      lazy_loading: true
   blog:
     home:
       recent_posts: 12
@@ -31,6 +44,18 @@ hb:
         recent_count: 5
       taxonomies:
         style: underline
+    giscus:
+      endpoint: https://giscus.app/
+      repo: learn-software-engineering/website-comments
+      repo_id: R_kgDOKQjung
+      category: General
+      category_id: DIC_kwDOKQjuns4CZJYI
+      mapping: pathname
+      strict_matching: true
+      theme: preferred_color_scheme
+      input_position: top
+      reactions: true
+      lazy_loading: true
 
   # blog:
     # archives:

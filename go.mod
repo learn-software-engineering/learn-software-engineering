@@ -8,6 +8,7 @@ require (
 	github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 // indirect
 	github.com/hbstack/base v0.2.1 // indirect
 	github.com/hbstack/blog/modules/disqus v0.1.11 // indirect
+	github.com/hbstack/blog/modules/giscus v0.1.14 // indirect
 	github.com/hbstack/blog/modules/sidebar/posts v0.3.4 // indirect
 	github.com/hbstack/blog/modules/sidebar/taxonomies v0.3.4 // indirect
 	github.com/hbstack/blog/modules/toc-scrollspy v0.1.11 // indirect
@@ -25,6 +26,7 @@ require (
 	github.com/hugomods/aos v0.1.0 // indirect
 	github.com/hugomods/bootstrap v0.11.2 // indirect
 	github.com/hugomods/code-block-panel v0.2.0 // indirect
+	github.com/hugomods/giscus v0.1.0 // indirect
 	github.com/hugomods/google-analytics v0.2.0 // indirect
 	github.com/hugomods/hugopress v0.2.1 // indirect
 	github.com/hugomods/icons v0.6.0 // indirect

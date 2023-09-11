@@ -9,6 +9,8 @@ github.com/hbstack/base v0.2.1/go.mod h1:6SqazoH3UBSuwSHV1kyEDWcIJg+Cef++w8p45VS
 github.com/hbstack/blog v0.15.7 h1:B+uKSPfrJgBgXfqZNzCCV3OsCBOgdeeZ+DIuccLpnoc=
 github.com/hbstack/blog/modules/disqus v0.1.11 h1:zSnApkwgx2B4OIoB3zQ1dUDTeLjiDpyXCABgK5BcxJQ=
 github.com/hbstack/blog/modules/disqus v0.1.11/go.mod h1:3bx5bgH4pHr+b2TgW2nxEUejpvrr0ngpRro4OeMrmL4=
+github.com/hbstack/blog/modules/giscus v0.1.14 h1:8YyVpfppQoF956T47x9KRxWMqCWvBv+QgUxDX+EkSHI=
+github.com/hbstack/blog/modules/giscus v0.1.14/go.mod h1:TfM3NJHKDdwjp9nSW5TUc9fOqRYdiDzcO15GG/EhZTA=
 github.com/hbstack/blog/modules/sidebar/posts v0.3.4 h1:RrgDzq7ElWB/i6solLLIv2XE1t/qd9TmCea53qkHlP4=
 github.com/hbstack/blog/modules/sidebar/posts v0.3.4/go.mod h1:kx4WOQKpVXY9TVOytMHyunW5dNcCu563Rmw23GX/P2w=
 github.com/hbstack/blog/modules/sidebar/taxonomies v0.3.4 h1:d0m1YcSsMQrlprY/iN/qr6v43xlc5TXiIE2qNt5hlFI=
@@ -45,6 +47,8 @@ github.com/hugomods/bootstrap v0.11.2 h1:ChaQNgmSezevVauKP/dCum3725IVFmK344YxgVI
 github.com/hugomods/bootstrap v0.11.2/go.mod h1:NVii94xgqDocyD0+aAWamBLPJjNspfMynEdmIOXO3Vs=
 github.com/hugomods/code-block-panel v0.2.0 h1:vSZfriVuK34Z9k7710g1tr7tZPv26VYPXio5bYmaz24=
 github.com/hugomods/code-block-panel v0.2.0/go.mod h1:sbl/NT0TZqHagnW8NWB690lDBGyY5r2dx6xpR17QSq4=
+github.com/hugomods/giscus v0.1.0 h1:tIu1TzYByC/XlxxiBl9+CkQp9OeR4UhoZjbQSlcDt5E=
+github.com/hugomods/giscus v0.1.0/go.mod h1:tCRkqNi/sMsLh3kjDesXZNzf4R/w+b5oc5boS/l8Jtw=
 github.com/hugomods/google-analytics v0.2.0 h1:ziRPsDMYKAmvfl6ofthJdmXq0w10yxNKI/dF0vbcX0k=
 github.com/hugomods/google-analytics v0.2.0/go.mod h1:Q89C3HmPHn2m2VT1INfnLwkpDyyYRLRIPitLA/aFIy8=
 github.com/hugomods/hugopress v0.2.1 h1:coYEPHUNLuTxKrVWVIPgs0lbZ6yrqxdWjgSriNFuBVo=

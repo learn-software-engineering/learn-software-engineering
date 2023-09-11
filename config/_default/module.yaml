@@ -42,9 +42,8 @@ imports:
   # Animate on scroll
   - path: github.com/hugomods/aos
 
-  # Disqus comments
-  - path: github.com/hbstack/blog/modules/disqus
-  - path: github.com/hbstack/docs/modules/disqus
+  # Comments
+  - path: github.com/hbstack/blog/modules/giscus
 
   # Other
   - path: github.com/hbstack/header/modules/banner

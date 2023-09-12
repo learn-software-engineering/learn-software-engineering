@@ -14,6 +14,7 @@ require (
 	github.com/hbstack/blog/modules/toc-scrollspy v0.1.11 // indirect
 	github.com/hbstack/breadcrumb v0.2.0 // indirect
 	github.com/hbstack/docs/modules/disqus v0.1.5 // indirect
+	github.com/hbstack/docs/modules/giscus v0.1.7 // indirect
 	github.com/hbstack/docs/modules/toc-scrollspy v0.1.4 // indirect
 	github.com/hbstack/featured-image v0.1.1 // indirect
 	github.com/hbstack/hb v0.7.1 // indirect

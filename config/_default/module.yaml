@@ -44,6 +44,7 @@ imports:
 
   # Comments
   - path: github.com/hbstack/blog/modules/giscus
+  - path: github.com/hbstack/docs/modules/giscus
 
   # Other
   - path: github.com/hbstack/header/modules/banner

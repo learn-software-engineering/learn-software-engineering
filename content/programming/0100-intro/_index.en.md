@@ -8,42 +8,26 @@ nav_icon:
   color: 'skyblue'
 ---
 
-Programming is the process of creating instructions that a computer can understand and execute. It is the backbone of modern technology and is used in a wide range of fields, from finance and healthcare to gaming and entertainment. Whether you are building a website, an app, or a complex piece of software, programming is at the core of it all.
+At its core, programming is the act of instructing a machine on how to perform a specific task. It's like teaching your dog to fetch, but in this case, the dog is your computer, and the ball might be, let's say, displaying a photo on your screen.
 
-Before diving into programming, it is important to understand some basic concepts about how computers work. A computer consists of a central processing unit (CPU) and memory. The CPU is responsible for executing instructions, while memory stores data and instructions. Programs are a set of instructions that are stored in memory and executed by the CPU. These instructions tell the computer what to do, such as performing calculations, displaying information on a screen, or interacting with other devices.
+Now, you might think that programming is just writing lines of code. Programming is actually a broader process that not only includes writing code but also problem-solving, system design, and logical thinking.
 
-Programming languages are used to write instructions that can be understood by the computer. There are many different programming languages, each with its own set of rules, syntax, and capabilities. Some popular programming languages include Python, JavaScript, C++, Java, and C#. Each language has its own strengths and weaknesses, and is suited for different types of tasks.
+In the universe of programming, there are high-level and low-level languages. A low-level language, like assembly, is closer to what the machine understands, while a high-level language, such as Python or JavaScript, is more human-friendly. Picture having a conversation: high-level languages are like chatting with a friend over coffee in New York, while low-level languages are like trying to communicate with someone speaking a very specific, localized dialect.
 
-One of the most important concepts in programming is algorithm. An algorithm is a set of steps that can be followed to solve a problem or accomplish a task. Algorithms are the building blocks of programs and are used to perform calculations, sort data, and make decisions.
+Additionally, some programming languages are compiled, while others are interpreted. If a language is compiled, it means it's translated into a machine-understandable language before being executed. On the other hand, interpreted languages are translated in real-time, as they run.
 
-Another important concept in programming is data types. Data types are categories of data that have specific characteristics and can be used in different ways. Some common data types include integers, floating-point numbers, strings, and Boolean values.
+## A brief history of Programming
 
-Control flow is the order in which the computer executes instructions. It allows you to create logic and make decisions in your program. Control flow statements, such as if-else statements and loops, allow you to control the flow of execution and change the behavior of your program based on certain conditions.
+Programming isn't a new concept. In fact, it's been with us long before computers existed in the form we know today. Devices like the [abacus](https://en.wikipedia.org/wiki/Abacus) and the [astrolabe](https://en.wikipedia.org/wiki/Astrolabe) are early examples of tools we used for intricate calculations.
 
-Here is an example of a simple program written in Python that demonstrates some of these concepts:
+However, it was with the advent of mechanical machines, like Charles Babbage's [Analytical Engine](https://en.wikipedia.org/wiki/Analytical_engine), that the foundation for modern programming was laid. We're talking about the 19th century!
 
-{{< highlight python >}}
-# This program calculates the area of a rectangle
+Over time, landmark languages like [Fortran](https://en.wikipedia.org/wiki/Fortran) and [COBOL](https://en.wikipedia.org/wiki/COBOL) emerged. These languages paved the way for the technological revolutions that would follow. With the evolution of languages also came new paradigms: first Procedural, then Object-Oriented, and more recently, Functional.
 
-# Get the length of the rectangle from the user
-length = float(input("Enter the length of the rectangle: "))
+Today, we're in a modern era dominated by web, mobile, and cloud programming. Every swipe on your phone or online purchase has lines and lines of code working behind the scenes.
 
-# Get the width of the rectangle from the user
-width = float(input("Enter the width of the rectangle: "))
+## Programming today
 
-# Calculate the area of the rectangle
-area = length * width
+Programming is the engine of our modern society. From apps for ordering food to advanced artificial intelligence systems aiding medical research, programming is everywhere.
 
-# Print the result
-print("The area of the rectangle is", area)
-{{</highlight >}}
-
-In this example, we use the input function to get the length and width of the rectangle from the user, and then use these values to calculate the area using a simple mathematical formula. The result is then printed using the print function.
-
-This is just a simple example of what you can do with programming. With the right knowledge and tools, you can create much more complex and powerful programs. As you learn more about programming, you will discover new concepts, such as functions, classes, and modules, and learn how to use them to structure your code and solve more complex problems.
-
-There are many resources available for learning programming, including online tutorials, interactive coding environments, and programming bootcamps. Start with the basics and gradually increase complexity as you gain more confidence and understanding.
-
-On this guidelines we will be using Python as the language to demonstrate concepts and make test, please check the following steps to install Python on your computer.
-
-In conclusion, programming is a powerful tool that can be used to solve problems and create new technologies. Understanding the basic concepts of computer architecture, programming languages, algorithms, data types, and control flow is essential for becoming a successful programmer. With time, patience and practice, you will be able to master the art of programming and create your own powerful applications.
+Beyond simplifying our daily lives, programming has a profound societal impact. It has enabled progress in automation, data analysis, and entertainment. And what's even more exhilarating is that we're just scratching the surface. With upcoming prospects on artificial intelligence, quantum computing and the Internet of Things (IoT), who knows what marvels await us in the programming world?

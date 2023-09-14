@@ -2,7 +2,7 @@
 type: docs
 authors: ["jnonino"]
 series: ["Programming"]
-nav_weight: 102
+nav_weight: 104
 title: "Installing Python"
 description: "Python is a widely-used programming language for web development, data analysis, scientific computing, and much more. In this article, we'll guide you through the installation process of Python on three major operating systems: Linux, Mac, and Windows. Since Python is often pre-installed on many Linux and Mac systems, this guide also covers checking your existing version and upgrading if necessary."
 date: 2023-03-09

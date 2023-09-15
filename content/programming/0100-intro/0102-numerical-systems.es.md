@@ -5,7 +5,7 @@ series: ["Programming"]
 nav_weight: 102
 title: "Sistemas de numeración"
 description: "En nuestro día a día, estamos rodeados de números. Desde la hora que marca el reloj cuando suena la alarma por la mañana, hasta el precio del café que compramos en la esquina. Pero, ¿alguna vez te detuviste a pensar en la naturaleza de esos números? En este artículo, nos sumergiremos en el fascinante mundo de los sistemas de numeración y aprenderemos cómo, dependiendo del contexto, un número puede tener múltiples representaciones."
-date: 2023-03-11
+date: 2023-09-14
 tags: ["intro", "programming", "sistemas-numeracion", "decimal", "binario", "hexadecimal"]
 ---
 
@@ -29,43 +29,45 @@ Si sumamos estos valores,
 
 ## El sistema binario: el lenguaje secreto de las computadoras
 
-Si bien el sistema decimal domina nuestra vida cotidiana, las máquinas que usamos todos los días, desde nuestros celulares hasta las computadoras, operan en un mundo completamente diferente: el mundo binario. En este sistema, solo existen dos dígitos: {{< katex formula="0" inline=true />}} y {{< katex formula="1" inline=true />}}. A primera vista, puede parecer limitante, pero este sistema es la esencia de la electrónica digital. Los dispositivos electrónicos, con sus millones de transistores, operan usando estos dos estados: encendido {{< katex formula="(1)" inline=true />}} y apagado {{< katex formula="(0)" inline=true />}}[^2].
+Si bien el sistema decimal domina nuestra vida cotidiana, las máquinas que usamos todos los días, desde nuestros celulares hasta las computadoras, operan en un mundo completamente diferente: el mundo binario. En este sistema, solo existen dos dígitos: 0 y 1. A primera vista, puede parecer limitante, pero este sistema es la esencia de la electrónica digital. Los dispositivos electrónicos, con sus millones de transistores, operan usando estos dos estados: encendido (1) y apagado (0)[^2].
 
-A pesar de su aparente simplicidad, el sistema binario puede representar cualquier cantidad o información que el sistema decimal pueda expresar. Por ejemplo, el número decimal {{< katex formula="5" inline=true />}} se representa como {{< katex formula="101" inline=true />}} en binario.
+A pesar de su aparente simplicidad, el sistema binario puede representar cualquier cantidad o información que el sistema decimal pueda expresar. Por ejemplo, el número decimal 5 se representa como 101 en binario.
 
-El sistema binario, con sus unos y ceros, opera de manera similar al sistema decimal, pero en lugar de potencias de {{< katex formula="10" inline=true />}}, usa potencias de {{< katex formula="2" inline=true />}}.
+El sistema binario, con sus unos y ceros, opera de manera similar al sistema decimal, pero en lugar de potencias de 10, usa potencias de 2.
 
-Tomemos el número binario {{< katex formula="1011" inline=true />}}:
+Tomemos el número binario 1011:
 
 - El bit más a la derecha representa {{< katex formula="1 \times 2^0 = 1" inline=true />}}
 - El siguiente bit representa {{< katex formula="1 \times 2^1 = 2" inline=true />}}
 - Luego viene {{< katex formula="0 \times 2^2 = 0" inline=true />}}
 - El bit más a la izquierda en este número representa {{< katex formula="1 \times 2^3 = 8" inline=true />}}
 
-Entonces, {{< katex formula="1011" inline=true />}} en binario se traduce a decimal de la siguiente manera:
+Entonces, 1011 en binario se traduce a decimal de la siguiente manera:
 
 ```katex
 1011 = 1 \times 2^3 + 0 \times 2^2 + 1 \times 2^1 + 1 \times 2^0 = 8 + 0 + 2 + 1 = 11
 ```
 
+---
+
 ## El sistema hexadecimal: un puente entre humanos y máquinas
 
-Mientras que el sistema binario es perfecto para las máquinas, puede ser un poco engorroso para nosotros, especialmente cuando tratamos con números binarios largos. Aquí es donde entra el sistema hexadecimal, que utiliza dieciséis dígitos distintos: 0-9 y A-F, donde {{< katex formula="A" inline=true />}} representa {{< katex formula="10" inline=true />}}, {{< katex formula="B" inline=true />}} es {{< katex formula="11" inline=true />}}, y así sucesivamente hasta {{< katex formula="F" inline=true />}} que es {{< katex formula="15" inline=true />}}[^3].
+Mientras que el sistema binario es perfecto para las máquinas, puede ser un poco engorroso para nosotros, especialmente cuando tratamos con números binarios largos. Aquí es donde entra el sistema hexadecimal, que utiliza dieciséis dígitos distintos: 0-9 y A-F, donde A representa 10, B es 11, y así sucesivamente hasta F que es 15[^3].
 
-El hexadecimal es especialmente útil porque proporciona una forma más compacta de representar números binarios. Cada dígito hexadecimal corresponde a exactamente cuatro dígitos binarios (bits). Por ejemplo pensemos en la representación en binario del número {{< katex formula="41279" inline=true />}} y como el sistema hexadecimal consigue una representación más compacta:
+El hexadecimal es especialmente útil porque proporciona una forma más compacta de representar números binarios. Cada dígito hexadecimal corresponde a exactamente cuatro dígitos binarios (bits). Por ejemplo pensemos en la representación en binario del número 41279 y como el sistema hexadecimal consigue una representación más compacta:
 
 ```katex
-41279 = 1010000100111111 = A13F
+41279 = 1010 0001 0011 1111 = A13F
 ```
 
-Pero el sistema hexadecimal es más que una representación compacta de números binarios, es un sistema de numeración posicional como el decimal o binario con base {{< katex formula="16" inline=true />}} en lugar de {{< katex formula="10" inline=true />}} o {{< katex formula="2" inline=true />}}. Veamos como conseguir la representación decimal del número del ejemplo anterior ({{< katex formula="A13F" inline=true />}}).
+Pero el sistema hexadecimal es más que una representación compacta de números binarios, es un sistema de numeración posicional como el decimal o binario con base 16 en lugar de 10 o 2. Veamos como conseguir la representación decimal del número del ejemplo anterior (A13F).
 
 - El dígito más a la derecha representa {{< katex formula="F \times 16^0 = 15 \times 16^0 = 15" inline=true />}}
 - El siguiente representa {{< katex formula="3 \times 16^1 = 48" inline=true />}}
 - Luego viene {{< katex formula="1 \times 16^2 = 256" inline=true />}}
 - El dígito más a la izquierda en este número representa {{< katex formula="A \times 16^3 = 10 \times 16^3 = 40960" inline=true />}}
 
-Entonces, {{< katex formula="A13F" inline=true />}} en hexadecimal se traduce a decimal de la siguiente manera:
+Entonces, A13F en hexadecimal se traduce a decimal de la siguiente manera:
 
 ```katex
 A13F = A \times 16^3 + 1 \times 16^2 + 3 \times 16^1 + F \times 16^0 = 10 \times 4096 + 1 \times 256 + 3 \times 16 + 15 \times 1 = 40960 + 256 + 48 + 15 = 41279

@@ -3,42 +3,59 @@ type: docs
 authors: ["jnonino"]
 series: ["Programming"]
 nav_weight: 103
-title: "Numerical systems and Boolean logic"
-description: "Programming, at its core, involves manipulating numbers and logic. In this article, we will explore two essential numerical systems (Binary and Hexadecimal) and delve into the fundamental principles of Boolean logic. These concepts are vital for anyone beginning their journey in programming."
-date: 2023-03-11
-tags: ["intro", "programming", "decimal", "binary", "hexadecimal", "numerical-systems", "boolean-logic"]
+title: "Lógica Booleana"
+description: "En la vida, a menudo buscamos certezas. ¿Es cierto o falso que va a llover mañana? ¿Es correcto o incorrecto actuar de cierta manera? Esta dicotomía, esta división entre dos estados opuestos, se encuentra en el núcleo mismo de una rama esencial de las matemáticas y la informática: la lógica booleana."
+date: 2023-09-14
+tags: ["intro", "programming", "boolean-logic"]
 ---
 
-## Boolean logic
+La lógica booleana, nombrada en honor a [George Boole](https://es.wikipedia.org/wiki/George_Boole), un matemático inglés del siglo XIX, es un sistema matemático que se ocupa de operaciones que tienen solo dos resultados posibles: verdadero o falso, representados generalmente como 1 y 0, respectivamente[^1]. En su obra "An Investigation of the Laws of Thought", Boole estableció las bases de esta lógica, presentando un sistema algebraico que podría utilizarse para representar estructuras lógicas.
 
-Boolean logic is a branch of algebra that deals with true or false values. It's named after George Boole and is foundational in computer science and electrical engineering.
+## Operaciones Booleanas
 
-Boolean logic typically consists of five fundamental operators:
+Dentro de la lógica booleana, existen operaciones fundamentales que permiten manipular y combinar estas expresiones binarias:
 
-- **AND** (Conjunction): Returns true if both operands are true.
-- **OR** (Disjunction): Returns true if at least one operand is true.
-- **NOT** (Negation): Returns true if the operand is false.
-- **XOR** (Exclusive OR): Returns true if exactly one of the operands is true.
-- **NOR** (Logical NOR): Returns true if neither of the operands is true.
-- **NAND** (Logical NAND): Returns true if at least one of the operands is false.
+1. **AND (Y)**: Esta operación devuelve verdadero (1) solo si ambas entradas son verdaderas. Por ejemplo, si tenemos dos interruptores, ambos deben estar en la posición *encendido* para que una luz se encienda.
 
-Different programming languages and systems might utilize these operators in various ways or under different names, but these are the core logical operators found in Boolean algebra.
+2. **OR (O)**: Devuelve verdadero si al menos una de las entradas es verdadera. Siguiendo con el ejemplo de los interruptores, con que uno de ellos esté *encendido*, la luz se iluminará.
 
-Boolean logic is fundamental in programming for control structures, decision-making processes, and complex algorithms.
+3. **NOT (NO)**: Es una operación unaria, lo que significa que solo tiene una entrada. Simplemente invierte el valor de entrada. Si le das un 1, devuelve un 0 y viceversa.
 
-### Truth tables
+4. **NAND (NO Y)**: Es la negación de AND. Solo devuelve falso si ambas entradas son verdaderas.
 
-A truth table is a mathematical table used in logic to compute and visualize the output values of logical functions, given all possible combinations of input values (true and false). Truth tables are used to describe how the output of a logic gate or expression changes based on the values of the inputs. Here there is a truth table for all the operators mentioned above.
+5. **NOR (NO O)**: Es la negación de OR. Devuelve verdadero solo si ambas entradas son falsas.
 
-| A | B | A AND B | A OR B | A XOR B | A NOR B | A NAND B | NOT A |
-|:-:|:-:|:-------:|:------:|:-------:|:-------:|:--------:|:-----:|
-| T | T | T       | T      | F       | F       | F        | F     |
-| T | F | F       | T      | T       | F       | T        | F     |
-| F | T | F       | T      | T       | F       | T        | T     |
-| F | F | F       | F      | F       | T       | T        | T     |
+6. **XOR (O exclusivo)**: Devuelve verdadero si las entradas son diferentes. Si ambas son iguales, devuelve falso.
 
-## Conclusion
+7. **XNOR (NO O exclusivo)**: Es la negación de XOR. Devuelve verdadero si ambas entradas son iguales.
 
-The Binary and Hexadecimal numerical systems, along with Boolean logic, are key concepts for anyone starting in programming. Understanding these foundational elements can provide deeper insights into how computers operate and how software interacts with hardware.
+## La importancia de esta lógica en computación y programación
 
-By grasping these concepts, you are not only laying down a solid foundation for further studies in programming but also developing a rigorous and analytical mindset that will serve you well in all aspects of computer science and software development.
+La computación moderna, en su esencia, es la manipulación de bits, esos unos y ceros que mencionamos. Cada operación que realiza una computadora, desde simples cálculos hasta la renderización de gráficos complejos, implica operaciones booleanas en algún nivel[^2].
+
+En programación, la lógica booleana se utiliza en estructuras de control, como condiciones (if, else) y bucles, permitiendo a los programas tomar decisiones basadas en ciertas condiciones.
+
+## Tablas de verdad: el mapa de la lógica Booleana
+
+Una tabla de verdad es una representación gráfica de una operación booleana. Enumera todas las combinaciones posibles de entradas y muestra el resultado de la operación para cada combinación[^3].
+
+Por ejemplo,
+
+| A | B | A AND B | A OR B | A XOR B | A NOR B | A NAND B | NOT A | A NXOR B |
+|:-:|:-:|:-------:|:------:|:-------:|:-------:|:--------:|:-----:|:--------:|
+| 1 | 1 | 1       | 1      | 0       | 0       | 0        | 0     | 1        |
+| 1 | 0 | 0       | 1      | 1       | 0       | 1        | 0     | 0        |
+| 0 | 1 | 0       | 1      | 1       | 0       | 1        | 1     | 0        |
+| 0 | 0 | 0       | 0      | 0       | 1       | 1        | 1     | 1        |
+
+## Conclusiones
+
+La lógica booleana es mucho más que un conjunto de reglas matemáticas abstractas. Es el lenguaje fundamental de las máquinas, el código que subyace a la era digital en la que vivimos. Al comprender sus principios, no solo nos volvemos más adeptos a trabajar con tecnología, sino que también adquirimos una apreciación más profunda de las estructuras que sustentan nuestro mundo digital.
+
+---
+
+## Referencias
+
+[^1]: Boole, G. (1854). *An Investigation of the Laws of Thought*. Londres: Walton and Maberly.
+[^2]: Tanenbaum, A. (2012). *Estructura de Computadoras*. Buenos Aires: Prentice Hall.
+[^3]: Minsky, M. (1967). *Computation: Finite and Infinite Machines*. Buenos Aires: Prentice-Hall.

@@ -7,6 +7,8 @@ title: "Functions"
 description: "Functions are a fundamental concept in programming, allowing for code reusability and modular design. In this article, we'll explore what functions are, their various components, and how to use them, with examples in Python. These principles, however, are widely applicable across many programming languages."
 date: 2023-03-17
 tags: ["intro", "programming", "functions", "methods"]
+images:
+  - /images/banners/programming-course.en.png
 ---
 
 ## What are functions?

@@ -7,6 +7,8 @@ title: "Control Flow"
 description: "Control flow refers to the order in which the statements, instructions, or function calls of an application are executed. Understanding control flow is crucial in programming, as it enables the creation of dynamic, responsive code. This article will cover the essential aspects of control flow, using Python for examples, but the principles apply to many programming languages."
 date: 2023-03-15
 tags: ["intro", "programming", "control-flow", "conditionals", "if", "loops", "for", "while"]
+images:
+  - /images/banners/programming-course.en.png
 ---
 
 ## Conditional statements

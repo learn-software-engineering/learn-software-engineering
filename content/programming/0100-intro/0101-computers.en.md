@@ -7,6 +7,8 @@ title: "The essence of computers"
 description: "In today's digital age, where electronic gadgets seamlessly integrate into our daily lives, understanding the bedrock upon which these marvels stand becomes not just an academic interest but a societal necessity. As we embark on this enlightening voyage into the heart of computers, we aim to demystify the intricate dance between the physical and the abstract, between the tangible hardware and the intangible software."
 date: 2023-09-13
 tags: ["intro", "programming", "computer", "hardware", "software", "cpu", "memory"]
+images:
+  - /images/banners/programming-course.en.png
 ---
 
 To the uninitiated, a computer might seem like a mere box—perhaps sometimes sleek and shiny—but a box nonetheless. Yet, within this "*box*" lies a universe of complexity and coordination.

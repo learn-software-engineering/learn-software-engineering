@@ -19,12 +19,12 @@ The factorial of a positive integer {{< katex formula="n" inline=true />}} is th
 
 Here's the Python code for calculating factorial using recursion:
 
-{{< highlight python >}}
+```python
 def factorial(n):
     if n == 1:
         return 1
     return n * factorial(n-1)
-{{</highlight >}}
+```
 
 1. **Base Case**: The base case is the simplest, smallest instance of the problem that can be answered directly. For the factorial, when {{< katex formula="n = 1" inline=true />}}, the result is {{< katex formula="1" inline=true />}}.
 
@@ -51,7 +51,7 @@ The final result is {{< katex formula="120" inline=true />}}, which is the value
 
 Here's a visual representation of the call stack:
 
-{{< highlight python >}}
+```python
 factorial(5)
   -> factorial(4)
     -> factorial(3)
@@ -62,7 +62,7 @@ factorial(5)
       return 6
     return 24
   return 120
-{{</highlight >}}
+```
 
 ## Tail Recursion
 
@@ -72,12 +72,12 @@ The Fibonacci sequence is a series of numbers where each number is the sum of th
 
 Here's the Python code for calculating the {{< katex formula="n^th" inline=true />}} Fibonacci number using tail recursion:
 
-{{< highlight python >}}
+```python
 def fibonacci(n, a=0, b=1):
     if n == 0:
         return a
     return fibonacci(n-1, b, a+b)
-{{</highlight >}}
+```
 
 The function takes three parameters:
 
@@ -105,7 +105,7 @@ The result is {{< katex formula="5" inline=true />}}, which is the {{< katex for
 
 Here's a visual representation of the call stack:
 
-{{< highlight python >}}
+```python
 fibonacci(5, 0, 1)
   -> fibonacci(4, 1, 1)
     -> fibonacci(3, 1, 2)
@@ -113,7 +113,7 @@ fibonacci(5, 0, 1)
         -> fibonacci(1, 3, 5)
           -> fibonacci(0, 5, 8)
             return 5
-{{</highlight >}}
+```
 
 ## Advantages and disadvantages
 

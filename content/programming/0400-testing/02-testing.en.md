@@ -36,7 +36,7 @@ Python provides several frameworks for writing and running tests, with `unittest
 
 `unittest` is a built-in Python module for creating test cases. Here's an example that tests a simple function for adding two numbers:
 
-{{< highlight python >}}
+```python
 import unittest
 
 def add(x, y):
@@ -48,15 +48,15 @@ class TestAddition(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-{{</highlight >}}
+```
 
 This code defines a test case that checks if the `add` function returns 7 when called with the arguments 3 and 4.
 
 You can run the tests using the following command:
 
-{{< highlight bash >}}
+```bash
 python test_filename.py
-{{</highlight >}}
+```
 
 ## Test-Driven Development (TDD)
 

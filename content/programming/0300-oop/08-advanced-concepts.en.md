@@ -18,7 +18,7 @@ Multithreading is the concurrent execution of two or more threads. A thread is t
 
 Python’s `threading` module can be used to create and manage threads.
 
-{{< highlight python >}}
+```python
 import threading
 
 def print_numbers():
@@ -39,7 +39,7 @@ thread1.join()
 thread2.join()
 
 print("Threads completed")
-{{</highlight >}}
+```
 
 ## b. Generics/Templates
 
@@ -47,7 +47,7 @@ Generics, also known as templates in some languages, allow classes, interfaces, 
 
 Python is dynamically typed, so generics are less rigid. However, type hints can be used to achieve similar results.
 
-{{< highlight python >}}
+```python
 from typing import List
 
 def display_numbers(numbers: List[int]) -> None:
@@ -55,7 +55,7 @@ def display_numbers(numbers: List[int]) -> None:
         print(number)
 
 display_numbers([1, 2, 3])
-{{</highlight >}}
+```
 
 ## c. Reflection
 
@@ -63,7 +63,7 @@ Reflection is the ability of a program to examine and modify its own structure a
 
 Python allows for reflection through functions like `getattr`, `setattr`, and `type`.
 
-{{< highlight python >}}
+```python
 class Example:
     def __init__(self, value):
         self.value = value
@@ -71,7 +71,7 @@ class Example:
 obj = Example("hello")
 attr_value = getattr(obj, 'value')
 print(attr_value) # Output: hello
-{{</highlight >}}
+```
 
 ## d. Serialization and deserialization
 
@@ -79,13 +79,13 @@ Serialization is the process of converting an object into a format that can be e
 
 Python’s `pickle` module can be used for serialization and deserialization.
 
-{{< highlight python >}}
+```python
 import pickle
 
 data = {"key": "value"}
 serialized_data = pickle.dumps(data)
 deserialized_data = pickle.loads(serialized_data)
-{{</highlight >}}
+```
 
 ## e. Dependency injection
 
@@ -93,7 +93,7 @@ Dependency Injection (DI) is a design pattern where objects are passed as depend
 
 Using DI in Python might look like this:
 
-{{< highlight python >}}
+```python
 class Engine:
     pass
 
@@ -103,7 +103,7 @@ class Car:
 
 engine = Engine()
 car = Car(engine)
-{{</highlight >}}
+```
 
 ## Conclusion
 

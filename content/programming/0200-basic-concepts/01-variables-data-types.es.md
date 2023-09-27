@@ -17,27 +17,27 @@ Una variable es un contenedor para almacenar datos en la memoria de la computado
 
 Para declarar una variable en Python solo escribimos el nombre y le asignamos un valor:
 
-{{< highlight python >}}
+```python
 edad = 28
 precio = 19.95
 soltero = True
-{{</highlight >}}
+```
 
 Los nombres de variables deben comenzar con letras o guión bajo, y sólo pueden contener letras, números y guiones bajos. Se recomienda usar nombres significativos que representen el propósito de la variable.
 
 En Python las variables no necesitan ser declaradas con un tipo particular. El tipo se infiere automáticamente al asignar el valor:
 
-{{< highlight python >}}
+```python
 edad = 28 # edad es de tipo entero (int)
 precio = 19.95 # precio es de tipo float
 estudiante = True # soltero es de tipo booleano
-{{</highlight >}}
+```
 
 Una vez asignada, una variable puede cambiar su valor en cualquier momento:
 
-{{< highlight python >}}
+```python
 edad = 30 # Cambiamos edad a 30
-{{</highlight >}}
+```
 
 ### Alcance y tiempo de vida
 
@@ -49,17 +49,17 @@ El **tiempo de vida** es el período durante el cual existe la variable en memor
 
 La asignación con el operador `=` permite cambiar o inicializar el valor de una variable:
 
-{{< highlight python >}}
+```python
 numero = 10
 numero = 20 # Ahora numero vale 20
-{{</highlight >}}
+```
 
 También existen los operadores de asignación compuesta como `+=` y `-=` que combinan una operación y asignación:
 
-{{< highlight python >}}
+```python
 numero += 5 # Suma 5 a numero (numero = numero + 5)
 numero -= 2 # Resta 2 a numero
-{{</highlight >}}
+```
 
 ## Tipos de datos
 
@@ -67,44 +67,44 @@ Los tipos de datos definen el tipo de valor que puede almacenar una variable. Py
 
 **Numéricos**: Para almacenar valores numéricos como enteros, flotantes, complejos:
 
-{{< highlight python >}}
+```python
 entero = 10
 flotante = 10.5
 complejo = 3 + 4j
-{{</highlight >}}
+```
 
 **Cadenas**: Para almacenar texto:
 
-{{< highlight python >}}
+```python
 texto = "Hola Mundo"
-{{</highlight >}}
+```
 
 **Booleano**: Para valores lógicos Verdadero o Falso:
 
-{{< highlight python >}}
+```python
 variable_verdadera = True
 variable_falsa = False
-{{</highlight >}}
+```
 
 **Colecciones**: Para almacenar múltiples valores como listas, tuplas y diccionarios:
 
 - **Listas**: Secuencias mutables de valores:
 
-  {{< highlight python >}}
+  ```python
   lista = [1, 2, 3]
-  {{</highlight >}}
+  ```
 
 - **Tuplas**: Secuencias inmutables de valores:
 
-  {{< highlight python >}}
+  ```python
   tupla = (1, 2, 3)
-  {{</highlight >}}
+  ```
 
 - **Diccionarios**: Estructuras de pares llave-valor:
 
-  {{< highlight python >}}
+  ```python
   diccionario = {"nombre":"Juan", "edad": 20}
-  {{</highlight >}}
+  ```
 
 Es importante elegir el tipo de dato que mejor represente la información que queremos almacenar.
 
@@ -122,7 +122,7 @@ Los operadores nos permiten realizar operaciones con valores y variables en Pyth
 
 Veamos ejemplos concretos de expresiones usando estos operadores en Python:
 
-{{< highlight python >}}
+```python
 # Aritméticos
 5 + 4 # Suma, resultado 9
 10 - 3 # Resta, resultado 7
@@ -140,7 +140,7 @@ not True # Resultado False
 # Asignación
 numero = 10
 numero += 5 # Suma 5 a numero, equivalente a numero = numero + 5
-{{</highlight >}}
+```
 
 Cada tipo de operador trabaja con tipos de datos específicos. Debemos usarlos de forma consistente según el tipo de datos de nuestras variables.
 
@@ -150,30 +150,30 @@ A veces necesitamos convertir un tipo de dato a otro para realizar ciertas opera
 
 **Explícita**: Usando funciones como `int()`, `float()`, `str()`:
 
-{{< highlight python >}}
+```python
 flotante = 13.5
 entero = int(flotante) # convierte 13.5 a 13
 
 texto = "100"
 numero = int(texto) # convierte "100" a 100
-{{</highlight >}}
+```
 
 **Implícita**: Python convierte automáticamente en algunos casos:
 
-{{< highlight python >}}
+```python
 entero = 100
 flotante = 3.5
 resultado = entero + flotante # resultado es 103.5, entero se convirtió a float
-{{</highlight >}}
+```
 
 Algunas conversiones pueden generar pérdida de datos o errores:
 
-{{< highlight python >}}
+```python
 flotante = 13.5
 entero = int(flotante)
 
 print(entero) # 13, se pierden los decimales
-{{</highlight >}}
+```
 
 Para prevenir esto debemos elegir explícitamente conversiones que tengan sentido para nuestros datos.
 

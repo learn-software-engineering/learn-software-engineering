@@ -19,19 +19,19 @@ If we need to revert multiple commits we can revert them one by one using the `-
 
 Imagine the history is like the following and we need to go back to `COMMIT-3`.
 
-{{< highlight bash >}}
+```bash
 COMMIT-1 -> COMMIT-2 -> COMMIT-3 -> COMMIT-4 -> COMMIT-5 -> COMMIT-6 -> HEAD
-{{</highlight >}}
+```
 
 This sequence of commands will get our files to the version of `COMMIT-3`:
 
-{{< highlight bash >}}
+```bash
 bash-3.2$  git revert --no-commit COMMIT-6
 bash-3.2$  git revert --no-commit COMMIT-5
 bash-3.2$  git revert --no-commit COMMIT-4
 bash-3.2$  git commit -m "Revert to version in COMMIT-3"
 bash-3.2$  git push
-{{</highlight >}}
+```
 
 ## Reverting a merge commit
 
@@ -48,7 +48,7 @@ Here there is an example showing how to revert a merge commit.
 
 Create the first commit in `main` branch.
 
-{{< highlight bash >}}
+```bash
 bash-3.2$  cat README.md
 # Index
 
@@ -68,11 +68,11 @@ To github.com:jnonino/test-repo.git
  * [new branch]      main -> main
 branch 'main' set up to track 'origin/main'.
 bash-3.2$
-{{</highlight >}}
+```
 
 The state of the `README.md` file in `main` branch.
 
-{{< highlight bash >}}
+```bash
 bash-3.2$git status
 On branch main
 Your branch is up to date with 'origin/main'.
@@ -83,11 +83,11 @@ bash-3.2$  cat README.md
 # Index
 
 1
-{{</highlight >}}
+```
 
 Branch `feature-1` created and added one commit.
 
-{{< highlight bash >}}
+```bash
 bash-3.2$  git checkout -b feature-1
 Switched to a new branch 'feature-1'
 bash-3.2$
@@ -116,11 +116,11 @@ To github.com:jnonino/test-repo.git
  * [new branch]      feature-1 -> feature-1
 branch 'feature-1' set up to track 'origin/feature-1'.
 bash-3.2$
-{{</highlight >}}
+```
 
 The state of `README.md` in the `feature-1` branch.
 
-{{< highlight bash >}}
+```bash
 bash-3.2$  git status
 On branch feature-1
 Your branch is up to date with 'origin/feature-1'.
@@ -132,11 +132,11 @@ bash-3.2$  cat README.md
 
 1
 2
-{{</highlight >}}
+```
 
 Merge the `feature-1` branch into the `main` branch.
 
-{{< highlight bash >}}
+```bash
 bash-3.2$  git checkout main
 Switched to branch 'main'
 Your branch is up to date with 'origin/main'.
@@ -154,11 +154,11 @@ Total 1 (delta 0), reused 0 (delta 0), pack-reused 0
 To github.com:jnonino/test-repo.git
    23644da..e2f6d08  main -> main
 bash-3.2$
-{{</highlight >}}
+```
 
 Current state of `README.md` in `main` branch.
 
-{{< highlight bash >}}
+```bash
 bash-3.2$  git status
 On branch main
 Your branch is up to date with 'origin/main'.
@@ -170,11 +170,11 @@ bash-3.2$  cat README.md
 
 1
 2
-{{</highlight >}}
+```
 
 `git log` after merging `feature-1` into `main` branch.
 
-{{< highlight bash >}}
+```bash
 commit e2f6d08d3b38a02a1c026cfb879f3131536757ac (HEAD -> main, origin/main)
 Merge: 23644da 83ea1a3
 Author: Julian Nonino <learn.software.eng+jnonino@gmail.com>
@@ -193,18 +193,18 @@ Author: Julian Nonino <learn.software.eng+jnonino@gmail.com>
 Date:   Wed Jan 18 19:48:37 2023 -0300
 
     Add number 1 in README.md - main branch
-{{</highlight >}}
+```
 
 To revert the merge commit, as it was stated above we need to pay attention to the `merge` field.
 
-{{< highlight bash >}}
+```bash
 Merge: 23644da 83ea1a3
-{{</highlight >}}
+```
 
 Running `git revert e2f6d08 -m 1` will reinstate the tree as it was in `23644da`, and `git revert e2f6d08 -m 2` will set the tree as it was in `83ea1a3`.
 In this example we would like to leave the `main` branch as it was before the merge commit. For doing that, we need to run `git revert e2f6d08 -m 1`.
 
-{{< highlight bash >}}
+```bash
 bash-3.2$  git revert e2f6d08 -m 1
 [main 866bfa8] Revert "Merge branch 'feature-1'"
  1 file changed, 1 deletion(-)
@@ -223,11 +223,11 @@ Writing objects: 100% (3/3), 344 bytes | 344.00 KiB/s, done.
 Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 To github.com:jnonino/test-repo.git
    e2f6d08..866bfa8  main -> main
-{{</highlight >}}
+```
 
 `git log` after reverting the merge commit.
 
-{{< highlight bash >}}
+```bash
 commit 866bfa8a952d11240707ebfc87f3266034d42443 (HEAD -> main, origin/main)
 Author: Julian Nonino <learn.software.eng+jnonino@gmail.com>
 Date:   Wed Jan 18 20:06:40 2023 -0300
@@ -255,11 +255,11 @@ Author: Julian Nonino <learn.software.eng+jnonino@gmail.com>
 Date:   Wed Jan 18 19:48:37 2023 -0300
 
     Add number 1 in README.md - main branch
-{{</highlight >}}
+```
 
 Current state of `README.md` in `main` branch.
 
-{{< highlight bash >}}
+```bash
 bash-3.2$  git status
 On branch main
 Your branch is up to date with 'origin/main'.
@@ -270,4 +270,4 @@ bash-3.2$  cat README.md
 # Index
 
 1
-{{</highlight >}}
+```

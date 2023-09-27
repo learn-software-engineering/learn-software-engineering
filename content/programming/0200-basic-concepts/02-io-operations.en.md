@@ -17,38 +17,38 @@ Python provides built-in functions to read data entered by the user at runtime. 
 
 The `input()` function allows reading a value entered by the user and assigning it to a variable. For example:
 
-{{< highlight python >}}
+```python
 name = input("Enter your name: ")
-{{</highlight >}}
+```
 
 This displays the message "Enter your name: " and waits for the user to enter text and press Enter. That value is assigned to the `name` variable (Lutz, 2013).
 
 The `input()` function always returns a string. If we want to ask for a number or other data type, we must convert it using `int()`, `float()`, etc (McKinney, 2018):
 
-{{< highlight python >}}
+```python
 age = int(input("Enter your age: "))
 pi = float(input("Enter the value of pi: "))
-{{</highlight >}}
+```
 
 ### Reading Multiple Values
 
 We can ask for and read multiple values on the same line separating them with commas (Matthes, 2015):
 
-{{< highlight python >}}
+```python
 name, age = input("Enter name and age: ").split()
-{{</highlight >}}
+```
 
 The `split()` method divides the input into parts and returns a list of strings. We then assign the list elements to separate variables.
 
 We can also read multiple lines of input with a loop (Downey, 2015):
 
-{{< highlight python >}}
+```python
 names = [] # empty list
 
 for x in range(3):
    name = input("Enter a name: ")
    names.append(name)
-{{</highlight >}}
+```
 
 This code reads 3 names entered by the user and adds them to a list.
 
@@ -58,22 +58,22 @@ Python also provides functions to send program output to "standard output", usua
 
 The `print()` function displays the value passed as a parameter:
 
-{{< highlight python >}}
+```python
 name = "Eric"
 print(name) # displays "Eric"
-{{</highlight >}}
+```
 
 We can print multiple values separated by commas (Lutz, 2013):
 
-{{< highlight python >}}
+```python
 print("Hello", name, "!") # displays "Hello Eric!"
-{{</highlight >}}
+```
 
 We can also use literal values without assigning to variables (Matthes, 2015):
 
-{{< highlight python >}}
+```python
 print("2 + 3 =", 2 + 3) # displays "2 + 3 = 5"
-{{</highlight >}}
+```
 
 ### Output Formatting
 
@@ -81,32 +81,32 @@ Python provides various ways to format output (Downey, 2015):
 
 **f-Strings**: Allow inserting variables into a string:
 
-{{< highlight python >}}
+```python
 name = "Eric"
 print(f"Hello {name}") # displays "Hello Eric"
-{{</highlight >}}
+```
 
 **%s**: Inserts string text into a format string:
 
-{{< highlight python >}}
+```python
 name = "Eric"
 print("Hello %s" % name) # displays "Hello Eric"
-{{</highlight >}}
+```
 
 **%d**: Inserts integer numbers:
 
-{{< highlight python >}}
+```python
 value = 15
 print("The value is %d" % value) # displays "The value is 15"
-{{</highlight >}}
+```
 
 **.format()**: Inserts values into a format string:
 
-{{< highlight python >}}
+```python
 name = "Eric"
 print("Hello {}. Welcome".format(name))
 # displays "Hello Eric. Welcome"
-{{</highlight >}}
+```
 
 These formatting options allow us to interpolate variables and values into text strings to generate custom outputs. We can combine multiple values and formats in a single output string (Lutz, 2013).
 
@@ -114,58 +114,58 @@ These formatting options allow us to interpolate variables and values into text 
 
 In addition to printing to the screen, we can write output to a file using the `open()` function (McKinney, 2018):
 
-{{< highlight python >}}
+```python
 file = open("data.txt", "w")
-{{</highlight >}}
+```
 
 This opens `data.txt` for writing ("w") and returns a file object.
 
 Then we use `file.write()` to write to that file (Matthes, 2015):
 
-{{< highlight python >}}
+```python
 file.write("Hello World!")
 file.write("This text goes to the file")
-{{</highlight >}}
+```
 
 We must close the file with `file.close()` when finished (Downey, 2015):
 
-{{< highlight python >}}
+```python
 file.close()
-{{</highlight >}}
+```
 
 We can also use `with` to open and automatically close:
 
-{{< highlight python >}}
+```python
 with open("data.txt", "w") as file:
    file.write("Hello World!")
    # no need to close, it's automatic
-{{</highlight >}}
+```
 
 ## Reading Files
 
 To read a file we use `open()` in "r" mode and iterate over the file object (McKinney, 2018):
 
-{{< highlight python >}}
+```python
 with open("data.txt", "r") as file:
    for line in file:
       print(line) # prints each line of the file
-{{</highlight >}}
+```
 
 This prints each line, including newlines.
 
 We can read all lines to a list with `readlines()` (Matthes, 2015):
 
-{{< highlight python >}}
+```python
 lines = file.readlines()
 print(lines)
-{{</highlight >}}
+```
 
 To read the full content to a string we use `read()` (Downey, 2015):
 
-{{< highlight python >}}
+```python
 text = file.read()
 print(text)
-{{</highlight >}}
+```
 
 We can also read a specific number of bytes or characters with `read(n)` (Lutz, 2013).
 

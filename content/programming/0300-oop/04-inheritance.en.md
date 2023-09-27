@@ -30,7 +30,7 @@ A derived class, or child class, inherits properties from the base class. It may
 
 Here's a simple example in Python:
 
-{{< highlight python >}}
+```python
 class Animal:           # Base class
     def eat(self):
         print("Eating...")
@@ -38,7 +38,7 @@ class Animal:           # Base class
 class Dog(Animal):      # Derived class
     def bark(self):
         print("Barking...")
-{{</highlight >}}
+```
 
 `Dog` is a derived class that inherits the `eat` method from the base class `Animal`.
 
@@ -48,11 +48,11 @@ In OOP, a subclass can provide a specific implementation of a method that is alr
 
 Example in Python:
 
-{{< highlight python >}}
+```python
 class Bird(Animal):
     def eat(self):
         print("Pecking seeds...")  # This overrides the eat method in Animal
-{{</highlight >}}
+```
 
 ## "is-a" relationship
 
@@ -62,7 +62,7 @@ Inheritance establishes an "is-a" relationship between the base and derived clas
 
 Here's a more comprehensive example in Python demonstrating multiple aspects of inheritance:
 
-{{< highlight python >}}
+```python
 class Person:                   # Base class
     def __init__(self, name):
         self.name = name
@@ -80,7 +80,7 @@ class Student(Person):          # Derived class
 
 student = Student("Alice", 42)
 student.display()  # Output: I am Alice, and my roll number is 42.
-{{</highlight >}}
+```
 
 In this example, `Student` is a derived class that inherits from the `Person` base class. It overrides the `display` method and calls the constructor of the base class using `super()`.
 

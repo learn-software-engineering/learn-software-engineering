@@ -17,27 +17,27 @@ A variable is a container to store data in the computer's memory. We can think o
 
 To declare a variable in Python we just write the name and assign a value:
 
-{{< highlight python >}}
+```python
 age = 28
 price = 19.95
 student = True
-{{</highlight >}}
+```
 
 Variable names must start with letters or underscore, and can only contain letters, numbers and underscores. It is recommended to use meaningful names that represent the purpose of the variable.
 
 In Python variables do not need to be declared with a particular type. The type is inferred automatically when assigning the value:
 
-{{< highlight python >}}
+```python
 age = 28 # age is integer type
 price = 19.95 # price is float type
 single = True # single is boolean type
-{{</highlight >}}
+```
 
 Once assigned, a variable can change its value at any time:
 
-{{< highlight python >}}
+```python
 age = 30 # We change age to 30
-{{</highlight >}}
+```
 
 ### Scope and Lifetime
 
@@ -49,17 +49,17 @@ The **lifetime** is the period during which the variable exists in memory. Local
 
 Assignment with the `=` operator allows changing or initializing a variable's value:
 
-{{< highlight python >}}
+```python
 number = 10
 number = 20 # Now number is 20
-{{</highlight >}}
+```
 
 There are also compound assignment operators like `+=` and `-=` that combine an operation with assignment:
 
-{{< highlight python >}}
+```python
 number += 5 # Adds 5 to number (number = number + 5)
 number -= 2 # Subtracts 2 from number
-{{</highlight >}}
+```
 
 ## Data Types
 
@@ -67,44 +67,44 @@ Data types define what kind of value a variable can store. Python has several bu
 
 **Numerical**: To store integer, float, and complex numeric values:
 
-{{< highlight python >}}
+```python
 integer = 10
 float = 10.5
 complex = 3 + 4j
-{{</highlight >}}
+```
 
 **Strings**: To store text:
 
-{{< highlight python >}}
+```python
 text = "Hello World"
-{{</highlight >}}
+```
 
 **Boolean**: For True or False logical values:
 
-{{< highlight python >}}
+```python
 true_variable = True
 false_variable = False
-{{</highlight >}}
+```
 
 **Collections**: To store multiple values like lists, tuples and dictionaries:
 
 - **Lists**: Mutable sequences of values:
 
-  {{< highlight python >}}
+  ```python
   list = [1, 2, 3]
-  {{</highlight >}}
+  ```
 
 - **Tuples**: Immutable sequences of values:
 
-  {{< highlight python >}}
+  ```python
   tuple = (1, 2, 3)
-  {{</highlight >}}
+  ```
 
 - **Dictionaries**: Key-value pair structures:
 
-  {{< highlight python >}}
+  ```python
   dictionary = {"name":"John", "age": 20}
-  {{</highlight >}}
+  ```
 
 It is important to choose the data type that best represents the information we want to store.
 
@@ -122,7 +122,7 @@ Operators allow us to perform operations with values and variables in Python. So
 
 Let's see concrete examples of expressions using these operators in Python:
 
-{{< highlight python >}}
+```python
 # Arithmetic
 5 + 4 # Addition, result 9
 10 - 3 # Subtraction, result 7
@@ -140,7 +140,7 @@ not True # Result False
 # Assignment
 number = 10
 number += 5 # Adds 5 to number, equivalent to number = number + 5
-{{</highlight >}}
+```
 
 Each type of operator works with specific data types. We must use them consistently according to our variable data types.
 
@@ -150,30 +150,30 @@ Sometimes we need to convert one data type to another to perform certain operati
 
 **Explicit**: Using functions like `int()`, `float()`, `str()`:
 
-{{< highlight python >}}
+```python
 float = 13.5
 integer = int(float) # converts 13.5 to 13
 
 text = "100"
 number = int(text) # converts "100" to 100
-{{</highlight >}}
+```
 
 **Implicit**: Python automatically converts in some cases:
 
-{{< highlight python >}}
+```python
 integer = 100
 float = 3.5
 result = integer + float # result is 103.5, integer converted to float
-{{</highlight >}}
+```
 
 Some conversions can generate data loss or errors:
 
-{{< highlight python >}}
+```python
 float = 13.5
 integer = int(float)
 
 print(integer) # 13, decimals are lost
-{{</highlight >}}
+```
 
 To prevent this we must explicitly choose conversions that make sense for our data.
 

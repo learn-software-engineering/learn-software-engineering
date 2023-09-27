@@ -29,7 +29,7 @@ The main purposes of abstraction are:
 
 In Python, abstraction can be implemented using the `abc` module. Here's how you can create an abstract class:
 
-{{< highlight python >}}
+```python
 from abc import ABC, abstractmethod
 
 class Shape(ABC):
@@ -47,7 +47,7 @@ class Circle(Shape):
 shape = Shape() # TypeError: Can't instantiate abstract class Shape with abstract methods area
 circle = Circle(5)
 print(circle.area()) # Output: 78.5
-{{</highlight >}}
+```
 
 In this example, `Shape` is an abstract class with an abstract method `area`. Any subclass of `Shape` must provide an implementation of this method.
 
@@ -55,7 +55,7 @@ In this example, `Shape` is an abstract class with an abstract method `area`. An
 
 ### Using abstract classes
 
-{{< highlight java >}}
+```java
 abstract class Shape {
     abstract double area();
 }
@@ -71,7 +71,7 @@ class Circle extends Shape {
         return 3.14 * radius * radius;
     }
 }
-{{</highlight >}}
+```
 
 In Java, you define an abstract class using the `abstract` keyword, and any method without a body must also be marked as `abstract`.
 
@@ -79,7 +79,7 @@ In Java, you define an abstract class using the `abstract` keyword, and any meth
 
 In Java, an interface can be used to define a contract that classes must adhere to. Here's an example:
 
-{{< highlight java >}}
+```java
 interface Shape {
     double area();
 }
@@ -95,7 +95,7 @@ class Circle implements Shape {
         return 3.14 * radius * radius;
     }
 }
-{{</highlight >}}
+```
 
 In this example, the `Shape` interface defines an `area` method that must be implemented by any class that implements the interface. The `Circle` class implements the `Shape` interface and provides an implementation for the `area` method.
 

@@ -25,36 +25,36 @@ Error handling is the process of detecting and managing errors in a program. In 
 
 A `try` block contains code that might cause an error, and an `except` block contains code that handles the error.
 
-{{< highlight python >}}
+```python
 try:
     result = 10 / 0
 except ZeroDivisionError:
     print("Cannot divide by zero.")
-{{</highlight >}}
+```
 
 You can handle multiple exceptions by using multiple `except` blocks.
 
-{{< highlight python >}}
+```python
 try:
     result = 10 / 'a'
 except ZeroDivisionError:
     print("Cannot divide by zero.")
 except TypeError:
     print("Unsupported operation.")
-{{</highlight >}}
+```
 
 ### The Finally block
 
 A `finally` block contains code that runs whether an error occurred or not.
 
-{{< highlight python >}}
+```python
 try:
     result = 10 / 5
 except ZeroDivisionError:
     print("Cannot divide by zero.")
 finally:
     print("This will always run.")
-{{</highlight >}}
+```
 
 ## Debugging techniques
 
@@ -62,11 +62,11 @@ Debugging is the process of finding and fixing errors in code.
 
 Inserting print statements at various points in your code can help you track the flow of execution and the values of variables.
 
-{{< highlight python >}}
+```python
 def divide(a, b):
     print(f"Dividing {a} by {b}")
     return a / b
-{{</highlight >}}
+```
 
 Modern IDEs provide debuggers that allow you to step through your code, inspect variables, and set breakpoints.
 

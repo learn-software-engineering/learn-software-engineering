@@ -17,38 +17,38 @@ Python provee funciones incorporadas para leer datos ingresados por el usuario e
 
 La función `input()` permite leer un valor ingresado por el usuario y asignarlo a una variable. Por ejemplo:
 
-{{< highlight python >}}
+```python
 nombre = input("Ingresa tu nombre: ")
-{{</highlight >}}
+```
 
 Esto muestra el mensaje "Ingresa tu nombre: " y espera a que el usuario escriba un texto y presione Enter. Ese valor se asigna a la variable `nombre` (Lutz, 2013).
 
 La función `input()` siempre regresa una cadena de texto. Si queremos pedir un número u otro tipo de dato, debemos convertirlo usando `int()`, `float()`, etc (McKinney, 2018):
 
-{{< highlight python >}}
+```python
 edad = int(input("Ingresa tu edad: "))
 pi = float(input("Ingresa el valor de pi: "))
-{{</highlight >}}
+```
 
 ### Leyendo Múltiples Valores
 
 Podemos pedir y leer varios valores en una misma línea separándolos con comas (Matthes, 2015):
 
-{{< highlight python >}}
+```python
 nombre, edad = input("Ingresa nombre y edad: ").split()
-{{</highlight >}}
+```
 
 El método `split()` divide la entrada en partes y retorna una lista de cadenas. Luego asignamos los elementos de la lista a variables separadas.
 
 También podemos leer varias líneas de entrada con un ciclo (Downey, 2015):
 
-{{< highlight python >}}
+```python
 nombres = [] # lista vacía
 
 for x in range(3):
    nombre = input("Ingresa un nombre: ")
    nombres.append(nombre)
-{{</highlight >}}
+```
 
 Este código lee 3 nombres ingresados por el usuario y los agrega a una lista.
 
@@ -58,22 +58,22 @@ Python también provee funciones para enviar la salida de un programa a la "sali
 
 La función `print()` muestra el valor pasado como parámetro:
 
-{{< highlight python >}}
+```python
 nombre = "Eric"
 print(nombre) # muestra "Eric"
-{{</highlight >}}
+```
 
 Podemos imprimir múltiples valores separados por comas (Lutz, 2013):
 
-{{< highlight python >}}
+```python
 print("Hola", nombre, "!") # muestra "Hola Eric!"
-{{</highlight >}}
+```
 
 También podemos usar valores literales sin asignar a variables (Matthes, 2015):
 
-{{< highlight python >}}
+```python
 print("2 + 3 =", 2 + 3) # muestra "2 + 3 = 5"
-{{</highlight >}}
+```
 
 ### Formateo de Salida
 
@@ -81,32 +81,32 @@ Python provee varias formas de dar formato a la salida (Downey, 2015):
 
 **f-Strings**: Permiten insertar variables dentro de una cadena:
 
-{{< highlight python >}}
+```python
 nombre = "Eric"
 print(f"Hola {nombre}") # muestra "Hola Eric"
-{{</highlight >}}
+```
 
 **%s**: Inserta cadenas de texto en una cadena de formato:
 
-{{< highlight python >}}
+```python
 nombre = "Eric"
 print("Hola %s" % nombre) # muestra "Hola Eric"
-{{</highlight >}}
+```
 
 **%d**: Inserta números enteros:
 
-{{< highlight python >}}
+```python
 valor = 15
 print("El valor es %d" % valor) # muestra "El valor es 15"
-{{</highlight >}}
+```
 
 **.format()**: Inserta valores en una cadena de formato:
 
-{{< highlight python >}}
+```python
 nombre = "Eric"
 print("Hola {}. Bienvenido".format(nombre))
 # muestra "Hola Eric. Bienvenido"
-{{</highlight >}}
+```
 
 Estas opciones de formateo nos permiten interpolar variables y valores en cadenas de texto para generar outputs personalizados. Podemos combinar múltiples valores y formateos en una sola cadena de salida (Lutz, 2013).
 
@@ -114,58 +114,58 @@ Estas opciones de formateo nos permiten interpolar variables y valores en cadena
 
 Además de imprimir a pantalla, podemos escribir la salida a un archivo usando la función `open()` (McKinney, 2018):
 
-{{< highlight python >}}
+```python
 archivo = open("datos.txt", "w")
-{{</highlight >}}
+```
 
 Esto abre `datos.txt` para escritura ("w") y retorna un objeto archivo.
 
 Luego usamos `archivo.write()` para escribir a ese archivo (Matthes, 2015):
 
-{{< highlight python >}}
+```python
 archivo.write("Hola mundo!")
 archivo.write("Este texto va al archivo")
-{{</highlight >}}
+```
 
 Debemos cerrar el archivo con `archivo.close()` cuando terminamos (Downey, 2015):
 
-{{< highlight python >}}
+```python
 archivo.close()
-{{</highlight >}}
+```
 
 También podemos usar `with` para abrir y cerrar automáticamente (Lutz, 2013):
 
-{{< highlight python >}}
+```python
 with open("datos.txt", "w") as archivo:
    archivo.write("Hola mundo!")
    # no hace falta cerrar, es automático
-{{</highlight >}}
+```
 
 ## Lectura de Archivos
 
 Para leer un archivo usamos `open()` con modo "r" y iteramos sobre el objeto archivo (McKinney, 2018):
 
-{{< highlight python >}}
+```python
 with open("datos.txt", "r") as archivo:
    for linea in archivo:
       print(linea) # muestra cada línea del archivo
-{{</highlight >}}
+```
 
 Esto imprime cada línea, incluyendo los saltos de línea.
 
 Podemos leer todas las líneas a una lista con `readlines()` (Matthes, 2015):
 
-{{< highlight python >}}
+```python
 linenas = archivo.readlines()
 print(linenas)
-{{</highlight >}}
+```
 
 Para leer el contenido completo a una cadena usamos `read()` (Downey, 2015):
 
-{{< highlight python >}}
+```python
 texto = archivo.read()
 print(texto)
-{{</highlight >}}
+```
 
 También podemos leer un número determinado de bytes o caracteres con `read(n)` (Lutz, 2013).
 

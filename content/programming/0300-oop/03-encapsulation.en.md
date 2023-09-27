@@ -28,12 +28,12 @@ In Python, you can define attributes and methods as public, private, or protecte
 - **Private**: Denoted by a double underscore prefix (e.g., `__attribute`). Only accessible within the class.
 - **Protected**: Denoted by a single underscore prefix (e.g., `_attribute`). It's a convention that these attributes shouldn't be accessed outside the class, but they are still technically accessible.
 
-{{< highlight python >}}
+```python
 class Account:
     public_data = "Public"
     _protected_data = "Protected"
     __private_data = "Private"
-{{</highlight >}}
+```
 
 ## Getters and setters
 
@@ -44,7 +44,7 @@ In encapsulation, getters and setters are used to access and modify private attr
 
 Here's how you can define getters and setters in Python:
 
-{{< highlight python >}}
+```python
 class Person:
     def __init__(self, name, age):
         self.__name = name
@@ -57,13 +57,13 @@ class Person:
     # Setter for name
     def set_name(self, name):
         self.__name = name
-{{</highlight >}}
+```
 
 ## Example
 
 Let's take a look at a complete example that demonstrates encapsulation:
 
-{{< highlight python >}}
+```python
 class Student:
     def __init__(self, name, grade):
         self.__name = name
@@ -88,7 +88,7 @@ student = Student("Alice", 90)
 student.display_info()  # Output: Alice has a grade of 90.
 student.set_grade(95)
 student.display_info()  # Output: Alice has a grade of 95.
-{{</highlight >}}
+```
 
 ## Conclusion
 

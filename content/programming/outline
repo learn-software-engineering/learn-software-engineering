@@ -95,3 +95,25 @@ Here's an exhaustive list of topics and subtopics that you might consider for a 
    * Continuous learning and resources
 
 This is a general outline and can be modified based on specific needs. Remember, for beginners, it's often not about covering every single topic but about ensuring a strong foundation and fostering the curiosity to learn more. Good luck with your course!
+
+
+
+
+
+
+
+
+
+
+
+Para articulos siguientes
+
+Sobrecarga de Funciones (Si es relevante para el lenguaje elegido)
+  Definición y utilidad
+  Cómo el compilador/interpretador resuelve la sobrecarga
+  Consideraciones y limitaciones
+Funciones de Orden Superior y Funciones Lambda (Si es relevante para el lenguaje elegido)
+  Definición y ejemplos
+  Uso y aplicaciones: map, filter, reduce, etc.
+  Funciones como objetos de primera clase
+  Cierres (closures) y ámbitos léxicos

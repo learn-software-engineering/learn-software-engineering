@@ -4,9 +4,12 @@ authors: ["jnonino"]
 series: ["Programming"]
 nav_weight: 204
 title: "Algorithms"
+draft: true
 description: "Algorithms are a set of step-by-step procedures or rules performed in a specific order to achieve a particular goal or solve a specific problem. In programming, algorithms form the backbone of effective problem-solving and efficient code execution. In this article, we will explore different aspects of algorithms, using examples in Python, while keeping the explanations as generic as possible."
 date: 2023-03-19
 tags: ["intro", "programming", "algorithms", "sort", "bubble-sort", "search", "binary-search"]
+images:
+  - /images/banners/programming-course.en.png
 ---
 
 ## What is an algorithm?
@@ -15,7 +18,7 @@ An algorithm is a precise sequence of instructions for processes that can be imp
 
 Here's a simple example of an algorithm to find the largest number in a list.
 
-{{< highlight python >}}
+```python
 def find_largest(numbers):
     largest = numbers[0]
     for number in numbers:
@@ -25,7 +28,7 @@ def find_largest(numbers):
 
 numbers = [34, 76, 23, 89, 12]
 print(find_largest(numbers))  # Output: 89
-{{</highlight >}}
+```
 
 ## Types of algorithms
 
@@ -39,7 +42,7 @@ Bubble Sort is a simple sorting algorithm that repeatedly steps through the list
 
 Here's a Python code snippet for Bubble Sort:
 
-{{< highlight python >}}
+```python
 def bubble_sort(arr):
     n = len(arr)
     for i in range(n):
@@ -50,7 +53,7 @@ def bubble_sort(arr):
 numbers = [64, 34, 25, 12, 22]
 bubble_sort(numbers)
 print("Sorted array:", numbers)  # Output: Sorted array: [12, 22, 25, 34, 64]
-{{</highlight >}}
+```
 
 In the code above, the outer loop runs `n` times, where `n` is the length of the array. The inner loop compares adjacent elements and swaps them if they are out of order. After each iteration of the outer loop, the largest unsorted element bubbles up to its correct position, hence the name "Bubble Sort."
 
@@ -64,7 +67,7 @@ Binary Search is an efficient algorithm for finding an item from a sorted list o
 
 Here's a Python code snippet for Binary Search:
 
-{{< highlight python >}}
+```python
 def binary_search(arr, x):
     left, right = 0, len(arr) - 1
     while left <= right:
@@ -76,7 +79,7 @@ def binary_search(arr, x):
         else:
             right = mid - 1
     return -1
-{{</highlight >}}
+```
 
 In the code above:
 - `left` and `right` define the current interval being searched.

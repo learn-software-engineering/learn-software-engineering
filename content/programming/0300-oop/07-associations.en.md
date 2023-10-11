@@ -44,7 +44,7 @@ Unified Modeling Language (UML) diagrams can represent these relationships visua
 
 A `Driver` class that operates a `Car` class.
 
-{{< highlight python >}}
+```python
 class Car:
     pass
 
@@ -55,13 +55,13 @@ class Driver:
 car = Car()
 driver = Driver()
 driver.drive(car)  # Output: Driving the car
-{{</highlight >}}
+```
 
 ### Aggregation
 
 A `Library` class containing a collection of `Book` objects.
 
-{{< highlight python >}}
+```python
 class Book:
     pass
 
@@ -75,13 +75,13 @@ class Library:
 book = Book()
 library = Library()
 library.add_book(book)
-{{</highlight >}}
+```
 
 ### Composition
 
 A `Computer` class containing a `CPU` class, where the CPU cannot exist without the Computer.
 
-{{< highlight python >}}
+```python
 class CPU:
     pass
 
@@ -90,7 +90,7 @@ class Computer:
         self.cpu = CPU() # CPU is created when the Computer is created
 
 computer = Computer()
-{{</highlight >}}
+```
 
 ## Conclusion
 

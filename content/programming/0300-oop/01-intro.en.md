@@ -47,7 +47,7 @@ Now, let's dive into a simple Python example to understand classes and objects.
 
 This is an example of a class definition.
 
-{{< highlight python >}}
+```python
 class Car:
     def __init__(self, brand, model):
         self.brand = brand
@@ -55,16 +55,16 @@ class Car:
 
     def display_info(self):
         print(f"This car is a {self.brand} {self.model}.")
-{{</highlight >}}
+```
 
 Here, `Car` is a class with attributes `brand` and `model`, and a method `display_info`.
 
 from that class, we can create objects as follows.
 
-{{< highlight python >}}
+```python
 my_car = Car("Toyota", "Camry")
 my_car.display_info()  # Output: This car is a Toyota Camry.
-{{</highlight >}}
+```
 
 In this example, `my_car` is an object created from the `Car` class, with attributes set to "Toyota" and "Camry".
 

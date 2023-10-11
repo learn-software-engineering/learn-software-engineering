@@ -25,7 +25,7 @@ Below are examples of three common design patterns implemented in Python.
 
 The Singleton pattern ensures that a class has only one instance and provides a global point of access to that instance.
 
-{{< highlight python >}}
+```python
 class Singleton:
     _instance = None
 
@@ -40,13 +40,13 @@ class Singleton:
             raise Exception("This class is a singleton!")
         else:
             Singleton._instance = self
-{{</highlight >}}
+```
 
 ### Adapter pattern
 
 The Adapter pattern allows incompatible interfaces to work together, wrapping one class with another that has the expected interface.
 
-{{< highlight python >}}
+```python
 class OldSystem:
     def old_method(self):
         return "Old system method"
@@ -57,13 +57,13 @@ class Adapter:
 
     def new_method(self):
         return self.old_system.old_method()
-{{</highlight >}}
+```
 
 ### Observer pattern
 
 The Observer pattern defines a one-to-many dependency between objects, allowing multiple observers to respond to changes in a subject.
 
-{{< highlight python >}}
+```python
 class Subject:
     def __init__(self):
         self._observers = []
@@ -78,7 +78,7 @@ class Subject:
 class Observer:
     def update(self, subject):
         pass
-{{</highlight >}}
+```
 
 ## Conclusion
 

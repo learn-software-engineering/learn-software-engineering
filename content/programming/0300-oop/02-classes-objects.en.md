@@ -18,11 +18,11 @@ Building on our previous introduction to Object-Oriented Programming (OOP), this
 
 A class is a blueprint that defines the structure and behavior of an object. It encapsulates data (attributes) and functions (methods) that operate on the data.
 
-{{< highlight python >}}
+```python
 class Dog:
     def bark(self):
         print("Woof!")
-{{</highlight >}}
+```
 
 Here, `Dog` is a class with a method `bark`.
 
@@ -30,10 +30,10 @@ Here, `Dog` is a class with a method `bark`.
 
 Objects are individual instances created from a class. They contain the data defined in the class and can execute the class's methods.
 
-{{< highlight python >}}
+```python
 my_dog = Dog()
 my_dog.bark()  # Output: Woof!
-{{</highlight >}}
+```
 
 `my_dog` is an object of the class `Dog`, and it can use the `bark` method.
 
@@ -41,10 +41,10 @@ my_dog.bark()  # Output: Woof!
 
 In Python, you can define a class using the `class` keyword followed by the class name and a colon.
 
-{{< highlight python >}}
+```python
 class Person:
     pass
-{{</highlight >}}
+```
 
 This creates an empty class named `Person`.
 
@@ -52,9 +52,9 @@ This creates an empty class named `Person`.
 
 Instantiating a class means creating an object from that class. You can do this by calling the class as if it were a function.
 
-{{< highlight python >}}
+```python
 person = Person()
-{{</highlight >}}
+```
 
 Now, `person` is an instance of the `Person` class.
 
@@ -62,12 +62,12 @@ Now, `person` is an instance of the `Person` class.
 
 A constructor is a special method that gets called when you create an object. In Python, it's defined using the `__init__` method.
 
-{{< highlight python >}}
+```python
 class Cat:
     def __init__(self, name, color):
         self.name = name
         self.color = color
-{{</highlight >}}
+```
 
 This constructor initializes a `Cat` object with a name and color.
 
@@ -75,11 +75,11 @@ This constructor initializes a `Cat` object with a name and color.
 
 A destructor is a method that gets called when an object is destroyed. In Python, it's defined using the `__del__` method.
 
-{{< highlight python >}}
+```python
 class Cat:
     def __del__(self):
         print(f"{self.name} has been deleted.")
-{{</highlight >}}
+```
 
 This destructor prints a message when a `Cat` object is deleted.
 
@@ -87,7 +87,7 @@ This destructor prints a message when a `Cat` object is deleted.
 
 ### Creating and using a class
 
-{{< highlight python >}}
+```python
 class Bike:
     def __init__(self, brand, model):
         self.brand = brand
@@ -98,13 +98,13 @@ class Bike:
 
 my_bike = Bike("Yamaha", "MT-07")
 my_bike.display_info()  # Output: This bike is a Yamaha MT-07.
-{{</highlight >}}
+```
 
 ### Deleting an object
 
-{{< highlight python >}}
+```python
 del my_bike  # This will call the destructor if defined.
-{{</highlight >}}
+```
 
 ## Conclusion
 

@@ -26,7 +26,7 @@ Method overloading occurs when multiple methods in the same class have the same 
 
 In Python, method overloading is handled differently, as you can define a method with optional parameters.
 
-{{< highlight python >}}
+```python
 class Math:
     def add(self, a, b, c=0):
         return a + b + c
@@ -34,13 +34,13 @@ class Math:
 math = Math()
 print(math.add(2, 3))    # Output: 5
 print(math.add(2, 3, 4)) # Output: 9
-{{</highlight >}}
+```
 
 ## Method overriding
 
 Method overriding occurs when a subclass provides a specific implementation of a method that is already defined in its superclass. This is a form of run-time polymorphism.
 
-{{< highlight python >}}
+```python
 class Animal:
     def sound(self):
         print("Some generic animal sound")
@@ -51,7 +51,7 @@ class Dog(Animal):
 
 dog = Dog()
 dog.sound() # Output: Woof!
-{{</highlight >}}
+```
 
 ## Virtual functions
 
@@ -61,7 +61,7 @@ In some languages like C++, a virtual function is used to override a function in
 
 Here's a comprehensive example demonstrating polymorphism in Python:
 
-{{< highlight python >}}
+```python
 class Bird:
     def sound(self):
         print("Tweet")
@@ -78,7 +78,7 @@ cat = Cat()
 
 animal_sound(bird) # Output: Tweet
 animal_sound(cat)  # Output: Meow
-{{</highlight >}}
+```
 
 In this example, the `animal_sound` function is capable of taking any object that has a `sound` method, demonstrating the polymorphic nature of the code.
 

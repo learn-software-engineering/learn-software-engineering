@@ -2,38 +2,6 @@ Certainly! Designing a course on programming from scratch is a wonderful endeavo
 
 Here's an exhaustive list of topics and subtopics that you might consider for a comprehensive course on programming:
 
-**1. Introduction to Programming**
-   * What is programming?
-   * History of programming
-   * Importance and applications
-
-**2. Basics of Computers and How They Work**
-   * Hardware vs. software
-   * Binary system
-   * Memory and storage
-
-**3. Programming Environment Setup**
-   * Choosing a programming language
-   * IDEs and setup
-   * Writing and executing the first program
-
-**4. Basic Programming Concepts**
-   * Variables and data types
-   * Operators
-   * Input and output operations
-   * Typecasting
-
-**5. Control Structures**
-   * Conditional statements (if, else, switch)
-   * Loops (for, while, do-while)
-   * Nesting and scope
-
-**6. Functions/Methods**
-   * Introduction to functions
-   * Parameters and return types
-   * Recursion
-   * Function overloading (if relevant to the chosen language)
-
 **7. Data Structures**
    * Arrays
    * Lists

@@ -1,6 +1,34 @@
-Certainly! Designing a course on programming from scratch is a wonderful endeavor. Keep in mind that the depth and breadth of the topics covered will depend on the intended duration of the course, the target audience, and the primary programming language or environment you'll be using.
+**1. Introduction to Programming**
+   * What is programming?
+   * History of programming
+   * Importance and applications
 
-Here's an exhaustive list of topics and subtopics that you might consider for a comprehensive course on programming:
+**2. Basics of Computers and How They Work**
+   * Hardware vs. software
+   * Binary system
+   * Memory and storage
+
+**3. Programming Environment Setup**
+   * Choosing a programming language
+   * IDEs and setup
+   * Writing and executing the first program
+
+**4. Basic Programming Concepts**
+   * Variables and data types
+   * Operators
+   * Input and output operations
+   * Typecasting
+
+**5. Control Structures**
+   * Conditional statements (if, else, switch)
+   * Loops (for, while, do-while)
+   * Nesting and scope
+
+**6. Functions/Methods**
+   * Introduction to functions
+   * Parameters and return types
+   * Recursion
+   * Function overloading (if relevant to the chosen language)
 
 **7. Data Structures**
    * Arrays
@@ -63,3 +91,25 @@ Here's an exhaustive list of topics and subtopics that you might consider for a 
    * Continuous learning and resources
 
 This is a general outline and can be modified based on specific needs. Remember, for beginners, it's often not about covering every single topic but about ensuring a strong foundation and fostering the curiosity to learn more. Good luck with your course!
+
+
+
+
+
+
+
+
+
+
+
+Para articulos siguientes
+
+Sobrecarga de Funciones (Si es relevante para el lenguaje elegido)
+  Definición y utilidad
+  Cómo el compilador/interpretador resuelve la sobrecarga
+  Consideraciones y limitaciones
+Funciones de Orden Superior y Funciones Lambda (Si es relevante para el lenguaje elegido)
+  Definición y ejemplos
+  Uso y aplicaciones: map, filter, reduce, etc.
+  Funciones como objetos de primera clase
+  Cierres (closures) y ámbitos léxicos

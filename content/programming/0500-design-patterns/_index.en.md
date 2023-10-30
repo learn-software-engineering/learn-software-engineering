@@ -1,4 +1,5 @@
 ---
+draft: true
 type: docs
 title: Design patterns
 nav_weight: 500

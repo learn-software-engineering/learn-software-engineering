@@ -1,4 +1,5 @@
 ---
+draft: true
 type: docs
 title: Patrones de diseño
 nav_weight: 500

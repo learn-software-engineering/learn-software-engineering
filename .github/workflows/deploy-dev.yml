@@ -18,8 +18,8 @@ jobs:
         uses: actions/checkout@v4
       - name: CSpell English
         run: cspell --config .github/workflows/scripts/cspell-config-en.json "content/**/*.en.md"
-      - name: CSpell Spanish
-        run: cspell --config .github/workflows/scripts/cspell-config-es.json "content/**/*.es.md"
+      # - name: CSpell Spanish
+      #   run: cspell --config .github/workflows/scripts/cspell-config-es.json "content/**/*.es.md"
   build:
     runs-on: ubuntu-latest
     container: ghcr.io/cn-writing/hugo

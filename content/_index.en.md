@@ -1,7 +1,7 @@
 ---
 title: "Learn-Software.com"
 description:
-date: 2022-09-24T18:24:31+08:00
+date: 2022-09-06
 draft: false
 layout: landing
 header:

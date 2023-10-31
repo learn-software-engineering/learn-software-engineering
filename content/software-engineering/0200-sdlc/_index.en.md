@@ -1,4 +1,5 @@
 ---
+draft: true
 type: docs
 title: Software Development Life Cycle (SDLC)
 nav_weight: 200

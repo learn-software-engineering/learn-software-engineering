@@ -4,7 +4,7 @@ go 1.20
 
 require (
 	github.com/GoogleChrome/workbox v7.0.0+incompatible // indirect
-	github.com/KaTeX/KaTeX v0.16.8 // indirect
+	github.com/KaTeX/KaTeX v0.16.9 // indirect
 	github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 // indirect
 	github.com/hbstack/base v0.2.1 // indirect
 	github.com/hbstack/blog/modules/disqus v0.1.11 // indirect

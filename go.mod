@@ -84,6 +84,7 @@ require (
 	github.com/hugomods/idb-js v0.1.0 // indirect
 	github.com/hugomods/images v0.8.0 // indirect
 	github.com/hugomods/katex v0.3.0 // indirect
+	github.com/hugomods/lucide-icons v0.291.0 // indirect
 	github.com/hugomods/mermaid v0.1.1 // indirect
 	github.com/hugomods/pwa v0.4.0 // indirect
 	github.com/hugomods/search v0.5.0 // indirect

@@ -1,10 +1,10 @@
 ---
 draft: true
 type: docs
-title: Data structures II
-nav_weight: 700
+title: Algoritmos I
+nav_weight: 500
 nav_icon:
   vendor: bootstrap
   name: file-code
-  color: 'green'
+  color: 'yellow'
 ---

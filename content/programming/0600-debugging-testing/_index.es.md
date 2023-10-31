@@ -6,5 +6,5 @@ nav_weight: 600
 nav_icon:
   vendor: bootstrap
   name: bug
-  color: 'red'
+  color: 'purple'
 ---

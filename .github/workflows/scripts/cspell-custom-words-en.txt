@@ -1,0 +1,8 @@
+bootcamps
+creational
+cyclomatic
+Cyclomatic
+incrementality
+roadmap
+subproblems
+transformative

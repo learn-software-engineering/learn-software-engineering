@@ -9,5 +9,7 @@ incrementality
 objetos
 programación
 roadmap
+sidelining
+subclassed
 subproblems
 transformative

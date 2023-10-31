@@ -9,6 +9,7 @@ github.com/hbstack/base v0.2.1/go.mod h1:6SqazoH3UBSuwSHV1kyEDWcIJg+Cef++w8p45VS
 github.com/hbstack/blog v0.15.7 h1:B+uKSPfrJgBgXfqZNzCCV3OsCBOgdeeZ+DIuccLpnoc=
 github.com/hbstack/blog/modules/disqus v0.1.11 h1:zSnApkwgx2B4OIoB3zQ1dUDTeLjiDpyXCABgK5BcxJQ=
 github.com/hbstack/blog/modules/disqus v0.1.11/go.mod h1:3bx5bgH4pHr+b2TgW2nxEUejpvrr0ngpRro4OeMrmL4=
+github.com/hbstack/blog/modules/disqus v0.1.19/go.mod h1:/UrJpL/0thUReAoHmAP1TYDlm41Lk9vKRNuAlOlvNh8=
 github.com/hbstack/blog/modules/giscus v0.1.14 h1:8YyVpfppQoF956T47x9KRxWMqCWvBv+QgUxDX+EkSHI=
 github.com/hbstack/blog/modules/giscus v0.1.14/go.mod h1:TfM3NJHKDdwjp9nSW5TUc9fOqRYdiDzcO15GG/EhZTA=
 github.com/hbstack/blog/modules/sidebar/posts v0.3.4 h1:RrgDzq7ElWB/i6solLLIv2XE1t/qd9TmCea53qkHlP4=
@@ -69,6 +70,7 @@ github.com/hugomods/icons/vendors/mdi v0.3.0 h1:Lb47OUzjlLjD5Ik41VRFZXs8pSNjo8j9
 github.com/hugomods/icons/vendors/mdi v0.3.0/go.mod h1:wbBjb2paemrSK8pZZm1K8Nv3AfiUWXVedkuzVFbBa+4=
 github.com/hugomods/icons/vendors/simple-icons v1.0.12 h1:9MGw9BOFqFyupEVbFjvwRQkqNpz4eh5glEmurpFihXU=
 github.com/hugomods/icons/vendors/simple-icons v1.0.12/go.mod h1:D79JYuM4y6yOrgk09kNuQL5x1qi4rHgAPmM8qtv5dB4=
+github.com/hugomods/icons/vendors/simple-icons v1.0.18/go.mod h1:8pAAI7UX84AUnxTRCVJ8u9oZUgeRHteLnkZwbf+ogKc=
 github.com/hugomods/icons/vendors/tabler v0.15.10 h1:X1kr7Rkw5EHJUJMe+Bufrhid26CIAdbf1jN4mZ61kqU=
 github.com/hugomods/icons/vendors/tabler v0.15.10/go.mod h1:y3ncPKa7awEyN0tC55nkmzRWA7jEpRU9+TnBcY4kzXY=
 github.com/hugomods/idb-js v0.1.0 h1:mA6hEGtR0aFEdmq9zYMGpfSpCU6SMilx9RzC4uK3DqY=

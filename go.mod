@@ -14,7 +14,7 @@ require (
 	github.com/hbstack/bigger-picture v0.9.2 // indirect
 	github.com/hbstack/blog v0.19.1 // indirect
 	github.com/hbstack/blog/modules/breadcrumb v0.1.22 // indirect
-	github.com/hbstack/blog/modules/disqus v0.1.11 // indirect
+	github.com/hbstack/blog/modules/disqus v0.1.19 // indirect
 	github.com/hbstack/blog/modules/featured-image v0.2.21 // indirect
 	github.com/hbstack/blog/modules/giscus v0.1.23 // indirect
 	github.com/hbstack/blog/modules/heading-sign v0.1.23 // indirect

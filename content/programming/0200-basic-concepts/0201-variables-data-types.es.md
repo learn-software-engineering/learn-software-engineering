@@ -61,6 +61,8 @@ numero += 5 # Suma 5 a numero (numero = numero + 5)
 numero -= 2 # Resta 2 a numero
 ```
 
+---
+
 ## Tipos de datos
 
 Los tipos de datos definen el tipo de valor que puede almacenar una variable. Python tiene varios tipos incorporados, incluyendo:
@@ -108,6 +110,8 @@ variable_falsa = False
 
 Es importante elegir el tipo de dato que mejor represente la información que queremos almacenar.
 
+---
+
 ## Operadores
 
 Los operadores nos permiten realizar operaciones con valores y variables en Python. Algunos operadores comunes son:
@@ -144,6 +148,8 @@ numero += 5 # Suma 5 a numero, equivalente a numero = numero + 5
 
 Cada tipo de operador trabaja con tipos de datos específicos. Debemos usarlos de forma consistente según el tipo de datos de nuestras variables.
 
+---
+
 ## Conversiones de tipo
 
 A veces necesitamos convertir un tipo de dato a otro para realizar ciertas operaciones. En Python podemos convertir de forma explícita o implícita:
@@ -177,16 +183,8 @@ print(entero) # 13, se pierden los decimales
 
 Para prevenir esto debemos elegir explícitamente conversiones que tengan sentido para nuestros datos.
 
+---
+
 ## Conclusión
 
 En este artículo revisamos conceptos clave como variables, operadores, tipos de datos y conversiones en Python. Aplicar bien estos conceptos te permitirá manipular datos de forma eficiente en tus programas. Recomiendo practicar con ejemplos propios para ganar experiencia en usar estas características. ¡Éxitos en tu aprendizaje de Python!
-
-## Referencias
-
-- Downey, A. B. (2015). *Think Python: How to think like a computer scientist*. Needham, Massachusetts: Green Tea Press.
-
-- McKinney, W. (2018). *Python for data analysis: Data wrangling with Pandas, NumPy, and IPython*. O'Reilly Media.
-
-- Matthes, E. (2015). *Python crash course: A hands-on, project-based introduction to programming*. No Starch Press.
-
-- Lutz, M. (2013). *Learning Python: Powerful Object-Oriented Programming*. O'Reilly Media, Incorporated.

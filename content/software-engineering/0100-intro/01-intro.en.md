@@ -33,7 +33,7 @@ Several thought leaders in the world of computing have defined software in vario
 **Peter Denning**[^5]:
 *Map of a machine, detailing its possible states, transitions, and the actions for these transitions.*
 
-Analyzing these definitions, common themes emerge: software encompasses instructions, data, associated documentation, and serves as a guiding structure for computer operations. So we can conclude:
+Analysing these definitions, common themes emerge: software encompasses instructions, data, associated documentation, and serves as a guiding structure for computer operations. So we can conclude:
 
 >**Software is a meticulously structured collection of programs, data, and documentation that serves as a guiding blueprint, directing a computer's operations and interactions with users and other systems.**
 

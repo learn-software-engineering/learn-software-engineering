@@ -13,7 +13,7 @@ images:
 
 Object-Oriented Programming (OOP) is a paradigm that helps organize code using real-world concepts, making it more readable, reusable, and maintainable. It's built around the idea that everything can be represented as objects.
 
-OOP emerged in the 1960s with the programming language Simula, but it gained prominence in the 1980s with languages like C++ and Smalltalk. At its core, OOP models the code as "objects" that bundle both state (attributes) and behaviors (methods).
+OOP emerged in the 1960s with the programming language Simula, but it gained prominence in the 1980s with languages like C++ and Smalltalk. At its core, OOP models the code as "objects" that bundle both state (attributes) and behaviours (methods).
 
 ### Principles
 

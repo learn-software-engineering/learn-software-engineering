@@ -1,6 +1,6 @@
 ---
 title: "Learn-Software.com"
-description: Build fast, responsive sites with Hugo Bootstrap Framework
+description:
 date: 2023-09-06
 draft: false
 layout: landing
@@ -44,6 +44,6 @@ header:
 #         name: house
 ---
 
-## Latest Articles {.text-center .mb-5}
+## Últimos artículos {.text-center .mb-5}
 
 {{< bs/article-cards >}}

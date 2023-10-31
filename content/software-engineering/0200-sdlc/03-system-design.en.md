@@ -67,7 +67,7 @@ While the architecture offers a structural view, procedural design dives into op
 
 Several tools aid software engineers in crafting and visualizing system design:
 
-**Unified Modeling Language (UML)**
+**Unified Modelling Language (UML)**
 
 A universally recognized notation, UML offers varied diagrams from showcasing system interactions (use-case diagrams) to detailing structure (class diagrams)[^8].
 
@@ -106,6 +106,6 @@ In conclusion, system design stands as the bridge between conceptual requirement
 [^5]: Bass, L., Clements, P., & Kazman, R., 2012. Software Architecture in Practice. 3rd ed. Pearson.
 [^6]: Fielding, R.T., 2000. Architectural Styles and the Design of Network-based Software Architectures. Doctoral dissertation, University of California, Irvine.
 [^7]: Page-Jones, M., 1988. The Practical Guide to Structured Systems Design. 2nd ed. Yourdon Press.
-[^8]: Fowler, M., 2004. UML Distilled: A Brief Guide to the Standard Object Modeling Language. 3rd ed. Addison-Wesley.
+[^8]: Fowler, M., 2004. UML Distilled: A Brief Guide to the Standard Object Modelling Language. 3rd ed. Addison-Wesley.
 [^9]: Chen, P.P., 1976. The Entity-Relationship Model: Toward a Unified View of Data. ACM Transactions on Database Systems, 1(1).
 [^10]: Royce, W.W., 1987. Managing the Development of Large Software Systems. Proceedings of IEEE WESCON.

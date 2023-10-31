@@ -60,7 +60,7 @@ display_numbers([1, 2, 3])
 
 ## c. Reflection
 
-Reflection is the ability of a program to examine and modify its own structure and behavior at runtime.
+Reflection is the ability of a program to examine and modify its own structure and behaviour at runtime.
 
 Python allows for reflection through functions like `getattr`, `setattr`, and `type`.
 

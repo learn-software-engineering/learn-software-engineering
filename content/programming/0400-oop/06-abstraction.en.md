@@ -105,13 +105,13 @@ In this example, the `Shape` interface defines an `area` method that must be imp
 When designing a system in Java, choosing between abstract classes and interfaces depends on various factors. Here's a guide to help you decide:
 
 **Use Abstract Classes when**:
-1. *You want to share code among several closely related classes*: Abstract classes allow you to define some default behavior (concrete methods) and force subclasses to provide specific implementations for other parts (abstract methods).
+1. *You want to share code among several closely related classes*: Abstract classes allow you to define some default behaviour (concrete methods) and force subclasses to provide specific implementations for other parts (abstract methods).
 2. *You want to control the inheritance hierarchy*: Abstract classes can have constructors and can also have access modifiers (public, protected, private) applied to their methods. This provides more control over how a class is inherited.
-3. *You need to maintain state*: If you want to have common state and behavior among several classes, then using an abstract class is appropriate.
+3. *You need to maintain state*: If you want to have common state and behaviour among several classes, then using an abstract class is appropriate.
 4. *You want to allow only a single inheritance*: Java doesn’t support multiple inheritances for classes, so if a class is already extending another class, it can’t extend another abstract class.
 
 **Use Interfaces when**:
-1. *You want to define a contract for several unrelated classes**: Interfaces allow unrelated classes to implement the same set of methods, thus ensuring that the classes adhere to certain behavior. This helps in achieving a clean architecture where you can easily swap one implementation with another.
+1. *You want to define a contract for several unrelated classes**: Interfaces allow unrelated classes to implement the same set of methods, thus ensuring that the classes adhere to certain behaviour. This helps in achieving a clean architecture where you can easily swap one implementation with another.
 2. **You need to support multiple inheritance**: A class can implement multiple interfaces in Java, so if you want a class to adhere to multiple contracts, you would use interfaces.
 3. **You want to separate the method declaration from implementation completely**: Interfaces in Java (prior to Java 8) allow only abstract method declarations. Starting from Java 8, you can have default methods with implementation in interfaces, but the primary purpose remains defining a contract.
 4. **You want strong encapsulation**: Interfaces enable you to hide the implementation details of the classes completely, exposing only the methods that should be accessible. This is aligned with the principle of strong encapsulation.

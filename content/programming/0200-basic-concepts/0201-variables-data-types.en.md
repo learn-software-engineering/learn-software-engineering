@@ -187,4 +187,4 @@ To prevent this we must explicitly choose conversions that make sense for our da
 
 ## Conclusion
 
-In this article we reviewed key concepts like variables, operators, data types and conversions in Python. Applying these concepts well will allow you to efficiently manipulate data in your programs. I recommend practicing with your own examples to gain experience using these features. Good luck in your Python learning!
+In this article we reviewed key concepts like variables, operators, data types and conversions in Python. Applying these concepts well will allow you to efficiently manipulate data in your programs. I recommend practising with your own examples to gain experience using these features. Good luck in your Python learning!

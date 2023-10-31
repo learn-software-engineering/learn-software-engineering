@@ -72,7 +72,7 @@ Here are some proven best practices for improving deployment processes:
 - **Communication**: Collaboration between developers, operations, QA, and business teams ensures smooth deployments.
 - **Monitoring and logging**: Extensive logging and monitoring provides visibility into application performance and rapidly detects problems.
 - **Rollback planning**: Automated rollback capabilities quickly revert failed changes and restore working versions.
-- **Defense in depth**: Use multiple defensive strategies like input validation, threat modeling, and redundancy to minimize risk.
+- **Defence in depth**: Use multiple defensive strategies like input validation, threat modelling, and redundancy to minimize risk.
 - **Frequent smaller releases**: Incremental releases reduce change scope and roll back complexity.
 
 As Jez Humble recommends, *the key to managing change is incrementality,  both in terms of what you deliver, and how you deliver it... With small, frequent changes, managing change becomes routine rather than traumatic* [^4].

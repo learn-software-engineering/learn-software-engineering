@@ -197,7 +197,7 @@ These allow us to perform advanced operations to read, write and maintain files.
 
 ## Conclusion
 
-In this article we explained Python input and output operations in detail, including reading from standard input and writing to standard output or files. Properly handling input and output is essential for many Python applications. I recommend practicing with your own examples to master these functions[^3].
+In this article we explained Python input and output operations in detail, including reading from standard input and writing to standard output or files. Properly handling input and output is essential for many Python applications. I recommend practising with your own examples to master these functions[^3].
 
 ---
 

@@ -1,8 +1,13 @@
+algoritmos
 bootcamps
 creational
 cyclomatic
-Cyclomatic
+datos
+estructura
+fundamentos
 incrementality
+objetos
+programación
 roadmap
 subproblems
 transformative

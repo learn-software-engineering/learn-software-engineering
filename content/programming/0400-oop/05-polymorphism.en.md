@@ -11,7 +11,7 @@ images:
   - /images/banners/content/programming/0300-oop/object-oriented-programming.png
 ---
 
-Polymorphism is a Greek word that means "many-shaped." In Object-Oriented Programming (OOP), it's a principle that allows objects of different classes to be treated as objects of a common base class. This principle enables greater flexibility and more dynamic behavior in code. This article, will delve into the concept of polymorphism, discussing its types, overloading, overriding, virtual functions, and providing examples in Python.
+Polymorphism is a Greek word that means "many-shaped." In Object-Oriented Programming (OOP), it's a principle that allows objects of different classes to be treated as objects of a common base class. This principle enables greater flexibility and more dynamic behaviour in code. This article, will delve into the concept of polymorphism, discussing its types, overloading, overriding, virtual functions, and providing examples in Python.
 
 Polymorphism allows different objects to respond to the same method call in a way that's specific to their individual types. It promotes code reusability and can be used to implement elegant software design.
 

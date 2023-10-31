@@ -58,7 +58,7 @@ Effective resource allocation ensures that the development team isn't hamstrung 
 
 ### Risk assessment
 
-In any venture, risks lurk. But in software development, with its myriad components and dependencies, risks are especially abundant[^7]. Risk assessment is the act of identifying, analyzing, and planning for these potential pitfalls.
+In any venture, risks lurk. But in software development, with its myriad components and dependencies, risks are especially abundant[^7]. Risk assessment is the act of identifying, analysing, and planning for these potential pitfalls.
 
 By identifying risks early, from shifting user requirements to technological challenges, teams can develop strategies to either mitigate or avoid them. Tools like SWOT analysis (evaluating Strengths, Weaknesses, Opportunities, Threats) can offer structured frameworks for this process. As a core part of the planning phase, risk assessment ensures that the team isn't blindsided, but rather, is always a step ahead of potential challenges.
 

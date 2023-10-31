@@ -15,7 +15,7 @@ nav_icon:
   color: 'skyblue'
 ---
 
-Software testing, at its core, is an activity where software undergoes various forms of evaluation. It’s conducted to ensure that the software adheres to specified requirements and doesn't demonstrate unwanted behaviors[^1]. It is a meticulous blend of logic and creativity: logic to methodically navigate predefined paths and creativity to anticipate unexpected scenarios and user behaviors.
+Software testing, at its core, is an activity where software undergoes various forms of evaluation. It’s conducted to ensure that the software adheres to specified requirements and doesn't demonstrate unwanted behaviours[^1]. It is a meticulous blend of logic and creativity: logic to methodically navigate predefined paths and creativity to anticipate unexpected scenarios and user behaviours.
 
 Before diving into its components, let's recognize the non-negotiable importance of testing in the SDLC.
 
@@ -72,7 +72,7 @@ While the aforementioned levels offer a vertical depth, various testing types pr
 | Type | Description |
 |:-----:|:------|
 | Functional testing | Verifying if the software performs its intended functions. |
-| Performance testing | Gauging software behavior under different conditions, including stress, load, and scalability scenarios. |
+| Performance testing | Gauging software behaviour under different conditions, including stress, load, and scalability scenarios. |
 | Usability testing | Assessing the software's user-friendliness and intuitiveness. |
 | Security testing | Ensuring resilience against malicious threats and breaches. |
 | Compatibility testing | Confirming software compatibility across devices, OSs, and browsers. |

@@ -87,7 +87,7 @@ These describe the needs and wishes of end-users related to functionality and qu
 
 ### System requirements
 
-These describe the detailed behaviors, operations, capabilities and business rules the system needs to implement. Or, impose quality constraints, performance needs and other attributes on the system. Examples:
+These describe the detailed behaviours, operations, capabilities and business rules the system needs to implement. Or, impose quality constraints, performance needs and other attributes on the system. Examples:
 
 - System shall verify customer identity before accepting order.
 - User shall be able to filter orders by date, status, amount, etc.
@@ -104,7 +104,7 @@ There are two main types of requirements:
 
 ### Functional requirements
 
-These describe the specific behaviors and operations that the system needs to perform in order to accomplish the intended purpose. Functional requirements depend heavily on the type of software being developed. Some examples of functional requirements are:
+These describe the specific behaviours and operations that the system needs to perform in order to accomplish the intended purpose. Functional requirements depend heavily on the type of software being developed. Some examples of functional requirements are:
 
 - The system shall allow users to sign in using their email address and password.
 - The system shall allow admins to add new user accounts.
@@ -158,7 +158,7 @@ These relate to integration with external systems and end user environments. Typ
 
 The Software Requirements Specification (SRS) is the official document that captures the complete set of requirements for the system in detail. It is treated as the contract between customers and developers.
 
-According to IEEE, the SRS can be defined as *a document that describes all data, functional and behavioral requirements; analyzes, specifies, and validates the system requirements*[^3].
+According to IEEE, the SRS can be defined as *a document that describes all data, functional and behavioural requirements; analyzes, specifies, and validates the system requirements*[^3].
 
 Some key purposes that the SRS serves are:
 
@@ -200,7 +200,7 @@ Textual description is the most common way of documenting requirements in the SR
 - **User stories**: used in agile methods to capture user requirements. Written as *"As a <user role>, I want <capability> so that <value>"*.
 - **Use cases**: describe interactions between users and the system to achieve a goal.
 - **Data models**: express structure of data as entities, attributes, relationships etc. e.g. ER diagrams.
-- **Behavior models**: represent dynamic behavior and workflows e.g. state machine diagrams, activity diagrams.
+- **Behaviour models**: represent dynamic behaviour and workflows e.g. state machine diagrams, activity diagrams.
 - **Interface models**: specify external interfaces using API blueprints, protocol specs, etc.
 - **Supplementary specifications**: detailed non-functional specs e.g. security standards, compliance rules.
 
@@ -208,12 +208,12 @@ Choosing appropriate techniques allows capturing complete details in an unambigu
 
 ---
 
-## Eliciting and analyzing requirements
+## Eliciting and analysing requirements
 
-Requirements come from analyzing the needs of various stakeholders. Typical steps are:
+Requirements come from analysing the needs of various stakeholders. Typical steps are:
 
 1. **Stakeholder identification**: identify various stakeholders - end users, business managers, operations team, etc.
-2. **Requirements gathering**: gather needs via interviews, observation, focus groups, workshops, surveys, etc. Requirements gathering relies heavily on techniques like prototyping, scenario analysis, domain modeling and qualitative user research.
+2. **Requirements gathering**: gather needs via interviews, observation, focus groups, workshops, surveys, etc. Requirements gathering relies heavily on techniques like prototyping, scenario analysis, domain modelling and qualitative user research.
 3. **Requirements analysis**: analyze requirements for clarity, conflicts and prioritization.
 4. **Requirements documentation**: document requirements, review with stakeholders and baseline.
 5. **Requirements validation**: validate requirements to ensure consistency, completeness, technical feasibility, etc.
@@ -247,10 +247,10 @@ Some key trends shaping the future of requirements engineering:
 - Growing use of iterative approaches to allow for emergent requirements.
 - Greater reliance on product managers as customer proxies.
 - Increased adoption of agile user stories over traditional SRS docs.
-- Enhanced traceability through modeling and automation.
+- Enhanced traceability through modelling and automation.
 - Integration with design models and testing to realize "single source of truth".
 - Introducing requirements management tools for collaboration.
-- Leveraging AI techniques for analyzing and deriving complex requirements.
+- Leveraging AI techniques for analysing and deriving complex requirements.
 - Focus on continuously capturing and refining requirements throughout product lifecycle.
 
 According to Nuseibeh and Easterbrook, requirements engineering will need to adapt to factors like faster delivery cycles, evolving design approaches and increased automation[^6].

@@ -33,7 +33,7 @@ Both aggregation and composition represent a ***"has-a"*** relationship. For exa
 
 ## UML Diagrams
 
-Unified Modeling Language (UML) diagrams can represent these relationships visually:
+Unified Modelling Language (UML) diagrams can represent these relationships visually:
 
 - **Association**: A simple line between classes.
 - **Aggregation**: A line with a hollow diamond on the whole side.
@@ -95,6 +95,6 @@ computer = Computer()
 
 ## Conclusion
 
-Associations, aggregations, and compositions are foundational concepts that describe different types of relationships between classes in OOP. Understanding these relationships helps in modeling and building real-world systems. While the examples in this article are implemented in Python, these concepts apply across various OOP languages.
+Associations, aggregations, and compositions are foundational concepts that describe different types of relationships between classes in OOP. Understanding these relationships helps in modelling and building real-world systems. While the examples in this article are implemented in Python, these concepts apply across various OOP languages.
 
 By grasping these relationships and knowing when to use them, you'll be better equipped to design and implement effective and efficient systems. They allow you to create code that accurately represents the real world, fostering clearer thinking and stronger design skills.

@@ -80,6 +80,7 @@ github.com/hbstack/docs/modules/breadcrumb v0.1.9/go.mod h1:vpQYRcZmRTqYpVb7x7sO
 github.com/hbstack/docs/modules/disqus v0.1.5 h1:Zc7CspzSukx+2LVTIm/Z7E16m0sewZgZRpKY+Sn65V0=
 github.com/hbstack/docs/modules/disqus v0.1.5/go.mod h1:cvPtFrFhweBTiNppYjyEzJc2eJ7/EpW0Hnf+A2yi9Eg=
 github.com/hbstack/docs/modules/disqus v0.1.7/go.mod h1:5P/iLgMmMMfF3QEtfTsliWltsWbWKdRtDsmCc5ffXdM=
+github.com/hbstack/docs/modules/disqus v0.1.8/go.mod h1:yYgK5SIr0lJInaY206wHLbPPOSMBZ/FvPIKY9sDAA1Y=
 github.com/hbstack/docs/modules/doc-nav v0.3.1 h1:nInyQ988hMkJ6OOGbvLURLb9YlTMpeb8mx9mbVna+x4=
 github.com/hbstack/docs/modules/doc-nav v0.3.1/go.mod h1:oPis8QwnR1g8wGnNMbDo3VSS6++sAluQNC1NG4QXCns=
 github.com/hbstack/docs/modules/featured-image v0.2.7 h1:W6k6EyLbWPRTFCArYrfiJqNj6j7vXx5S+jCxg9qHgiQ=

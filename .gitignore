@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/go,git,hugo,linux,macos,windows,sublimetext,visualstudiocode,node
-# Edit at https://www.toptal.com/developers/gitignore?templates=go,git,hugo,linux,macos,windows,sublimetext,visualstudiocode,node
+# Created by https://www.toptal.com/developers/gitignore/api/go,git,hugo,node,linux,macos,windows,sublimetext,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=go,git,hugo,node,linux,macos,windows,sublimetext,visualstudiocode
 
 ### Git ###
 # Created by git for backups. To disable backups in Git:
@@ -320,4 +320,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/go,git,hugo,linux,macos,windows,sublimetext,visualstudiocode,node
+# End of https://www.toptal.com/developers/gitignore/api/go,git,hugo,node,linux,macos,windows,sublimetext,visualstudiocode

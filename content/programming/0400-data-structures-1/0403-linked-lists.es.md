@@ -30,15 +30,13 @@ Existen varios tipos:
 
 ![Diagrama de una lista enlazada simple](/images/content/programming/0400-data-structures-1/diagram-linked-list.jpg)
 
-*Diagrama de una lista enlazada simple*
-
 - **Doblemente enlazada:** Cada nodo tiene referencia al siguiente y al anterior. Permiten recorrer en ambos sentidos.
 
-![Diagrama de una lista doblemente enlazada](/images/content/programming/0400-data-structures-1/diagram-double-linked-list)
-
-*Diagrama de una lista doblemente enlazada*
+![Diagrama de una lista doblemente enlazada](/images/content/programming/0400-data-structures-1/diagram-double-linked-list.jpg)
 
 - **Circular:** El último nodo apunta al primero formando un ciclo. Útiles para buffers circulares.
+
+![Diagrama de una lista circular](/images/content/programming/0400-data-structures-1/diagram-double-linked-list.jpg)
 
 ---
 

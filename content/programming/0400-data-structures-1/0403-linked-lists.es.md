@@ -60,41 +60,41 @@ Usa la clase `ListNode` para representar nodos:
 
 ```python
 class ListNode:
-  def __init__(self, val):
-    self.val = val
-    self.next = None
+    def __init__(self, value):
+        self.value = value
+        self.next = None
 ```
 
-Luego para crear y usar una lista se define una clase ListaEnlazada con métodos para las operaciones.
+Luego para crear y usar una lista se define una clase LinkedList con métodos para las operaciones.
 
 ```python
-class ListaEnlazada:
-  def __init__(self):
-    self.cabeza = None
+class LinkedList:
+    def __init__(self):
+        self.head = None
 
-  def agregar_al_principio(self, nuevo_valor):
-    nuevo_nodo = Nodo(nuevo_valor)
-    nuevo_nodo.siguiente = self.cabeza
-    self.cabeza = nuevo_nodo
+    def add_to_start(self, new_value):
+        new_node = ListNode(new_value)
+        new_node.next = self.head
+        self.head = new_node
 
-  def imprimir(self):
-    actual = self.cabeza
-    while actual != None:
-      print(actual.valor)
-      actual = actual.siguiente
+    def print(self):
+        current = self.head
+        while current != None:
+            print(current.value)
+            current = current.next
 
-  def buscar(self, valor_buscado):
-    actual = self.cabeza
-    while actual != None:
-      if actual.valor == valor_buscado:
-        return True
-      actual = actual.siguiente
-    return False
+    def search(self, searched_value):
+        current = self.head
+        while current != None:
+            if current.value == searched_value:
+                return True
+            current = current.next
+        return False
 
-  #...otras operaciones
+    #...other methods
 ```
 
-Con esta clase `ListaEnlazada`` podemos crear una lista, agregar nodos, imprimirla, buscar elementos, etc.
+Con esta clase `LinkedList` podemos crear una lista, agregar nodos, imprimirla, buscar elementos, etc.
 
 Se podrían agregar otros métodos como insertar al final, eliminar por valor, obtener por índice, etc. Pero esto da una idea de cómo encapsular la funcionalidad de la lista enlazada en una clase. Como práctica, podés intentar agregar estos métodos por tu cuenta, ¡no dudes en dejar tus comentarios y contactarte si necesitas ayuda!
 

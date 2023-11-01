@@ -3,12 +3,14 @@
     "dev": "hugo server --gc --disableFastRender --buildDrafts --enableGitInfo",
     "prod": "hugo server -e production --minify --gc --renderToDisk --disableFastRender --enableGitInfo -b http://localhost:8080 -p 8080"
   },
-
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^5.0.0",
     "autoprefixer": "^10.4.15",
     "postcss-cli": "^10.1.0",
     "prettier-plugin-go-template": "^0.0.15",
     "rtlcss": "^4.1.0"
+  },
+  "dependencies": {
+    "main": "^1000.0.1"
   }
 }

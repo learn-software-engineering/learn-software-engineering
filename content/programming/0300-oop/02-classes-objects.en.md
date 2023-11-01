@@ -3,7 +3,7 @@ draft: true
 type: docs
 authors: ["jnonino"]
 series: ["Programming"]
-nav_weight: 402
+nav_weight: 302
 title: "Classes and objects"
 date: 2023-04-04
 tags: ["oop", "object-oriented", "classes", "objects"]

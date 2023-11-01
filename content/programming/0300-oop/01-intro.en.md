@@ -3,7 +3,7 @@ draft: true
 type: docs
 authors: ["jnonino"]
 series: ["Programming"]
-nav_weight: 401
+nav_weight: 301
 title: "Introduction"
 date: 2023-04-02
 tags: ["intro", "oop", "object-oriented", "oop-principles"]

@@ -34,6 +34,7 @@ github.com/hbstack/blog/modules/breadcrumb v0.1.22 h1:NDcjR5805LBDRcLaDF12VAIAJi
 github.com/hbstack/blog/modules/breadcrumb v0.1.22/go.mod h1:abqj7FTsHihbv3B2szGm4YmVGVZWzWg2VVA5ZhqUyKY=
 github.com/hbstack/blog/modules/disqus v0.1.11 h1:zSnApkwgx2B4OIoB3zQ1dUDTeLjiDpyXCABgK5BcxJQ=
 github.com/hbstack/blog/modules/disqus v0.1.11/go.mod h1:3bx5bgH4pHr+b2TgW2nxEUejpvrr0ngpRro4OeMrmL4=
+github.com/hbstack/blog/modules/disqus v0.1.19 h1:fWGsnxrHCJo0Qmim2FTxCl2dGnTVaWX/jQgpDIiRim4=
 github.com/hbstack/blog/modules/disqus v0.1.19/go.mod h1:/UrJpL/0thUReAoHmAP1TYDlm41Lk9vKRNuAlOlvNh8=
 github.com/hbstack/blog/modules/featured-image v0.2.21 h1:G4nwll995EsnEAJOBUKJMjH12HtJ0YFPL0nH8m7qneI=
 github.com/hbstack/blog/modules/featured-image v0.2.21/go.mod h1:+gxtGAEh7aXDDKQA0wWzdi9HPLcqCSRtRp63F+NN8QU=
@@ -81,6 +82,7 @@ github.com/hbstack/docs/modules/breadcrumb v0.1.8/go.mod h1:1NKYNYa8Lw8KWY+3AoSi
 github.com/hbstack/docs/modules/breadcrumb v0.1.9/go.mod h1:vpQYRcZmRTqYpVb7x7sOgw13MxBuNgUt82wQDz6ZtZU=
 github.com/hbstack/docs/modules/disqus v0.1.5 h1:Zc7CspzSukx+2LVTIm/Z7E16m0sewZgZRpKY+Sn65V0=
 github.com/hbstack/docs/modules/disqus v0.1.5/go.mod h1:cvPtFrFhweBTiNppYjyEzJc2eJ7/EpW0Hnf+A2yi9Eg=
+github.com/hbstack/docs/modules/disqus v0.1.7 h1:MDm7ZS4xxM0VxKmqt98lbyBW7lsddrZL2K1lDzLwpzg=
 github.com/hbstack/docs/modules/disqus v0.1.7/go.mod h1:5P/iLgMmMMfF3QEtfTsliWltsWbWKdRtDsmCc5ffXdM=
 github.com/hbstack/docs/modules/disqus v0.1.8/go.mod h1:yYgK5SIr0lJInaY206wHLbPPOSMBZ/FvPIKY9sDAA1Y=
 github.com/hbstack/docs/modules/doc-nav v0.3.1 h1:nInyQ988hMkJ6OOGbvLURLb9YlTMpeb8mx9mbVna+x4=
@@ -106,6 +108,7 @@ github.com/hbstack/featured-image v0.1.1 h1:suNZO1qFjyAk1XXE5vzwTj2TePWqYTCKsI3G
 github.com/hbstack/featured-image v0.1.1/go.mod h1:JniIDVMJnbvsR5cVVhsCpTMlvquZwo//pgbL5iyYWTA=
 github.com/hbstack/footer v0.2.6 h1:akelCSI+DP4fQVRHzvNLkge4w3AkY8d6KUPYHFxhh4g=
 github.com/hbstack/footer v0.2.6/go.mod h1:MqglUBsBvlatiE5utMwLlnwHxLLOPe89zFmuD4HM37M=
+github.com/hbstack/footer v0.2.7 h1:JJgBZWJyB7UzXSifH2KMFd9ma5yLL3m/pSroMaX+kc4=
 github.com/hbstack/footer v0.2.7/go.mod h1:MqglUBsBvlatiE5utMwLlnwHxLLOPe89zFmuD4HM37M=
 github.com/hbstack/footer/modules/socials v0.2.5 h1:VmIBdRc8+ujwOjurcltNW0yU7rX2CzectEtmhgy9I6Y=
 github.com/hbstack/footer/modules/socials v0.2.5/go.mod h1:bggKfxJiylFYCG3AP3cKkhNBNtQrYnZzU9S5UBJ3gu8=
@@ -117,14 +120,17 @@ github.com/hbstack/hb v0.7.2/go.mod h1:ZOmDVAInLN3kwl/uoggHvj9e7dU5UFIcvswIGbNdq
 github.com/hbstack/header v0.9.0 h1:lhFJYaaOSuuQ7/vavg9pULZ/po2JcoZrAiISh9Iqw70=
 github.com/hbstack/header v0.12.0 h1:VMqJP3v2SMPnsiZ7VkcE1C1scyBc47FHM8AeDFbGBwI=
 github.com/hbstack/header v0.12.0/go.mod h1:MkFJjAqVs/pgOEBjdCzBTdjT6q43It0PGvZh56OkdB4=
+github.com/hbstack/header v0.12.1 h1:pJVsIB8kv8V1ljpLG8UbquYyAXKKBDDPSHmmBy6soKo=
 github.com/hbstack/header v0.12.1/go.mod h1:MkFJjAqVs/pgOEBjdCzBTdjT6q43It0PGvZh56OkdB4=
 github.com/hbstack/header/modules/banner v0.5.3 h1:rCBxlDa6D2kO0VPrbSA3GcOJYfhxGhpPSu3nRbQGpYA=
 github.com/hbstack/header/modules/banner v0.5.3/go.mod h1:+JoaoX4PZxomE4mihl+lXLysfdij/l9/PP9iAHMA/SE=
 github.com/hbstack/header/modules/banner v0.5.10 h1:aTznkMdhYzudi92KZszw75VfCi/+Ih/RKXxUfk2zjew=
 github.com/hbstack/header/modules/banner v0.5.10/go.mod h1:R0Y2OlMf5jbhfmuEk5G3/JbxYjiujMzrdSKECMdSkns=
+github.com/hbstack/header/modules/banner v0.5.11 h1:G85qDsvncpdjvTwWA1MMlFXvNr87iM7USRo6C1JJaeQ=
 github.com/hbstack/header/modules/banner v0.5.11/go.mod h1:/83SGqEooqqReOqF1wG9a3jSumQ1qS9PgZcCz+d0xCs=
 github.com/hbstack/header/modules/language-picker v0.1.21 h1:Ojupm9duGHP9SGjCcWdFllIl1I+StLhFzvy98zElu9M=
 github.com/hbstack/header/modules/language-picker v0.1.21/go.mod h1:vlKi+qkfV0AVXl910GTj432RPrvIIUgTbejBO/vahM4=
+github.com/hbstack/header/modules/language-picker v0.1.22 h1:9FPSR/DHcjsvte88hr1UYoA2hDzJfvWF+9rbRMB3Gp0=
 github.com/hbstack/header/modules/language-picker v0.1.22/go.mod h1:UdCrzSFw8kluHZL5Vyhi0q01SDqe9Vz6RG8y+mpXMhw=
 github.com/hbstack/header/modules/search v0.1.31 h1:ZlPBDqIwYM44NxXo1+s9AdrP39UCdn+dZ8nhTpkxYAc=
 github.com/hbstack/header/modules/search v0.1.31/go.mod h1:chtAc5meafXNJhISM6uodmMCp0QJ5Mis6ZHhgPJewfk=

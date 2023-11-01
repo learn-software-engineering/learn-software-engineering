@@ -3,7 +3,7 @@ draft: true
 type: docs
 authors: ["jnonino"]
 series: ["Programming"]
-nav_weight: 406
+nav_weight: 306
 title: "Abstraction"
 date: 2023-04-12
 tags: ["oop", "object-oriented", "abstractions", "interfaces"]

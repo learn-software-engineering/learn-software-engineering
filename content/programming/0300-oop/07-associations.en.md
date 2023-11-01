@@ -3,7 +3,7 @@ draft: true
 type: docs
 authors: ["jnonino"]
 series: ["Programming"]
-nav_weight: 407
+nav_weight: 307
 title: "Associations, aggregations, and compositions"
 date: 2023-04-14
 tags: ["oop", "object-oriented", "associations", "aggregation", "composition", "uml"]

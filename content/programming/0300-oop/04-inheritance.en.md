@@ -3,7 +3,7 @@ draft: true
 type: docs
 authors: ["jnonino"]
 series: ["Programming"]
-nav_weight: 404
+nav_weight: 304
 title: "Inheritance"
 date: 2023-04-08
 tags: ["oop", "object-oriented", "inheritance"]

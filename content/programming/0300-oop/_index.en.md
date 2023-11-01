@@ -2,7 +2,7 @@
 draft: true
 type: docs
 title: Object-Oriented Programming
-nav_weight: 400
+nav_weight: 300
 nav_icon:
   vendor: font-awesome-regular
   name: object-group

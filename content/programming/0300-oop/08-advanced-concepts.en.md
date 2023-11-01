@@ -3,7 +3,7 @@ draft: true
 type: docs
 authors: ["jnonino"]
 series: ["Programming"]
-nav_weight: 408
+nav_weight: 308
 title: "Advanced concepts"
 date: 2023-04-16
 tags: ["oop", "object-oriented", "multithreading", "generics", "templates", "reflections", "serialization"]

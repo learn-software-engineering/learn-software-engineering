@@ -3,7 +3,7 @@ draft: true
 type: docs
 authors: ["jnonino"]
 series: ["Programming"]
-nav_weight: 405
+nav_weight: 305
 title: "Polymorphism"
 date: 2023-04-10
 tags: ["oop", "object-oriented", "polymorphism"]

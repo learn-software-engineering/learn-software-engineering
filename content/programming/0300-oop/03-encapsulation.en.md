@@ -3,7 +3,7 @@ draft: true
 type: docs
 authors: ["jnonino"]
 series: ["Programming"]
-nav_weight: 403
+nav_weight: 303
 title: "Encapsulation"
 date: 2023-04-06
 tags: ["oop", "object-oriented", "encapsulation"]

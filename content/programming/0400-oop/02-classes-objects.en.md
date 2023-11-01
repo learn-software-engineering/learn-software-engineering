@@ -17,7 +17,7 @@ Building on our previous introduction to Object-Oriented Programming (OOP), this
 
 ### Classes
 
-A class is a blueprint that defines the structure and behavior of an object. It encapsulates data (attributes) and functions (methods) that operate on the data.
+A class is a blueprint that defines the structure and behaviour of an object. It encapsulates data (attributes) and functions (methods) that operate on the data.
 
 ```python
 class Dog:

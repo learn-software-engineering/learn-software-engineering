@@ -67,7 +67,7 @@ Maintenance is not merely an afterthought; it's the pulse that keeps software al
 [^1]: Sommerville, I., 2010. Software Engineering. 9th ed. Pearson.
 [^2]: Pressman, R.S., 2010. Software Engineering: A Practitioner's Approach. 7th ed. McGraw-Hill.
 [^3]: Tanenbaum, A.S., 2014. Modern Operating Systems. 4th ed. Prentice Hall.
-[^4]: Parnas, D.L., 1994. Software Aging. *Proceedings of the 16th international conference on Software engineering*. IEEE.
+[^4]: Parnas, D.L., 1994. Software Ageing. *Proceedings of the 16th international conference on Software engineering*. IEEE.
 [^5]: Lehman, M.M., 1980. Programs, life cycles, and laws of software evolution. *Proceedings of the IEEE*, 68(9), pp.1060-1076.
 [^6]: Bowman, I.T., Holt, R.C., and Brewster, N.V., 1999. Linux as a case study: Its extracted software architecture. *Proceedings of the 21st international conference on Software engineering*. ACM.
 [^7]: Lethbridge, T.C., Singer, J., and Forward, A., 2003. How software engineers use documentation: The state of the practice. *IEEE Software*, 20(6), pp.35-39.

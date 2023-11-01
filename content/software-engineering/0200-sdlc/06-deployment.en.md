@@ -33,7 +33,7 @@ The deployment stage is considered one of the most critical stages of the SDLC. 
 - Ensures software works correctly before release. Thorough testing during deployment can detect bugs and issues missed during development.
 - Reduces risk of failure or downtime in production. Rigorous testing in a production-like environment minimizes surprises post-release.
 - Improves user experience. Smooth deployments prevent disruptions to business operations and end user workflows.
-- Builds confidence in the software. Quality deployments instill trust that the software is reliable and ready for use.
+- Builds confidence in the software. Quality deployments instil trust that the software is reliable and ready for use.
 - Minimizes cost of fixes post-release. It's exponentially cheaper to detect and fix issues during deployment than after production release.
 - Enables quicker time to market. Automated deployments allow new features to be released to customers faster.
 - Facilitates continuous delivery. Automated deployment capabilities allow for frequent releases of incremental updates.
@@ -57,7 +57,7 @@ While critical, the deployment stage also poses some unique challenges:
 - **Configuration sprawl**: A proliferation of configuration files, scripts, and variables across environments makes deployments brittle and error-prone.
 - **Manual processes**: Reliance on manual deployments and testing increases effort and risk of human error.
 
-As Gene Kim et al. highlight, *the deployment pipeline is one of the highest leverage points in modern software delivery... it is fraught with risk if not done properly* [^3]. Adopting best practices around planning, automation, testing rigor, and collaboration helps mitigate these deployment risks.
+As Gene Kim et al. highlight, *the deployment pipeline is one of the highest leverage points in modern software delivery... it is fraught with risk if not done properly* [^3]. Adopting best practices around planning, automation, testing rigour, and collaboration helps mitigate these deployment risks.
 
 ---
 
@@ -72,7 +72,7 @@ Here are some proven best practices for improving deployment processes:
 - **Communication**: Collaboration between developers, operations, QA, and business teams ensures smooth deployments.
 - **Monitoring and logging**: Extensive logging and monitoring provides visibility into application performance and rapidly detects problems.
 - **Rollback planning**: Automated rollback capabilities quickly revert failed changes and restore working versions.
-- **Defense in depth**: Use multiple defensive strategies like input validation, threat modeling, and redundancy to minimize risk.
+- **Defence in depth**: Use multiple defensive strategies like input validation, threat modelling, and redundancy to minimize risk.
 - **Frequent smaller releases**: Incremental releases reduce change scope and roll back complexity.
 
 As Jez Humble recommends, *the key to managing change is incrementality,  both in terms of what you deliver, and how you deliver it... With small, frequent changes, managing change becomes routine rather than traumatic* [^4].
@@ -144,7 +144,7 @@ While deployment will grow more complex due to factors like cloud and containers
 
 ## Conclusion
 
-The deployment stage is complex but critical to delivering customer value reliably and rapidly. Using proven strategies around automation, testing rigor, collaboration, and incremental delivery enables high quality deployments. Leveraging deployment tools and evolving DevOps practices will be key for accelerating deployments. With robust deployment capabilities in place, organizations can focus on faster innovation and take software from ideation to customer use efficiently.
+The deployment stage is complex but critical to delivering customer value reliably and rapidly. Using proven strategies around automation, testing rigour, collaboration, and incremental delivery enables high quality deployments. Leveraging deployment tools and evolving DevOps practices will be key for accelerating deployments. With robust deployment capabilities in place, organizations can focus on faster innovation and take software from ideation to customer use efficiently.
 
 ---
 

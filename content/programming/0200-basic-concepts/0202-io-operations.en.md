@@ -13,7 +13,7 @@ images:
 
 ## Keyboard input
 
-Python provides built-in functions to read data entered by the user at runtime. This is known as "standard input" (Downey, 2015).
+Python provides built-in functions to read data entered by the user at runtime. This is known as "standard input"[^1].
 
 The `input()` function allows reading a value entered by the user and assigning it to a variable. For example:
 
@@ -21,18 +21,18 @@ The `input()` function allows reading a value entered by the user and assigning 
 name = input("Enter your name: ")
 ```
 
-This displays the message "Enter your name: " and waits for the user to enter text and press Enter. That value is assigned to the `name` variable (Lutz, 2013).
+This displays the message "Enter your name: " and waits for the user to enter text and press Enter. That value is assigned to the `name` variable[^4].
 
-The `input()` function always returns a string. If we want to ask for a number or other data type, we must convert it using `int()`, `float()`, etc (McKinney, 2018):
+The `input()` function always returns a string. If we want to ask for a number or other data type, we must convert it using `int()`, `float()`, etc[^2]:
 
 ```python
 age = int(input("Enter your age: "))
 pi = float(input("Enter the value of pi: "))
 ```
 
-### Reading Multiple Values
+### Reading multiple values
 
-We can ask for and read multiple values on the same line separating them with commas (Matthes, 2015):
+We can ask for and read multiple values on the same line separating them with commas[^3]:
 
 ```python
 name, age = input("Enter name and age: ").split()
@@ -40,7 +40,7 @@ name, age = input("Enter name and age: ").split()
 
 The `split()` method divides the input into parts and returns a list of strings. We then assign the list elements to separate variables.
 
-We can also read multiple lines of input with a loop (Downey, 2015):
+We can also read multiple lines of input with a loop[^1]:
 
 ```python
 names = [] # empty list
@@ -52,9 +52,11 @@ for x in range(3):
 
 This code reads 3 names entered by the user and adds them to a list.
 
-## Screen Output
+---
 
-Python also provides functions to send program output to "standard output", usually the screen or terminal (McKinney, 2018).
+## Screen output
+
+Python also provides functions to send program output to "standard output", usually the screen or terminal[^2].
 
 The `print()` function displays the value passed as a parameter:
 
@@ -63,21 +65,21 @@ name = "Eric"
 print(name) # displays "Eric"
 ```
 
-We can print multiple values separated by commas (Lutz, 2013):
+We can print multiple values separated by commas[^4]:
 
 ```python
 print("Hello", name, "!") # displays "Hello Eric!"
 ```
 
-We can also use literal values without assigning to variables (Matthes, 2015):
+We can also use literal values without assigning to variables[^3]:
 
 ```python
 print("2 + 3 =", 2 + 3) # displays "2 + 3 = 5"
 ```
 
-### Output Formatting
+### Output formatting
 
-Python provides various ways to format output (Downey, 2015):
+Python provides various ways to format output[^1]:
 
 **f-Strings**: Allow inserting variables into a string:
 
@@ -108,11 +110,13 @@ print("Hello {}. Welcome".format(name))
 # displays "Hello Eric. Welcome"
 ```
 
-These formatting options allow us to interpolate variables and values into text strings to generate custom outputs. We can combine multiple values and formats in a single output string (Lutz, 2013).
+These formatting options allow us to interpolate variables and values into text strings to generate custom outputs. We can combine multiple values and formats in a single output string[^4].
 
-## Output to a File
+---
 
-In addition to printing to the screen, we can write output to a file using the `open()` function (McKinney, 2018):
+## Output to a file
+
+In addition to printing to the screen, we can write output to a file using the `open()` function[^2]:
 
 ```python
 file = open("data.txt", "w")
@@ -120,14 +124,14 @@ file = open("data.txt", "w")
 
 This opens `data.txt` for writing ("w") and returns a file object.
 
-Then we use `file.write()` to write to that file (Matthes, 2015):
+Then we use `file.write()` to write to that file[^3]:
 
 ```python
 file.write("Hello World!")
 file.write("This text goes to the file")
 ```
 
-We must close the file with `file.close()` when finished (Downey, 2015):
+We must close the file with `file.close()` when finished[^1]:
 
 ```python
 file.close()
@@ -141,9 +145,11 @@ with open("data.txt", "w") as file:
    # no need to close, it's automatic
 ```
 
-## Reading Files
+---
 
-To read a file we use `open()` in "r" mode and iterate over the file object (McKinney, 2018):
+## Reading files
+
+To read a file we use `open()` in "r" mode and iterate over the file object[^2]:
 
 ```python
 with open("data.txt", "r") as file:
@@ -153,25 +159,27 @@ with open("data.txt", "r") as file:
 
 This prints each line, including newlines.
 
-We can read all lines to a list with `readlines()` (Matthes, 2015):
+We can read all lines to a list with `readlines()`[^3]:
 
 ```python
 lines = file.readlines()
 print(lines)
 ```
 
-To read the full content to a string we use `read()` (Downey, 2015):
+To read the full content to a string we use `read()`[^1]:
 
 ```python
 text = file.read()
 print(text)
 ```
 
-We can also read a specific number of bytes or characters with `read(n)` (Lutz, 2013).
+We can also read a specific number of bytes or characters with `read(n)`[^4].
 
-## File Handling
+---
 
-There are several built-in functions to handle files in Python (McKinney, 2018):
+## File handling operations
+
+There are several built-in functions to handle files in Python[^2]:
 
 - `open()` - Opens a file and returns a file object
 - `close()` - Closes the file
@@ -185,16 +193,17 @@ There are several built-in functions to handle files in Python (McKinney, 2018):
 
 These allow us to perform advanced operations to read, write and maintain files.
 
+---
+
 ## Conclusion
 
-In this article we explained Python input and output operations in detail, including reading from standard input and writing to standard output or files. Properly handling input and output is essential for many Python applications. I recommend practicing with your own examples to master these functions (Matthes, 2015).
+In this article we explained Python input and output operations in detail, including reading from standard input and writing to standard output or files. Properly handling input and output is essential for many Python applications. I recommend practising with your own examples to master these functions[^3].
+
+---
 
 ## References
 
-- Downey, A. B. (2015). *Think Python: How to think like a computer scientist*. Needham, Massachusetts: Green Tea Press.
-
-- McKinney, W. (2018). *Python for data analysis: Data wrangling with Pandas, NumPy, and IPython*. O'Reilly Media.
-
-- Matthes, E. (2015). *Python crash course: A hands-on, project-based introduction to programming*. No Starch Press.
-
-- Lutz, M. (2013). *Learning Python: Powerful Object-Oriented Programming*. O'Reilly Media, Incorporated.
+[^1]: Downey, A. B. (2015). *Think Python: How to think like a computer scientist*. Needham, Massachusetts: Green Tea Press.
+[^2]: McKinney, W. (2018). *Python for data analysis: Data wrangling with Pandas, NumPy, and IPython*. O'Reilly Media.
+[^3]: Matthes, E. (2015). *Python crash course: A hands-on, project-based introduction to programming*. No Starch Press.
+[^4]: Lutz, M. (2013). *Learning Python: Powerful Object-Oriented Programming*. O'Reilly Media, Incorporated.

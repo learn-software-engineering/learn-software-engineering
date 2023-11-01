@@ -39,7 +39,7 @@ Once assigned, a variable can change its value at any time:
 age = 30 # We change age to 30
 ```
 
-### Scope and Lifetime
+### Scope and lifetime
 
 The **scope** of a variable refers to the parts of the code where it is available. Variables declared outside functions are global and available throughout the file. Variables inside a function are local and only visible within it.
 
@@ -61,7 +61,9 @@ number += 5 # Adds 5 to number (number = number + 5)
 number -= 2 # Subtracts 2 from number
 ```
 
-## Data Types
+---
+
+## Data types
 
 Data types define what kind of value a variable can store. Python has several built-in types, including:
 
@@ -108,6 +110,8 @@ false_variable = False
 
 It is important to choose the data type that best represents the information we want to store.
 
+---
+
 ## Operators
 
 Operators allow us to perform operations with values and variables in Python. Some common operators are:
@@ -144,7 +148,9 @@ number += 5 # Adds 5 to number, equivalent to number = number + 5
 
 Each type of operator works with specific data types. We must use them consistently according to our variable data types.
 
-## Type Conversions
+---
+
+## Type conversions
 
 Sometimes we need to convert one data type to another to perform certain operations. In Python we can convert explicitly or implicitly:
 
@@ -177,16 +183,8 @@ print(integer) # 13, decimals are lost
 
 To prevent this we must explicitly choose conversions that make sense for our data.
 
+---
+
 ## Conclusion
 
-In this article we reviewed key concepts like variables, operators, data types and conversions in Python. Applying these concepts well will allow you to efficiently manipulate data in your programs. I recommend practicing with your own examples to gain experience using these features. Good luck in your Python learning!
-
-## References
-
-- Downey, A. B. (2015). *Think Python: How to think like a computer scientist*. Needham, Massachusetts: Green Tea Press.
-
-- McKinney, W. (2018). *Python for data analysis: Data wrangling with Pandas, NumPy, and IPython*. O'Reilly Media.
-
-- Matthes, E. (2015). *Python crash course: A hands-on, project-based introduction to programming*. No Starch Press.
-
-- Lutz, M. (2013). *Learning Python: Powerful Object-Oriented Programming*. O'Reilly Media, Incorporated.
+In this article we reviewed key concepts like variables, operators, data types and conversions in Python. Applying these concepts well will allow you to efficiently manipulate data in your programs. I recommend practising with your own examples to gain experience using these features. Good luck in your Python learning!

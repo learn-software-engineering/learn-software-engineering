@@ -16,7 +16,7 @@ tags: ["intro", "programming", "design-patters", "singleton", "adapter", "observ
 
 - **Structural patterns**: are concerned with the composition of classes or objects, simplifying the structure and identifying relationships between objects.
 
-- **Behavioral patterns**: define ways for objects to communicate and interact, standardizing how objects cooperate.
+- **behavioural patterns**: define ways for objects to communicate and interact, standardizing how objects cooperate.
 
 ## Examples of design patterns
 

@@ -29,7 +29,7 @@ Integration testing examines how different parts of the software work together, 
 
 ### Functional testing
 
-Functional testing evaluates how software functions in accordance with specified requirements, focusing on overall behavior rather than specific parts.
+Functional testing evaluates how software functions in accordance with specified requirements, focusing on overall behaviour rather than specific parts.
 
 ## Writing tests in Python
 

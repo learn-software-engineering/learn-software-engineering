@@ -17,9 +17,9 @@ En lenguajes como Python y Ruby, los arrays se conocen como 'listas' (lists). En
 
 Los arrays son típicamente homogéneos, almacenando elementos del mismo tipo como enteros, cadenas, etc. Algunos lenguajes permiten arrays heterogéneos con valores de distintos tipos.
 
----
+![Diagrama de un array](/images/content/programming/0400-data-structures-1/diagram-arrays.jpeg)
 
-## Creación de arrays
+### Creación de arrays
 
 La manera de crear arrays varía según el lenguaje de programación:
 
@@ -30,13 +30,9 @@ mi_array = list(range(5))  # array a partir de rango
 
 Al crear un array literal se inicializan sus elementos directamente. Al construir un array vacío se especifica su tamaño pero sus elementos son inicializados con un valor default (0 para números, null para objetos, etc).
 
----
-
-## Acceder y modificar elementos
+### Acceder y modificar elementos
 
 Los elementos individuales se acceden rápidamente por su índice utilizando corchetes `[]`:
-
-**Python**
 
 ```python
 mi_array = ['a', 'b', 'c']
@@ -48,7 +44,7 @@ Los índices comienzan en 0, por lo que en un array de tamaño N, los índices v
 
 Acceder a un índice inválido causa un error, por ejemplo, acceder al índice 3 en un array de tamaño 3. Esto se conoce como "index out of bounds".
 
-## Recorrer un array
+### Recorrer un array
 
 Podemos recorrer todos los elementos usando un ciclo `for`:
 

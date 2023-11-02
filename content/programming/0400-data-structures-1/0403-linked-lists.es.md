@@ -36,7 +36,7 @@ Existen varios tipos:
 
 - **Circular:** El último nodo apunta al primero formando un ciclo. Útiles para buffers circulares.
 
-![Diagrama de una lista circular](/images/content/programming/0400-data-structures-1/diagram-double-linked-list.jpg)
+![Diagrama de una lista circular](/images/content/programming/0400-data-structures-1/diagram-circular-list.jpeg)
 
 ---
 

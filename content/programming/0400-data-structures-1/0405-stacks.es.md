@@ -13,9 +13,7 @@ images:
 
 La naturaleza **LIFO** de las pilas se debe a que sólo se puede acceder y manipular el elemento superior. La operación de colocar un elemento sobre la pila se conoce como *"push"*, mientras que sacar un elemento de la pila es un *"pop"*. El funcionamiento LIFO provoca que el último elemento colocado en una pila sea el primero en ser retirado.
 
-![Estructura de una Pila](https://upload.wikimedia.org/wikipedia/commons/b/b4/Lifo_stack.png)
-
-*Estructura LIFO de una pila - [Fuente](https://commons.wikimedia.org/wiki/File:Lifo_stack.png)*
+![Estructura de una pila](/images/content/programming/0400-data-structures-1/diagram-stacks.jpg)
 
 ---
 

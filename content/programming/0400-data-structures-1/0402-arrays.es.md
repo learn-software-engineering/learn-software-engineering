@@ -8,7 +8,7 @@ description: "Los arreglos (arrays en inglés) son estructuras de datos fundamen
 date: 2023-10-31
 tags: ["intro", "programming", "data-structures", "arrays"]
 images:
-  - /images/banners/programming-course.es.png
+  - /images/banners/content/programming/0400-data-structures-1/0402-arrays.es.png
 ---
 
 Un array es una estructura de datos que representa un conjunto de elementos, los cuales se acceden a través de índices numéricos contiguos que van desde 0 hasta el tamaño del array menos 1. Los arrays proveen acceso rápido y directo a los elementos en base a su posición.

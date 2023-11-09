@@ -15,9 +15,7 @@ The FIFO (first in, first out) nature of queues is because only the initial elem
 
 This causes the first element to be added to the queue to also be the first to be removed, hence its FIFO behavior.
 
-![Diagram of a FIFO queue](https://upload.wikimedia.org/wikipedia/commons/5/52/Data_Queue.svg)
-
-*FIFO queue structure - [Source](https://commons.wikimedia.org/wiki/File:Data_Queue.svg)*
+![Diagram of a queue](/images/content/programming/0400-data-structures-1/diagram-queues.jpg)
 
 ---
 

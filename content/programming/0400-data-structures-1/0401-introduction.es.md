@@ -8,7 +8,7 @@ description: "Las estructuras de datos son formas de organizar y almacenar infor
 date: 2023-10-31
 tags: ["intro", "programming", "data-structures"]
 images:
-  - /images/banners/programming-course.es.png
+  - /images/banners/content/programming/0400-data-structures-1/0401-introduction.es.png
 ---
 
 Una estructura de datos es una forma particular de organizar datos en la memoria de la computadora para que puedan ser usados de manera eficiente. Las estructuras de datos vienen en muchas formas, como arrays, listas, pilas, colas, grafos, árboles, hashes, etc.

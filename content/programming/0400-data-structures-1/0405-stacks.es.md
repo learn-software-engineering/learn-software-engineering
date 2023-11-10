@@ -8,7 +8,7 @@ description: "Las pilas (stacks en inglés) son una estructura de datos abstract
 date: 2023-11-02
 tags: ["intro", "programming", "data-structures", "linked-lists", "stacks"]
 images:
-  - /images/banners/programming-course.es.png
+  - /images/banners/content/programming/0400-data-structures-1/0405-stacks.es.png
 ---
 
 La naturaleza **LIFO** de las pilas se debe a que sólo se puede acceder y manipular el elemento superior. La operación de colocar un elemento sobre la pila se conoce como *"push"*, mientras que sacar un elemento de la pila es un *"pop"*. El funcionamiento LIFO provoca que el último elemento colocado en una pila sea el primero en ser retirado.

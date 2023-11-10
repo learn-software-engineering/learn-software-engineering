@@ -8,7 +8,7 @@ description: "Queues are an abstract data structure that operates under the FIFO
 date: 2023-11-03
 tags: ["intro", "programming", "data-structures", "linked-lists", "queues"]
 images:
-  - /images/banners/programming-course.en.png
+  - /images/banners/content/programming/0400-data-structures-1/0406-queues.en.png
 ---
 
 The FIFO (first in, first out) nature of queues is because only the initial element can be accessed and manipulated. When an element is added to the queue it is known as *"enqueue"*, while removing an element is called *"dequeue"*.

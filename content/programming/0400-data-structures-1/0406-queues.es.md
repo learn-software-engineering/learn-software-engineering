@@ -8,7 +8,7 @@ description: "Las colas (queues en inglés) son una estructura de datos abstract
 date: 2023-11-03
 tags: ["intro", "programming", "data-structures", "linked-lists", "queues"]
 images:
-  - /images/banners/programming-course.es.png
+  - /images/banners/content/programming/0400-data-structures-1/0406-queues.es.png
 ---
 
 La naturaleza FIFO (first in, first out) de las colas se debe a que sólo se puede acceder y manipular el elemento inicial. Cuando se agrega un elemento a la cola se conoce como *"enqueue"*, mientras que eliminar un elemento se denomina *"dequeue"*.

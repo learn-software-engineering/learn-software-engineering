@@ -8,7 +8,7 @@ description: "Linked lists are a dynamic and flexible data structure that allows
 date: 2023-11-01
 tags: ["intro", "programming", "data-structures", "linked-lists"]
 images:
-  - /images/banners/programming-course.en.png
+  - /images/banners/content/programming/0400-data-structures-1/0404-linked-lists.en.png
 ---
 
 A linked list is composed of `nodes` where each node has two parts:

@@ -8,7 +8,7 @@ description: "Las listas enlazadas (linked lists en inglés) son una estructura 
 date: 2023-11-01
 tags: ["intro", "programming", "data-structures", "linked-lists"]
 images:
-  - /images/banners/programming-course.es.png
+  - /images/banners/content/programming/0400-data-structures-1/0404-linked-lists.es.png
 ---
 
 Una lista enlazada se compone de `nodos` donde cada nodo tiene dos partes:

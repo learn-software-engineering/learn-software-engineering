@@ -13,7 +13,7 @@ images:
 
 The FIFO (first in, first out) nature of queues is because only the initial element can be accessed and manipulated. When an element is added to the queue it is known as *"enqueue"*, while removing an element is called *"dequeue"*.
 
-This causes the first element to be added to the queue to also be the first to be removed, hence its FIFO behavior.
+This causes the first element to be added to the queue to also be the first to be removed, hence its FIFO behaviour.
 
 ![Diagram of a queue](/images/content/programming/0400-data-structures-1/diagram-queues.jpg)
 

@@ -89,7 +89,7 @@ class Stack:
 
 Stacks have many uses in programming:
 
-- **Execution stack (call stack)**: records pending function calls to resolve. Implements expected LIFO behavior.
+- **Execution stack (call stack)**: records pending function calls to resolve. Implements expected LIFO behaviour.
 
 - **Browser stack**: allows going back (undo) in the browser history similarly to a LIFO stack.
 

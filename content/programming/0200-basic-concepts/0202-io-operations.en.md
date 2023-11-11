@@ -201,6 +201,20 @@ In this article we explained Python input and output operations in detail, inclu
 
 ---
 
+{{< bs/alert primary >}}
+{{% markdownify %}}
+Cheers for making it this far! I hope this journey through the programming universe has been as fascinating for you as it was for me to write down.
+
+We're keen to hear your thoughts, so don't be shy – drop your comments, suggestions, and those bright ideas you're bound to have.
+
+Also, to delve deeper than these lines, take a stroll through the practical examples we've cooked up for you. You'll find all the code and projects in our GitHub repository {{< bs/alert-link "learn-software-engineering/examples-programming" "https://github.com/learn-software-engineering/examples-programming" >}}.
+
+Thanks for being part of this learning community. Keep coding and exploring new territories in this captivating world of software!
+{{% /markdownify %}}
+{{< /bs/alert >}}
+
+---
+
 ## References
 
 [^1]: Downey, A. B. (2015). *Think Python: How to think like a computer scientist*. Needham, Massachusetts: Green Tea Press.

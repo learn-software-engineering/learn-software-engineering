@@ -45,6 +45,20 @@ En cuanto al almacenamiento, dispositivos como discos duros, SSDs y unidades fla
 
 ---
 
+{{< bs/alert primary >}}
+{{% markdownify %}}
+¡Felicitaciones por llegar hasta acá! Espero que este recorrido por el universo de la programación te haya resultado tan interesante como lo fue para mí al escribirlo.
+
+Queremos conocer tu opinión, así que no dudes en compartir tus comentarios, sugerencias y esas ideas brillantes que seguro tenés.
+
+Además, para explorar más allá de estas líneas, date una vuelta por los ejemplos prácticos que armamos para vos. Todo el código y los proyectos los encontrás en nuestro repositorio de GitHub {{< bs/alert-link "learn-software-engineering/examples-programming" "https://github.com/learn-software-engineering/examples-programming" >}}.
+
+Gracias por ser parte de esta comunidad de aprendizaje. ¡Seguí programando y explorando nuevas areas en este fascinante mundo del software!
+{{% /markdownify %}}
+{{< /bs/alert >}}
+
+---
+
 ## Referencias
 
 [^1]: Patterson, D. & Hennessy, J. (2014). *Arquitectura de Computadoras*. Buenos Aires: Ediciones Omega.

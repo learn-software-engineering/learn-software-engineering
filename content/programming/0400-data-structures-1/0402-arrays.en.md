@@ -37,7 +37,9 @@ Individual elements are quickly accessed by their index using brackets `[]`:
 ```python
 my_array = ['a', 'b', 'c']
 print(my_array[0]) # 'a'
+print(my_array[2]) # 'c'
 my_array[2] = 'z'
+print(my_array[2]) # 'z'
 ```
 
 Indices start at 0, so in an array of size N, valid indices are between 0 and N-1.
@@ -110,3 +112,17 @@ They can have more dimensions, for example a 3D array to represent pixels in an 
 ## Conclusion
 
 Arrays are fundamental data structures in programming that provide efficient access to elements in memory through numeric indices. Having a good command of arrays, matrices, and their uses is essential for any programmer.
+
+---
+
+{{< bs/alert primary >}}
+{{% markdownify %}}
+Cheers for making it this far! I hope this journey through the programming universe has been as fascinating for you as it was for me to write down.
+
+We're keen to hear your thoughts, so don't be shy – drop your comments, suggestions, and those bright ideas you're bound to have.
+
+Also, to delve deeper than these lines, take a stroll through the practical examples we've cooked up for you. You'll find all the code and projects in our GitHub repository {{< bs/alert-link "learn-software-engineering/examples-programming" "https://github.com/learn-software-engineering/examples-programming" >}}.
+
+Thanks for being part of this learning community. Keep coding and exploring new territories in this captivating world of software!
+{{% /markdownify %}}
+{{< /bs/alert >}}

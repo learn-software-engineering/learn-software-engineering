@@ -35,9 +35,11 @@ Al crear un array literal se inicializan sus elementos directamente. Al construi
 Los elementos individuales se acceden rápidamente por su índice utilizando corchetes `[]`:
 
 ```python
-mi_array = ['a', 'b', 'c']
-print(mi_array[0]) # 'a'
-mi_array[2] = 'z'
+my_array = ['a', 'b', 'c']
+print(my_array[0]) # 'a'
+print(my_array[2]) # 'c'
+my_array[2] = 'z'
+print(my_array[2]) # 'z'
 ```
 
 Los índices comienzan en 0, por lo que en un array de tamaño N, los índices válidos están entre 0 y N-1.
@@ -110,3 +112,17 @@ Pueden tener más dimensiones, por ejemplo un array 3D para representar pixeles 
 ## Conclusión
 
 Los arrays son estructuras de datos fundamentales en programación que proveen un acceso eficiente a elementos en memoria mediante índices numéricos. Tener un buen dominio de arrays, matrices y sus usos es indispensable para cualquier programador.
+
+---
+
+{{< bs/alert primary >}}
+{{% markdownify %}}
+¡Felicitaciones por llegar hasta acá! Espero que este recorrido por el universo de la programación te haya resultado tan interesante como lo fue para mí al escribirlo.
+
+Queremos conocer tu opinión, así que no dudes en compartir tus comentarios, sugerencias y esas ideas brillantes que seguro tenés.
+
+Además, para explorar más allá de estas líneas, date una vuelta por los ejemplos prácticos que armamos para vos. Todo el código y los proyectos los encontrás en nuestro repositorio de GitHub {{< bs/alert-link "learn-software-engineering/examples-programming" "https://github.com/learn-software-engineering/examples-programming" >}}.
+
+Gracias por ser parte de esta comunidad de aprendizaje. ¡Seguí programando y explorando nuevas areas en este fascinante mundo del software!
+{{% /markdownify %}}
+{{< /bs/alert >}}

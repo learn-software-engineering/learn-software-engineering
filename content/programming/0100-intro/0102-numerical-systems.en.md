@@ -85,12 +85,22 @@ So, the next time you're in front of your computer or using an app on your smart
 
 ---
 
+{{< bs/alert primary >}}
+{{% markdownify %}}
+Cheers for making it this far! I hope this journey through the programming universe has been as fascinating for you as it was for me to write down.
+
+We're keen to hear your thoughts, so don't be shy – drop your comments, suggestions, and those bright ideas you're bound to have.
+
+Also, to delve deeper than these lines, take a stroll through the practical examples we've cooked up for you. You'll find all the code and projects in our GitHub repository {{< bs/alert-link "learn-software-engineering/examples-programming" "https://github.com/learn-software-engineering/examples-programming" >}}.
+
+Thanks for being part of this learning community. Keep coding and exploring new territories in this captivating world of software!
+{{% /markdownify %}}
+{{< /bs/alert >}}
+
+---
+
 **References**
 
 [^1]: Ifrah, G. (2000). *The Universal History of Numbers*. London: Harvill Press.
 [^2]: Tanenbaum, A. (2012). *Structured Computer Organization*. New Jersey: Prentice Hall.
 [^3]: Knuth, D. (2007). *The Art of Computer Programming: Seminumerical Algorithms*. California: Addison-Wesley.
-
----
-
-Dive deep, stay curious, and never stop learning. Join us again for another journey into the myriad realms of technology and mathematics!

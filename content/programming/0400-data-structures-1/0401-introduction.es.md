@@ -127,3 +127,17 @@ Con una estructura de datos como la cola implementamos la lógica FIFO de una fo
 ## Conclusión
 
 Las estructuras de datos son herramientas fundamentales en programación que nos permiten organizar información de forma óptima para resolver problemas complejos. Conocer los distintos tipos de estructuras disponibles, como arrays, listas, pilas, colas, hashes, grafos y árboles, nos permite construir programas más eficientes. ¡Espero que esta introducción te haya dado algunos conocimientos y herramientas para comenzar a dominar este apasionante tema!
+
+---
+
+{{< bs/alert primary >}}
+{{% markdownify %}}
+¡Felicitaciones por llegar hasta acá! Espero que este recorrido por el universo de la programación te haya resultado tan interesante como lo fue para mí al escribirlo.
+
+Queremos conocer tu opinión, así que no dudes en compartir tus comentarios, sugerencias y esas ideas brillantes que seguro tenés.
+
+Además, para explorar más allá de estas líneas, date una vuelta por los ejemplos prácticos que armamos para vos. Todo el código y los proyectos los encontrás en nuestro repositorio de GitHub {{< bs/alert-link "learn-software-engineering/examples-programming" "https://github.com/learn-software-engineering/examples-programming" >}}.
+
+Gracias por ser parte de esta comunidad de aprendizaje. ¡Seguí programando y explorando nuevas areas en este fascinante mundo del software!
+{{% /markdownify %}}
+{{< /bs/alert >}}

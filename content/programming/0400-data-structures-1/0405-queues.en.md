@@ -2,13 +2,13 @@
 type: docs
 authors: ["jnonino"]
 series: ["Programming"]
-nav_weight: 406
+nav_weight: 405
 title: "Queues"
 description: "Queues are an abstract data structure that operates under the FIFO (first in, first out) principle, where the first element to enter is also the first to leave. Queues are used to order elements so that the first to arrive is processed first. Understanding their operation is essential for any programmer."
 date: 2023-11-03
 tags: ["intro", "programming", "data-structures", "linked-lists", "queues"]
 images:
-  - /images/banners/content/programming/0400-data-structures-1/0406-queues.en.png
+  - /images/banners/content/programming/0400-data-structures-1/0405-queues.en.png
 ---
 
 The FIFO (first in, first out) nature of queues is because only the initial element can be accessed and manipulated. When an element is added to the queue it is known as *"enqueue"*, while removing an element is called *"dequeue"*.

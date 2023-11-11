@@ -2,13 +2,13 @@
 type: docs
 authors: ["jnonino"]
 series: ["Programming"]
-nav_weight: 402
+nav_weight: 401
 title: "Arrays"
 description: "Arrays are fundamental data structures in programming that allow storing and organizing collections of data of the same type. Mastering the use of arrays is essential for any programmer."
 date: 2023-10-31
 tags: ["intro", "programming", "data-structures", "arrays"]
 images:
-  - /images/banners/content/programming/0400-data-structures-1/0402-arrays.en.png
+  - /images/banners/content/programming/0400-data-structures-1/0401-arrays.en.png
 ---
 
 An array is a data structure that represents a set of elements, which are accessed through contiguous numeric indices ranging from 0 to the size of the array minus 1. Arrays provide fast, direct access to elements based on their position.

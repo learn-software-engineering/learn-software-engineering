@@ -2,13 +2,13 @@
 type: docs
 authors: ["jnonino"]
 series: ["Programming"]
-nav_weight: 402
+nav_weight: 401
 title: "Arreglos"
 description: "Los arreglos (arrays en inglés) son estructuras de datos fundamentales en programación que permiten almacenar y organizar colecciones de datos del mismo tipo. Dominar el uso de arrays es esencial para cualquier programador."
 date: 2023-10-31
 tags: ["intro", "programming", "data-structures", "arrays"]
 images:
-  - /images/banners/content/programming/0400-data-structures-1/0402-arrays.es.png
+  - /images/banners/content/programming/0400-data-structures-1/0401-arrays.es.png
 ---
 
 Un array es una estructura de datos que representa un conjunto de elementos, los cuales se acceden a través de índices numéricos contiguos que van desde 0 hasta el tamaño del array menos 1. Los arrays proveen acceso rápido y directo a los elementos en base a su posición.

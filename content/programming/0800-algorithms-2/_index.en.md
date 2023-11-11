@@ -1,7 +1,7 @@
 ---
 draft: true
 type: docs
-title: Algorithms II
+title: Algorithms (part 2)
 nav_weight: 800
 nav_icon:
   vendor: bootstrap

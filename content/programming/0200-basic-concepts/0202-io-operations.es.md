@@ -177,7 +177,7 @@ También podemos leer un número determinado de bytes o caracteres con `read(n)`
 
 ---
 
-## OPeraciones para el manejo de archivos
+## Operaciones para el manejo de archivos
 
 Existen varias funciones incorporadas para manipular archivos en Python[^2]:
 
@@ -198,6 +198,20 @@ Estas funciones nos permiten efectuar operaciones avanzadas para leer, escribir 
 ## Conclusión
 
 En este artículo explicamos en detalle operaciones de entrada y salida en Python, incluyendo leer de entrada estándar y escribir a salida estándar o archivos. Manejar correctamente la entrada y salida es esencial para muchas aplicaciones de Python. Recomiendo practicar con ejemplos propios para dominar estas funciones[^3].
+
+---
+
+{{< bs/alert primary >}}
+{{% markdownify %}}
+¡Felicitaciones por llegar hasta acá! Espero que este recorrido por el universo de la programación te haya resultado tan interesante como lo fue para mí al escribirlo.
+
+Queremos conocer tu opinión, así que no dudes en compartir tus comentarios, sugerencias y esas ideas brillantes que seguro tenés.
+
+Además, para explorar más allá de estas líneas, date una vuelta por los ejemplos prácticos que armamos para vos. Todo el código y los proyectos los encontrás en nuestro repositorio de GitHub {{< bs/alert-link "learn-software-engineering/examples-programming" "https://github.com/learn-software-engineering/examples-programming" >}}.
+
+Gracias por ser parte de esta comunidad de aprendizaje. ¡Seguí programando y explorando nuevas areas en este fascinante mundo del software!
+{{% /markdownify %}}
+{{< /bs/alert >}}
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 draft: true
 type: docs
-title: Algoritmos I
+title: Algoritmos
 nav_weight: 500
 nav_icon:
   vendor: bootstrap

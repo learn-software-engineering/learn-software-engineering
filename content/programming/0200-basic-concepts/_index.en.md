@@ -6,4 +6,6 @@ nav_icon:
   vendor: simple-icons
   name: futurelearn
   color: 'red'
+images:
+  - /images/banners/programming-course.en.png
 ---

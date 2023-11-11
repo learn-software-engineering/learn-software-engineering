@@ -11,6 +11,8 @@ menu:
         vendor: bootstrap
         name: code-square
         color: "#ffc107"
+images:
+  - /images/banners/programming-course.es.png
 ---
 
 Bienvenidos a nuestra serie integral para emprender tu camino en el mundo de la programación. Creada para aquellos nuevos en el mundo de la codificación, esta colección de artículos ofrece un enfoque paso a paso para comprender los fundamentos de la programación. Empezaremos desde lo básico, como entender variables, tipos de datos y estructuras de control, hasta explorar gradualmente temas más complejos como algoritmos, estructuras de datos y principios de diseño de software.

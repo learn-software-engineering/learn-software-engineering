@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 type: docs
 title: Programación Orientada a Objetos
 nav_weight: 300

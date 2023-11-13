@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 type: docs
 title: Object-Oriented Programming
 nav_weight: 300

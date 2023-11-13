@@ -5,7 +5,7 @@ series: ["Programming"]
 nav_weight: 103
 title: "Boolean logic"
 description: "In life, we often seek certainties. Will it rain tomorrow, true or false? Is a certain action right or wrong? This dichotomy, this division between two opposing states, lies at the very core of a fundamental branch of mathematics and computer science: Boolean logic."
-date: 2023-09-15
+date: 2023-09-09
 tags: ["intro", "programming", "boolean-logic"]
 images:
   - /images/banners/programming-course.en.png

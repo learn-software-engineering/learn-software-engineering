@@ -5,7 +5,7 @@ series: ["Programming"]
 nav_weight: 101
 title: "La esencia de una computadora"
 description: "En el mundo actual, donde las tecnologías digitales se han convertido en una extensión de nuestras vidas diarias, resulta esencial comprender los cimientos sobre los que se construyen nuestras herramientas digitales. En esta ocasión, nos sumergiremos en el corazón de las computadoras para entender cómo funcionan y por qué son esenciales en nuestra sociedad moderna."
-date: 2023-09-13
+date: 2023-09-02
 tags: ["intro", "programming", "computer", "hardware", "software", "cpu", "memory"]
 images:
   - /images/banners/programming-course.es.png

@@ -8,5 +8,5 @@ nav_icon:
   name: instructure
   color: 'orange'
 images:
-  - /images/banners/content/programming/0400-data-structures-1/0401-introduction.en.png
+  - /images/banners/content/programming/0400-data-structures/_index.en.png
 ---

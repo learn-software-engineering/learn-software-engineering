@@ -5,7 +5,7 @@ series: ["Programming"]
 nav_weight: 102
 title: "Numerical systems"
 description: "Every day, we're surrounded by numbers. From the alarm clock's digits waking us up in the morning to the price of our favorite morning coffee. But, have you ever stopped to ponder the essence of these numbers? In this article, we will dive deep into the captivating world of numbering systems, unraveling how one number can have myriad representations depending on the context."
-date: 2023-09-15
+date: 2023-09-05
 tags: ["intro", "programming", "numerical-systems", "decimal", "binary", "hexadecimal"]
 images:
   - /images/banners/programming-course.en.png

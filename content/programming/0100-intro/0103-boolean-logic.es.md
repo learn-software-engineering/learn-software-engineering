@@ -5,7 +5,7 @@ series: ["Programming"]
 nav_weight: 103
 title: "Lógica Booleana"
 description: "En la vida, a menudo buscamos certezas. ¿Es cierto o falso que va a llover mañana? ¿Es correcto o incorrecto actuar de cierta manera? Esta dicotomía, esta división entre dos estados opuestos, se encuentra en el núcleo mismo de una rama esencial de las matemáticas y la informática: la lógica booleana."
-date: 2023-09-14
+date: 2023-09-09
 tags: ["intro", "programming", "boolean-logic"]
 images:
   - /images/banners/programming-course.es.png

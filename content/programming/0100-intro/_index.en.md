@@ -1,13 +1,13 @@
 ---
 type: docs
-title: Introduction
+title: Introduction to Programming
 nav_weight: 100
 nav_icon:
   vendor: bs
   name: file-richtext
   color: 'skyblue'
 images:
-  - /images/banners/programming-course.en.png
+  - /images/banners/content/programming/0100-intro/_index.en.png
 ---
 
 At its core, programming is the act of instructing a machine on how to perform a specific task. It's like teaching your dog to fetch, but in this case, the dog is your computer, and the ball might be, let's say, displaying a photo on your screen.

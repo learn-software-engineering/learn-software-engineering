@@ -3,12 +3,12 @@ type: docs
 authors: ["jnonino"]
 series: ["Programming"]
 nav_weight: 104
-title: "Configura tu entorno de programación"
+title: "Configura tu Entorno de Desarrollo"
 description: "Adentrarse en el mundo de la programación puede parecer una tarea titánica, especialmente cuando te encuentras frente a la decisión inicial: ¿por dónde empezar? Este artículo te guiará a través de los pasos esenciales para configurar tu entorno de programación, garantizando una base sólida para tu viaje codificador."
 date: 2023-09-10
 tags: ["intro", "programming", "ide", "python", "install", "tools"]
 images:
-  - /images/banners/programming-course.es.png
+  - /images/banners/content/programming/0100-intro/0104-setup-dev-environment.es.png
 ---
 
 ---

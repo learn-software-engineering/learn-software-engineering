@@ -8,7 +8,7 @@ description: "En la vida, a menudo buscamos certezas. ¿Es cierto o falso que va
 date: 2023-09-09
 tags: ["intro", "programming", "boolean-logic"]
 images:
-  - /images/banners/programming-course.es.png
+  - /images/banners/content/programming/0100-intro/0103-boolean-logic.es.png
 ---
 
 La lógica booleana, nombrada en honor a [George Boole](https://es.wikipedia.org/wiki/George_Boole), un matemático inglés del siglo XIX, es un sistema matemático que se ocupa de operaciones que tienen solo dos resultados posibles: verdadero o falso, representados generalmente como 1 y 0, respectivamente[^1]. En su obra "An Investigation of the Laws of Thought", Boole estableció las bases de esta lógica, presentando un sistema algebraico que podría utilizarse para representar estructuras lógicas.

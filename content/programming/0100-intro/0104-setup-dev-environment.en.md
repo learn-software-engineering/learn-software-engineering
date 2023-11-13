@@ -3,12 +3,12 @@ type: docs
 authors: ["jnonino"]
 series: ["Programming"]
 nav_weight: 104
-title: "Set up your development environment"
+title: "Set Up your Development Environment"
 description: "Venturing into the world of programming might seem like a Herculean task, especially when faced with the initial decision: Where to begin? This article will guide you through the essential steps to set up your programming environment, ensuring a solid foundation for your coding journey."
 date: 2023-09-10
 tags: ["intro", "programming", "python", "install", "tools"]
 images:
-  - /images/banners/programming-course.en.png
+  - /images/banners/content/programming/0100-intro/0104-setup-dev-environment.en.png
 ---
 
 ---

@@ -2,12 +2,12 @@
 type: docs
 authors: ["jnonino"]
 series: ["Programming"]
-nav_weight: 303
+nav_weight: 302
 title: "Encapsulation"
-date: 2023-04-06
+date: 2023-10-04
 tags: ["oop", "object-oriented", "encapsulation"]
 images:
-  - /images/banners/content/programming/0300-oop/object-oriented-programming.png
+  - /images/banners/content/programming/0300-oop/0302-encapsulation.en.png
 ---
 
 Encapsulation is one of the four foundational principles of Object-Oriented Programming (OOP). It plays a crucial role in protecting the integrity of an object by controlling how its data can be accessed and modified. This article, will explore the concept of encapsulation, explain modifiers, and demonstrate how to use getters and setters in Python.

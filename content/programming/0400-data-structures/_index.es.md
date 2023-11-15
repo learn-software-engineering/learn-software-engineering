@@ -1,4 +1,5 @@
 ---
+draft: true
 type: docs
 title: Estructuras de Datos
 nav_weight: 400

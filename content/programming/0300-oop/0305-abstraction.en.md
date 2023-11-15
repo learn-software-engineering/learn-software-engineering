@@ -3,12 +3,12 @@ draft: true
 type: docs
 authors: ["jnonino"]
 series: ["Programming"]
-nav_weight: 306
+nav_weight: 305
 title: "Abstraction"
-date: 2023-04-12
+date: 2023-10-10
 tags: ["oop", "object-oriented", "abstractions", "interfaces"]
 images:
-  - /images/banners/content/programming/0300-oop/object-oriented-programming.png
+  - /images/banners/content/programming/0300-oop/0305-abstraction.en.png
 ---
 
 Abstraction is one of the key principles in Object-Oriented Programming (OOP). It plays a vital role in managing complexity by hiding unnecessary details and exposing only what's essential. This article, will explore the concept of abstraction, its purpose, abstract classes, interfaces, and implementation in Python.

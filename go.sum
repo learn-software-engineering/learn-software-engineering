@@ -36,6 +36,7 @@ github.com/hbstack/blog v0.21.0 h1:J/R7HPr8HkrkkEUXJFTtJYmTFVcgVDrNPxttcR2KTC0=
 github.com/hbstack/blog v0.21.0/go.mod h1:uOHUphJ8GjPeFHoGq50aEEsbiQ1OLiBsa8Qll0i3BuY=
 github.com/hbstack/blog v0.22.1 h1:c425duocrTa2Fk+Vw+UT1kbXTZ4mcfSPkNQBBdEPYIs=
 github.com/hbstack/blog v0.22.1/go.mod h1:/7lTlv0U75nnxemioHYmBEOW/rYYm+n0s/xjEWnW8FI=
+github.com/hbstack/blog v0.22.2 h1:9G+nfIxlGtt7qPdWd4YpuPjiFqDI44XoHBq1fHSgasE=
 github.com/hbstack/blog v0.22.2/go.mod h1:chG+CUsXw7iAnB+PU1sYCRzEg/wGIbSDjycnuG0rus4=
 github.com/hbstack/blog/modules/breadcrumb v0.1.22 h1:NDcjR5805LBDRcLaDF12VAIAJiRqCL/e/GX+1DE7O0k=
 github.com/hbstack/blog/modules/breadcrumb v0.1.22/go.mod h1:abqj7FTsHihbv3B2szGm4YmVGVZWzWg2VVA5ZhqUyKY=
@@ -59,6 +60,7 @@ github.com/hbstack/blog/modules/sidebar/posts v0.3.4 h1:RrgDzq7ElWB/i6solLLIv2XE
 github.com/hbstack/blog/modules/sidebar/posts v0.3.4/go.mod h1:kx4WOQKpVXY9TVOytMHyunW5dNcCu563Rmw23GX/P2w=
 github.com/hbstack/blog/modules/sidebar/posts v0.5.4 h1:9FQ2EDVrjh3ntIoH1N7srQ38bhapeWbq35IkmI5AbP8=
 github.com/hbstack/blog/modules/sidebar/posts v0.5.4/go.mod h1:lON1JanaR6Gn9V9PY0oDMWjcipsVpYrEOfh4Xr9SPzo=
+github.com/hbstack/blog/modules/sidebar/posts v0.6.0 h1:mQ9bKWRgWLIAw9/QhpPJJcuMaKbJXjh7nQwvFw2GIlM=
 github.com/hbstack/blog/modules/sidebar/posts v0.6.0/go.mod h1:3GGTcyptp/ml8F4/ZTugrLpzjsVUnY5Pbh8jGPWYynA=
 github.com/hbstack/blog/modules/sidebar/taxonomies v0.3.4 h1:d0m1YcSsMQrlprY/iN/qr6v43xlc5TXiIE2qNt5hlFI=
 github.com/hbstack/blog/modules/sidebar/taxonomies v0.3.4/go.mod h1:9Gy0AGtLqa1TWwkAtQCio9HiRJNzpCYZBWLiKw99KWM=
@@ -229,6 +231,7 @@ github.com/hugomods/bootstrap v0.11.2 h1:ChaQNgmSezevVauKP/dCum3725IVFmK344YxgVI
 github.com/hugomods/bootstrap v0.11.2/go.mod h1:NVii94xgqDocyD0+aAWamBLPJjNspfMynEdmIOXO3Vs=
 github.com/hugomods/bootstrap v0.13.0 h1:0xtsCsx1Kek4iYpQHX1LLxHPYt/f7qABEGv1qPaWBSI=
 github.com/hugomods/bootstrap v0.13.0/go.mod h1:7IkovSZw/9Grx2bgcTMielY5vvLjPBzy5x/bPIA1BlY=
+github.com/hugomods/bootstrap v0.14.0 h1:G/TnHqH5UVjUJDkLGxmxAPInjCWtAFGt+R76a8TF76U=
 github.com/hugomods/bootstrap v0.14.0/go.mod h1:xibujTCci1NMBmQ8jzvxAYx2bKKQVWaoaZYNcnx6tGQ=
 github.com/hugomods/code-block-panel v0.2.0 h1:vSZfriVuK34Z9k7710g1tr7tZPv26VYPXio5bYmaz24=
 github.com/hugomods/code-block-panel v0.2.0/go.mod h1:sbl/NT0TZqHagnW8NWB690lDBGyY5r2dx6xpR17QSq4=
@@ -284,11 +287,13 @@ github.com/hugomods/icons/vendors/simple-icons v1.0.20 h1:lKMBlZ8mmlQdS5ySJaH1Sq
 github.com/hugomods/icons/vendors/simple-icons v1.0.20/go.mod h1:8wbqQIjRS1HdnGDhTIhgfpHjfRDU5/k3223eEVJYyeE=
 github.com/hugomods/icons/vendors/simple-icons v1.0.21 h1:RHF7PMdKQChkQEJRpee9TOsQQfK+Ay7eyGqSFTWqiMI=
 github.com/hugomods/icons/vendors/simple-icons v1.0.21/go.mod h1:l5nhvpMaZiL2iVTl0KCvOE5PzXUfXsODQiQ5u7fqX9w=
+github.com/hugomods/icons/vendors/simple-icons v1.0.22 h1:jdLlJSKVGuhSAAvmxX5dIc8fZSZ/BUuq+EzQvkP0UGQ=
 github.com/hugomods/icons/vendors/simple-icons v1.0.22/go.mod h1:baULjal4gCvJeiuE4BMxkR2Gh1IWhVvJRJ0FJiSxMwo=
 github.com/hugomods/icons/vendors/tabler v0.15.10 h1:X1kr7Rkw5EHJUJMe+Bufrhid26CIAdbf1jN4mZ61kqU=
 github.com/hugomods/icons/vendors/tabler v0.15.10/go.mod h1:y3ncPKa7awEyN0tC55nkmzRWA7jEpRU9+TnBcY4kzXY=
 github.com/hugomods/icons/vendors/tabler v0.15.17 h1:qzrGkcXhIerI7TpNwpGTvBl1dklnjL7XtAm1Mw+Y/GI=
 github.com/hugomods/icons/vendors/tabler v0.15.17/go.mod h1:/G424vB++x0UA4Ihk+YrSgi9H+u2dUh+lZuvMoD6AiY=
+github.com/hugomods/icons/vendors/tabler v0.15.18 h1:cLPp7WjroPv/jeznSnIA1+KsTZqEtOFg6JAi/F001Xc=
 github.com/hugomods/icons/vendors/tabler v0.15.18/go.mod h1:OW5WmM0hNnYx0lp4RLo5hhyuuA/vABLutqQHnRD0FD0=
 github.com/hugomods/idb-js v0.1.0 h1:mA6hEGtR0aFEdmq9zYMGpfSpCU6SMilx9RzC4uK3DqY=
 github.com/hugomods/idb-js v0.1.0/go.mod h1:GPfnmr+BQpP4s6Epd4Yu+RlUog8q/Djw8qy8BZFWZ04=
@@ -350,6 +355,7 @@ github.com/hugomods/simple-icons v9.19.1+incompatible h1:TKSNeKvTSY5iXbbnw7mBPiO
 github.com/hugomods/simple-icons v9.19.1+incompatible/go.mod h1:1Lvymol7AMVY7ji/o88jMoDHHZIJ5Wc+WwNe5hjmk+U=
 github.com/hugomods/simple-icons v9.20.0+incompatible h1:AfvpJNdq50HF/ECyNeQ3uAro/07sOqBtoIM2lRXl+W0=
 github.com/hugomods/simple-icons v9.20.0+incompatible/go.mod h1:1Lvymol7AMVY7ji/o88jMoDHHZIJ5Wc+WwNe5hjmk+U=
+github.com/hugomods/simple-icons v9.21.0+incompatible h1:j0FcHz/3iwU86XeGn6cTFHTRaXL1bFXXiUfSG320w3s=
 github.com/hugomods/simple-icons v9.21.0+incompatible/go.mod h1:1Lvymol7AMVY7ji/o88jMoDHHZIJ5Wc+WwNe5hjmk+U=
 github.com/hugomods/snackbar v0.1.2 h1:SLpfH9jlYwf81epH7DvM2XTZHo+3fXXpk6XKtxmo964=
 github.com/hugomods/snackbar v0.1.2/go.mod h1:ykFm0IFibeQPuPAm8Gaa27xJS/bNZcSez4omVSl2gQ0=
@@ -367,6 +373,7 @@ github.com/lucide-icons/lucide v0.265.0 h1:s0dIST57klkEZ7ZJuOIXChoyvLKjDDR307S0s
 github.com/lucide-icons/lucide v0.265.0/go.mod h1:0HX/9u6n25zuV2HgBIuqfMfDktGNXmsvYqL1cOK4aWc=
 github.com/tabler/tabler-icons v2.40.0+incompatible h1:vjRu826GHhTvg1fHqpdo6+epZ/5BkiSubYCFxYUduoo=
 github.com/tabler/tabler-icons v2.40.0+incompatible/go.mod h1:Ap75CRdhXxprnUnPlUCRLvJ2pIFNqwxIipj3GfD6XHE=
+github.com/tabler/tabler-icons v2.41.0+incompatible h1:kd77k80OyiTebrNP8AYQnjUr94tnKt8v6O946aBjeCA=
 github.com/tabler/tabler-icons v2.41.0+incompatible/go.mod h1:Ap75CRdhXxprnUnPlUCRLvJ2pIFNqwxIipj3GfD6XHE=
 github.com/twbs/bootstrap v5.3.2+incompatible h1:tuiO5acc6xnZUR77Sbi5aKWXxjYxbmsSbJwYrhAKoQQ=
 github.com/twbs/bootstrap v5.3.2+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=

@@ -74,7 +74,7 @@ require (
 	github.com/hugomods/hugopress v0.2.2 // indirect
 	github.com/hugomods/i18n-js v0.2.1 // indirect
 	github.com/hugomods/icons v0.6.0 // indirect
-	github.com/hugomods/icons/vendors/bootstrap v0.5.1 // indirect
+	github.com/hugomods/icons/vendors/bootstrap v0.5.2 // indirect
 	github.com/hugomods/icons/vendors/feather v0.2.1 // indirect
 	github.com/hugomods/icons/vendors/font-awesome v0.6.1 // indirect
 	github.com/hugomods/icons/vendors/lucide v0.3.22 // indirect
@@ -105,5 +105,5 @@ require (
 	github.com/lucide-icons/lucide v0.265.0 // indirect
 	github.com/tabler/tabler-icons v2.41.0+incompatible // indirect
 	github.com/twbs/bootstrap v5.3.2+incompatible // indirect
-	github.com/twbs/icons v1.11.1 // indirect
+	github.com/twbs/icons v1.11.2 // indirect
 )

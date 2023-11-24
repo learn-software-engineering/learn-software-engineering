@@ -265,6 +265,7 @@ github.com/hugomods/icons/vendors/bootstrap v0.5.0 h1:CHEGk677heq2kJZa7XsGHRc3Hw
 github.com/hugomods/icons/vendors/bootstrap v0.5.0/go.mod h1:kfC17VWV+tNi6PGF4AY7CJBBa1/HEgWxCYq2kNOdcdI=
 github.com/hugomods/icons/vendors/bootstrap v0.5.1 h1:H4G4kK9ltn3Cn/oyi+i7qhSyxPA+U4L85fUFQ9wNnxo=
 github.com/hugomods/icons/vendors/bootstrap v0.5.1/go.mod h1:tFEoO7zed/8FDT6LeKLGnzDbx7D8HK7ZaLshnF0RYjQ=
+github.com/hugomods/icons/vendors/bootstrap v0.5.2/go.mod h1:O+9YwW2aJiOIC7R/zmSnoiZjiix1HMJD5J7NRLxRg+M=
 github.com/hugomods/icons/vendors/feather v0.2.1 h1:K4/QWcjBJM6X4CDVL3HkUQyecKV8liLMUUEZplnwEiw=
 github.com/hugomods/icons/vendors/feather v0.2.1/go.mod h1:rJI9XA0BjqQPTQuJP0ciO0Dagl23W+t9sSbKO6NBXng=
 github.com/hugomods/icons/vendors/font-awesome v0.6.1 h1:MyYF67fPthN4EDkT/IwY0ydowxzE6J/oKFTltOCY2vY=
@@ -295,6 +296,7 @@ github.com/hugomods/icons/vendors/tabler v0.15.17 h1:qzrGkcXhIerI7TpNwpGTvBl1dkl
 github.com/hugomods/icons/vendors/tabler v0.15.17/go.mod h1:/G424vB++x0UA4Ihk+YrSgi9H+u2dUh+lZuvMoD6AiY=
 github.com/hugomods/icons/vendors/tabler v0.15.18 h1:cLPp7WjroPv/jeznSnIA1+KsTZqEtOFg6JAi/F001Xc=
 github.com/hugomods/icons/vendors/tabler v0.15.18/go.mod h1:OW5WmM0hNnYx0lp4RLo5hhyuuA/vABLutqQHnRD0FD0=
+github.com/hugomods/icons/vendors/tabler v0.15.19/go.mod h1:D4dVEic51z8JEo8JWcNabKpkM1jCPQBIyjONUg6Qpu8=
 github.com/hugomods/idb-js v0.1.0 h1:mA6hEGtR0aFEdmq9zYMGpfSpCU6SMilx9RzC4uK3DqY=
 github.com/hugomods/idb-js v0.1.0/go.mod h1:GPfnmr+BQpP4s6Epd4Yu+RlUog8q/Djw8qy8BZFWZ04=
 github.com/hugomods/images v0.8.0 h1:rsI+Akwbz+Vd3mI0leAlCD8R696usHw13nH972mTe4E=
@@ -375,7 +377,9 @@ github.com/tabler/tabler-icons v2.40.0+incompatible h1:vjRu826GHhTvg1fHqpdo6+epZ
 github.com/tabler/tabler-icons v2.40.0+incompatible/go.mod h1:Ap75CRdhXxprnUnPlUCRLvJ2pIFNqwxIipj3GfD6XHE=
 github.com/tabler/tabler-icons v2.41.0+incompatible h1:kd77k80OyiTebrNP8AYQnjUr94tnKt8v6O946aBjeCA=
 github.com/tabler/tabler-icons v2.41.0+incompatible/go.mod h1:Ap75CRdhXxprnUnPlUCRLvJ2pIFNqwxIipj3GfD6XHE=
+github.com/tabler/tabler-icons v2.42.0+incompatible/go.mod h1:Ap75CRdhXxprnUnPlUCRLvJ2pIFNqwxIipj3GfD6XHE=
 github.com/twbs/bootstrap v5.3.2+incompatible h1:tuiO5acc6xnZUR77Sbi5aKWXxjYxbmsSbJwYrhAKoQQ=
 github.com/twbs/bootstrap v5.3.2+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/icons v1.11.1 h1:lMKkMwupTDfBJWXx6RFLwfYuCmqG/uUAu2LaOf7bZjU=
 github.com/twbs/icons v1.11.1/go.mod h1:GnRlymgVWp5iVJCMa0Me5b6tFyGpVc2bSxPMRGIJmyA=
+github.com/twbs/icons v1.11.2/go.mod h1:GnRlymgVWp5iVJCMa0Me5b6tFyGpVc2bSxPMRGIJmyA=

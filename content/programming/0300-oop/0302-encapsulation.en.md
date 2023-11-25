@@ -97,7 +97,7 @@ This notation helps declare the desired visibility to properly apply encapsulati
 
 ---
 
-## Benefits of Eencapsulation
+## Benefits of encapsulation
 
 This powerful technique provides great advantages:
 

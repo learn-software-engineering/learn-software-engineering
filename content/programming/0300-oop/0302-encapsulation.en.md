@@ -1,98 +1,125 @@
 ---
-draft: true
 type: docs
 authors: ["jnonino"]
 series: ["Programming"]
 nav_weight: 302
 title: "Encapsulation"
+description: "One of the fundamental pillars of object-oriented programming is encapsulation. This powerful characteristic allows us to control access to class members, hiding implementation details and protecting the state of our objects. In this article we will delve into the concept of encapsulation, the usefulness of getters, setters, public/private properties and methods, and the important benefits this provides us as developers."
 date: 2023-10-04
 tags: ["oop", "object-oriented", "encapsulation"]
 images:
   - /images/banners/content/programming/0300-oop/0302-encapsulation.en.png
 ---
 
-Encapsulation is one of the four foundational principles of Object-Oriented Programming (OOP). It plays a crucial role in protecting the integrity of an object by controlling how its data can be accessed and modified. This article, will explore the concept of encapsulation, explain modifiers, and demonstrate how to use getters and setters in Python.
+The Oxford Dictionary defines encapsulation as *"enclosed or contained as if in a capsule"*. This is precisely what we seek to achieve - *"packaging"* data and code within a single capsule (the class) to hide its internal complexity.
 
-Encapsulation refers to the bundling of data (attributes) and the methods (functions) that operate on the data into a single unit, restricting direct access to some of an object's components. It acts like a protective barrier that prevents the code outside the class from accidentally modifying the internal state of an object.
+The formal definition would be:
 
-The primary purposes of encapsulation are:
+> "Encapsulation refers to bundling data and functions that manipulate these data into a single entity or software module."[^1]
 
-- **Maintaining Integrity**: By controlling access, encapsulation ensures that the object's state cannot be changed arbitrarily.
-- **Enhancing Security**: It hides the implementation details, exposing only what is necessary.
-- **Improving Maintainability**: Encapsulation makes code more modular and easier to modify without affecting other parts of the program.
+That is, keeping related data and behaviours together in order to restrict direct access to that data from other parts of the programme, interacting only through a controlled interface (public API).
 
-## Public, Private, and Protected modifiers
+This provides advantages like:
 
-In Python, you can define attributes and methods as public, private, or protected using the following conventions:
+- Control over data modification.
+- Flexibility to change internal parts without affecting others.
+- Protection of the consistent state of objects.
+- Hiding complexity from the user.
 
-- **Public**: Accessible from anywhere. No specific notation is required.
-- **Private**: Denoted by a double underscore prefix (e.g., `__attribute`). Only accessible within the class.
-- **Protected**: Denoted by a single underscore prefix (e.g., `_attribute`). It's a convention that these attributes shouldn't be accessed outside the class, but they are still technically accessible.
+Let's see with concrete examples how to encapsulate in OOP.
 
-```python
-class Account:
-    public_data = "Public"
-    _protected_data = "Protected"
-    __private_data = "Private"
-```
+---
 
-## Getters and setters
+## Getters and Setters
 
-In encapsulation, getters and setters are used to access and modify private attributes.
-
-- Getters are methods used to retrieve the value of private attributes.
-- Setters are methods used to set or modify the value of private attributes.
-
-Here's how you can define getters and setters in Python:
+Say we have a `BankAccount` class, with properties like `name`, `account number` and `balance`:
 
 ```python
-class Person:
-    def __init__(self, name, age):
-        self.__name = name
-        self.__age = age
+class BankAccount:
 
-    # Getter for name
-    def get_name(self):
-        return self.__name
-
-    # Setter for name
-    def set_name(self, name):
-        self.__name = name
+    name = ""
+    account_number = 0
+    balance = 0.0
 ```
 
-## Example
-
-Let's take a look at a complete example that demonstrates encapsulation:
+We can directly access attributes like:
 
 ```python
-class Student:
-    def __init__(self, name, grade):
-        self.__name = name
-        self.__grade = grade
-
-    # Getter for name
-    def get_name(self):
-        return self.__name
-
-    # Setter for grade
-    def set_grade(self, grade):
-        if 0 <= grade <= 100:
-            self.__grade = grade
-        else:
-            print("Grade must be between 0 and 100.")
-
-    # Method to display student information
-    def display_info(self):
-        print(f"{self.__name} has a grade of {self.__grade}.")
-
-student = Student("Alice", 90)
-student.display_info()  # Output: Alice has a grade of 90.
-student.set_grade(95)
-student.display_info()  # Output: Alice has a grade of 95.
+account1 = BankAccount()
+account1.name = "John"
+account1.account_number = 1234
+account1.balance = 2500
 ```
+
+The problem is any other code can modify the balance to invalid values:
+
+```python
+account1.balance = -9900 # Balance can't be negative in this bank!
+```
+
+This allows inconsistent state. To encapsulate we use **getters and setters**:
+
+```python
+class BankAccount:
+
+    def __init__(self):
+        self.__balance = 0
+
+    def get_balance(self):
+        return self.__balance
+
+    def set_balance(self, value):
+        if value < 0:
+            raise Exception("Balance can't be negative in this bank")
+        self.__balance = value
+```
+
+- `__balance` is now **private**. It is only manipulated via the public getters and setters.
+
+- The setter controls invalid values not being input.
+
+In Python, prepending double underscore `__` denotes a **private** method or attribute of the class. With a single underscore `_` it's by convention a **protected** element, accessible from class and subclasses but not externally. And with `no underscores`, methods and attributes are **public**.
+
+In Java this is explicit using the keywords `public`, `protected` and `private`:
+```java
+public class Person {
+
+    private String name; // Private
+
+    public String getName() { // Public
+        return this.name;
+    }
+
+}
+```
+
+This notation helps declare the desired visibility to properly apply encapsulation.
+
+---
+
+## Benefits of Eencapsulation
+
+This powerful technique provides great advantages:
+
+- **Information hiding:** Implementation details are invisible to other objects, reducing coupling. Internal code can change minimizing impact.
+- **Control over data:** Integrity and validity of state is guaranteed via setters/validators.
+- **Flexible code:** Isolation between interfaces and specifics enables building more extensible and maintainable systems over time.
+
+> "Every module hides the complexity of its contents behind a simple fa??ade (interface)", Gang of Four[^2].
+
+Ultimately, when we need to control how internal state is manipulated in a class from other parts of the application, encapsulation is the best solution.
+
+---
 
 ## Conclusion
 
-Encapsulation is a powerful concept in OOP that promotes code integrity, security, and maintainability. By understanding and implementing public, private, and protected modifiers along with getters and setters, you can write more robust and well-organized code.
+Applying encapsulation by restricting direct access to data and carefully coding a public access interface allows us to build more robust, secure and sustainable OOP systems over time.
 
-As you continue your journey into OOP, the knowledge of encapsulation will serve as a strong foundation for exploring more advanced topics and best practices.
+Mastering these techniques requires experience and good judgement to find the right balance between information hiding and flexibility. But undoubtedly it???s worth the effort to leverage the benefits we???ve seen from this wonderful OOP principle.
+
+---
+
+## References
+
+[^1]: Byron, Jeff. Encapsulation in Java. https://stackify.com/encapsulation-in-java/
+[^2]: Gamma, Erich et al. Design Patterns: Elements of Reusable Object-Oriented Software. Addison-Wesley. 1994.

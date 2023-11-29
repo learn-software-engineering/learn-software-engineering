@@ -53,3 +53,4 @@ imports:
   - path: github.com/hugomods/hugopress
   - path: github.com/hbstack/noscript
   - path: github.com/hbstack/footer
+  - path: github.com/hugomods/google-adsense

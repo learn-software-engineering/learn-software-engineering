@@ -33,7 +33,7 @@ jobs:
       - name: Build with Hugo
         run: .github/workflows/scripts/build.sh
       - name: Upload the built site
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: "site-built-${{ env.TARGET_REPO_NAME }}"
           path: public

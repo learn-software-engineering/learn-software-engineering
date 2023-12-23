@@ -27,7 +27,7 @@ require (
 	github.com/hbstack/breadcrumb v0.6.0 // indirect
 	github.com/hbstack/carousel v0.2.4 // indirect
 	github.com/hbstack/code-block-panel v0.1.1 // indirect
-	github.com/hbstack/docs v0.11.3 // indirect
+	github.com/hbstack/docs v0.11.4 // indirect
 	github.com/hbstack/docs/modules/breadcrumb v0.1.9 // indirect
 	github.com/hbstack/docs/modules/disqus v0.1.8 // indirect
 	github.com/hbstack/docs/modules/doc-nav v0.3.4 // indirect
@@ -40,7 +40,7 @@ require (
 	github.com/hbstack/footer/modules/socials v0.2.5 // indirect
 	github.com/hbstack/giscus v0.1.1 // indirect
 	github.com/hbstack/hb v0.8.0 // indirect
-	github.com/hbstack/header v0.12.3 // indirect
+	github.com/hbstack/header v0.12.4 // indirect
 	github.com/hbstack/header/modules/banner v0.5.11 // indirect
 	github.com/hbstack/header/modules/language-picker v0.1.23 // indirect
 	github.com/hbstack/header/modules/search v0.1.33 // indirect

@@ -5,7 +5,7 @@ go 1.20
 require (
 	github.com/GoogleChrome/workbox v7.0.0+incompatible // indirect
 	github.com/KaTeX/KaTeX v0.16.9 // indirect
-	github.com/Templarian/MaterialDesign-SVG v7.3.67+incompatible // indirect
+	github.com/Templarian/MaterialDesign-SVG v7.4.47+incompatible // indirect
 	github.com/feathericons/feather v4.29.1+incompatible // indirect
 	github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20200 // indirect
 	github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 // indirect
@@ -78,7 +78,7 @@ require (
 	github.com/hugomods/icons/vendors/feather v0.2.1 // indirect
 	github.com/hugomods/icons/vendors/font-awesome v0.6.1 // indirect
 	github.com/hugomods/icons/vendors/lucide v0.3.28 // indirect
-	github.com/hugomods/icons/vendors/mdi v0.3.1 // indirect
+	github.com/hugomods/icons/vendors/mdi v0.3.2 // indirect
 	github.com/hugomods/icons/vendors/simple-icons v1.0.26 // indirect
 	github.com/hugomods/icons/vendors/tabler v0.15.21 // indirect
 	github.com/hugomods/idb-js v0.1.0 // indirect

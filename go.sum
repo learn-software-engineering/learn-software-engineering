@@ -286,6 +286,7 @@ github.com/hugomods/aos v0.1.0 h1:R1NOqLbD+95R1EG0pJ7HPh/zUfM9fpdkgUMMJkOEPUs=
 github.com/hugomods/aos v0.1.0/go.mod h1:JY6AAt8e6jQtQr/i3QAcPxRmcoJO2FY/A/P4m69pXSY=
 github.com/hugomods/base v0.4.0 h1:jzBIJpqDx8aLAlNe/zF1xbefu1XYxumZc39tOO0ZjSw=
 github.com/hugomods/base v0.4.0/go.mod h1:hnWCPbVxuhXBwdFax3mmbMlWKmIo/7OP36MCLOyHtT4=
+github.com/hugomods/base v0.4.1/go.mod h1:hnWCPbVxuhXBwdFax3mmbMlWKmIo/7OP36MCLOyHtT4=
 github.com/hugomods/bootstrap v0.11.2 h1:ChaQNgmSezevVauKP/dCum3725IVFmK344YxgVIPLI4=
 github.com/hugomods/bootstrap v0.11.2/go.mod h1:NVii94xgqDocyD0+aAWamBLPJjNspfMynEdmIOXO3Vs=
 github.com/hugomods/bootstrap v0.13.0 h1:0xtsCsx1Kek4iYpQHX1LLxHPYt/f7qABEGv1qPaWBSI=

@@ -93,6 +93,7 @@ github.com/hbstack/blog/modules/toc-scrollspy v0.1.20 h1:DnN7Vl7rvsl5pPRpwcMkW9h
 github.com/hbstack/blog/modules/toc-scrollspy v0.1.20/go.mod h1:Ord7TP0ZP4C+l6a83oEAvPyTOnnGsmrIC26MTJaKYmI=
 github.com/hbstack/bootstrap v0.2.0 h1:pHZ1KQ0HHwhHFbgzZ401kMSxkS7Tg0I/X002SD6WHak=
 github.com/hbstack/bootstrap v0.2.0/go.mod h1:BqrUe89qxDkc8kxJ4iaK/XZxzZrWhlGloOFJfcNxAUU=
+github.com/hbstack/bootstrap v0.2.1/go.mod h1:IvEwsxbTINkAbiwCC9Nqvuguh6V+Z/8Dg3eZ+TLwWHc=
 github.com/hbstack/breadcrumb v0.2.0 h1:MFdVkfSMHkGaLGwp8lwcYYQuorpWzB6S/WOmblSlW9o=
 github.com/hbstack/breadcrumb v0.2.0/go.mod h1:/HsyKPMkXaairW/Ws6tGlc1Zf1DEmjp/v7d2QkY/UC4=
 github.com/hbstack/breadcrumb v0.2.1 h1:dhgak/MwHojE3PSzTMytXp1p0JGhsMje65/3bCxaAL8=
@@ -296,6 +297,7 @@ github.com/hugomods/bootstrap v0.14.0/go.mod h1:xibujTCci1NMBmQ8jzvxAYx2bKKQVWao
 github.com/hugomods/bootstrap v0.15.0/go.mod h1:uieaNCwD8ajNXjXmvCGoV0DluFraEn2h8WzXhwtmkig=
 github.com/hugomods/bootstrap v0.15.1/go.mod h1:HOdgrRHBMvH+MknbcdHwen50Y5ihT2n6wbvz3z628uE=
 github.com/hugomods/bootstrap v0.16.0/go.mod h1:HOdgrRHBMvH+MknbcdHwen50Y5ihT2n6wbvz3z628uE=
+github.com/hugomods/bootstrap v0.17.0/go.mod h1:EA5CtuNQX+aNkwEt1xae7clZ+4087KFXWZGE+2/f5oc=
 github.com/hugomods/code-block-panel v0.2.0 h1:vSZfriVuK34Z9k7710g1tr7tZPv26VYPXio5bYmaz24=
 github.com/hugomods/code-block-panel v0.2.0/go.mod h1:sbl/NT0TZqHagnW8NWB690lDBGyY5r2dx6xpR17QSq4=
 github.com/hugomods/code-block-panel v0.3.0 h1:OqwO2qZ7sR0txDldVzUaaUexqPy74iXDD9TZUysiYVw=

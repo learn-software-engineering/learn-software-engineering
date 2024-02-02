@@ -103,7 +103,7 @@ require (
 	github.com/jakearchibald/idb v8.0.0+incompatible // indirect
 	github.com/krisk/Fuse v7.0.0+incompatible // indirect
 	github.com/lucide-icons/lucide v0.265.0 // indirect
-	github.com/tabler/tabler-icons v2.46.0+incompatible // indirect
+	github.com/tabler/tabler-icons v2.47.0+incompatible // indirect
 	github.com/twbs/bootstrap v5.3.2+incompatible // indirect
 	github.com/twbs/icons v1.11.3 // indirect
 )

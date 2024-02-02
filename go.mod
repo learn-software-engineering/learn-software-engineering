@@ -39,7 +39,7 @@ require (
 	github.com/hbstack/footer v0.2.10 // indirect
 	github.com/hbstack/footer/modules/socials v0.2.5 // indirect
 	github.com/hbstack/giscus v0.1.1 // indirect
-	github.com/hbstack/hb v0.9.2 // indirect
+	github.com/hbstack/hb v0.10.0 // indirect
 	github.com/hbstack/header v0.12.7 // indirect
 	github.com/hbstack/header/modules/banner v0.5.11 // indirect
 	github.com/hbstack/header/modules/language-picker v0.1.24 // indirect

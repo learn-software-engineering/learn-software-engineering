@@ -425,6 +425,7 @@ github.com/hugomods/icons/vendors/tabler v0.15.22/go.mod h1:KSfu9EiYhwISXkEnrdlS
 github.com/hugomods/icons/vendors/tabler v0.15.23/go.mod h1:q4U7CiwF3D9ph1xjNA3CTz51EgH7BlghIhDHpQjwAMc=
 github.com/hugomods/icons/vendors/tabler v0.15.24/go.mod h1:GFt07BaBf2milp6wkLE+TPOCLUAaflLM31n64gVxM7w=
 github.com/hugomods/icons/vendors/tabler v0.15.25/go.mod h1:wrNbVE+W53wGDoU4Q/4zmoXONhU/866MyYXw8bZpt1Q=
+github.com/hugomods/icons/vendors/tabler v0.15.26/go.mod h1:wrNbVE+W53wGDoU4Q/4zmoXONhU/866MyYXw8bZpt1Q=
 github.com/hugomods/idb-js v0.1.0 h1:mA6hEGtR0aFEdmq9zYMGpfSpCU6SMilx9RzC4uK3DqY=
 github.com/hugomods/idb-js v0.1.0/go.mod h1:GPfnmr+BQpP4s6Epd4Yu+RlUog8q/Djw8qy8BZFWZ04=
 github.com/hugomods/images v0.8.0 h1:rsI+Akwbz+Vd3mI0leAlCD8R696usHw13nH972mTe4E=
@@ -485,6 +486,7 @@ github.com/hugomods/search v0.8.5/go.mod h1:FURp5HBUm8JiuJajLk9sZ1Z1QUSJATboYEp1
 github.com/hugomods/search v0.8.6/go.mod h1:FURp5HBUm8JiuJajLk9sZ1Z1QUSJATboYEp1sFi46a4=
 github.com/hugomods/search v0.8.7/go.mod h1:FURp5HBUm8JiuJajLk9sZ1Z1QUSJATboYEp1sFi46a4=
 github.com/hugomods/search v0.10.0/go.mod h1:xPnDGjP/HCdEWJrJBwwdI2mEtdxFxp+wHBwSl/r2m00=
+github.com/hugomods/search v0.11.1/go.mod h1:xPnDGjP/HCdEWJrJBwwdI2mEtdxFxp+wHBwSl/r2m00=
 github.com/hugomods/seo/modules/alternatives v0.1.0 h1:G5IjM7j7ExgXEMyxQj1Z/5JwwRW8DEmL0nDJYxA3NhE=
 github.com/hugomods/seo/modules/alternatives v0.1.0/go.mod h1:ff9uz+f5yii9k2jbwt/HKM3RpLR3EYZrNQBAOabNxMA=
 github.com/hugomods/seo/modules/base v0.1.0 h1:ZEkWuYeRJeQakBkBThO3N3lmGzOZoPixs4pDugJXfJk=

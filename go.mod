@@ -12,7 +12,7 @@ require (
 	github.com/hbstack/back-to-top v0.2.0 // indirect
 	github.com/hbstack/base v0.4.4 // indirect
 	github.com/hbstack/bigger-picture v0.10.1 // indirect
-	github.com/hbstack/blog v0.25.1 // indirect
+	github.com/hbstack/blog v0.25.2 // indirect
 	github.com/hbstack/blog/modules/breadcrumb v0.1.22 // indirect
 	github.com/hbstack/blog/modules/disqus v0.1.19 // indirect
 	github.com/hbstack/blog/modules/featured-image v0.2.21 // indirect

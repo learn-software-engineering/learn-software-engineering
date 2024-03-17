@@ -449,6 +449,7 @@ github.com/hugomods/icons/vendors/simple-icons v1.0.30/go.mod h1:xarNh9bs80owlZg
 github.com/hugomods/icons/vendors/simple-icons v1.0.31/go.mod h1:mXoItc29/obFr5EOEiDmrLMZQ+3juCch3YyQ8Jo6ElA=
 github.com/hugomods/icons/vendors/simple-icons v1.0.32/go.mod h1:l038jUYiTs8kdeAcGBVj4cuP25KQku6gb/H0NDjix3Y=
 github.com/hugomods/icons/vendors/simple-icons v1.0.33/go.mod h1:La0IFKLpjIf2fJduy4tD89ZYlyv8rfcDA+WW5enNUFM=
+github.com/hugomods/icons/vendors/simple-icons v1.0.34/go.mod h1:5gxe7UQ8FingkIsuIid/a3C0BwhH9aYtCzwjf/2Cm/o=
 github.com/hugomods/icons/vendors/tabler v0.15.10 h1:X1kr7Rkw5EHJUJMe+Bufrhid26CIAdbf1jN4mZ61kqU=
 github.com/hugomods/icons/vendors/tabler v0.15.10/go.mod h1:y3ncPKa7awEyN0tC55nkmzRWA7jEpRU9+TnBcY4kzXY=
 github.com/hugomods/icons/vendors/tabler v0.15.17 h1:qzrGkcXhIerI7TpNwpGTvBl1dklnjL7XtAm1Mw+Y/GI=
@@ -583,6 +584,7 @@ github.com/hugomods/simple-icons v11.1.0+incompatible/go.mod h1:1Lvymol7AMVY7ji/
 github.com/hugomods/simple-icons v11.4.0+incompatible/go.mod h1:1Lvymol7AMVY7ji/o88jMoDHHZIJ5Wc+WwNe5hjmk+U=
 github.com/hugomods/simple-icons v11.6.0+incompatible/go.mod h1:1Lvymol7AMVY7ji/o88jMoDHHZIJ5Wc+WwNe5hjmk+U=
 github.com/hugomods/simple-icons v11.8.0+incompatible/go.mod h1:1Lvymol7AMVY7ji/o88jMoDHHZIJ5Wc+WwNe5hjmk+U=
+github.com/hugomods/simple-icons v11.9.0+incompatible/go.mod h1:1Lvymol7AMVY7ji/o88jMoDHHZIJ5Wc+WwNe5hjmk+U=
 github.com/hugomods/snackbar v0.1.2 h1:SLpfH9jlYwf81epH7DvM2XTZHo+3fXXpk6XKtxmo964=
 github.com/hugomods/snackbar v0.1.2/go.mod h1:ykFm0IFibeQPuPAm8Gaa27xJS/bNZcSez4omVSl2gQ0=
 github.com/hugomods/video-js v0.1.1 h1:52DgwMZUrXVHbjG7+ke8YmYMXIs3yhn5q0JWz/bhLto=

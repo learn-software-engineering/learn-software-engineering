@@ -66,6 +66,7 @@ github.com/hbstack/blog/modules/disqus v0.1.11 h1:zSnApkwgx2B4OIoB3zQ1dUDTeLjiDp
 github.com/hbstack/blog/modules/disqus v0.1.11/go.mod h1:3bx5bgH4pHr+b2TgW2nxEUejpvrr0ngpRro4OeMrmL4=
 github.com/hbstack/blog/modules/disqus v0.1.19 h1:fWGsnxrHCJo0Qmim2FTxCl2dGnTVaWX/jQgpDIiRim4=
 github.com/hbstack/blog/modules/disqus v0.1.19/go.mod h1:/UrJpL/0thUReAoHmAP1TYDlm41Lk9vKRNuAlOlvNh8=
+github.com/hbstack/blog/modules/disqus v0.1.20/go.mod h1:nRgiu2tPVVsWnzRZECPwvKj0BsZkCc6OF5eDVEdK4XE=
 github.com/hbstack/blog/modules/featured-image v0.2.21 h1:G4nwll995EsnEAJOBUKJMjH12HtJ0YFPL0nH8m7qneI=
 github.com/hbstack/blog/modules/featured-image v0.2.21/go.mod h1:+gxtGAEh7aXDDKQA0wWzdi9HPLcqCSRtRp63F+NN8QU=
 github.com/hbstack/blog/modules/giscus v0.1.14 h1:8YyVpfppQoF956T47x9KRxWMqCWvBv+QgUxDX+EkSHI=

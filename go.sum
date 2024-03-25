@@ -4,6 +4,7 @@ github.com/KaTeX/KaTeX v0.16.8 h1:9LCA6ID4GvsBrGYdLtc3+zJ0wYuHwQyf7qkr1tEowSg=
 github.com/KaTeX/KaTeX v0.16.8/go.mod h1:VI+aE+CVs/VqtbHnuhstfQST46GmrwpXH7LQAzYIouw=
 github.com/KaTeX/KaTeX v0.16.9 h1:4VYWM2nMSCfOPi63mTRJYQs0UmZPGTx3noiQ/vJu9Rk=
 github.com/KaTeX/KaTeX v0.16.9/go.mod h1:VI+aE+CVs/VqtbHnuhstfQST46GmrwpXH7LQAzYIouw=
+github.com/KaTeX/KaTeX v0.16.10/go.mod h1:VI+aE+CVs/VqtbHnuhstfQST46GmrwpXH7LQAzYIouw=
 github.com/Templarian/MaterialDesign-SVG v7.3.67+incompatible h1:rCZVtvBEeIN69klCVCcnxJZyDMyErKPhbkCxoL6Ru78=
 github.com/Templarian/MaterialDesign-SVG v7.3.67+incompatible/go.mod h1:SRSiaLOZazGp4UpKPQRm37h4A3cKLHXaybAqaJ7Lfx8=
 github.com/Templarian/MaterialDesign-SVG v7.4.47+incompatible/go.mod h1:SRSiaLOZazGp4UpKPQRm37h4A3cKLHXaybAqaJ7Lfx8=

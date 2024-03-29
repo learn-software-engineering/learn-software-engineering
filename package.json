@@ -4,7 +4,7 @@
     "prod": "hugo server -e production --minify --gc --renderToDisk --disableFastRender --enableGitInfo -b http://localhost:8080 -p 8080"
   },
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "@fullhuman/postcss-purgecss": "^6.0.0",
     "autoprefixer": "^10.4.15",
     "postcss-cli": "^11.0.0",
     "prettier-plugin-go-template": "^0.0.15",

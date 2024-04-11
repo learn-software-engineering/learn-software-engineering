@@ -492,6 +492,7 @@ github.com/hugomods/icons/vendors/tabler v0.15.26/go.mod h1:wrNbVE+W53wGDoU4Q/4z
 github.com/hugomods/icons/vendors/tabler v0.15.27/go.mod h1:+9uu1nmGhuzx0JguApWaq0SUUKLAujawfN+hJMsPn/s=
 github.com/hugomods/icons/vendors/tabler v0.15.28/go.mod h1:3H1cKWUgsZIX8y9RPZQTxhEbkhdt0kBtmcDaYhTOJE4=
 github.com/hugomods/icons/vendors/tabler v0.15.29/go.mod h1:/YqbWDqyz0yMiT/dkpUMqalk8c4iI38+9hxV8vbfxgM=
+github.com/hugomods/icons/vendors/tabler v0.15.30/go.mod h1:9H16QiAt5482TvDSznpAc09+EbbIL8Yt9XgZSz2Fc54=
 github.com/hugomods/idb-js v0.1.0 h1:mA6hEGtR0aFEdmq9zYMGpfSpCU6SMilx9RzC4uK3DqY=
 github.com/hugomods/idb-js v0.1.0/go.mod h1:GPfnmr+BQpP4s6Epd4Yu+RlUog8q/Djw8qy8BZFWZ04=
 github.com/hugomods/images v0.8.0 h1:rsI+Akwbz+Vd3mI0leAlCD8R696usHw13nH972mTe4E=
@@ -643,6 +644,7 @@ github.com/tabler/tabler-icons v3.0.1+incompatible/go.mod h1:Ap75CRdhXxprnUnPlUC
 github.com/tabler/tabler-icons v3.0.2+incompatible/go.mod h1:Ap75CRdhXxprnUnPlUCRLvJ2pIFNqwxIipj3GfD6XHE=
 github.com/tabler/tabler-icons v3.0.3+incompatible/go.mod h1:Ap75CRdhXxprnUnPlUCRLvJ2pIFNqwxIipj3GfD6XHE=
 github.com/tabler/tabler-icons v3.1.0+incompatible/go.mod h1:Ap75CRdhXxprnUnPlUCRLvJ2pIFNqwxIipj3GfD6XHE=
+github.com/tabler/tabler-icons v3.2.0+incompatible/go.mod h1:Ap75CRdhXxprnUnPlUCRLvJ2pIFNqwxIipj3GfD6XHE=
 github.com/twbs/bootstrap v5.3.2+incompatible h1:tuiO5acc6xnZUR77Sbi5aKWXxjYxbmsSbJwYrhAKoQQ=
 github.com/twbs/bootstrap v5.3.2+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/bootstrap v5.3.3+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=

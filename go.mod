@@ -3,7 +3,7 @@ module github.com/learn-software-engineering/learn-software-engineering
 go 1.20
 
 require (
-	github.com/GoogleChrome/workbox v7.0.0+incompatible // indirect
+	github.com/GoogleChrome/workbox v7.1.0+incompatible // indirect
 	github.com/KaTeX/KaTeX v0.16.10 // indirect
 	github.com/Templarian/MaterialDesign-SVG v7.4.47+incompatible // indirect
 	github.com/feathericons/feather v4.29.1+incompatible // indirect

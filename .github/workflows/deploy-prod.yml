@@ -3,9 +3,9 @@ name: Deploy to Production Environment
 on:
   # Can be triggered manually
   workflow_dispatch:
-  # Runs everyday at 00:00 UTC
+  # Runs every Monday at 00:00 UTC
   schedule:
-    - cron:  '0 0 * * *'
+    - cron:  '0 0 * * 1'
 
 env:
   ENV: production

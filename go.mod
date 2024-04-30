@@ -37,7 +37,7 @@ require (
 	github.com/hbstack/docs/modules/toc-scrollspy v0.1.7 // indirect
 	github.com/hbstack/featured-image v0.2.1 // indirect
 	github.com/hbstack/footer v0.4.1 // indirect
-	github.com/hbstack/footer/modules/socials v0.2.5 // indirect
+	github.com/hbstack/footer/modules/socials v0.3.0 // indirect
 	github.com/hbstack/giscus v0.1.1 // indirect
 	github.com/hbstack/hb v0.12.2 // indirect
 	github.com/hbstack/header v0.14.3 // indirect

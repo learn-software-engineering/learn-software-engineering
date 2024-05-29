@@ -322,6 +322,7 @@ github.com/hbstack/noscript v0.4.0/go.mod h1:BvSmPt+YXX3boc6pIncpIi+hEAYDiCw18el
 github.com/hbstack/noscript v0.5.0 h1:pyuTLNlx+g2UjlGgQ+cafEu0onLuFA7m9FlgBTQpRV0=
 github.com/hbstack/noscript v0.5.0/go.mod h1:BvSmPt+YXX3boc6pIncpIi+hEAYDiCw18eldLBBWHJc=
 github.com/hbstack/noscript v0.6.0/go.mod h1:F0qU9/caEaqa45OfHiL+8nTCohs2rg97Hek2KQUzK8M=
+github.com/hbstack/noscript v0.7.0/go.mod h1:F0qU9/caEaqa45OfHiL+8nTCohs2rg97Hek2KQUzK8M=
 github.com/hbstack/pagination v0.2.0 h1:1TKy5bLrwkIxHJPLjK+k6Ws9ZO6Lg2ppP+Z1iVvDoAw=
 github.com/hbstack/pagination v0.2.0/go.mod h1:IwCFgkfkXMVjudqJ8nHcwQLlXmwx0MRtNFOCd+0I3Vw=
 github.com/hbstack/pagination v0.3.0 h1:/gbaeyrS5O42yam7snQpjG6tSGr0Mc8ZQV3sPb77/aI=

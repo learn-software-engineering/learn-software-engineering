@@ -133,6 +133,7 @@ github.com/hbstack/blog/modules/toc-scrollspy v0.1.11 h1:1YL/EIG+EHegGI0nGR4V0B+
 github.com/hbstack/blog/modules/toc-scrollspy v0.1.11/go.mod h1:s+MyTyN/m7wCPU2Fg+YkdmGBCFxZmcRoRzvbHFInq1Q=
 github.com/hbstack/blog/modules/toc-scrollspy v0.1.20 h1:DnN7Vl7rvsl5pPRpwcMkW9hQgCaO7mASLd778VLQOHI=
 github.com/hbstack/blog/modules/toc-scrollspy v0.1.20/go.mod h1:Ord7TP0ZP4C+l6a83oEAvPyTOnnGsmrIC26MTJaKYmI=
+github.com/hbstack/blog/modules/toc-scrollspy v0.2.0/go.mod h1:61D0fK0cilgwUzQm4fhVqfAc0cFYkvTE4pVSP6+FvHI=
 github.com/hbstack/bootstrap v0.2.0 h1:pHZ1KQ0HHwhHFbgzZ401kMSxkS7Tg0I/X002SD6WHak=
 github.com/hbstack/bootstrap v0.2.0/go.mod h1:BqrUe89qxDkc8kxJ4iaK/XZxzZrWhlGloOFJfcNxAUU=
 github.com/hbstack/bootstrap v0.2.1/go.mod h1:IvEwsxbTINkAbiwCC9Nqvuguh6V+Z/8Dg3eZ+TLwWHc=

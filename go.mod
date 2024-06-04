@@ -13,7 +13,7 @@ require (
 	github.com/hbstack/base v0.6.0 // indirect
 	github.com/hbstack/bigger-picture v0.10.1 // indirect
 	github.com/hbstack/blog v0.35.0 // indirect
-	github.com/hbstack/blog/modules/breadcrumb v0.1.22 // indirect
+	github.com/hbstack/blog/modules/breadcrumb v0.1.23 // indirect
 	github.com/hbstack/blog/modules/disqus v0.1.20 // indirect
 	github.com/hbstack/blog/modules/featured-image v0.2.21 // indirect
 	github.com/hbstack/blog/modules/giscus v0.1.23 // indirect

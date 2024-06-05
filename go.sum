@@ -189,6 +189,7 @@ github.com/hbstack/docs/modules/breadcrumb v0.1.8 h1:7J2vqwLIlwz+Nkb4xHTQ/1bud7N
 github.com/hbstack/docs/modules/breadcrumb v0.1.8/go.mod h1:1NKYNYa8Lw8KWY+3AoSiCOuDmBnRsWdC3iD9DK7QX1c=
 github.com/hbstack/docs/modules/breadcrumb v0.1.9 h1:znf/33KfQFZXOXVKezdksy/euM0FDnoNKeKSyw3SwCk=
 github.com/hbstack/docs/modules/breadcrumb v0.1.9/go.mod h1:vpQYRcZmRTqYpVb7x7sOgw13MxBuNgUt82wQDz6ZtZU=
+github.com/hbstack/docs/modules/breadcrumb v0.1.10/go.mod h1:pTh43gl04dPERZZVDQ70KVU0j0Z4hmPK7GrxUfLw15s=
 github.com/hbstack/docs/modules/disqus v0.1.5 h1:Zc7CspzSukx+2LVTIm/Z7E16m0sewZgZRpKY+Sn65V0=
 github.com/hbstack/docs/modules/disqus v0.1.5/go.mod h1:cvPtFrFhweBTiNppYjyEzJc2eJ7/EpW0Hnf+A2yi9Eg=
 github.com/hbstack/docs/modules/disqus v0.1.7 h1:MDm7ZS4xxM0VxKmqt98lbyBW7lsddrZL2K1lDzLwpzg=

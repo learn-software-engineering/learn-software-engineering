@@ -457,6 +457,7 @@ github.com/hugomods/bootstrap v0.21.1/go.mod h1:3U2SkU7l1+n8/wJZwB8/2phYhvRyFwCM
 github.com/hugomods/bootstrap v0.21.2/go.mod h1:3U2SkU7l1+n8/wJZwB8/2phYhvRyFwCMix7pPNJ4U+I=
 github.com/hugomods/bootstrap v0.22.0/go.mod h1:3U2SkU7l1+n8/wJZwB8/2phYhvRyFwCMix7pPNJ4U+I=
 github.com/hugomods/bootstrap v0.22.2/go.mod h1:daEkGLSsmfI8vQ1SjKR7KELPSrm1G+yUnTptKdRxFN0=
+github.com/hugomods/bootstrap v0.22.3/go.mod h1:OpcaTH8dMsWqCeSSJ8IGqjEvK2zghLm8wD8ka3d33jc=
 github.com/hugomods/code-block-panel v0.2.0 h1:vSZfriVuK34Z9k7710g1tr7tZPv26VYPXio5bYmaz24=
 github.com/hugomods/code-block-panel v0.2.0/go.mod h1:sbl/NT0TZqHagnW8NWB690lDBGyY5r2dx6xpR17QSq4=
 github.com/hugomods/code-block-panel v0.3.0 h1:OqwO2qZ7sR0txDldVzUaaUexqPy74iXDD9TZUysiYVw=

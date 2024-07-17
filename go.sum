@@ -475,6 +475,7 @@ github.com/hugomods/font-awesome v6.4.2+incompatible h1:oTdZYvNEXRuocAaGTa8f6ZET
 github.com/hugomods/font-awesome v6.4.2+incompatible/go.mod h1:C2wW6xDvHkcMlJMVTPQ+Npt+rO0OGv13xT1iyll2z2Q=
 github.com/hugomods/font-awesome v6.5.1+incompatible/go.mod h1:C2wW6xDvHkcMlJMVTPQ+Npt+rO0OGv13xT1iyll2z2Q=
 github.com/hugomods/font-awesome v6.5.2+incompatible/go.mod h1:C2wW6xDvHkcMlJMVTPQ+Npt+rO0OGv13xT1iyll2z2Q=
+github.com/hugomods/font-awesome v6.6.0+incompatible/go.mod h1:C2wW6xDvHkcMlJMVTPQ+Npt+rO0OGv13xT1iyll2z2Q=
 github.com/hugomods/fuse-js v0.1.0 h1:CmWHBZANvjOP44RDNQNLntqlLf9GLqeM29jekxTNcPE=
 github.com/hugomods/fuse-js v0.1.0/go.mod h1:srCqvtBQR02HS/abTraDU4oINv1D3PljNPdexdoHhpo=
 github.com/hugomods/giscus v0.1.0 h1:tIu1TzYByC/XlxxiBl9+CkQp9OeR4UhoZjbQSlcDt5E=
@@ -527,6 +528,7 @@ github.com/hugomods/icons/vendors/font-awesome v0.6.4/go.mod h1:IgzWg991046eqnwM
 github.com/hugomods/icons/vendors/font-awesome v0.6.5/go.mod h1:olo6073bAL17apxc7lTLfQKpT9sIam8Zx+d9lrCwV/o=
 github.com/hugomods/icons/vendors/font-awesome v0.6.6/go.mod h1:2IVdmnq+IWCnPFYsvbxq59dTuW3+prPLerpu8Ezobro=
 github.com/hugomods/icons/vendors/font-awesome v0.6.7/go.mod h1:aVL3nnSpH24/y4NJTNow1IWDbkLewDUuZUc1EYJIQAg=
+github.com/hugomods/icons/vendors/font-awesome v0.6.8/go.mod h1:IwJEJX8eFwDFCcxMjFBIgVWlPTf16yFVk78Rc3RUBjs=
 github.com/hugomods/icons/vendors/lucide v0.3.16 h1:IQqgped/4DIe+FGe7u7W3pXcGCl9iztzUPi00rmt2UI=
 github.com/hugomods/icons/vendors/lucide v0.3.16/go.mod h1:92fL24fAnTYWIAnq8i3UbWyeERFA/bupS2uhe8btB64=
 github.com/hugomods/icons/vendors/lucide v0.3.22 h1:KFFTNv8ubg9dS2ZBWfALlxtojx7+C3eRST2yFcNmPeY=

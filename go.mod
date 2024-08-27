@@ -79,7 +79,7 @@ require (
 	github.com/hugomods/icons/vendors/font-awesome v0.6.8 // indirect
 	github.com/hugomods/icons/vendors/lucide v0.3.38 // indirect
 	github.com/hugomods/icons/vendors/mdi v0.3.6 // indirect
-	github.com/hugomods/icons/vendors/simple-icons v1.0.50 // indirect
+	github.com/hugomods/icons/vendors/simple-icons v1.0.51 // indirect
 	github.com/hugomods/icons/vendors/tabler v0.15.40 // indirect
 	github.com/hugomods/idb-js v0.1.0 // indirect
 	github.com/hugomods/images v0.11.2 // indirect
@@ -96,7 +96,7 @@ require (
 	github.com/hugomods/seo/modules/translations v0.1.1 // indirect
 	github.com/hugomods/seo/modules/twitter-cards v0.1.1 // indirect
 	github.com/hugomods/shortcodes v0.21.0 // indirect
-	github.com/hugomods/simple-icons v13.6.0+incompatible // indirect
+	github.com/hugomods/simple-icons v13.7.0+incompatible // indirect
 	github.com/hugomods/snackbar v0.1.2 // indirect
 	github.com/hugomods/video-js v0.1.1 // indirect
 	github.com/hugomods/workbox v0.1.0 // indirect

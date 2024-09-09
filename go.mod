@@ -6,6 +6,7 @@ require (
 	github.com/GoogleChrome/workbox v7.1.0+incompatible // indirect
 	github.com/KaTeX/KaTeX v0.16.11 // indirect
 	github.com/Templarian/MaterialDesign-SVG v7.4.47+incompatible // indirect
+	github.com/desandro/masonry v4.2.2+incompatible // indirect
 	github.com/feathericons/feather v4.29.2+incompatible // indirect
 	github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20200 // indirect
 	github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 // indirect
@@ -14,7 +15,6 @@ require (
 	github.com/hbstack/bigger-picture v0.10.1 // indirect
 	github.com/hbstack/blog v0.37.4 // indirect
 	github.com/hbstack/blog/modules/breadcrumb v0.1.23 // indirect
-	github.com/hbstack/blog/modules/disqus v0.1.20 // indirect
 	github.com/hbstack/blog/modules/featured-image v0.2.21 // indirect
 	github.com/hbstack/blog/modules/giscus v0.1.24 // indirect
 	github.com/hbstack/blog/modules/heading-sign v0.1.23 // indirect
@@ -29,7 +29,6 @@ require (
 	github.com/hbstack/code-block-panel v0.1.2 // indirect
 	github.com/hbstack/docs v0.18.0 // indirect
 	github.com/hbstack/docs/modules/breadcrumb v0.1.10 // indirect
-	github.com/hbstack/docs/modules/disqus v0.1.8 // indirect
 	github.com/hbstack/docs/modules/doc-nav v0.3.7 // indirect
 	github.com/hbstack/docs/modules/featured-image v0.2.8 // indirect
 	github.com/hbstack/docs/modules/giscus v0.1.11 // indirect
@@ -63,12 +62,14 @@ require (
 	github.com/hbstack/toc-scrollspy v0.1.0 // indirect
 	github.com/henrygd/bigger-picture v1.1.17 // indirect
 	github.com/hugomods/aos v0.1.0 // indirect
+	github.com/hugomods/ascii v0.1.0 // indirect
 	github.com/hugomods/base v0.7.2 // indirect
 	github.com/hugomods/bootstrap v0.22.3 // indirect
 	github.com/hugomods/code-block-panel v0.7.1 // indirect
 	github.com/hugomods/font-awesome v6.6.0+incompatible // indirect
 	github.com/hugomods/fuse-js v0.1.0 // indirect
 	github.com/hugomods/giscus v0.1.1 // indirect
+	github.com/hugomods/google-adsense v0.1.0 // indirect
 	github.com/hugomods/google-analytics v0.2.1 // indirect
 	github.com/hugomods/gravatar v0.2.0 // indirect
 	github.com/hugomods/hugopress v0.5.0 // indirect
@@ -85,6 +86,7 @@ require (
 	github.com/hugomods/images v0.11.2 // indirect
 	github.com/hugomods/katex v0.3.3 // indirect
 	github.com/hugomods/lucide-icons v0.331.0 // indirect
+	github.com/hugomods/masonry-js v0.1.0 // indirect
 	github.com/hugomods/mermaid v0.1.4 // indirect
 	github.com/hugomods/pwa v0.9.0 // indirect
 	github.com/hugomods/search v0.17.0 // indirect
@@ -102,7 +104,6 @@ require (
 	github.com/hugomods/workbox v0.1.0 // indirect
 	github.com/jakearchibald/idb v8.0.0+incompatible // indirect
 	github.com/krisk/Fuse v7.0.0+incompatible // indirect
-	github.com/lucide-icons/lucide v0.265.0 // indirect
 	github.com/tabler/tabler-icons v3.15.0+incompatible // indirect
 	github.com/twbs/bootstrap v5.3.3+incompatible // indirect
 	github.com/twbs/icons v1.11.3 // indirect

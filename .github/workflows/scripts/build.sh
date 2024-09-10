@@ -1,5 +1,11 @@
 #!/usr/bin/env bash
 
+hugo version
+
+sass
+
+hugo env
+
 # Environment variables
 if [[ -z "${ENV}" ]]; then
     echo "ENV should be set (development|production)"

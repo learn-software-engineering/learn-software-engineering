@@ -2,7 +2,7 @@
 
 hugo version
 
-sass
+sass --version
 
 hugo env
 

@@ -27,7 +27,7 @@ require (
 	github.com/hbstack/breadcrumb v0.7.4 // indirect
 	github.com/hbstack/carousel v0.2.7 // indirect
 	github.com/hbstack/code-block-panel v0.1.2 // indirect
-	github.com/hbstack/docs v0.18.0 // indirect
+	github.com/hbstack/docs v0.18.1 // indirect
 	github.com/hbstack/docs/modules/breadcrumb v0.1.10 // indirect
 	github.com/hbstack/docs/modules/doc-nav v0.3.7 // indirect
 	github.com/hbstack/docs/modules/featured-image v0.2.8 // indirect

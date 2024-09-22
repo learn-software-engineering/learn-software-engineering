@@ -1,5 +1,7 @@
 ui:
   showLightDarkModeMenu: true
+  breadcrumb_disable: false
+  taxonomy_breadcrumb_disable: true
 
 # Google Custom Search Engine ID. Remove or comment out to disable search.
 gcs_engine_id: 775596d046f8749af

@@ -1,6 +1,5 @@
 ---
 title: "Programación Orientada a Objetos"
-type: docs
 simple_list: true
 weight: 300
 # images:

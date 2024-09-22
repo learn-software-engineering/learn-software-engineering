@@ -1,7 +1,6 @@
 ---
 draft: true
 weight: 401
-type: docs
 title: "Arreglos"
 description: >
   Los arreglos (arrays en inglés) son estructuras de datos fundamentales en programación que permiten almacenar y organizar colecciones de datos del mismo tipo. Dominar el uso de arrays es esencial para cualquier programador.

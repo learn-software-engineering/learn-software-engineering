@@ -1,7 +1,6 @@
 ---
 draft: true
 weight: 404
-type: docs
 title: "Stacks"
 description: >
   Stacks are an abstract data structure that operates under the LIFO (last in, first out) principle, where the last element to enter is the first to leave.

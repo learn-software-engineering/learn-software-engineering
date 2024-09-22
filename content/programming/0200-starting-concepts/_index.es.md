@@ -1,6 +1,5 @@
 ---
 title: "Conceptos Iniciales"
-type: docs
 simple_list: true
 weight: 200
 # images:

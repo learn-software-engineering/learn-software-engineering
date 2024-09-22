@@ -1,7 +1,6 @@
 ---
 draft: true
 weight: 602
-type: docs
 title: "Testing"
 description: >
   Testing is the practice of running code to check if it behaves as expected. It helps find errors, ensures reliability, and maintains code quality. This article provides an introduction to testing, focusing on examples in Python but also describing general principles applicable to other programming languages.

@@ -1,6 +1,5 @@
 ---
 weight: 201
-type: docs
 title: "Variables and Data Types"
 description: >
   Understanding how variables and data types work is essential to master any programming language. In this article we will review the basic concepts of variables, operators, data types and type conversions using the Python language. We will cover both theory and practical examples so you can apply these concepts in your own programs.

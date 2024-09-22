@@ -1,6 +1,5 @@
 ---
 weight: 103
-type: docs
 title: "Boolean Logic"
 description: >
   In life, we often seek certainties. Will it rain tomorrow, true or false? Is a certain action right or wrong? This dichotomy, this division between two opposing states, lies at the very core of a fundamental branch of mathematics and computer science: Boolean logic.

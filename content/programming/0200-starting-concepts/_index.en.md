@@ -1,6 +1,5 @@
 ---
 title: "Starting Concepts"
-type: docs
 simple_list: true
 weight: 200
 # images:

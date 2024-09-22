@@ -1,6 +1,5 @@
 ---
 weight: 103
-type: docs
 title: "Lógica Booleana"
 description: >
   En la vida, a menudo buscamos certezas. ¿Es cierto o falso que va a llover mañana? ¿Es correcto o incorrecto actuar de cierta manera? Esta dicotomía, esta división entre dos estados opuestos, se encuentra en el núcleo mismo de una rama esencial de las matemáticas y la informática: la lógica booleana.

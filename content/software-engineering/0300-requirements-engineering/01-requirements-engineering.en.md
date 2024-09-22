@@ -1,6 +1,5 @@
 ---
 weight: 301
-type: docs
 title: "Requirements Engineering"
 description: >
   Requirements engineering is the process of defining, documenting and maintaining requirements for a software system. It is the first and foundational stage in the software development lifecycle. Requirements express the needs and constraints that the software must satisfy in order to solve problems and provide value to users and the business. Let's get started understanding the basics of requirements in software projects.

@@ -1,6 +1,5 @@
 ---
 weight: 301
-type: docs
 title: "Classes and objects"
 description: >
   In object-oriented programming, classes and objects are the key concepts to understand how we model elements of reality and define their structure and behaviour within software. Let's look in detail at the anatomy of a class, how to create objects from it to use their properties and methods, and other key details of their relationship.

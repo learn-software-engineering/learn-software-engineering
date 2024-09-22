@@ -1,7 +1,6 @@
 ---
 draft: true
 weight: 305
-type: docs
 title: "Abstraction"
 date: 2023-10-10
 tags: ["oop", "object-oriented", "abstractions", "interfaces"]

@@ -1,7 +1,6 @@
 ---
 draft: true
 weight: 405
-type: docs
 title: "Colas"
 description: >
   Las colas (queues en inglés) son una estructura de datos abstracta que funciona bajo el principio FIFO (first in, first out), donde el primer elemento en entrar es también el primero en salir. Las colas se utilizan para ordenar elementos de forma que el que llega primero es procesado primero. Comprender su funcionamiento es esencial para cualquier programador.

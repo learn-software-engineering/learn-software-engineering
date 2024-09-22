@@ -1,7 +1,6 @@
 ---
 draft: true
 weight: 303
-type: docs
 title: "Inheritance"
 date: 2023-10-07
 tags: ["oop", "object-oriented", "inheritance"]

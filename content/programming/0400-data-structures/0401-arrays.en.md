@@ -1,7 +1,6 @@
 ---
 draft: true
 weight: 401
-type: docs
 title: "Arrays"
 description: >
   Arrays are fundamental data structures in programming that allow storing and organizing collections of data of the same type. Mastering the use of arrays is essential for any programmer.

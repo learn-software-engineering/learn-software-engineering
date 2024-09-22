@@ -1,6 +1,5 @@
 ---
 title: "Object-Oriented Programming"
-type: docs
 simple_list: true
 weight: 300
 # images:

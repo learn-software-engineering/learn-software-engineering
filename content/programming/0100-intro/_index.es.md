@@ -1,6 +1,5 @@
 ---
 title: "Introducción a la Programación"
-type: docs
 simple_list: true
 weight: 100
 # images:

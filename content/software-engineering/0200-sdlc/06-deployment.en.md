@@ -1,7 +1,6 @@
 ---
 draft: true
 weight: 206
-type: docs
 title: "The Deployment phase"
 description: >
   The deployment stage involves releasing the software into production and making it available for end users.

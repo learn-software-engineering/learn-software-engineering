@@ -1,7 +1,6 @@
 ---
 draft: true
 title: "Data Structures"
-type: docs
 simple_list: true
 weight: 400
 ---

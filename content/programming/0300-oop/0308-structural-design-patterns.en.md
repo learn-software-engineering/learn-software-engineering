@@ -1,7 +1,6 @@
 ---
 draft: true
 weight: 308
-type: docs
 title: "Structural Design Patterns"
 date: 2023-10-20
 tags: ["oop", "object-oriented", "design-patters", "uml"]

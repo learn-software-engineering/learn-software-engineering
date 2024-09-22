@@ -22,7 +22,7 @@ To grasp this concept, let's dissect the number 237:
 
 When these values are combined,
 
-```katex
+```math
 2 \times 10^2 + 3 \times 10^1 + 7 \times 10^0 = 200 + 30 + 7 = 237
 ```
 
@@ -45,7 +45,7 @@ Consider the binary number 1011:
 
 Thus, 1011 in binary translates to the following in the decimal system:
 
-```katex
+```math
 1011 = 1 \times 2^3 + 0 \times 2^2 + 1 \times 2^1 + 1 \times 2^0 = 8 + 0 + 2 + 1 = 11
 ```
 
@@ -57,7 +57,7 @@ While the binary system is perfect for machines, it can get a tad cumbersome for
 
 Hexadecimal proves invaluable as it offers a more compact way to represent binary numbers. Each hexadecimal digit corresponds precisely to four binary bits. For instance, think of the binary representation of the number 41279 and notice how the hexadecimal system achieves a more succinct representation:
 
-```katex
+```math
 41279 = 1010 0001 0011 1111 = A13F
 ```
 
@@ -70,7 +70,7 @@ But the hexadecimal system is more than just a compressed representation of bina
 
 Therefore, A13F in hexadecimal translates to the following in the decimal system:
 
-```katex
+```math
 A13F = A \times 16^3 + 1 \times 16^2 + 3 \times 16^1 + F \times 16^0 = 10 \times 4096 + 1 \times 256 + 3 \times 16 + 15 \times 1 = 40960 + 256 + 48 + 15 = 41279
 ```
 

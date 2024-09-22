@@ -20,6 +20,17 @@ languages:
 enableRobotsTXT: true
 enableGitInfo: true
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+outputs:
+  section:
+    - HTML
+    - RSS
+    - print
+
 module:
   proxy: direct
   imports:

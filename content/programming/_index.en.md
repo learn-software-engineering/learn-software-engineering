@@ -1,9 +1,10 @@
 ---
 menus: main
-title: "Programming"
+weight: 1
 type: docs
 simple_list: true
-weight: 1
 cascade:
   - type: docs
+title: "Programming"
+# icon: fa-solid fa-code
 ---

@@ -1,9 +1,9 @@
 ---
 menus: main
-title: "Ingeniería de Software"
+weight: 2
 type: docs
 simple_list: true
-weight: 2
 cascade:
   - type: docs
+title: "Ingeniería de Software"
 ---

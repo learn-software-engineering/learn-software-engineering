@@ -1,9 +1,9 @@
 ---
 menus: main
-title: "Software Engineering"
+weight: 2
 type: docs
 simple_list: true
-weight: 2
 cascade:
   - type: docs
+title: "Software Engineering"
 ---

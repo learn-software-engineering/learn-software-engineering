@@ -14,21 +14,19 @@ katex:
 
 GitInfo: true
 
+rss_sections: [blog]
+
 # links:
 #   # End user relevant links. These will show up on left side of footer and in the community page if you have one.
 #   user:
-#     - name: User mailing list
-#       url: https://example.org/mail
+#     - name: Contact us via email
+#       url: mailto://learn.software.eng@gmail.com
 #       icon: fa fa-envelope
-#       desc: Discussion and help from your fellow users
+#       # fa-solid fa-square-envelope
 #     - name: Twitter
 #       url: https://example.org/twitter
 #       icon: fab fa-twitter
-#       desc: Follow us on Twitter to get the latest news!
-#     - name: Stack Overflow
-#       url: https://example.org/stack
-#       icon: fab fa-stack-overflow
-#       desc: Practical questions and curated answers
+#       desc: Follow us on X!
 #   # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 #   developer:
 #     - name: GitHub
@@ -43,3 +41,25 @@ GitInfo: true
 #       url: https://example.org/mail
 #       icon: fa fa-envelope
 #       desc: Discuss development issues around the project
+
+
+  # header:
+  #   socials:
+  #     facebook: https://www.facebook.com/learn.software.eng
+  #     github: learn-software-engineering
+  #     gmail:
+  #     instagram: https://www.instagram.com/learnsoftwareeng
+  #     linkedin: https://linkedin.com/company/learn-software
+  #     patreon: https://patreon.com/learnsoftwareeng
+  #     twitter: https://twitter.com/software45687
+  #     youtube: https://www.youtube.com/@learn-software
+  # footer:
+  #   socials:
+  #     facebook: https://www.facebook.com/learn.software.eng
+  #     github: learn-software-engineering
+  #     gmail: mailto://learn.software.eng@gmail.com
+  #     instagram: https://www.instagram.com/learnsoftwareeng
+  #     linkedin: https://linkedin.com/company/learn-software
+  #     patreon: https://patreon.com/learnsoftwareeng
+  #     twitter: https://twitter.com/software45687
+  #     youtube: https://www.youtube.com/@learn-software

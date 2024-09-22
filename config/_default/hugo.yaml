@@ -20,6 +20,11 @@ languages:
 enableRobotsTXT: true
 enableGitInfo: true
 
+sitemap:
+  changefreq: daily
+  filename: sitemap.xml
+  priority: 1
+
 markup:
   goldmark:
     renderer:

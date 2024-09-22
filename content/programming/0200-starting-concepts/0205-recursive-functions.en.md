@@ -201,6 +201,7 @@ As always, the key lies in finding the right balance and using the right tool fo
 
 ---
 
+{{% alert color="info" %}}
 Cheers for making it this far! I hope this journey through the programming universe has been as fascinating for you as it was for me to write down.
 
 We're keen to hear your thoughts, so don't be shy – drop your comments, suggestions, and those bright ideas you're bound to have.
@@ -208,6 +209,7 @@ We're keen to hear your thoughts, so don't be shy – drop your comments, sugges
 Also, to delve deeper than these lines, take a stroll through the practical examples we've cooked up for you. You'll find all the code and projects in our GitHub repository [learn-software-engineering/examples-programming](https://github.com/learn-software-engineering/examples-programming).
 
 Thanks for being part of this learning community. Keep coding and exploring new territories in this captivating world of software!
+{{% /alert %}}
 
 ---
 

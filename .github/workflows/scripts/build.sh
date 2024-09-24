@@ -27,8 +27,8 @@ if [[ -z "${ENV}" ]]; then
 else
     echo "Building website for $ENV"
 fi
-HUGO_ENVIRONMENT=$ENV
-HUGO_ENV=$ENV
+export HUGO_ENVIRONMENT=$ENV
+export HUGO_ENV=$ENV
 
 # Get dependencies
 echo "################"

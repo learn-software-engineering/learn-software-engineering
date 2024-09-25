@@ -2,6 +2,8 @@ ui:
   showLightDarkModeMenu: true
   breadcrumb_disable: false
   taxonomy_breadcrumb_disable: true
+  sidebar_menu_compact: true
+  sidebar_search_disable: true
 
 # Google Custom Search Engine ID. Remove or comment out to disable GCSE search.
 # gcs_engine_id: 775596d046f8749af

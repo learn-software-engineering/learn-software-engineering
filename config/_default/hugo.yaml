@@ -30,11 +30,23 @@ markup:
     renderer:
       unsafe: true
 
+taxonomies:
+  tag: tags
+  category: categories
+
 outputs:
   section:
     - HTML
     - RSS
     - print
+
+outputFormats:
+  PRINT:
+    baseName: index
+    isHTML: true
+    mediaType: "text/html"
+    path: "printview"
+    permalinkable: false
 
 module:
   proxy: direct

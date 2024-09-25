@@ -2,7 +2,7 @@
 title: Learn-Software.com
 ---
 
-{{< blocks/cover title="Welcome!" image_anchor="top" height="full" color="primary" >}}
+{{< blocks/cover title="Welcome!" image_anchor="center" height="full" >}}
 Learn. Build. Master.
 <div class="mx-auto">
 	<a class="btn btn-lg btn-warning me-3 mb-4" href="{{< relref "/programming" >}}">

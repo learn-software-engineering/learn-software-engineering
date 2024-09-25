@@ -22,3 +22,4 @@ hugo mod tidy
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/)
 - [Docsy theme](https://www.docsy.dev/).
+- [Font Awesome](https://fontawesome.com/icons).

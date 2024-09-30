@@ -1,9 +1,12 @@
 title: "Learn-Software.com"
 
 languageCode: en
-defaultContentLanguage: en
-defaultContentLanguageInSubdir: true
+contentDir: content/en
+defaultContentLanguageInSubdir: false
 enableMissingTranslationPlaceholders: true
+
+enableRobotsTXT: true
+enableGitInfo: true
 
 languages:
   en:
@@ -11,14 +14,83 @@ languages:
     weight: 1
     params:
       description: Jet-set your career
+      # copyright:
+      #   authors: [Learn-Software.com](https://learn-software.com/). All Rights Reserved.
+      #   from_year: 2022
+      ui:
+        feedback:
+          enable: true
+          'yes': >-
+            Glad to hear it! Please <a href="https://github.com/learn-software-engineering/learn-software-engineering/issues/new">tell us how we can improve</a>.
+          'no': >-
+            Sorry to hear that. Please <a href="https://github.com/learn-software-engineering/learn-software-engineering/issues/new">tell us how we can improve</a>.
   es:
     languageName: Español
+    contentDir: content/es
     weight: 2
     params:
       description: Impulsa tu carrera
+      # copyright:
+      #   authors: [Learn-Software.com](https://learn-software.com/). Todos los derechos reservados.
+      #   from_year: 2022
+      ui:
+        feedback:
+          enable: true
+          'yes': >-
+            ¡Nos alegra mucho! Por favor <a href="https://github.com/learn-software-engineering/learn-software-engineering/issues/new">dinos como podemos mejorar</a>.
+          'no': >-
+            Nos apena que no te haya gustado. Por favor <a href="https://github.com/learn-software-engineering/learn-software-engineering/issues/new">dinos como podemos mejorar</a>.
 
-enableRobotsTXT: true
-enableGitInfo: true
+params:
+  ui:
+    showLightDarkModeMenu: true
+    breadcrumb_disable: false
+    taxonomy_breadcrumb_disable: true
+    sidebar_menu_compact: true
+    sidebar_search_disable: true
+  # Google Custom Search Engine ID. Remove or comment out to disable GCSE search.
+  gcs_engine_id: 775596d046f8749af
+  # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
+  github_repo: https://github.com/learn-software-engineering/learn-software-engineering
+  katex:
+    enable: true
+  GitInfo: true
+  rss_sections: [blog]
+  links:
+    # End user relevant links. These will show up on left side of footer and in the community page if you have one.
+    user:
+      - name: Contact us via email
+        url: mailto://learn.software.eng@gmail.com
+        icon: fa-solid fa-square-envelope
+      - name: LinkedIn
+        url: https://linkedin.com/company/learn-software
+        icon: fa-brands fa-linkedin
+      - name: X
+        url: https://x.com/software45687
+        icon: fa-brands fa-x-twitter
+      - name: Instagram
+        url: https://www.instagram.com/learnsoftwareeng
+        icon: fa-brands fa-square-instagram
+      - name: Facebook
+        url: https://www.facebook.com/learn.software.eng
+        icon: fa-brands fa-facebook
+      - name: YouTube
+        url: https://www.youtube.com/@learn-software
+        icon: fa-brands fa-youtube
+      - name: Patron
+        url: https://patreon.com/learnsoftwareeng
+        icon: fa-brands fa-patron
+    # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
+    developer:
+      - name: GitHub
+        url: https://github.com/learn-software-engineering/learn-software-engineering
+        icon: fab fa-github
+      - name: GitHub Examples
+        url: https://github.com/learn-software-engineering/examples-programming
+        icon: fab fa-github
+      - name: Developer discussions
+        url: https://github.com/learn-software-engineering/learn-software-engineering/discussions
+        icon: fa-solid fa-comments
 
 sitemap:
   changefreq: daily

@@ -1,5 +1,7 @@
 ---
 title: Learn-Software.com
+description: >
+  Unlock your coding potential with expert-led courses and comprehensive resources in software engineering and programming.
 ---
 
 {{< blocks/cover title="Welcome!" image_anchor="center" height="full" >}}
@@ -12,4 +14,5 @@ Learn. Build. Master.
 		Software Engineering <i class="fa-solid fa-diagram-project ms-2"></i>
 	</a>
 </div>
+
 {{< /blocks/cover >}}

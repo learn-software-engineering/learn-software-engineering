@@ -1,5 +1,7 @@
 ---
 title: Learn-Software.com
+description: >
+  Desbloquea tu potencial en programación con cursos impartidos por expertos y recursos completos en ingeniería de software y programación.
 ---
 
 {{< blocks/cover title="¡Bienvenido!" image_anchor="center" height="full" >}}

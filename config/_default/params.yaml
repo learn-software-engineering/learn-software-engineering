@@ -6,11 +6,11 @@ ui:
   sidebar_search_disable: true
 
 # Google Custom Search Engine ID. Remove or comment out to disable GCSE search.
-# gcs_engine_id: 775596d046f8749af
+gcs_engine_id: 775596d046f8749af
 
 # Local search with Lunr
-offlineSearch: true
-offlineSearchMaxResults: 25
+# offlineSearch: true
+# offlineSearchMaxResults: 25
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
 github_repo: https://github.com/learn-software-engineering/learn-software-engineering

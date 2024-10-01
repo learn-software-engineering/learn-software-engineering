@@ -4,7 +4,7 @@ title: "Clases y Objetos"
 description: >
   En programación orientada a objetos, las clases y objetos son los conceptos centrales para entender cómo modelamos elementos de la realidad y definimos su estructura y comportamiento dentro del software. Veamos en detalle la anatomía de una clase, cómo crear objetos a partir de ella para usar sus propiedades y métodos, y otros detalles clave de su relación.
 date: 2023-10-02
-tags: ["oop", "object-oriented", "classes", "objects"]
+tags: ["OOP", "Clases", "Objetos"]
 # images:
 #   - /images/banners/content/programming/0300-oop/0301-classes-objectspng
 ---

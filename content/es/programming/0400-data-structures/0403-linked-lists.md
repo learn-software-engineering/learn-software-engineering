@@ -5,7 +5,7 @@ title: "Listas enlazadas"
 description: >
   Las listas enlazadas (linked lists en inglés) son una estructura de datos dinámica y flexible que permite almacenar eficientemente colecciones de elementos. A diferencia de los arrays, las listas enlazadas no requieren reservar un tamaño fijo de antemano.
 date: 2023-11-01
-tags: ["intro", "programming", "data-structures", "linked-lists"]
+tags: ["Programación", "Estructuras de Datos", "Listas Enlazadas"]
 # images:
 #   - /images/banners/content/programming/0400-data-structures/0403-linked-listspng
 ---

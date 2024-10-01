@@ -3,7 +3,7 @@ draft: true
 weight: 308
 title: "Advanced concepts"
 date: 2023-04-16
-tags: ["oop", "object-oriented", "multithreading", "generics", "templates", "reflections", "serialization"]
+tags: ["OOP", "multithreading", "generics", "templates", "reflections", "serialization"]
 # images:
 #   - /images/banners/content/programming/0300-oop/_index2png
 ---

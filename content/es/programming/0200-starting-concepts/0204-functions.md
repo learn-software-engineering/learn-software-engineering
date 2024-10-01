@@ -4,7 +4,7 @@ title: "Funciones"
 description: >
   En el vasto y emocionante mundo de la programación, existen conceptos que son pilares fundamentales para cualquier desarrollador, sin importar su nivel de experiencia. Uno de estos conceptos es el de las funciones. ¿Qué son? ¿Por qué son tan cruciales? ¡Vamos a descubrirlo!
 date: 2023-09-29
-tags: ["intro", "programming", "functions", "methods"]
+tags: ["Programación", "Funciones", "Métodos"]
 # images:
 #   - /images/banners/content/programming/0200-starting-concepts/0204-functionspng
 ---

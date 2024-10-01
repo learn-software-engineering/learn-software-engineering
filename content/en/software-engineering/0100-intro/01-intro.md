@@ -4,7 +4,7 @@ title: "Introduction"
 description: >
   In today's digital age, it's impossible to imagine a world without software. From the apps we use daily to sophisticated systems that run entire cities, software is an intricate part of our lives. If you're at the beginning of your journey into the world of software, this article will provide a foundational understanding of what software is, what software engineering entails, and the paramount significance of both in today's world.
 date: 2023-08-10
-tags: ["intro", "software-engineering"]
+tags: ["Software Engineering"]
 ---
 
 ## What is Software?

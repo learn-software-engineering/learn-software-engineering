@@ -5,7 +5,7 @@ title: "Arrays"
 description: >
   Arrays are fundamental data structures in programming that allow storing and organizing collections of data of the same type. Mastering the use of arrays is essential for any programmer.
 date: 2023-10-30
-tags: ["intro", "programming", "data-structures", "arrays"]
+tags: ["Programming", "Data Structures", "Arrays"]
 # images:
 #   - /images/banners/content/programming/0400-data-structures/0401-arrayspng
 ---

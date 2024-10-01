@@ -4,7 +4,7 @@ title: "Encapsulation"
 description: >
   One of the fundamental pillars of object-oriented programming is encapsulation. This powerful characteristic allows us to control access to class members, hiding implementation details and protecting the state of our objects. In this article we will delve into the concept of encapsulation, the usefulness of getters, setters, public/private properties and methods, and the important benefits this provides us as developers.
 date: 2023-10-04
-tags: ["oop", "object-oriented", "encapsulation"]
+tags: ["OOP", "Encapsulation"]
 # images:
 #   - /images/banners/content/programming/0300-oop/0302-encapsulationpng
 ---

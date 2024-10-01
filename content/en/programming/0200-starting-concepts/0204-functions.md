@@ -4,7 +4,7 @@ title: "Functions"
 description: >
   In the vast and exciting world of programming, there are concepts that are fundamental pillars for any developer, regardless of their experience level. One of these concepts is functions. What are they? Why are they so crucial? Let's find out!
 date: 2023-09-29
-tags: ["intro", "programming", "functions", "methods"]
+tags: ["Programming", "Functions", "Methods"]
 # images:
 #   - /images/banners/content/programming/0200-starting-concepts/0204-functionspng
 ---

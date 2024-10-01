@@ -4,7 +4,7 @@ title: "Continuous Integration"
 description: >
   What is Continuous Integration? Which benefits it provides? In this article you can find answers to those questions and many more.
 author: Julian Nonino ([LinkedIn](https://www.linkedin.com/in/jnonino/))
-tags: ["ci", "continuous-integration"]
+tags: ["CI", "Continuous Integration"]
 # images:
 #   - /images/banners/content/blog/ci/continuous-integration.png
 ---

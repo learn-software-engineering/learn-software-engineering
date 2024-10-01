@@ -5,7 +5,7 @@ title: "Linked Lists"
 description: >
   Linked lists are a dynamic and flexible data structure that allows efficiently storing collections of elements. Unlike arrays, linked lists do not require reserving a fixed size in advance.
 date: 2023-11-01
-tags: ["intro", "programming", "data-structures", "linked-lists"]
+tags: ["Programming", "Data Structures", "Linked Lists"]
 # images:
 #   - /images/banners/content/programming/0400-data-structures/0403-linked-listspng
 ---

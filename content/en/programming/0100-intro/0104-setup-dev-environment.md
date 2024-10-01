@@ -4,11 +4,9 @@ title: "Set Up your Development Environment"
 description: >
   Venturing into the world of programming might seem like a Herculean task, especially when faced with the initial decision: Where to begin? This article will guide you through the essential steps to set up your programming environment, ensuring a solid foundation for your coding journey.
 date: 2023-09-10
-tags: ["intro", "programming", "python", "install", "tools"]
+tags: ["Programming", "Python", "IDE", "Tools"]
 # images:
 #   - /images/banners/content/programming/0100-intro/0104-setup-dev-environmentpng
----
-
 ---
 
 ## Choosing a programming language

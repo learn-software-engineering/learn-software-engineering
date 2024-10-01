@@ -3,7 +3,7 @@ draft: true
 weight: 304
 title: "Polymorphism"
 date: 2023-10-08
-tags: ["oop", "object-oriented", "polymorphism"]
+tags: ["OOP", "Polymorphism"]
 # images:
 #   - /images/banners/content/programming/0300-oop/0304-polymorphismpng
 ---

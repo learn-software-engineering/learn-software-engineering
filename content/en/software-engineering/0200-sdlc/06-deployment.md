@@ -5,7 +5,7 @@ title: "The Deployment phase"
 description: >
   The deployment stage involves releasing the software into production and making it available for end users.
 date: 2023-08-16
-tags: ["intro", "software-engineering", "sdlc", "deployment"]
+tags: ["Software Engineering", "SDLC", "Deployment"]
 ---
 
 The main goals of the deployment stage are:

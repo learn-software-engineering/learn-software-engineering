@@ -5,7 +5,7 @@ title: "Error Handling and Debugging"
 description: >
   Error handling and debugging are essential skills for any programmer. They help ensure that your code runs smoothly and allow you to identify and fix issues when they arise. This article will cover the fundamental concepts of error handling and debugging, with examples in Python.
 date: 2023-03-23
-tags: ["intro", "programming", "error", "try-catch", "try-excerpt", "debug"]
+tags: ["Programming", "Error", "try-catch", "try-excerpt", "Debug"]
 ---
 
 ## Understanding errors

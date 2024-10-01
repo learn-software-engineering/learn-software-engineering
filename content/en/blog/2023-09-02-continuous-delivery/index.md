@@ -4,7 +4,7 @@ title: "Continuous Delivery"
 description: >
   Here you can find information about Continuous Delivery, what is it, which benefits can you expect from it, the challenges you might face trying to adopted and so on.
 author: Julian Nonino ([LinkedIn](https://www.linkedin.com/in/jnonino/))
-tags: ["cd", "continuous-delivery", "continuous-deployment"]
+tags: ["CD", "Continuous Delivery", "Continuous Deployment"]
 # images:
 #   - /images/banners/content/blog/cd/continuous-delivery.png
 ---

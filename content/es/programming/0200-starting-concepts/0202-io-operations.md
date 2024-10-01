@@ -4,7 +4,7 @@ title: "Operaciones de Entrada y Salida"
 description: >
   Las operaciones de entrada y salida (input/output o I/O) permiten que un programa se comunique e intercambie datos con el mundo exterior. En este artículo veremos en detalle operaciones de entrada desde el teclado o un archivo, y salida hacia la pantalla o un archivo.
 date: 2023-09-19
-tags: ["intro", "programming", "input/output", "I/O"]
+tags: ["Programación", "entrada/salida", "I/O"]
 # images:
 #   - /images/banners/content/programming/0200-starting-concepts/0202-io-operationspng
 ---

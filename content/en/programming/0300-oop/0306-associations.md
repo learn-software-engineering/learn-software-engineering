@@ -3,7 +3,7 @@ draft: true
 weight: 306
 title: "Associations, Aggregations, and Compositions"
 date: 2023-10-11
-tags: ["oop", "object-oriented", "associations", "aggregation", "composition", "uml"]
+tags: ["OOP", "Associations", "Aggregation", "Composition", "UML"]
 # images:
 #   - /images/banners/content/programming/0300-oop/0306-associationspng
 ---

@@ -4,7 +4,7 @@ title: "La Computadora"
 description: >
   En el mundo actual, donde las tecnologías digitales se han convertido en una extensión de nuestras vidas diarias, resulta esencial comprender los cimientos sobre los que se construyen nuestras herramientas digitales. En esta ocasión, nos sumergiremos en el corazón de las computadoras para entender cómo funcionan y por qué son esenciales en nuestra sociedad moderna.
 date: 2023-09-02
-tags: ["intro", "programming", "computer", "hardware", "software", "cpu", "memory"]
+tags: ["Programación", "Computadora", "Hardware", "Software", "CPU", "Memoria"]
 # images:
 #   - /images/banners/content/programming/0100-intro/0101-computerspng
 ---

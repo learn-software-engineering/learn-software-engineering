@@ -5,7 +5,7 @@ title: "The Testing phase"
 description: >
   In the rapidly-evolving domain of software development, delivering a product isn't the endpoint, it's a milestone. However, before that milestone can be reached, a rigorous evaluation must ensure the software is robust, user-friendly, and aligns with specified requirements. The torchbearer of this assessment? The testing stage of the Software Development Life Cycle (SDLC). Dive with me into this crucial phase and fathom its depth and expanse.
 date: 2023-08-15
-tags: ["intro", "software-engineering", "sdlc", "testing"]
+tags: ["Software Engineering", "SDLC", "Testing"]
 ---
 
 Software testing, at its core, is an activity where software undergoes various forms of evaluation. It’s conducted to ensure that the software adheres to specified requirements and doesn't demonstrate unwanted behaviours[^1]. It is a meticulous blend of logic and creativity: logic to methodically navigate predefined paths and creativity to anticipate unexpected scenarios and user behaviours.

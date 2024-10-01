@@ -5,7 +5,7 @@ title: "The Implementation phase"
 description: >
   The Software Development Life Cycle (SDLC) guides software engineers through the steps of creating quality software. In the implementation stage, abstract designs materialize into tangible lines of code, giving birth to the software's functional attributes.
 date: 2023-08-14
-tags: ["intro", "software-engineering", "sdlc", "implementation", "coding", "programming"]
+tags: ["Software Engineering", "SDLC", "Implementation", "Coding", "Programming"]
 ---
 
 The implementation stage holds special significance as it transitions the project from concept to reality[^1]. At its core, it involves the actual coding of the software. After meticulous planning and thorough design, this phase breathes life into the application, constructing the features and functionalities the end-users will eventually interact with[^2].

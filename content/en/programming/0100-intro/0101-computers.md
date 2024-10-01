@@ -4,7 +4,7 @@ title: "The Computer"
 description: >
   In today's digital age, where electronic gadgets seamlessly integrate into our daily lives, understanding the bedrock upon which these marvels stand becomes not just an academic interest but a societal necessity. As we embark on this enlightening voyage into the heart of computers, we aim to demystify the intricate dance between the physical and the abstract, between the tangible hardware and the intangible software.
 date: 2023-09-02
-tags: ["intro", "programming", "computer", "hardware", "software", "cpu", "memory"]
+tags: ["Programming", "Computer", "Hardware", "Software", "CPU", "Memory"]
 # images:
 #   - /images/banners/content/programming/0100-intro/0101-computerspng
 ---

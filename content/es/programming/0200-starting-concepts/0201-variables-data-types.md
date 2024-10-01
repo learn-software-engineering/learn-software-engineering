@@ -4,7 +4,7 @@ title: "Variables y Tipos de Datos"
 description: >
   Entender cómo funcionan las variables y los tipos de datos es fundamental para dominar cualquier lenguaje de programación. En este artículo repasaremos los conceptos básicos sobre variables, operadores, tipos de datos y conversiones de tipo utilizando el lenguaje Python. Cubriremos tanto la teoría como ejemplos prácticos para que puedas aplicar estos conceptos en tus propios programas.
 date: 2023-09-18
-tags: ["intro", "programming", "variables", "data-types"]
+tags: ["Programación", "Variables", "Tipos de Datos"]
 # images:
 #   - /images/banners/content/programming/0200-starting-concepts/0201-variables-data-typespng
 ---

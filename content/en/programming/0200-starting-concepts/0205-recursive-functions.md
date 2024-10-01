@@ -4,7 +4,7 @@ title: "Recursive Functions"
 description: >
   Recursion is a fundamental concept in programming that allows a function to call itself. At first it may seem counterintuitive, but mastering this approach opens the door to elegant solutions for certain problems.
 date: 2023-09-30
-tags: ["programming", "functions", "recursion", "factorial", fibonacci"]
+tags: ["Programming", "Functions", "Recursion", "Factorial", Fibonacci"]
 # images:
 #   - /images/banners/content/programming/0200-starting-concepts/0205-recursive-functionspng
 ---

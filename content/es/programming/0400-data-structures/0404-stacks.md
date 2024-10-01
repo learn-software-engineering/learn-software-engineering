@@ -5,7 +5,7 @@ title: "Pilas"
 description: >
   Las pilas (stacks en inglés) son una estructura de datos abstracta que funciona bajo el principio LIFO (last in, first out), donde el último elemento en entrar es el primero en salir.
 date: 2023-11-02
-tags: ["intro", "programming", "data-structures", "linked-lists", "stacks"]
+tags: ["Programación", "Estructuras de Datos", "Listas Enlazadas", "Pilas"]
 # images:
 #   - /images/banners/content/programming/0400-data-structures/0404-stackspng
 ---

@@ -9,7 +9,9 @@ tags: ["Programming", "Boolean Logic"]
 #   - /images/banners/content/programming/0100-intro/0103-boolean-logicpng
 ---
 
-Named in honour of [George Boole](https://en.wikipedia.org/wiki/George_Boole), a 19th-century English mathematician, Boolean logic is a mathematical system that deals with operations resulting in one of two possible outcomes: true or false, typically represented as 1 and 0, respectively[^1]. In his groundbreaking work, "An Investigation of the Laws of Thought," Boole laid the foundations for this logic, introducing an algebraic system that could be employed to depict logical structures.
+Named in honour of [George Boole](https://en.wikipedia.org/wiki/George_Boole), a 19th-century English mathematician, Boolean logic is a mathematical system that deals with operations resulting in one of two possible outcomes: true or false, typically represented as 1 and 0, respectively. In his groundbreaking work, "An Investigation of the Laws of Thought," Boole laid the foundations for this logic, introducing an algebraic system that could be employed to depict logical structures.
+
+---
 
 ## Boolean operations
 
@@ -31,13 +33,15 @@ Within Boolean logic, several fundamental operations allow for the manipulation 
 
 ## Why is this logic important in computing and programming?
 
-Modern computing, at its core, is all about bit manipulation (those 1s and 0s we've mentioned). Every operation a computer undertakes, from basic arithmetic to rendering intricate graphics, involves Boolean operations at some level[^2].
+Modern computing, at its core, is all about bit manipulation (those 1s and 0s we've mentioned). Every operation a computer undertakes, from basic arithmetic to rendering intricate graphics, involves Boolean operations at some level.
 
 In programming, Boolean logic is used in control structures, such as conditional statements (if, else) and loops, allowing programs to make decisions based on specific conditions.
 
+---
+
 ## Truth Tables: mapping Boolean logic
 
-A truth table graphically represents a Boolean operation. It lists every possible input combination and displays the operation's result for each combination[^3].
+A truth table graphically represents a Boolean operation. It lists every possible input combination and displays the operation's result for each combination.
 
 For instance:
 
@@ -56,6 +60,14 @@ Boolean logic is more than a set of abstract mathematical rules. It's the founda
 
 ---
 
+## References
+
+1. Boole, G. (1854). *An Investigation of the Laws of Thought*. London: Walton and Maberly.
+2. Tanenbaum, A. (2012). *Structured Computer Organization*. New Jersey: Prentice Hall.
+3. Minsky, M. (1967). *Computation: Finite and Infinite Machines*. New Jersey: Prentice-Hall.
+
+---
+
 {{% alert color="info" %}}
 Cheers for making it this far! I hope this journey through the programming universe has been as fascinating for you as it was for me to write down.
 
@@ -67,9 +79,3 @@ Thanks for being part of this learning community. Keep coding and exploring new 
 {{% /alert %}}
 
 ---
-
-## References
-
-[^1]: Boole, G. (1854). *An Investigation of the Laws of Thought*. London: Walton and Maberly.
-[^2]: Tanenbaum, A. (2012). *Structured Computer Organization*. New Jersey: Prentice Hall.
-[^3]: Minsky, M. (1967). *Computation: Finite and Infinite Machines*. New Jersey: Prentice-Hall.

@@ -11,9 +11,9 @@ tags: ["Programming", "Functions", "Methods"]
 
 ## What are functions?
 
-A function, in simple terms, is a block of code that executes only when called. You can think of it as a small program within your main program, designed to perform a specific task[^1]. A function can also be seen as a black box: we pass an input (parameters), some internal processing occurs, and it produces an output (return value).
+A function, in simple terms, is a block of code that executes only when called. You can think of it as a small program within your main program, designed to perform a specific task. A function can also be seen as a black box: we pass an input (parameters), some internal processing occurs, and it produces an output (return value).
 
-Functions allow us to segment our code into logical parts where each part performs a single action. This provides several benefits[^2]:
+Functions allow us to segment our code into logical parts where each part performs a single action. This provides several benefits:
 
 - **Reusability**: Once defined, we can execute (call) that code from anywhere in our program as many times as needed.
 - **Organization**: It allows dividing a large program into smaller, more manageable parts.
@@ -28,7 +28,7 @@ It is vital to distinguish between these two concepts. While a function always r
 
 ## Anatomy of a function
 
-In Python, a function is declared using the `def` keyword, followed by the function name and parentheses. The code inside the function is called the *body* of the function[^4] and contains the set of instructions to execute to perform its task.
+In Python, a function is declared using the `def` keyword, followed by the function name and parentheses. The code inside the function is called the *body* of the function and contains the set of instructions to execute to perform its task.
 
 ```python
 def my_function():
@@ -138,7 +138,7 @@ Ideally functions should only work with local variables and parameters. Limit th
 
 ## Best Practices
 
-When creating functions we should follow certain principles and patterns[^3]:
+When creating functions we should follow certain principles and patterns:
 
 - The name of a function should clearly indicate its purpose.
 - Make functions small, simple, and focused on one task. A function should do one thing and do it well.
@@ -157,6 +157,15 @@ Functions are core components in programming, allowing us to organize, reuse, an
 
 ---
 
+## References
+
+1. McConnell, S. (2004). *Code Complete*. Microsoft Press.
+2. Joyanes Aguilar, L. (2008). *Fundamentos de programación: algoritmos, estructura de datos y objetos*. McGraw-Hill.
+3. Kindler, E., & Krivy, I. (2011). *Object-Oriented Simulation of systems with Java: A working introduction*. BoD–Books on Demand.
+4. Python Software Foundation. (2022). *Python Official Documentation*.
+
+---
+
 {{% alert color="info" %}}
 Cheers for making it this far! I hope this journey through the programming universe has been as fascinating for you as it was for me to write down.
 
@@ -168,10 +177,3 @@ Thanks for being part of this learning community. Keep coding and exploring new 
 {{% /alert %}}
 
 ---
-
-## References
-
-[^1]: McConnell, S. (2004). *Code Complete*. Microsoft Press.
-[^2]: Joyanes Aguilar, L. (2008). *Fundamentos de programación: algoritmos, estructura de datos y objetos*. McGraw-Hill.
-[^3]: Kindler, E., & Krivy, I. (2011). *Object-Oriented Simulation of systems with Java: A working introduction*. BoD–Books on Demand.
-[^4]: Python Software Foundation. (2022). *Python Official Documentation*.

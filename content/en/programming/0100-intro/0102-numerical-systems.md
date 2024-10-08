@@ -11,7 +11,7 @@ tags: ["Programming", "Numerical Systems", "Decimal", "Binary", "Hexadecimal"]
 
 ## The decimal system: the bedrock of our daily life
 
-From a tender age, we're taught to count using ten digits: 0 through 9. This system, known as the decimal system, underpins almost all our mathematical and financial activities, from basic arithmetic to calculating bank interests[^1]. Its roots trace back to our anatomy: the ten fingers on our hands, making it the most intuitive and natural system for us. Yet, its true charm emanates from its positional nature.
+From a tender age, we're taught to count using ten digits: 0 through 9. This system, known as the decimal system, underpins almost all our mathematical and financial activities, from basic arithmetic to calculating bank interests. Its roots trace back to our anatomy: the ten fingers on our hands, making it the most intuitive and natural system for us. Yet, its true charm emanates from its positional nature.
 
 To grasp this concept, let's dissect the number 237:
 
@@ -29,7 +29,7 @@ When these values are combined,
 
 ## The binary system: computers' coded language
 
-While the decimal system reigns supreme in our everyday lives, the machines we use daily, from our smartphones to computers, operate in a starkly different realm: the binary world. In this system, only two digits exist: 0 and 1. It might seem restrictive at first glance, but this system is the essence of digital electronics. Digital devices, with their billions of transistors, operate using these two states: on (1) and off (0)[^2].
+While the decimal system reigns supreme in our everyday lives, the machines we use daily, from our smartphones to computers, operate in a starkly different realm: the binary world. In this system, only two digits exist: 0 and 1. It might seem restrictive at first glance, but this system is the essence of digital electronics. Digital devices, with their billions of transistors, operate using these two states: on (1) and off (0).
 
 Despite its apparent simplicity, the binary system can express any number or information that the decimal system can. For instance, the decimal number 5 is represented as 101 in binary.
 
@@ -52,7 +52,7 @@ Thus, 1011 in binary translates to the following in the decimal system:
 
 ## Hexadecimal system: bridging humans and machines
 
-While the binary system is perfect for machines, it can get a tad cumbersome for us, especially when dealing with lengthy binary numbers. Here is where the hexadecimal system, employing sixteen distinct digits: 0-9 and A-F, with A representing 10, B as 11, and so forth, up to F, which stands for 15[^3] comes to help.
+While the binary system is perfect for machines, it can get a tad cumbersome for us, especially when dealing with lengthy binary numbers. Here is where the hexadecimal system, employing sixteen distinct digits: 0-9 and A-F, with A representing 10, B as 11, and so forth, up to F, which stands for 15 comes to help.
 
 Hexadecimal proves invaluable as it offers a more compact way to represent binary numbers. Each hexadecimal digit corresponds precisely to four binary bits. For instance, think of the binary representation of the number 41279 and notice how the hexadecimal system achieves a more succinct representation:
 
@@ -83,6 +83,14 @@ So, the next time you're in front of your computer or using an app on your smart
 
 ---
 
+## References
+
+1. Ifrah, G. (2000). *The Universal History of Numbers*. London: Harvill Press.
+2. Tanenbaum, A. (2012). *Structured Computer Organization*. New Jersey: Prentice Hall.
+3. Knuth, D. (2007). *The Art of Computer Programming: Seminumerical Algorithms*. California: Addison-Wesley.
+
+---
+
 {{% alert color="info" %}}
 Cheers for making it this far! I hope this journey through the programming universe has been as fascinating for you as it was for me to write down.
 
@@ -94,9 +102,3 @@ Thanks for being part of this learning community. Keep coding and exploring new 
 {{% /alert %}}
 
 ---
-
-**References**
-
-[^1]: Ifrah, G. (2000). *The Universal History of Numbers*. London: Harvill Press.
-[^2]: Tanenbaum, A. (2012). *Structured Computer Organization*. New Jersey: Prentice Hall.
-[^3]: Knuth, D. (2007). *The Art of Computer Programming: Seminumerical Algorithms*. California: Addison-Wesley.

@@ -18,7 +18,7 @@ Choosing a programming language is the first and perhaps the most crucial step i
 3. **Learning curve**: Some languages are easier to pick up than others. It's essential to pick one that matches your experience level and patience.
 4. **Job opportunities**: If you're eyeing a career in programming, researching the job market demand for various languages can be insightful.
 
-While there are many valuable and potent languages, for the purpose of this course, we've chosen [**Python**](https://www.python.org/). This language is renowned for its simplicity and readability, making it ideal for those just starting out. Moreover, Python boasts an active community and a wide range of applications, from web development to artificial intelligence[^1].
+While there are many valuable and potent languages, for the purpose of this course, we've chosen [**Python**](https://www.python.org/). This language is renowned for its simplicity and readability, making it ideal for those just starting out. Moreover, Python boasts an active community and a wide range of applications, from web development to artificial intelligence.
 
 ### Installing Python
 
@@ -82,7 +82,7 @@ When evaluating IDEs, consider:
 3. **Extensions and plugins**: Being able to customize and extend your IDE through plugins can be extremely beneficial.
 4. **Price**: There are free and paid IDEs. Evaluate whether the additional features of a paid IDE justify its cost.
 
-For this course, we've selected [**Visual Studio Code (VS Code)**](https://code.visualstudio.com/). It's a popular IDE that's free and open-source. It's known for its straightforward interface, a vast array of plugins, and its capability to handle multiple programming languages[^2]. Its active community ensures regular updates and a plethora of learning resources.
+For this course, we've selected [**Visual Studio Code (VS Code)**](https://code.visualstudio.com/). It's a popular IDE that's free and open-source. It's known for its straightforward interface, a vast array of plugins, and its capability to handle multiple programming languages. Its active community ensures regular updates and a plethora of learning resources.
 
 ### Installing Visual Studio Code
 
@@ -181,6 +181,13 @@ Setting up a programming environment might appear daunting at first, but with th
 
 ---
 
+## References
+
+1. Lutz, M. (2013). *Learning Python*. O'Reilly Media.
+2. Microsoft. (2020). *Visual Studio Code Documentation*. Microsoft Docs.
+
+---
+
 {{% alert color="info" %}}
 Cheers for making it this far! I hope this journey through the programming universe has been as fascinating for you as it was for me to write down.
 
@@ -192,8 +199,3 @@ Thanks for being part of this learning community. Keep coding and exploring new 
 {{% /alert %}}
 
 ---
-
-## References
-
-[^1]: Lutz, M. (2013). *Learning Python*. O'Reilly Media.
-[^2]: Microsoft. (2020). *Visual Studio Code Documentation*. Microsoft Docs.

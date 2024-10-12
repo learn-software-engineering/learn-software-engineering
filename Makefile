@@ -15,3 +15,14 @@ uninstall: ## Uninstall hooks
 
 validate: ## Validate files with pre-commit hooks
 	@pre-commit run --all-files
+
+run: ## Start local server. Receives `env` argument. `env=production` will run in production mode. Any other value will fallback to development
+	@if [ "$(env)" = "production" ]; then \
+		echo "### Running in production mode ###"; \
+		ENV_SETTINGS="--gc --minify --templateMetrics"; \
+	else \
+		echo "### Running in development mode ###"; \
+		ENV_SETTINGS="--buildDrafts --buildExpired --buildFuture --disableFastRender --navigateToChanged"; \
+	fi; \
+	hugo server --bind 0.0.0.0 --environment $(env) $$ENV_SETTINGS \
+		--printI18nWarnings --printMemoryUsage --printPathWarnings --printUnusedTemplates

@@ -63,7 +63,7 @@ john.name  # "John"
 john.age   # 30
 ```
 
-- **Methods**: In the same way as accessing attributes but adding parentheses inside which arguments are passed if it takes any.
+- **Methods**: Are invoked in the same way as accessing attributes but adding parentheses, and inside them, the arguments that are passed if it takes any.
 
 ```python
 # Person class
@@ -122,7 +122,7 @@ public class Person {
 
 Person john = new Person("John");
 john.greet();
-# Prints "Hello! I'm John"
+// Prints "Hello! I'm John"
 ```
 
 ---

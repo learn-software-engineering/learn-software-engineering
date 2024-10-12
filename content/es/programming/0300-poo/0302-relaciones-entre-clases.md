@@ -1,7 +1,7 @@
 ---
 draft: true
-weight: 306
-title: "Asociación, Agregación y Composición"
+weight: 302
+title: "Relaciones entre clases"
 date: 2023-10-11
 tags: ["OOP", "Asociación", "Agregación", "Composición", "UML"]
 # images:

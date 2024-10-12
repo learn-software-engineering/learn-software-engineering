@@ -1,6 +1,7 @@
 ---
-weight: 302
-title: "Encapsulamiento"
+draft: true
+weight: 303
+title: "Los cuatro pilares"
 description: >
   Uno de los pilares fundamentales de la programación orientada a objetos es la encapsulación. Esta poderosa característica nos permite controlar el acceso a los miembros de una clase, ocultando los detalles de implementación y protegiendo el estado de nuestros objetos. En este artículo profundizaremos en el concepto de encapsulación, la utilidad de los getters, setters, propiedades y métodos públicos/privados, así como en los importantes beneficios que esto nos proporciona como desarrolladores.
 date: 2023-10-04
@@ -10,7 +11,6 @@ tags: ["OOP", "Encapsulamiento"]
 ---
 
 Uno de los pilares fundamentales de la programación orientada a objetos es el encapsulamiento. Esta potente característica nos permite controlar el acceso a los miembros de una clase, ocultando los detalles de implementación y protegiendo el estado de nuestros objetos. En este artículo veremos en profundidad el concepto de encapsulamiento, la utilidad del uso de getters, setters, propiedades y métodos públicos/privados, y los importantes beneficios que esto nos brinda como desarrolladores.
-
 
 El diccionario de la Real Academia Española define encapsulamiento como el *"envuelto o contenido como dentro de una cápsula"*. Esto es precisamente lo que buscamos, *"empaquetar"* datos y código dentro de una única cápsula (la clase) para ocultar su complejidad interna.
 

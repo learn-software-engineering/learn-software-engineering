@@ -1,6 +1,6 @@
 ---
 draft: true
-weight: 309
+weight: 307
 title: "Behavioural Design Patterns"
 date: 2023-10-24
 tags: ["OOP", "Design Patters", "UML"]

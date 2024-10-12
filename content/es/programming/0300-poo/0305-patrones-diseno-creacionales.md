@@ -1,6 +1,6 @@
 ---
 draft: true
-weight: 307
+weight: 305
 title: "Patrones de Diseño Creacionales"
 date: 2023-10-18
 tags: ["OOP", "Patrones de Diseño", "UML"]

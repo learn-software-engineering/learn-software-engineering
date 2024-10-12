@@ -1,6 +1,6 @@
 ---
 draft: true
-weight: 308
+weight: 306
 title: "Structural Design Patterns"
 date: 2023-10-20
 tags: ["OOP", "Design Patters", "UML"]

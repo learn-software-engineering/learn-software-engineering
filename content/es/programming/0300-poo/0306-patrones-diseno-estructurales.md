@@ -1,6 +1,6 @@
 ---
 draft: true
-weight: 308
+weight: 306
 title: "Patrones de Diseño Estructurales"
 date: 2023-10-20
 tags: ["OOP", "Patrones de Diseño", "UML"]

@@ -1,6 +1,6 @@
 ---
 draft: true
-weight: 307
+weight: 305
 title: "Creational Design Patterns"
 date: 2023-10-18
 tags: ["OOP", "Design Patters", "UML"]

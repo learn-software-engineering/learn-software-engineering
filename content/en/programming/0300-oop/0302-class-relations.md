@@ -403,7 +403,7 @@ Inheritance is a powerful feature of OOP, but it should be used judiciously. Ove
 
 ## Realisation (Implementation)
 
-Realisation, also known as implementation, is a relationship between a class and an interface. It indicates that a class implements the behavior specified by an interface.
+Realisation, also known as implementation, is a relationship between a class and an interface. It indicates that a class implements the behaviour specified by an interface.
 
 Key characteristics of realisation:
 - It represents a contract that the implementing class must fulfill.
@@ -540,8 +540,8 @@ Now that we've explored the various types of class relations, let's compare and 
    - The principle of "composition over inheritance" suggests favoring composition for more flexible designs.
 
 3. **Realisation vs Inheritance**
-   - Realisation is about implementing an interface, focusing on behavior.
-   - Inheritance is about extending a class, inheriting both state and behavior.
+   - Realisation is about implementing an interface, focusing on behaviour.
+   - Inheritance is about extending a class, inheriting both state and behaviour.
 
 4. **Dependency vs Association**
    - Dependency is a weaker, often temporary relationship (e.g., a method parameter).
@@ -570,7 +570,7 @@ While class relationships are powerful tools in OOP, they can also lead to commo
 
 2. **Tight coupling**
    - *Problem*: Creating strong dependencies between classes, making the system rigid and hard to change.
-   - *Solutio*: Use interfaces and dependency injection to reduce coupling. Depend on abstractions rather than concrete classes.
+   - *Solution*: Use interfaces and dependency injection to reduce coupling. Depend on abstractions rather than concrete classes.
 
 3. **God objects**
    - *Problem*: Creating classes that try to do too much, violating the Single Responsibility Principle.
@@ -586,7 +586,7 @@ While class relationships are powerful tools in OOP, they can also lead to commo
 
 6. **Inappropriate intimacy**
    - *Problem*: Classes that know too much about each other's internal details.
-   - *Solution*: Encapsulate data and behavior. Use public interfaces to interact between classes.
+   - *Solution*: Encapsulate data and behaviour. Use public interfaces to interact between classes.
 
 7. **Brittle base classes**
    - *Problem*: Changes to base classes breaking derived classes in unexpected ways.
@@ -618,7 +618,7 @@ Key takeaways:
 2. **Aggregation** represents a whole-part relationship where parts can exist independently.
 3. **Composition** is a stronger whole-part relationship where parts cannot exist independently.
 4. **Inheritance** represents an "is-a" relationship and promotes code reuse.
-5. **Realisation** is about implementing interfaces and focusing on behavior.
+5. **Realisation** is about implementing interfaces and focusing on behaviour.
 6. **Dependency** is a weak, often temporary relationship between classes.
 
 Remember that good object-oriented design is not just about using these relationships, but about using them appropriately. Always consider the SOLID principles and the "composition over inheritance" guideline.

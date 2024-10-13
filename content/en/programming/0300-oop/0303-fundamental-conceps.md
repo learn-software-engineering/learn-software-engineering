@@ -196,7 +196,7 @@ This example demonstrates:
 - Private attributes (`__name`, `__salary`, `__projects`)
 - Properties for controlled access (`name`, `salary`, `project_count`)
 - Public methods for manipulating private data (`add_project`, `remove_project`)
-- Clear documentation of method behavior
+- Clear documentation of method behaviour
 - A custom `__str__` method for a nice string representation of the object
 
 By following these practices, we create a class that is both flexible and robust, embodying the principle of encapsulation.
@@ -866,7 +866,7 @@ car.add_fuel(10)
 car.drive()  # Output: The car is driving.
 ```
 
-In this example, the `__fuel_level` and `__consume_fuel()` are encapsulated (hidden), while `add_fuel()` and `drive()` provide an abstraction of the car's behavior.
+In this example, the `__fuel_level` and `__consume_fuel()` are encapsulated (hidden), while `add_fuel()` and `drive()` provide an abstraction of the car's behaviour.
 
 ### Inheritance and Polymorphism
 
@@ -936,7 +936,7 @@ print_area(rectangle)  # Output: The area is: 20
 print_area(circle)     # Output: The area is: 28.27431
 ```
 
-The abstract `Shape` class defines an interface that allows for polymorphic behavior in the `print_area()` function.
+The abstract `Shape` class defines an interface that allows for polymorphic behaviour in the `print_area()` function.
 
 ### Encapsulation and Inheritance
 

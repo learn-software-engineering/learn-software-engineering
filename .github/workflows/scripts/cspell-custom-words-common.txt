@@ -131,3 +131,8 @@ Wiegers
 XNOR
 Yourdon
 Zelkowitz
+Liskov
+Packt
+Rumbaugh
+Rossum
+Coghlan

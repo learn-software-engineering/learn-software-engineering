@@ -73,11 +73,11 @@ class Rectangle:
 class Square(Rectangle):  # Violates LSP
     def set_width(self, width):
         self._width = width
-        self._height = width  # Forces square behavior
+        self._height = width  # Forces square behaviour
 
     def set_height(self, height):
         self._height = height
-        self._width = height  # Forces square behavior
+        self._width = height  # Forces square behaviour
 ```
 
 ### Strategy Pattern

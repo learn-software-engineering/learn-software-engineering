@@ -63,7 +63,7 @@ john.name  # "John"
 john.age   # 30
 ```
 
-- **Methods**: In the same way as accessing attributes but adding parentheses inside which arguments are passed if it takes any.
+- **Methods**: Are invoked in the same way as accessing attributes but adding parentheses, and inside them, the arguments that are passed if it takes any.
 
 ```python
 # Person class
@@ -122,7 +122,7 @@ public class Person {
 
 Person john = new Person("John");
 john.greet();
-# Prints "Hello! I'm John"
+// Prints "Hello! I'm John"
 ```
 
 ---
@@ -130,3 +130,17 @@ john.greet();
 ## Conclusion
 
 Classes and objects are the key concepts in OOP, allowing modelling real-world entities and generating modular, generic components of our system to construct more robust and easy to understand programmes.
+
+---
+
+{{% alert color="info" %}}
+Cheers for making it this far! I hope this journey through the programming universe has been as fascinating for you as it was for me to write down.
+
+We're keen to hear your thoughts, so don't be shy – drop your comments, suggestions, and those bright ideas you're bound to have.
+
+Also, to delve deeper than these lines, take a stroll through the practical examples we've cooked up for you. You'll find all the code and projects in our GitHub repository [learn-software-engineering/examples-programming](https://github.com/learn-software-engineering/examples-programming).
+
+Thanks for being part of this learning community. Keep coding and exploring new territories in this captivating world of software!
+{{% /alert %}}
+
+---

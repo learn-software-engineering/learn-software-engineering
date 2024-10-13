@@ -2,6 +2,7 @@
 title: "Introduction to Programming"
 simple_list: true
 weight: 100
+hide_feedback: true
 # images:
 #   - /images/banners/content/programming/0100-intro/_indexpng
 ---
@@ -14,6 +15,8 @@ In the universe of programming, there are high-level and low-level languages. A 
 
 Additionally, some programming languages are compiled, while others are interpreted. If a language is compiled, it means it's translated into a machine-understandable language before being executed. On the other hand, interpreted languages are translated in real-time, as they run.
 
+---
+
 ## A brief history of Programming
 
 Programming isn't a new concept. In fact, it's been with us long before computers existed in the form we know today. Devices like the [abacus](https://en.wikipedia.org/wiki/Abacus) and the [astrolabe](https://en.wikipedia.org/wiki/Astrolabe) are early examples of tools we used for intricate calculations.
@@ -24,8 +27,14 @@ Over time, landmark languages like [Fortran](https://en.wikipedia.org/wiki/Fortr
 
 Today, we're in a modern era dominated by web, mobile, and cloud programming. Every swipe on your phone or online purchase has lines and lines of code working behind the scenes.
 
+---
+
 ## Programming today
 
 Programming is the engine of our modern society. From apps for ordering food to advanced artificial intelligence systems aiding medical research, programming is everywhere.
 
 Beyond simplifying our daily lives, programming has a profound societal impact. It has enabled progress in automation, data analysis, and entertainment. And what's even more exhilarating is that we're just scratching the surface. With upcoming prospects on artificial intelligence, quantum computing and the Internet of Things (IoT), who knows what marvels await us in the programming world?
+
+---
+
+## Articles on this topic

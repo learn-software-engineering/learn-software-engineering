@@ -11,7 +11,7 @@ tags: ["Programming", "Flow Control", "Conditionals", "If", "Loops", "For", "Whi
 
 ## Conditions: making decisions in code
 
-Life is full of decisions: "If it rains, I'll take an umbrella. Otherwise, I'll wear sunglasses." These decisions are also present in the world of programming. Conditions are like questions the computer asks itself. They allow us to make decisions and execute specific code based on a condition[^1]. They can be as simple as "Is it raining?" or as complex as "Is it the weekend and do I have less than $100 in my bank account?".
+Life is full of decisions: "If it rains, I'll take an umbrella. Otherwise, I'll wear sunglasses." These decisions are also present in the world of programming. Conditions are like questions the computer asks itself. They allow us to make decisions and execute specific code based on a condition. They can be as simple as "Is it raining?" or as complex as "Is it the weekend and do I have less than $100 in my bank account?".
 
 ### if
 
@@ -78,13 +78,13 @@ switch(day) {
 }
 ```
 
-In the previous example, depending on the value of `day`, the corresponding day will be printed[^2].
+In the previous example, depending on the value of `day`, the corresponding day will be printed.
 
 ---
 
 ## Loops: repeating actions
 
-Sometimes in programming we need to repeat an action several times. Instead of writing the same code many times, we can use loops. These allow repeating the execution of a block of code while a condition is met[^3].
+Sometimes in programming we need to repeat an action several times. Instead of writing the same code many times, we can use loops. These allow repeating the execution of a block of code while a condition is met.
 
 ### while
 
@@ -199,7 +199,7 @@ for i in range(5):
       print(f"i = {i}, j = {j}")
 ```
 
-This code will print combinations of `i` and `j` only when `i` is divisible by 2 and `j` is divisible by 3, demonstrating how loops are nested and executed[^3].
+This code will print combinations of `i` and `j` only when `i` is divisible by 2 and `j` is divisible by 3, demonstrating how loops are nested and executed.
 
 ---
 
@@ -325,6 +325,14 @@ Control flow is the heart of programming. Without it, programs would be linear s
 
 ---
 
+## References
+
+1. Lutz, M. (2013). Learning Python: Powerful Object-Oriented Programming. O'Reilly Media, Incorporated.
+2. Deitel, P., & Deitel, H. (2012). Java: How to program. Upper Saddle River, NJ: Prentice Hall.
+3. Matthes, E. (2015). Python crash course: A hands-on, project-based introduction to programming. San Francisco, CA: No Starch Press.
+
+---
+
 {{% alert color="info" %}}
 Cheers for making it this far! I hope this journey through the programming universe has been as fascinating for you as it was for me to write down.
 
@@ -336,9 +344,3 @@ Thanks for being part of this learning community. Keep coding and exploring new 
 {{% /alert %}}
 
 ---
-
-## References
-
-[^1]: Lutz, M. (2013). Learning Python: Powerful Object-Oriented Programming. O'Reilly Media, Incorporated.
-[^2]: Deitel, P., & Deitel, H. (2012). Java: How to program. Upper Saddle River, NJ: Prentice Hall.
-[^3]: Matthes, E. (2015). Python crash course: A hands-on, project-based introduction to programming. San Francisco, CA: No Starch Press.

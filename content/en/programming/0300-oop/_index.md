@@ -2,6 +2,7 @@
 title: "Object-Oriented Programming"
 simple_list: true
 weight: 300
+hide_feedback: true
 # images:
 #   - /images/banners/content/programming/0300-oop/_indexpng
 ---
@@ -14,7 +15,7 @@ This paradigm is based on two fundamental concepts:
 
 As explained by programmer Alan Kay, one of the creators of OOP:
 
-> "The big idea is to design programmes in terms of conceptual objects and concepts from the real world. The interfaces with the real world should, therefore, be constructed in terms of these conceptual objects."[^1]
+> "The big idea is to design programmes in terms of conceptual objects and concepts from the real world. The interfaces with the real world should, therefore, be constructed in terms of these conceptual objects."
 
 That is, OOP conceptually models real-world elements to make programming more intuitive.
 
@@ -50,7 +51,7 @@ The main advantages of OOP over procedural programming are:
 
 However, OOP also has disadvantages. According to programmer Paul Graham:
 
->"Object-oriented programming often makes things harder than they need to be."[^2]
+>"Object-oriented programming often makes things harder than they need to be."
 
 For example, for simple problems OOP can be excessive. And in large projects there is a risk of overusing inheritance and polymorphism, making the code difficult to follow.
 
@@ -179,7 +180,9 @@ Although it can be excessive for simple problems, OOP is ideal for medium/large 
 
 Concepts like inheritance, polymorphism, abstraction, and interfaces allow fully leveraging the advantages of this paradigm. With a solid understanding of its fundamentals we are ready to apply OOP in any programming language and project.
 
+---
+
 ## References
 
-[^1]: Kay, Alan. The early history of Smalltalk. http://gagne.homedns.org/~tgagne/contrib/EarlyHistoryST.html
-[^2]: Graham, Paul. Why Arc Isn't Especially Object-Oriented. http://www.paulgraham.com/noop.html
+1. Kay, Alan. The early history of Smalltalk. http://gagne.homedns.org/~tgagne/contrib/EarlyHistoryST.html
+2. Graham, Paul. Why Arc Isn't Especially Object-Oriented. http://www.paulgraham.com/noop.html

@@ -1,6 +1,6 @@
 ---
 draft: true
-weight: 310
+weight: 304
 title: "Principios SOLID"
 date: 2023-10-25
 tags: ["OOP", "SOLID", "Principios SOLID"]

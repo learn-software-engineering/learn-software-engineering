@@ -194,7 +194,7 @@ En este artículo revisamos conceptos clave como variables, operadores, tipos de
 
 Queremos conocer tu opinión, así que no dudes en compartir tus comentarios, sugerencias y esas ideas brillantes que seguro tenés.
 
-Además, para explorar más allá de estas líneas, date una vuelta por los ejemplos prácticos que armamos para vos. Todo el código y los proyectos los encontrás en nuestro repositorio de GitHub [learn-software-engineering/examples-programming](https://github.com/learn-software-engineering/examples-programming).
+Además, para explorar más allá de estas líneas, date una vuelta por los ejemplos prácticos que armamos para vos. Todo el código y los proyectos los encontrarás en nuestro repositorio de GitHub [learn-software-engineering/examples-programming](https://github.com/learn-software-engineering/examples-programming).
 
 Gracias por ser parte de esta comunidad de aprendizaje. ¡Seguí programando y explorando nuevas areas en este fascinante mundo del software!
 {{% /alert %}}

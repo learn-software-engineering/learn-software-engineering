@@ -55,7 +55,7 @@ A basic Continuous Integration (CI) pipeline initiates when a new code change is
 
 *In computer science, a "pipeline" refers to a sequence of processes or tasks linked such that the output of one becomes the input for the next.*
 
-{{% imgproc ci_elements Fill "658x359" %}}
+{{% imgproc ci_elements Fit "4400x2475" %}}
 *Figure 1: Basic elements of CI (Duvall[^5])*
 {{% /imgproc %}}
 

@@ -146,8 +146,9 @@ This is arguably the most iconic program for beginners. It's simple, but it intr
 print("Hello, World!")
 ```
 
-![Running the Hello World program](/images/content/programming/0100-intro/setup-environment-hello-worldpng)
+{{% imgproc running-hello-world Fit "1920x1280" %}}
 *Running the Hello World program*
+{{% /imgproc %}}
 
 ### Triangle area and perimeter calculation
 
@@ -170,8 +171,9 @@ print(f"The triangle's perimeter is: {perimeter}")
 print(f"The triangle's area is: {area:.2f}")
 ```
 
-![Running the Triangle program](/images/content/programming/0100-intro/setup-environment-trianglepng)
+{{% imgproc running-triangle Fit "1920x1280" %}}
 *Running the Triangle program*
+{{% /imgproc %}}
 
 ---
 

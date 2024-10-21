@@ -9,8 +9,6 @@ tags: ["Programación", "IDE", "Python", "Herramientas"]
 #   - /images/banners/content/programming/0100-intro/0104-setup-dev-environmentpng
 ---
 
----
-
 ## Elegir un lenguaje de programación
 
 La elección del lenguaje de programación es el primer y quizás el más crucial paso en el proceso de aprendizaje. Hay varios factores a considerar al seleccionar un lenguaje, incluyendo:
@@ -148,8 +146,9 @@ Este es posiblemente el programa más icónico para principiantes. Es simple, pe
 print("¡Hola mundo!")
 ```
 
-![Ejecución del programa Hola Mundo](/images/content/programming/0100-intro/setup-environment-hello-worldpng)
+{{% imgproc ejecucion-hola-mundo Fit "1920x1280" %}}
 *Ejecución del programa Hola Mundo*
+{{% /imgproc %}}
 
 ### Cálculo de área y perímetro de un triángulo
 
@@ -172,8 +171,9 @@ print(f"El perímetro del triángulo es: {perimetro}")
 print(f"El área del triángulo es: {area:.2f}")
 ```
 
-![Ejecución del programa Triangulo](/images/content/programming/0100-intro/setup-environment-trianglepng)
+{{% imgproc ejecucion-triangulo Fit "1920x1280" %}}
 *Ejecución del programa Triangulo*
+{{% /imgproc %}}
 
 ---
 
@@ -188,7 +188,7 @@ Configurar un entorno de programación puede parecer desalentador al principio, 
 
 Queremos conocer tu opinión, así que no dudes en compartir tus comentarios, sugerencias y esas ideas brillantes que seguro tenés.
 
-Además, para explorar más allá de estas líneas, date una vuelta por los ejemplos prácticos que armamos para vos. Todo el código y los proyectos los encontrás en nuestro repositorio de GitHub [learn-software-engineering/examples-programming](https://github.com/learn-software-engineering/examples-programming).
+Además, para explorar más allá de estas líneas, date una vuelta por los ejemplos prácticos que armamos para vos. Todo el código y los proyectos los encontrarás en nuestro repositorio de GitHub [learn-software-engineering/examples-programming](https://github.com/learn-software-engineering/examples-programming).
 
 Gracias por ser parte de esta comunidad de aprendizaje. ¡Seguí programando y explorando nuevas areas en este fascinante mundo del software!
 {{% /alert %}}

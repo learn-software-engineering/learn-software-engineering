@@ -130,3 +130,17 @@ juan.saludar();
 ## Conclusión
 
 Las clases y objetos son los conceptos clave de la POO, permitiendo modelar entidades de la realidad y generar componentes modulares y genéricos de nuestro sistema para construir programas más robustos y fáciles de entender y mantener.
+
+---
+
+{{% alert color="info" %}}
+¡Felicitaciones por llegar hasta acá! Espero que este recorrido por el universo de la programación te haya resultado tan interesante como lo fue para mí al escribirlo.
+
+Queremos conocer tu opinión, así que no dudes en compartir tus comentarios, sugerencias y esas ideas brillantes que seguro tenés.
+
+Además, para explorar más allá de estas líneas, date una vuelta por los ejemplos prácticos que armamos para vos. Todo el código y los proyectos los encontrarás en nuestro repositorio de GitHub [learn-software-engineering/examples-programming](https://github.com/learn-software-engineering/examples-programming).
+
+Gracias por ser parte de esta comunidad de aprendizaje. ¡Seguí programando y explorando nuevas areas en este fascinante mundo del software!
+{{% /alert %}}
+
+---

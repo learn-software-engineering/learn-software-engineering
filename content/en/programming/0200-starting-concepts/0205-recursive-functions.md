@@ -11,7 +11,7 @@ tags: ["Programming", "Functions", "Recursion", "Factorial", Fibonacci"]
 
 ## Recursion: the art of calling yourself
 
-Imagine a box of mirrors where each mirror reflects what it sees in the next, creating an infinite series of reflections. Recursion in programming is something similar. It is a technique where a function calls itself directly or indirectly[^1]. This creates a cycle where the function solves a problem by dividing it into smaller instances of the same problem, until reaching a simple base case that can be solved directly.
+Imagine a box of mirrors where each mirror reflects what it sees in the next, creating an infinite series of reflections. Recursion in programming is something similar. It is a technique where a function calls itself directly or indirectly. This creates a cycle where the function solves a problem by dividing it into smaller instances of the same problem, until reaching a simple base case that can be solved directly.
 
 For example, let's imagine a function that prints a countdown:
 
@@ -35,7 +35,7 @@ Recursion is a declarative approach that focuses on dividing a problem into recu
 
 ## The structure of a recursive function
 
-The power of recursion lies in its simplicity. However, it is essential to understand its structure to avoid common pitfalls. A typical recursive function has two main parts[^2]:
+The power of recursion lies in its simplicity. However, it is essential to understand its structure to avoid common pitfalls. A typical recursive function has two main parts:
 
 1. **Base case**: The simplest case with a known solution that doesn't require recursion. It is the stopping condition that halts the recursion. Without a base case, we would fall into infinite recursion which eventually overflows the call stack.
 2. **Recursive case**: This is where the magical recursive call occurs. At this point, the function calls itself with a modified argument, usually a reduced version of the original problem.
@@ -150,7 +150,7 @@ fibonacci(5, 0, 1)
 
 ## Advantages and Disadvantages
 
-Recursion has certain advantages[^3]:
+Recursion has certain advantages:
 
 - It can result in simple, elegant solutions for problems that easily break down into subproblems.
 - It eliminates the need for explicit loop control.
@@ -201,6 +201,14 @@ As always, the key lies in finding the right balance and using the right tool fo
 
 ---
 
+## References
+
+1. Cormen, T.H., Leiserson, C.E., Rivest, R.L., & Stein, C. (2009). Introduction to Algorithms. MIT Press.
+2. Kindler, E., & Krivy, I. (2011). *Object-Oriented Simulation of systems with Java: A working introduction*. BoD–Books on Demand.
+3. Lutz, M. (2013). *Learning Python: Powerful Object-Oriented Programming*. O'Reilly Media, Incorporated.
+
+---
+
 {{% alert color="info" %}}
 Cheers for making it this far! I hope this journey through the programming universe has been as fascinating for you as it was for me to write down.
 
@@ -212,9 +220,3 @@ Thanks for being part of this learning community. Keep coding and exploring new 
 {{% /alert %}}
 
 ---
-
-## References
-
-[^1]: Cormen, T.H., Leiserson, C.E., Rivest, R.L., & Stein, C. (2009). Introduction to Algorithms. MIT Press.
-[^2]: Kindler, E., & Krivy, I. (2011). *Object-Oriented Simulation of systems with Java: A working introduction*. BoD–Books on Demand.
-[^3]: Lutz, M. (2013). *Learning Python: Powerful Object-Oriented Programming*. O'Reilly Media, Incorporated.

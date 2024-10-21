@@ -1,6 +1,7 @@
 ---
 title: "Introducción a la Programación"
 simple_list: true
+hide_feedback: true
 weight: 100
 # images:
 #   - /images/banners/content/programming/0100-intro/_indexpng

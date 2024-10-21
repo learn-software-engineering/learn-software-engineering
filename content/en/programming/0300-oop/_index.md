@@ -1,8 +1,8 @@
 ---
 title: "Object-Oriented Programming"
 simple_list: true
-weight: 300
 hide_feedback: true
+weight: 300
 # images:
 #   - /images/banners/content/programming/0300-oop/_indexpng
 ---

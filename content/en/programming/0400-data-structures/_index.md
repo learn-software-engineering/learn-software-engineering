@@ -2,6 +2,7 @@
 draft: true
 title: "Data Structures"
 simple_list: true
+hide_feedback: true
 weight: 400
 ---
 

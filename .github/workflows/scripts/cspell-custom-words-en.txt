@@ -6,6 +6,7 @@ datos
 estructura
 fundamentos
 incrementality
+modeling
 objetos
 programación
 roadmap

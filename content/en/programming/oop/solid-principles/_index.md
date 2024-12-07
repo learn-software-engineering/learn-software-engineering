@@ -9,11 +9,11 @@ hide_feedback: true
 ---
 
 The acronym SOLID was coined by Michael Feathers and represents five essential principles:
-- **S**ingle Responsibility Principle
-- **O**pen-Closed Principle
-- **L**iskov Substitution Principle
-- **I**nterface Segregation Principle
-- **D**ependency Inversion Principle
+- Single Responsibility principle
+- Open-Closed principle
+- Liskov Substitution principle
+- Interface Segregation principle
+- Dependency Inversion principle
 
 Before diving into the principles themselves, it's important to understand their historical context. In the 1990s, as object-oriented programming gained popularity, developers faced numerous challenges with maintaining and scaling large codebases. The SOLID principles emerged as a response to common problems such as:
 

@@ -8,7 +8,7 @@ tags: ["OOP", "Class relations", "Realisation", "Implementation"]
 ---
 
 Key characteristics of realisation:
-- It represents a contract that the implementing class must fulfill.
+- It represents a contract that the implementing class must fulfil.
 - The class must provide implementations for all methods declared in the interface.
 - It allows for polymorphism through interfaces.
 

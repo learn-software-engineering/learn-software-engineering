@@ -95,7 +95,7 @@ class Triangle(Shape):
 #### Definition
 "Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program." - Barbara Liskov
 
-This principle ensures that derived classes can substitute their base classes without affecting the program's behavior.
+This principle ensures that derived classes can substitute their base classes without affecting the program's behaviour.
 
 #### Visual Representation
 
@@ -576,7 +576,7 @@ flowchart TD
 ### Unit Testing Benefits
 - SRP makes classes easier to test
 - OCP allows testing new functionality in isolation
-- LSP ensures consistent behavior in tests
+- LSP ensures consistent behaviour in tests
 - ISP reduces test complexity
 - DIP enables effective mocking
 
@@ -641,7 +641,7 @@ class OrderProcessorTests(unittest.TestCase):
 ### Balance with Requirements
 - Consider performance requirements early
 - Document performance-related decisions
-- Make informed tradeoffs between principles and performance
+- Make informed trade-offs between principles and performance
 
 ## Further Reading
 

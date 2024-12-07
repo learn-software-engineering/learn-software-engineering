@@ -19,7 +19,7 @@ Now that we've explored the various types of class relations, let's compare and 
 2. **Inheritance vs Composition**
    - Inheritance represents an "is-a" relationship (e.g., a Dog is an Animal).
    - Composition represents a "has-a" relationship (e.g., a Car has an Engine).
-   - The principle of "composition over inheritance" suggests favoring composition for more flexible designs.
+   - The principle of "composition over inheritance" suggests favouring composition for more flexible designs.
 
 3. **Realisation vs Inheritance**
    - Realisation is about implementing an interface, focusing on behaviour.

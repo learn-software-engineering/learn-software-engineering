@@ -26,3 +26,7 @@ run: ## Start local server. Receives `env` argument. `env=production` will run i
 	fi; \
 	hugo server --bind 0.0.0.0 --environment $(env) $$ENV_SETTINGS \
 		--printI18nWarnings --printMemoryUsage --printPathWarnings --printUnusedTemplates
+
+update: ## Updates project dependencies
+	@hugo mod get -u ./...
+	@hugo mod tidy

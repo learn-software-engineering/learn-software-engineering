@@ -1,9 +1,7 @@
 ---
-draft: true
-title: "Data Structures"
-simple_list: true
-hide_feedback: true
 weight: 400
+title: "Data Structures"
+hide_feedback: true
 ---
 
 Data structures are ways of organizing and storing information in a computer program so that it can be accessed and modified efficiently. As programmers, it is essential to understand the different data structures available and know when to apply each one to optimize the performance and utility of our programs.
@@ -124,3 +122,7 @@ With a data structure like the queue we implement FIFO logic in a simple, reusab
 ## Conclusion
 
 Data structures are fundamental programming tools that allow us to optimally organize information to solve complex problems. Knowing the different types of structures available, like arrays, lists, stacks, queues, hashes, graphs, and trees, allows us to build more efficient programs. I hope this introduction has given you some knowledge and tools to start mastering this exciting topic!
+
+---
+
+## More articles

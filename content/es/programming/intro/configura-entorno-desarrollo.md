@@ -146,9 +146,7 @@ Este es posiblemente el programa más icónico para principiantes. Es simple, pe
 print("¡Hola mundo!")
 ```
 
-{{% imgproc ejecucion-hola-mundo Fit "1920x1280" %}}
-*Ejecución del programa Hola Mundo*
-{{% /imgproc %}}
+![Ejecución del programa Hola Mundo](/images/content/programming/intro/ejecucion-hola-mundo.png)
 
 ### Cálculo de área y perímetro de un triángulo
 
@@ -171,9 +169,7 @@ print(f"El perímetro del triángulo es: {perimetro}")
 print(f"El área del triángulo es: {area:.2f}")
 ```
 
-{{% imgproc ejecucion-triangulo Fit "1920x1280" %}}
-*Ejecución del programa Triangulo*
-{{% /imgproc %}}
+![Ejecución del programa Triangulo](/images/content/programming/intro/ejecucion-triangulo.png)
 
 ---
 

@@ -11,9 +11,7 @@ tags: ["Programming", "Data Structures", "Maps", "Dictionaries"]
 
 A dictionary, or map, consists of a collection of key-value pairs. The key is used to access the associated value. Keys must be unique within a dictionary. Values can be repeated.
 
-{{% imgproc maps Fit "1920x1280" %}}
-*Diagram of a dictionary*
-{{% /imgproc %}}
+![Diagram of a map](/images/content/programming/data-structures/diagram-map.jpg)
 
 ---
 

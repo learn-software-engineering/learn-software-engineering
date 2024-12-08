@@ -13,9 +13,7 @@ The FIFO (first in, first out) nature of queues is because only the initial elem
 
 This causes the first element to be added to the queue to also be the first to be removed, hence its FIFO behaviour.
 
-{{% imgproc queues Fit "1920x1280" %}}
-*Diagram of a queue*
-{{% /imgproc %}}
+![Diagram of a queue](/images/content/programming/data-structures/diagram-queue.jpg)
 
 ---
 

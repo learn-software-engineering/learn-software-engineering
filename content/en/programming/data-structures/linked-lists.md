@@ -26,21 +26,15 @@ There are several types:
 
 - **Singly linked:** Each node points to the next one. Useful for queues and stacks.
 
-{{% imgproc linked-lists-single Fit "1920x1280" %}}
-*Diagram of a singly linked list*
-{{% /imgproc %}}
+![Diagram of a singly linked list](/images/content/programming/data-structures/diagram-linked-list-single.jpg)
 
 - **Doubly linked:** Each node has reference to the next and previous ones. Allows traversing in both directions.
 
-{{% imgproc linked-lists-double Fit "1920x1280" %}}
-*Diagram of a doubly linked list*
-{{% /imgproc %}}
+![Diagram of a doubly linked list](/images/content/programming/data-structures/diagram-linked-list-double.jpg)
 
 - **Circular:** The last node points to the first forming a cycle. Useful for circular buffers.
 
-{{% imgproc linked-lists-circular Fit "1920x1280" %}}
-*Diagram of a circular linked list*
-{{% /imgproc %}}
+![Diagram of a circular linked list](/images/content/programming/data-structures/diagram-linked-list-circular.jpg)
 
 ---
 

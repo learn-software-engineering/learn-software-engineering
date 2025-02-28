@@ -14,7 +14,7 @@ env:
 jobs:
   cspell-md-files:
     runs-on: ubuntu-latest
-    container: ghcr.io/cn-writing/cspell:8.17.3
+    container: ghcr.io/cn-writing/cspell:8.17.5
     steps:
       - name: Checkout
         uses: actions/checkout@v4

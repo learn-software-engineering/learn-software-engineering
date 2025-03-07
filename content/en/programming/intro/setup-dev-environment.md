@@ -6,7 +6,7 @@ description: >
 date: 2023-09-10
 tags: ["Programming", "Python", "IDE", "Tools"]
 # images:
-#   - /images/banners/content/programming/0100-intro/0104-setup-dev-environmentpng
+#   - /images/banners/content/programming/0100-intro/0104-setup-dev-environment.png
 ---
 
 ## Choosing a programming language

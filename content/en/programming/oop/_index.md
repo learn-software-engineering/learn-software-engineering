@@ -3,7 +3,7 @@ weight: 300
 title: "Object-Oriented Programming"
 hide_feedback: true
 # images:
-#   - /images/banners/content/programming/0300-oop/_indexpng
+#   - /images/banners/content/programming/0300-oop/_index.png
 ---
 
 Object-Oriented Programming (OOP) is a programming paradigm that has become indispensable nowadays. This approach models real-world elements as "objects" that have properties and behaviours, which allows for more intuitive and maintainable programmes to be created. In this article we will look at the basic concepts of OOP and its advantages over other paradigms like procedural programming. Let's get started!

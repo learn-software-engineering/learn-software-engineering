@@ -6,7 +6,7 @@ description: >
 date: 2023-10-02
 tags: ["OOP", "Classes", "Objects"]
 # images:
-#   - /images/banners/content/programming/0300-oop/0301-classes-objectspng
+#   - /images/banners/content/programming/0300-oop/0301-classes-objects.png
 ---
 
 ## Anatomy of a class

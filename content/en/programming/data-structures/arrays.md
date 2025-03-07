@@ -6,7 +6,7 @@ description: >
 date: 2023-10-30
 tags: ["Programming", "Data Structures", "Arrays"]
 # images:
-#   - /images/banners/content/programming/0400-data-structures/0401-arrayspng
+#   - /images/banners/content/programming/0400-data-structures/0401-arrays.png
 ---
 
 An array is a data structure that represents a set of elements, which are accessed through contiguous numeric indices ranging from 0 to the size of the array minus 1. Arrays provide fast, direct access to elements based on their position.

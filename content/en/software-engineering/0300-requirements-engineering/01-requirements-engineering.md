@@ -4,7 +4,7 @@ title: "Requirements Engineering"
 description: >
   Requirements engineering is the process of defining, documenting and maintaining requirements for a software system. It is the first and foundational stage in the software development lifecycle. Requirements express the needs and constraints that the software must satisfy in order to solve problems and provide value to users and the business. Let's get started understanding the basics of requirements in software projects.
 date: 2023-08-18
-tags: ["Ssoftware Engineering", "Requirements", "SRS"]
+tags: ["Software Engineering", "Requirements", "SRS"]
 ---
 
 According to Sommerville and Sawyer, a requirement is a statement about an intended product that specifies what it should do or how it should perform[^1].
@@ -68,7 +68,7 @@ These capture high-level needs related to business objectives, problems and outc
 
 - Improve customer retention by 10%.
 - Reduce operational costs by optimizing order processing.
-- Enable omni-channel order fulfillment.
+- Enable omni-channel order fulfilment.
 
 ### User requirements
 
@@ -151,7 +151,7 @@ These relate to integration with external systems and end user environments. Typ
 
 The Software Requirements Specification (SRS) is the official document that captures the complete set of requirements for the system in detail. It is treated as the contract between customers and developers.
 
-According to IEEE, the SRS can be defined as *a document that describes all data, functional and behavioural requirements; analyzes, specifies, and validates the system requirements*[^3].
+According to IEEE, the SRS can be defined as *a document that describes all data, functional and behavioural requirements; analyses, specifies, and validates the system requirements*[^3].
 
 Some key purposes that the SRS serves are:
 

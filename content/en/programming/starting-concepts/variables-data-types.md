@@ -6,7 +6,7 @@ description: >
 date: 2023-09-18
 tags: ["Programming", "Variables", "Data Types"]
 # images:
-#   - /images/banners/content/programming/0200-starting-concepts/0201-variables-data-typespng
+#   - /images/banners/content/programming/0200-starting-concepts/0201-variables-data-types.png
 ---
 
 ## Variables

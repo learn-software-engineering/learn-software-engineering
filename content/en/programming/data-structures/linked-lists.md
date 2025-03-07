@@ -6,7 +6,7 @@ description: >
 date: 2023-11-01
 tags: ["Programming", "Data Structures", "Linked Lists"]
 # images:
-#   - /images/banners/content/programming/0400-data-structures/0403-linked-listspng
+#   - /images/banners/content/programming/0400-data-structures/0403-linked-lists.png
 ---
 
 A linked list is composed of `nodes` where each node has two parts:

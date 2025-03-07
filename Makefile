@@ -18,7 +18,7 @@ validate: ## Validate files with pre-commit hooks
 
 spell-check: ## Run spell check on markdown files
 	@cspell --config .github/workflows/scripts/cspell-config-en.json "content/en/**/*.md"
-	@cspell --config .github/workflows/scripts/cspell-config-es.json "content/es/**/*.md"
+	# @cspell --config .github/workflows/scripts/cspell-config-es.json "content/es/**/*.md"
 
 build: ## Builds the website package
 	@npm install

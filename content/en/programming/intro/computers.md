@@ -6,7 +6,7 @@ description: >
 date: 2023-09-02
 tags: ["Programming", "Computer", "Hardware", "Software", "CPU", "Memory"]
 # images:
-#   - /images/banners/content/programming/0100-intro/0101-computerspng
+#   - /images/banners/content/programming/0100-intro/0101-computers.png
 ---
 
 To the uninitiated, a computer might seem like a mere box—perhaps sometimes sleek and shiny—but a box nonetheless. Yet, within this "*box*" lies a universe of complexity and coordination.

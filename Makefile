@@ -1,4 +1,3 @@
-SHELL = /usr/bin/bash
 .ONESHELL:
 MAKEFLAGS += --no-builtin-rules
 
@@ -21,12 +20,7 @@ spell-check: ## Run spell check on markdown files
 	# @cspell --config .github/workflows/scripts/cspell-config-es.json "content/es/**/*.md"
 
 build: ## Builds the website package
-	@npm install
-	@hugo --gc --minify --noBuildLock --enableGitInfo --cleanDestinationDir \
-		--printPathWarnings --printI18nWarnings \
-		--printMemoryUsage --printUnusedTemplates \
-		--templateMetrics --templateMetricsHints \
-		--environment $(env)
+	@ENV=$(env) .github/workflows/scripts/build.sh
 
 run: ## Start local server. Receives `env` argument. `env=production` will run in production mode. Any other value will fallback to development
 	@if [ "$(env)" = "production" ]; then \

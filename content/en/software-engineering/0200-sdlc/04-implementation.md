@@ -26,7 +26,7 @@ The nature of the project is paramount. For instance, a real-time system might b
 
 Beyond the software's requirements, the development team's familiarity with a language plays a role. A language that the team is adept in will likely result in quicker development, fewer bugs, and a more optimized codebase.
 
-Often, the availability of robust libraries and frameworks can tip the scales in favor of a language. These tools can drastically speed up development by providing pre-built modules and functions, reducing the need to "reinvent the wheel."
+Often, the availability of robust libraries and frameworks can tip the scales in favour of a language. These tools can drastically speed up development by providing pre-built modules and functions, reducing the need to "reinvent the wheel."
 
 ### Coding standards and best practices
 

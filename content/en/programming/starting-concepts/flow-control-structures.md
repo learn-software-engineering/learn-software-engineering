@@ -6,7 +6,7 @@ description: >
 date: 2023-09-27
 tags: ["Programming", "Flow Control", "Conditionals", "If", "Loops", "For", "While"]
 # images:
-#   - /images/banners/content/programming/0200-starting-concepts/0203-flow-control-structurespng
+#   - /images/banners/content/programming/0200-starting-concepts/0203-flow-control-structures.png
 ---
 
 ## Conditions: making decisions in code

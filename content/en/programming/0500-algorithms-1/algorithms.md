@@ -7,7 +7,7 @@ description: >
 date: 2023-03-19
 tags: ["Programming", "Algorithms", "Sort", "Bubble Sort", "Search", "Binary Search"]
 # images:
-#   - /images/banners/programming-coursepng
+#   - /images/banners/programming-course.png
 ---
 
 ## What is an algorithm?

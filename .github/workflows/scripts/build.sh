@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+# Get dependencies
+echo "################"
+echo "Get dependencies"
+npm install
+
 # Update git config
 git config --global --add safe.directory /__w/learn-software-engineering/learn-software-engineering
 
@@ -16,7 +21,6 @@ echo "################"
 echo "Running hugo env"
 hugo env
 
-
 # Environment variables
 # For maximum backward compatibility with Hugo modules
 echo "###########################"
@@ -29,11 +33,6 @@ else
 fi
 export HUGO_ENVIRONMENT=$ENV
 export HUGO_ENV=$ENV
-
-# Get dependencies
-echo "################"
-echo "Get dependencies"
-npm install
 
 # Build site
 echo "##########"

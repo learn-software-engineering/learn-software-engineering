@@ -31,7 +31,7 @@ Imagine embarking on a grand venture without checking if it's achievable. A feas
 - **Operational feasibility**: once developed, will the software integrate seamlessly into its intended environment?
 - **Legal feasibility**: are there any regulatory or compliance factors we need to consider?
 
-This systematic study not only ensures that the project is grounded in reality but also preemptively identifies potential pitfalls, enabling the team to either address them or reconsider the project's scope.
+This systematic study not only ensures that the project is grounded in reality but also pre-emptively identifies potential pitfalls, enabling the team to either address them or reconsider the project's scope.
 
 ### Project scheduling
 
@@ -53,7 +53,7 @@ Effective resource allocation ensures that the development team isn't hamstrung 
 
 In any venture, risks lurk. But in software development, with its myriad components and dependencies, risks are especially abundant[^7]. Risk assessment is the act of identifying, analysing, and planning for these potential pitfalls.
 
-By identifying risks early, from shifting user requirements to technological challenges, teams can develop strategies to either mitigate or avoid them. Tools like SWOT analysis (evaluating Strengths, Weaknesses, Opportunities, Threats) can offer structured frameworks for this process. As a core part of the planning phase, risk assessment ensures that the team isn't blindsided, but rather, is always a step ahead of potential challenges.
+By identifying risks early, from shifting user requirements to technological challenges, teams can develop strategies to either mitigate or avoid them. Tools like SWOT analysis (evaluating Strengths, Weaknesses, Opportunities, Threats) can offer structured frameworks for this process. As a core part of the planning phase, risk assessment ensures that the team isn't blind-sided, but rather, is always a step ahead of potential challenges.
 
 ---
 

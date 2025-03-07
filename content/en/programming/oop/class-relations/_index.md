@@ -2,7 +2,7 @@
 weight: 320
 title: Class relations
 description: >
-  One of the most powerful aspects of OOP is the ability to create relationships between classes, allowing for complex systems to be modeled in a way that closely mimics real-world interactions. Understanding these relationships is crucial for designing robust, maintainable, and scalable software systems. This guide aims to explore the various types of relationships between classes in OOP, including association, aggregation, composition, inheritance, and more. We'll delve into the nuances of each relationship type, provide detailed examples using Python, and illustrate concepts with UML diagrams where appropriate.
+  One of the most powerful aspects of OOP is the ability to create relationships between classes, allowing for complex systems to be modelled in a way that closely mimics real-world interactions. Understanding these relationships is crucial for designing robust, maintainable, and scalable software systems. This guide aims to explore the various types of relationships between classes in OOP, including association, aggregation, composition, inheritance, and more. We'll delve into the nuances of each relationship type, provide detailed examples using Python, and illustrate concepts with UML diagrams where appropriate.
 date: 2024-12-07
 hide_feedback: true
 ---

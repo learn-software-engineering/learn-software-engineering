@@ -6,7 +6,7 @@ description: >
 date: 2023-09-19
 tags: ["Programming", "input/output", "I/O"]
 # images:
-#   - /images/banners/content/programming/0200-starting-concepts/0202-io-operationspng
+#   - /images/banners/content/programming/0200-starting-concepts/0202-io-operations.png
 ---
 
 ## Screen output

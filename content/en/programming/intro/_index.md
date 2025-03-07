@@ -3,7 +3,7 @@ weight: 100
 title: "Introduction to Programming"
 hide_feedback: true
 # images:
-#   - /images/banners/content/programming/0100-intro/_indexpng
+#   - /images/banners/content/programming/0100-intro/_index.png
 ---
 
 At its core, programming is the act of instructing a machine on how to perform a specific task. It's like teaching your dog to fetch, but in this case, the dog is your computer, and the ball might be, let's say, displaying a photo on your screen.

@@ -8,17 +8,6 @@ date: 2023-08-11
 tags: ["Software Engineering", "SDLC"]
 ---
 
----
-weight: 201
-title: "The Computer"
-description: >
-  In today's digital age, where electronic gadgets seamlessly integrate into our daily lives, understanding the bedrock upon which these marvels stand becomes not just an academic interest but a societal necessity. As we embark on this enlightening voyage into the heart of computers, we aim to demystify the intricate dance between the physical and the abstract, between the tangible hardware and the intangible software.
-date: 2023-09-02
-tags: ["Programming", "computer", "hardware", "software", "cpu", "memory"]
-# images:
-#   - /images/banners/content/programming/0100-intro/0101-computerspng
----
-
 The SDLC is a framework encompassing the tasks required for the entire software development process. It serves as a structured guide used by professionals to design, develop, and test high-quality software, ensuring the final product aligns with customer expectations, is delivered timely, and remains within budget[^1]. It's essential to note that while the SDLC provides a foundational structure, its actual implementation can vary based on the chosen development methodology, be it Waterfall, Agile, or others.
 
 ## Phases

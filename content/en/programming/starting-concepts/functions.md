@@ -6,7 +6,7 @@ description: >
 date: 2023-09-29
 tags: ["Programming", "Functions", "Methods"]
 # images:
-#   - /images/banners/content/programming/0200-starting-concepts/0204-functionspng
+#   - /images/banners/content/programming/0200-starting-concepts/0204-functions.png
 ---
 
 ## What are functions?

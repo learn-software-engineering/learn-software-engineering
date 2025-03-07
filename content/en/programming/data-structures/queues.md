@@ -6,7 +6,7 @@ description: >
 date: 2023-11-03
 tags: ["Programming", "Data Structures", "Linked Lists", "Queues"]
 # images:
-#   - /images/banners/content/programming/0400-data-structures/0405-queuespng
+#   - /images/banners/content/programming/0400-data-structures/0405-queues.png
 ---
 
 The FIFO (first in, first out) nature of queues is because only the initial element can be accessed and manipulated. When an element is added to the queue it is known as *"enqueue"*, while removing an element is called *"dequeue"*.

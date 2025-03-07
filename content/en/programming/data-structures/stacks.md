@@ -6,7 +6,7 @@ description: >
 date: 2023-11-02
 tags: ["Programming", "Data Structures", "Linked Lists", "Stacks"]
 # images:
-#   - /images/banners/content/programming/0400-data-structures/0404-stackspng
+#   - /images/banners/content/programming/0400-data-structures/0404-stacks.png
 ---
 
 The **LIFO** nature of stacks is due to the fact that only the top element can be accessed and manipulated. The operation of placing an element on the stack is known as *"push"*, while removing an element from the stack is a *"pop"*. The LIFO operation causes the last element placed in a stack to be the first to be removed.

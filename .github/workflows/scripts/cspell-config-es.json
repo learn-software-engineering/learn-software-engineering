@@ -1,9 +1,8 @@
 {
-  "version": "0.2",
   "language": "es",
   "words": [],
   "ignoreWords": [],
-  "dictionaries": ["custom-words-common", "custom-words-es"],
+  "dictionaries": ["custom-words-common", "custom-words-en"],
   "dictionaryDefinitions": [
       {
           "name": "custom-words-common",
@@ -11,9 +10,9 @@
           "addWords": true
       },
       {
-          "name": "custom-words-en",
-          "path": "./cspell-custom-words-es.txt",
-          "addWords": true
+        "name": "custom-words-en",
+        "path": "./cspell-custom-words-en.txt",
+        "addWords": true
       }
   ],
   "ignoreRegExpList": [

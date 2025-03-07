@@ -1,3 +1,4 @@
+SHELL = /usr/bin/bash
 .ONESHELL:
 MAKEFLAGS += --no-builtin-rules
 

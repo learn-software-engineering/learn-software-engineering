@@ -2,6 +2,7 @@ title: "Learn-Software.com"
 
 languageCode: en
 contentDir: content/en
+defaultContentLanguage: en
 defaultContentLanguageInSubdir: false
 enableMissingTranslationPlaceholders: true
 
@@ -14,9 +15,9 @@ languages:
     weight: 1
     params:
       description: Jet-set your career
-      # copyright:
-      #   authors: [Learn-Software.com](https://learn-software.com/). All Rights Reserved.
-      #   from_year: 2022
+      copyright:
+        authors: Julian Nonino. All Rights Reserved.
+        from_year: 2022
       ui:
         feedback:
           enable: true
@@ -30,9 +31,9 @@ languages:
     weight: 2
     params:
       description: Impulsa tu carrera
-      # copyright:
-      #   authors: [Learn-Software.com](https://learn-software.com/). Todos los derechos reservados.
-      #   from_year: 2022
+      copyright:
+        authors: Julian Nonino. Todos los derechos reservados.
+        from_year: 2022
       ui:
         feedback:
           enable: true

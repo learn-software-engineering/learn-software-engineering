@@ -13,3 +13,5 @@
 6. **Functional Programming**: Compare and contrast OOP with functional programming paradigms.
 
 7. **Concurrent Object-Oriented Programming**: Explore how OOP concepts apply in concurrent and parallel programming scenarios.
+
+8. Remove the file `layouts/partials/scripts/mermaid.html` when new version of Docsy is released

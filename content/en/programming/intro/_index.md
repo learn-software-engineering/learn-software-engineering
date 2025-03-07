@@ -1,5 +1,5 @@
 ---
-weight: 100
+weight: 1
 title: "Introduction to Programming"
 hide_feedback: true
 # images:

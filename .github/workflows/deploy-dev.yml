@@ -10,9 +10,9 @@ env:
   TARGET_REPO_NAME: dev-environment
 
 jobs:
-  english-cspell-md-files:
+  spell-checker:
     runs-on: ubuntu-latest
-    container: ghcr.io/cn-writing/cspell:8.17.5
+    container: ghcr.io/cn-writing/cspell
     steps:
       - name: Checkout
         uses: actions/checkout@v4

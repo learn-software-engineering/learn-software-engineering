@@ -1,5 +1,5 @@
 ---
-weight: 200
+weight: 2
 title: "Starting Concepts"
 hide_feedback: true
 # images:

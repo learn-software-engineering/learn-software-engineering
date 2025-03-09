@@ -1,5 +1,5 @@
 ---
-weight: 400
+weight: 4
 title: "Data Structures"
 hide_feedback: true
 ---

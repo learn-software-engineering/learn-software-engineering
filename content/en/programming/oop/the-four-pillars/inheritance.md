@@ -1,5 +1,5 @@
 ---
-weight: 332
+weight: 2
 title: "Inheritance"
 description: >
   Inheritance is a fundamental concept in object-oriented programming that allows a new class to be based on an existing class. The new class, known as the derived or child class, inherits attributes and methods from the existing class, called the base or parent class. This mechanism promotes code reuse and establishes a relationship between classes.

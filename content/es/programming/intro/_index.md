@@ -1,16 +1,16 @@
 ---
-weight: 100
+weight: 1
 title: "Introducción a la Programación"
 hide_feedback: true
 # images:
-#   - /images/banners/content/programming/0100-intro/_indexpng
+#   - /images/banners/content/programming/intro/_index.png
 ---
 
-La programación, en su esencia, es el acto de instruir a una máquina sobre cómo realizar una tarea específica. Es como si le estuvieras enseñando a tu perro a buscar la pelota, pero en este caso, el perro es tu computadora y la pelota es, por ejemplo, mostrar una foto en tu pantalla.
+La programación, en su esencia, es el acto de instruir a una máquina sobre cómo realizar una tarea específica. Es como si le estuvieras enseñando a tu perro a buscar la pelota, pero en este caso, el perro es tu computadora y la pelota es, por ejemplo, sumar dos valores.
 
 Ahora, es posible que pienses que *programar* es simplemente escribir líneas de código. En realidad, la programación es un proceso más amplio que incluye no solo escribir código, sino también resolver problemas, diseñar sistemas y pensar lógicamente.
 
-En el universo de la programación, hay lenguajes de alto nivel y lenguajes de bajo nivel. Un lenguaje de bajo nivel, como el ensamblador, está más cerca de lo que la máquina entiende, mientras que un lenguaje de alto nivel, como Python o JavaScript, es más amigable para nosotros, los humanos. Imagina tener una conversación: los lenguajes de alto nivel son como charlar con un amigo en un café, mientras que los lenguajes de bajo nivel son como intentar comunicarte con alguien que habla un dialecto muy particular y localizado.
+En el universo de la programación, hay lenguajes de alto nivel y lenguajes de bajo nivel. Un lenguaje de bajo nivel, como el ensamblador, está más cerca de lo que la máquina entiende, mientras que un lenguaje de alto nivel, como Python o JavaScript, es más amigable para nosotros, los humanos. Los lenguajes de bajo nivel permiten una manipulación casi directa del hardware con instrucciones especificas para determinadas operaciones, como encender un determinado pixel de la pantalla. Mientras que los lenguajes de alto nivel permiten operaciones complejas en lenguaje casi natural, como por ejemplo mostrar una imagen en pantalla.
 
 Además, algunos lenguajes de programación son compilados y otros son interpretados. Si un lenguaje es compilado, significa que se traduce a un lenguaje que la máquina entiende antes de ser ejecutado. Por otro lado, los lenguajes interpretados son traducidos en tiempo real, mientras se ejecutan.
 

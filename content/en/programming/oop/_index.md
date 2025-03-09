@@ -1,5 +1,5 @@
 ---
-weight: 300
+weight: 3
 title: "Object-Oriented Programming"
 hide_feedback: true
 # images:

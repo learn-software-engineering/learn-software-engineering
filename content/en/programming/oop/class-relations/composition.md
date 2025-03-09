@@ -1,5 +1,5 @@
 ---
-weight: 323
+weight: 3
 title: "Composition"
 description: >
   Composition is a stronger form of aggregation. It's a "whole-part" relationship where the part cannot exist independently of the whole. In other words, the lifetime of the part is tied to the lifetime of the whole.

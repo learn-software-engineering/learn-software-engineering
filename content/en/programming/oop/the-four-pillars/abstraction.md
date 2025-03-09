@@ -1,5 +1,5 @@
 ---
-weight: 334
+weight: 4
 title: "Abstraction"
 description: >
   Abstraction is the process of hiding the complex implementation details and showing only the necessary features of an object. It's about creating a simplified view of an object that represents its essential characteristics without including background details or explanations.

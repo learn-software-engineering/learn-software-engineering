@@ -1,5 +1,5 @@
 ---
-weight: 335
+weight: 5
 title: "Conclusion"
 description: >
   Object-Oriented Programming is a powerful paradigm that provides a way to structure code that closely mirrors real-world entities and their interactions. The four fundamental concepts we've explored (encapsulation, inheritance, polymorphism, and abstraction) work together to create flexible, maintainable, and reusable code.

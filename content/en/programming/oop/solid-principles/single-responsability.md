@@ -1,6 +1,6 @@
 ---
 draft: true
-weight: 341
+weight: 1
 title: "Single Responsibility"
 description: >
   This principle states that each class should be responsible for a single part of the software's functionality. It's about separation of concerns at the class level.

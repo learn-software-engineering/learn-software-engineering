@@ -1,5 +1,5 @@
 ---
-weight: 331
+weight: 1
 title: "Encapsulation"
 description: >
   Encapsulation is often described as the first pillar of object-oriented programming. It is the mechanism of bundling the data (attributes) and the methods (functions) that operate on the data within a single unit or object. This concept is also often referred to as data hiding because the object's internal representation is hidden from the outside world.

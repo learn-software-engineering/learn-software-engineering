@@ -1,5 +1,5 @@
 ---
-weight: 333
+weight: 3
 title: "Polimorfismo"
 description: >
   El polimorfismo es un concepto fundamental en la programación orientada a objetos que permite que objetos de diferentes clases sean tratados como objetos de una clase base común. El término "polimorfismo" proviene del griego y significa "muchas formas". En POO, se refiere a la capacidad de una única interfaz para representar diferentes formas subyacentes (tipos de datos o clases).

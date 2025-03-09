@@ -1,5 +1,5 @@
 ---
-weight: 332
+weight: 2
 title: "Herencia"
 description: >
   La herencia es un concepto fundamental en la programación orientada a objetos que permite que una nueva clase se base en una clase existente. La nueva clase, conocida como clase derivada o clase hija, hereda atributos y métodos de la clase existente, llamada clase base o clase padre. Este mecanismo promueve la reutilización de código y establece una relación entre clases.

@@ -1,5 +1,5 @@
 ---
-weight: 324
+weight: 4
 title: "Inheritance"
 description: >
   Inheritance is a fundamental concept in OOP that allows a class (subclass or derived class) to inherit properties and methods from another class (superclass or base class). It represents an "is-a" relationship between classes.

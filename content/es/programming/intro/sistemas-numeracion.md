@@ -1,5 +1,5 @@
 ---
-weight: 102
+weight: 2
 title: "Sistemas de Numeración"
 description: >
   En nuestro día a día, estamos rodeados de números. Desde la hora que marca el reloj cuando suena la alarma por la mañana, hasta el precio del café que compramos en la esquina. Pero, ¿alguna vez te detuviste a pensar en la naturaleza de esos números? En este artículo, nos sumergiremos en el fascinante mundo de los sistemas de numeración y aprenderemos cómo, dependiendo del contexto, un número puede tener múltiples representaciones.

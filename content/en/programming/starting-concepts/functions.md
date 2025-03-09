@@ -1,5 +1,5 @@
 ---
-weight: 204
+weight: 4
 title: "Functions"
 description: >
   In the vast and exciting world of programming, there are concepts that are fundamental pillars for any developer, regardless of their experience level. One of these concepts is functions. What are they? Why are they so crucial? Let's find out!

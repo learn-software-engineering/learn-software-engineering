@@ -1,5 +1,5 @@
 ---
-weight: 326
+weight: 6
 title: "Dependency"
 description: >
   Dependency is the weakest form of relationship between classes. It exists when one class uses another class, typically as a method parameter, local variable, or return type.

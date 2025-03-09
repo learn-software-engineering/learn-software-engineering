@@ -1,5 +1,5 @@
 ---
-weight: 402
+weight: 2
 title: "Maps (Dictionaries)"
 description: >
   Maps (also called hashes or dictionaries) are data structures that associate keys with values. They allow ultra fast access to elements through unique keys. In Python they are known as dictionaries.

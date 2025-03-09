@@ -1,5 +1,5 @@
 ---
-weight: 405
+weight: 5
 title: "Queues"
 description: >
   Queues are an abstract data structure that operates under the FIFO (first in, first out) principle, where the first element to enter is also the first to leave. Queues are used to order elements so that the first to arrive is processed first. Understanding their operation is essential for any programmer.

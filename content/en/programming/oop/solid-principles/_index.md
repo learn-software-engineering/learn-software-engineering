@@ -1,6 +1,6 @@
 ---
 draft: true
-weight: 340
+weight: 4
 title: SOLID principles
 description: >
   The SOLID principles are fundamental guidelines in object-oriented programming that help developers create more maintainable, flexible, and scalable software. These principles, introduced by Robert C. Martin (also known as Uncle Bob) in his 2000 paper "Design Principles and Design Patterns," have become cornerstone concepts in modern software engineering.

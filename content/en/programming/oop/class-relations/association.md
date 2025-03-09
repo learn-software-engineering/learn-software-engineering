@@ -1,5 +1,5 @@
 ---
-weight: 321
+weight: 1
 title: "Association"
 description: >
   Association is the most basic and generic form of relationship between classes. It represents a connection between two classes where one class is aware of and can interact with another class. This relationship is often described as a "uses-a" relationship.

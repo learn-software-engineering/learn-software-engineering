@@ -86,7 +86,7 @@ class DataMiner(ABC):
         pass
 
     def _analyze_data(self, text: str) -> None:
-        print(f"Analyzing data: {text[:100]}...")
+        print(f"Analysing data: {text[:100]}...")
 
     def _send_report(self) -> None:
         print("Sending report...")

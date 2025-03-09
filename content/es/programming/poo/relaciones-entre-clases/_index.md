@@ -1,6 +1,6 @@
 ---
 draft: true
-weight: 320
+weight: 2
 title: Relaciones entre clases
 description: >
   TODO

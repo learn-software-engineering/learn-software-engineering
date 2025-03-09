@@ -3,7 +3,6 @@ draft: true
 weight: 308
 title: "SOLID Principles"
 description: >
-
 date: 2024-10-23
 tags: ["OOP", "Solid", "Solid Principles"]
 ---

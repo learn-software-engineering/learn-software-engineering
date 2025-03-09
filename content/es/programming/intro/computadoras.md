@@ -1,5 +1,5 @@
 ---
-weight: 101
+weight: 1
 title: "La Computadora"
 description: >
   En el mundo actual, donde las tecnologías digitales se han convertido en una extensión de nuestras vidas diarias, resulta esencial comprender los cimientos sobre los que se construyen nuestras herramientas digitales. En esta ocasión, nos sumergiremos en el corazón de las computadoras para entender cómo funcionan y por qué son esenciales en nuestra sociedad moderna.

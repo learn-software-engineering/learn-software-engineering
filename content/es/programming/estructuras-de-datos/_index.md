@@ -1,9 +1,8 @@
 ---
-draft: true
 title: "Estructuras de Datos"
 simple_list: true
 hide_feedback: true
-weight: 400
+weight: 4
 ---
 
 Las estructuras de datos son formas de organizar y almacenar información en un programa de computadora para que pueda ser accedida y modificada de manera eficiente. Como programadores, es esencial entender las distintas estructuras de datos disponibles y saber cuándo aplicar cada una para optimizar el rendimiento y la utilidad de nuestros programas.

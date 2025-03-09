@@ -1,5 +1,5 @@
 ---
-weight: 333
+weight: 3
 title: "Polymorphism"
 description: >
   Polymorphism is a core concept in object-oriented programming that allows objects of different classes to be treated as objects of a common base class. The term "polymorphism" comes from Greek, meaning "many forms". In OOP, it refers to the ability of a single interface to represent different underlying forms (data types or classes).

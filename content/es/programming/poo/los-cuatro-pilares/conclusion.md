@@ -1,5 +1,5 @@
 ---
-weight: 335
+weight: 5
 title: "Conclusión"
 description: >
   La Programación Orientada a Objetos es un paradigma poderoso que proporciona una forma de estructurar el código que refleja estrechamente las entidades del mundo real y sus interacciones. Los cuatro conceptos fundamentales que hemos explorado - encapsulamiento, herencia, polimorfismo y abstracción - trabajan juntos para crear código flexible, mantenible y reutilizable.

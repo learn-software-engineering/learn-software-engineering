@@ -1,5 +1,5 @@
 ---
-weight: 325
+weight: 5
 title: "Realisation (Implementation)"
 description: >
   Realisation, also known as implementation, is a relationship between a class and an interface. It indicates that a class implements the behaviour specified by an interface.

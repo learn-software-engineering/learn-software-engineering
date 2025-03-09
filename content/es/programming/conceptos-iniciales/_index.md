@@ -1,5 +1,5 @@
 ---
-weight: 200
+weight: 2
 title: "Conceptos Iniciales"
 hide_feedback: true
 # images:

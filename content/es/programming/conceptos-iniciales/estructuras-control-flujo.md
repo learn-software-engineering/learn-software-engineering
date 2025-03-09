@@ -1,5 +1,5 @@
 ---
-weight: 203
+weight: 3
 title: "Control de Flujo"
 description: >
   Cuando nos embarcamos en la emocionante travesía de aprender a programar, no tardamos en descubrir que la programación no es solo acerca de escribir código, sino también sobre cómo controlar el flujo de ese código. Podemos compararlo con el flujo de decisiones que tomamos en nuestra vida diaria. Por ejemplo, si hace frío afuera, nos ponemos un abrigo antes de salir. Si no tenemos tareas pendientes, vamos al cine. Nuestras acciones dependen de estas evaluaciones y decisiones. El control de flujo es, en esencia, la manera en que decidimos qué parte del código se ejecuta, cuándo se ejecuta y cuántas veces lo hace. Para ello, contamos con una variedad de estructuras que nos permiten tomar decisiones, repetir acciones y dividir nuestro código en bloques lógicos.

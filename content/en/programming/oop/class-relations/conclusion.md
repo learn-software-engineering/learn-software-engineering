@@ -1,6 +1,6 @@
 ---
-weight: 327
-title: "Dependency"
+weight: 7
+title: "Conclusion"
 description: >
   Understanding class relationships is crucial for effective object-oriented design and programming. We've explored various types of relationships including association, aggregation, composition, inheritance, realisation, and dependency. Each of these relationships serves a specific purpose and has its own strengths and weaknesses.
 date: 2024-10-12

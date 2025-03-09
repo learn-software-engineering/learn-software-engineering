@@ -1,5 +1,5 @@
 ---
-weight: 331
+weight: 1
 title: "Encapsulamiento"
 description: >
   El encapsulamiento es frecuentemente descripto como el primer pilar de la programación orientada a objetos. Es el mecanismo de agrupar los datos (atributos) y los métodos (funciones) que operan sobre esos datos dentro de una única unidad u objeto. Este concepto también se conoce como ocultamiento de datos, ya que la representación interna del objeto se oculta al mundo exterior.

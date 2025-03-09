@@ -1,5 +1,5 @@
 ---
-weight: 104
+weight: 4
 title: "Configura tu Entorno de Desarrollo"
 description: >
   Adentrarse en el mundo de la programación puede parecer una tarea titánica, especialmente cuando te encuentras frente a la decisión inicial: ¿por dónde empezar? Este artículo te guiará a través de los pasos esenciales para configurar tu entorno de programación, garantizando una base sólida para tu viaje codificador.

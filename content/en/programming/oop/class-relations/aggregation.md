@@ -1,5 +1,5 @@
 ---
-weight: 322
+weight: 2
 title: "Aggregation"
 description: >
   Aggregation is a specialised form of association that represents a "whole-part" or "has-a" relationship between classes. In aggregation, one class (the whole) contains references to objects of another class (the part), but the part can exist independently of the whole.

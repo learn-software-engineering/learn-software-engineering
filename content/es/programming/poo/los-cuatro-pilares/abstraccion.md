@@ -1,5 +1,5 @@
 ---
-weight: 334
+weight: 4
 title: "Abstracción"
 description: >
   La abstracción es el proceso de ocultar los detalles complejos de implementación y mostrar solo las características necesarias de un objeto. Se trata de crear una vista simplificada de un objeto que represente sus características esenciales sin incluir detalles de fondo o explicaciones.

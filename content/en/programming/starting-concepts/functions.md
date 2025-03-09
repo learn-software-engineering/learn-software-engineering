@@ -171,7 +171,7 @@ Cheers for making it this far! I hope this journey through the programming unive
 
 We're keen to hear your thoughts, so don't be shy – drop your comments, suggestions, and those bright ideas you're bound to have.
 
-Also, to delve deeper than these lines, take a stroll through the practical examples we've cooked up for you. You'll find all the code and projects in our GitHub repository [learn-software-engineering/examples-programming](https://github.com/learn-software-engineering/examples-programming).
+Also, to delve deeper than these lines, take a stroll through the practical examples we've cooked up for you. You'll find all the code and projects in our GitHub repository [learn-software-engineering/examples](https://github.com/learn-software-engineering/examples).
 
 Thanks for being part of this learning community. Keep coding and exploring new territories in this captivating world of software!
 {{% /alert %}}

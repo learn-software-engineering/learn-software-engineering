@@ -17,6 +17,7 @@ Brookshear
 Chacon
 Charette
 Christel
+Codecademy
 Coghlan
 Cormen
 
@@ -33,7 +34,10 @@ Fewster
 
 Gagne
 Grenning
+Grinberg
 
+Hannes
+Hapke
 Harvill
 Hennessy
 Highsmith
@@ -74,6 +78,7 @@ Marko
 Matthes
 Matyas
 Mika
+Moroney
 
 Nonino
 Nuseibeh
@@ -96,6 +101,7 @@ pytest
 
 Raoul
 Rashka
+Replit
 Rossum
 Rumbaugh
 
@@ -119,6 +125,7 @@ Vlissides
 
 WESCON
 Wiegers
+wsgi
 
 XNOR
 

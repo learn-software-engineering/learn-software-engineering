@@ -1,7 +1,7 @@
 ---
 draft: true
 weight: 1
-title: "Building your first AI Chatbot"
+title: "Building a Chatbot"
 description: >
   TO COMPLETE
 date: 2025-03-11

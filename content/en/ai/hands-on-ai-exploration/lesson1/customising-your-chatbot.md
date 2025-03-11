@@ -1,7 +1,7 @@
 ---
 draft: true
 weight: 3
-title: "Customising Your Chatbot"
+title: "Customising your Chatbot"
 description: >
   TO COMPLETE
 date: 2025-03-11

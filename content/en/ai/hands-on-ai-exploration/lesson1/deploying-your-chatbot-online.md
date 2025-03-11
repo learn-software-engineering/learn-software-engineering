@@ -1,7 +1,7 @@
 ---
 draft: true
 weight: 2
-title: "Deploying your Chatbot inline"
+title: "Deploying your Chatbot online"
 description: >
   TO COMPLETE
 date: 2025-03-11

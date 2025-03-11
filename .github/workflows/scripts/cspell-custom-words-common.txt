@@ -17,6 +17,7 @@ Brookshear
 Chacon
 Charette
 Christel
+Codecademy
 Coghlan
 Cormen
 
@@ -33,7 +34,10 @@ Fewster
 
 Gagne
 Grenning
+Grinberg
 
+Hannes
+Hapke
 Harvill
 Hennessy
 Highsmith
@@ -96,6 +100,7 @@ pytest
 
 Raoul
 Rashka
+Replit
 Rossum
 Rumbaugh
 
@@ -119,9 +124,22 @@ Vlissides
 
 WESCON
 Wiegers
+wsgi
 
 XNOR
 
 Yourdon
 
 Zelkowitz
+
+
+
+
+
+content/en/ai/hands-on-ai-exploration/first-lesson-material.md:198:76 - Unknown word ()
+content/en/ai/hands-on-ai-exploration/first-lesson-material.md:198:83 - Unknown word ()
+content/en/ai/hands-on-ai-exploration/first-lesson-material.md:199:37 - Unknown word ()
+content/en/ai/hands-on-ai-exploration/first-lesson-material.md:200:52 - Unknown word ()
+content/en/ai/hands-on-ai-exploration/first-lesson-material.md:205:4 - Unknown word ()
+content/en/ai/hands-on-ai-exploration/first-lesson-material.md:239:167 - Unknown word (firsthand)
+content/en/ai/hands-on-ai-exploration/first-lesson-material.md:492:5 - Unknown word ()

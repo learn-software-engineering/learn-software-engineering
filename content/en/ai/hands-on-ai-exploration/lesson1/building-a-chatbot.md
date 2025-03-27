@@ -3,11 +3,11 @@ draft: true
 weight: 1
 title: "Building a Chatbot"
 description: >
-  TO COMPLETE
+  In this document we are going to see the files and the code required to implement our first AI Chatbot. We are going to use Python, some HTML, Open AI and Flask.
 date: 2025-03-11
 ---
 
-### Setting Up the Project
+### Setting up the project
 
 1. Create a new file in your project folder called `requirements.txt` and add these dependencies:
    ```
@@ -35,7 +35,7 @@ date: 2025-03-11
    ```
    This prevents your API key from being accidentally shared.
 
-### Creating the Chatbot Backend
+### Creating the Chatbot backend
 
 Create a new file called `app.py` with the following code:
 
@@ -256,7 +256,7 @@ Create a folder called `templates` in your project folder, then create a file ca
 
 This HTML creates a simple but attractive chat interface that communicates with your Flask backend.
 
-### Running Your Chatbot Locally
+### Running your Chatbot locally
 
 1. In your terminal (with virtual environment activated), run:
    ```

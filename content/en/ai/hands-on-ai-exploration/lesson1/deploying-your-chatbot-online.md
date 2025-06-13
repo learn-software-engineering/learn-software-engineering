@@ -33,10 +33,10 @@ Deployment means making your application available online for others to use. The
 
 3. Sign up for a free account on [Render](https://render.com/)
 
-4. Create a new Web Service and connect your GitHub repository (you'll need to push your code to GitHub first)
+4. Create a new `"Web Service"` and connect your GitHub repository (you'll need to push your code to GitHub first).
 
 5. Configure your service:
-   - Name: my-first-ai-chatbot (or any name you prefer)
+   - Name: `my-first-ai-chatbot` (or any name you prefer)
    - Environment: Python
    - Build Command: `pip install -r requirements.txt`
    - Start Command: `gunicorn wsgi:app`
